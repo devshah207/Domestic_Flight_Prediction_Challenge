@@ -2,9 +2,11 @@
 
 Executed airfare regression research, Python implementations, exact model configurations, validation diagnostics and Kaggle submission files. No neural networks were used. The competition datasets and Python virtual environment are not included.
 
+**Best user-reported public Kaggle R²: 0.95881**, from `submission_business_augmented_xgb.csv`. See [public submission feedback](PUBLIC_RESULTS.md) for all reported scores and their limitations.
+
 ## One exploratory 800-tree candidate
 
-The latest experiment supplies exactly one new, more aggressive Business-augmented XGBoost candidate. It keeps the original global branch and fixed 50/50 Business mixture, while replacing the specialist with a fixed 800-tree profile. Validation improved on both reused split seeds, with larger training–validation gaps; no new Kaggle score is claimed.
+The latest experiment supplies exactly one new, more aggressive Business-augmented XGBoost candidate. It keeps the original global branch and fixed 50/50 Business mixture, while replacing the specialist with a fixed 800-tree profile. Validation improved on both reused split seeds, with larger training–validation gaps. The user subsequently reported public Kaggle R² **0.95736**, below the previous best **0.95881** by **0.00145**. The local gain did not transfer to this public split; this candidate does not replace the best public submission. Frozen experiment reports and archives retain the information available when they were created.
 
 - **[Download the one new CSV](https://github.com/devshah207/Domestic_Flight_Prediction_Challenge/raw/refs/heads/main/submissions/submission_aggressive_business_xgb800.csv)**
 - [Read validation results and exact settings](airfare_aggressive800/README.md)
