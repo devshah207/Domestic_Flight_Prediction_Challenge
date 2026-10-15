@@ -1,0 +1,13 @@
+{
+  "trials_completed": 72,
+  "research_model_fits": 150,
+  "synthetic_smoke_fits_excluded": 1,
+  "secondary_completed": false,
+  "source_hashes": {
+    "airfare_round2/direct_cat64.py": "37bb3b151894f79617ad7aaf827bda3e84517564258be94c1c1bac87d0120732",
+    "airfare_round2/PROTOCOL.md": "fc9a9c3e5a6f50d324c7e518a9e23cd8bfcd87e22e009d4468cba9c6e427d37d",
+    "airfare_fresh/study.py": "577774ae3227d9c1c2540d1a3a8deb1f3634a474e23bb84f10e10cb86d054134",
+    "airfare_fresh/features.py": "71f5b7d1c96d76d6fef81fb4692c636bc553c31ec5bee123fee64437d23ab62e"
+  },
+  "test_accessed_by_analysis": false
+}

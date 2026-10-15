@@ -1,0 +1,167 @@
+{
+  "draws": 500,
+  "seed": 20261029,
+  "resampling_unit": "whole itinerary group",
+  "n_groups": 14905,
+  "absolute": [
+    {
+      "model": "cat64_direct",
+      "estimate": 0.92331554755578,
+      "ci_low": 0.9152736657520962,
+      "ci_high": 0.9313667824788621
+    },
+    {
+      "model": "xgb",
+      "estimate": 0.9254161204544445,
+      "ci_low": 0.9169240308125749,
+      "ci_high": 0.9337983158680155
+    },
+    {
+      "model": "lgb",
+      "estimate": 0.9251421066957913,
+      "ci_low": 0.917127452732749,
+      "ci_high": 0.9335687102881352
+    },
+    {
+      "model": "cat_onehot64",
+      "estimate": 0.925056347998216,
+      "ci_low": 0.9162320978686914,
+      "ci_high": 0.9332277477582747
+    },
+    {
+      "model": "frozen_equal_blend64",
+      "estimate": 0.9285937076224434,
+      "ci_low": 0.9201417096554642,
+      "ci_high": 0.9362566005826629
+    },
+    {
+      "model": "direct_equal_blend64",
+      "estimate": 0.9279324544454144,
+      "ci_low": 0.9198299451599817,
+      "ci_high": 0.935927639474379
+    }
+  ],
+  "paired": [
+    {
+      "model_a": "cat64_direct",
+      "model_b": "xgb",
+      "delta_r2_a_minus_b": -0.002100572898664499,
+      "ci_low": -0.005627654251443734,
+      "ci_high": 0.0017728493915800962,
+      "bootstrap_fraction_positive": 0.15
+    },
+    {
+      "model_a": "cat64_direct",
+      "model_b": "lgb",
+      "delta_r2_a_minus_b": -0.0018265591400112857,
+      "ci_low": -0.00490823248495644,
+      "ci_high": 0.0013946663506707768,
+      "bootstrap_fraction_positive": 0.148
+    },
+    {
+      "model_a": "cat64_direct",
+      "model_b": "cat_onehot64",
+      "delta_r2_a_minus_b": -0.0017408004424359635,
+      "ci_low": -0.004662416530684874,
+      "ci_high": 0.00030068764428615416,
+      "bootstrap_fraction_positive": 0.062
+    },
+    {
+      "model_a": "cat64_direct",
+      "model_b": "frozen_equal_blend64",
+      "delta_r2_a_minus_b": -0.005278160066663373,
+      "ci_low": -0.007887968999801959,
+      "ci_high": -0.0027862159056834482,
+      "bootstrap_fraction_positive": 0.0
+    },
+    {
+      "model_a": "cat64_direct",
+      "model_b": "direct_equal_blend64",
+      "delta_r2_a_minus_b": -0.004616906889634342,
+      "ci_low": -0.006676784702941868,
+      "ci_high": -0.0025572112423248258,
+      "bootstrap_fraction_positive": 0.0
+    },
+    {
+      "model_a": "xgb",
+      "model_b": "lgb",
+      "delta_r2_a_minus_b": 0.0002740137586532132,
+      "ci_low": -0.0028287786203601947,
+      "ci_high": 0.003093167748014139,
+      "bootstrap_fraction_positive": 0.538
+    },
+    {
+      "model_a": "xgb",
+      "model_b": "cat_onehot64",
+      "delta_r2_a_minus_b": 0.0003597724562285354,
+      "ci_low": -0.003226506458630862,
+      "ci_high": 0.003953692125913193,
+      "bootstrap_fraction_positive": 0.56
+    },
+    {
+      "model_a": "xgb",
+      "model_b": "frozen_equal_blend64",
+      "delta_r2_a_minus_b": -0.0031775871679988743,
+      "ci_low": -0.005099205868717182,
+      "ci_high": -0.0014283130900486208,
+      "bootstrap_fraction_positive": 0.0
+    },
+    {
+      "model_a": "xgb",
+      "model_b": "direct_equal_blend64",
+      "delta_r2_a_minus_b": -0.0025163339909698434,
+      "ci_low": -0.0046620993092395206,
+      "ci_high": -0.0006341852438345407,
+      "bootstrap_fraction_positive": 0.0
+    },
+    {
+      "model_a": "lgb",
+      "model_b": "cat_onehot64",
+      "delta_r2_a_minus_b": 8.575869757532217e-05,
+      "ci_low": -0.0037968417337108733,
+      "ci_high": 0.003572495550509099,
+      "bootstrap_fraction_positive": 0.56
+    },
+    {
+      "model_a": "lgb",
+      "model_b": "frozen_equal_blend64",
+      "delta_r2_a_minus_b": -0.0034516009266520875,
+      "ci_low": -0.005420488299271295,
+      "ci_high": -0.0014681151305814713,
+      "bootstrap_fraction_positive": 0.0
+    },
+    {
+      "model_a": "lgb",
+      "model_b": "direct_equal_blend64",
+      "delta_r2_a_minus_b": -0.0027903477496230567,
+      "ci_low": -0.004523793151860777,
+      "ci_high": -0.0011273876787261594,
+      "bootstrap_fraction_positive": 0.002
+    },
+    {
+      "model_a": "cat_onehot64",
+      "model_b": "frozen_equal_blend64",
+      "delta_r2_a_minus_b": -0.0035373596242274097,
+      "ci_low": -0.005730294339232939,
+      "ci_high": -0.0011758708621115732,
+      "bootstrap_fraction_positive": 0.002
+    },
+    {
+      "model_a": "cat_onehot64",
+      "model_b": "direct_equal_blend64",
+      "delta_r2_a_minus_b": -0.002876106447198379,
+      "ci_low": -0.00550794629647818,
+      "ci_high": 0.00010655484642182077,
+      "bootstrap_fraction_positive": 0.028
+    },
+    {
+      "model_a": "frozen_equal_blend64",
+      "model_b": "direct_equal_blend64",
+      "delta_r2_a_minus_b": 0.0006612531770290309,
+      "ci_low": -0.00010986703651180983,
+      "ci_high": 0.0017280430329570655,
+      "bootstrap_fraction_positive": 0.948
+    }
+  ],
+  "limitations": "Descriptive OOF prediction uncertainty only; no retraining, repeated tuning, fold-generation, or accumulated model-selection uncertainty. Confidence intervals are not submission eligibility gates."
+}

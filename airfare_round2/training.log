@@ -1,0 +1,80 @@
+primary_direct64_0 trial 0 inner_MSE 113509730.84 rounds 888
+primary_direct64_0 trial 1 inner_MSE 106905307.33 rounds 717
+primary_direct64_0 trial 2 inner_MSE 119730290.74 rounds 803
+primary_direct64_0 trial 3 inner_MSE 108402757.76 rounds 396
+primary_direct64_0 trial 4 inner_MSE 122702561.39 rounds 1188
+primary_direct64_0 trial 5 inner_MSE 106954498.05 rounds 449
+primary_direct64_0 trial 6 inner_MSE 110170541.53 rounds 946
+primary_direct64_0 trial 7 inner_MSE 107973975.47 rounds 1115
+primary_direct64_0 trial 8 inner_MSE 110324759.93 rounds 1017
+primary_direct64_0 trial 9 inner_MSE 109032481.12 rounds 433
+primary_direct64_0 trial 10 inner_MSE 115473825.78 rounds 1068
+primary_direct64_0 trial 11 inner_MSE 107377580.42 rounds 414
+OUTER cat64_direct 0 R2 0.9278798194011247 train 0.9582562093379838 trees 717
+primary_direct64_1 trial 0 inner_MSE 113109332.47 rounds 818
+primary_direct64_1 trial 1 inner_MSE 118961194.24 rounds 525
+primary_direct64_1 trial 2 inner_MSE 121270503.55 rounds 454
+primary_direct64_1 trial 3 inner_MSE 121785852.36 rounds 800
+primary_direct64_1 trial 4 inner_MSE 115998776.7 rounds 428
+primary_direct64_1 trial 5 inner_MSE 120781617.85 rounds 1098
+primary_direct64_1 trial 6 inner_MSE 123959796.51 rounds 1152
+primary_direct64_1 trial 7 inner_MSE 115372878.74 rounds 899
+primary_direct64_1 trial 8 inner_MSE 121924336.32 rounds 668
+primary_direct64_1 trial 9 inner_MSE 116462209.47 rounds 928
+primary_direct64_1 trial 10 inner_MSE 118312425.46 rounds 849
+primary_direct64_1 trial 11 inner_MSE 119851576.99 rounds 659
+OUTER cat64_direct 1 R2 0.9159221550886247 train 0.9595550476151895 trees 818
+primary_direct64_2 trial 0 inner_MSE 117601834.26 rounds 462
+primary_direct64_2 trial 1 inner_MSE 111412056.95 rounds 435
+primary_direct64_2 trial 2 inner_MSE 117450515.87 rounds 728
+primary_direct64_2 trial 3 inner_MSE 121148610.42 rounds 983
+primary_direct64_2 trial 4 inner_MSE 112506988.99 rounds 487
+primary_direct64_2 trial 5 inner_MSE 109361866.51 rounds 207
+primary_direct64_2 trial 6 inner_MSE 112122366.92 rounds 418
+primary_direct64_2 trial 7 inner_MSE 110146899.27 rounds 270
+primary_direct64_2 trial 8 inner_MSE 114757228.43 rounds 320
+primary_direct64_2 trial 9 inner_MSE 111617488.32 rounds 716
+primary_direct64_2 trial 10 inner_MSE 118757062.32 rounds 600
+primary_direct64_2 trial 11 inner_MSE 109063183.61 rounds 191
+OUTER cat64_direct 2 R2 0.9276700637799468 train 0.9486001031216228 trees 191
+primary_direct64_3 trial 0 inner_MSE 108953104.4 rounds 481
+primary_direct64_3 trial 1 inner_MSE 103950965.28 rounds 349
+primary_direct64_3 trial 2 inner_MSE 110837529.9 rounds 906
+primary_direct64_3 trial 3 inner_MSE 103682234.48 rounds 396
+primary_direct64_3 trial 4 inner_MSE 105612900.93 rounds 419
+primary_direct64_3 trial 5 inner_MSE 103947020.0 rounds 394
+primary_direct64_3 trial 6 inner_MSE 104612974.9 rounds 370
+primary_direct64_3 trial 7 inner_MSE 107405759.8 rounds 887
+primary_direct64_3 trial 8 inner_MSE 109232441.24 rounds 386
+primary_direct64_3 trial 9 inner_MSE 106569702.01 rounds 727
+primary_direct64_3 trial 10 inner_MSE 112242697.91 rounds 383
+primary_direct64_3 trial 11 inner_MSE 103204002.32 rounds 481
+OUTER cat64_direct 3 R2 0.9284710429238676 train 0.9427206317073087 trees 481
+primary_direct64_4 trial 0 inner_MSE 109057447.75 rounds 468
+primary_direct64_4 trial 1 inner_MSE 106626985.5 rounds 455
+primary_direct64_4 trial 2 inner_MSE 107579671.26 rounds 359
+primary_direct64_4 trial 3 inner_MSE 107728200.81 rounds 651
+primary_direct64_4 trial 4 inner_MSE 109380513.93 rounds 860
+primary_direct64_4 trial 5 inner_MSE 110362202.78 rounds 547
+primary_direct64_4 trial 6 inner_MSE 106481662.24 rounds 478
+primary_direct64_4 trial 7 inner_MSE 109659255.28 rounds 499
+primary_direct64_4 trial 8 inner_MSE 111020616.15 rounds 579
+primary_direct64_4 trial 9 inner_MSE 109556553.5 rounds 547
+primary_direct64_4 trial 10 inner_MSE 112256350.79 rounds 501
+primary_direct64_4 trial 11 inner_MSE 106955871.99 rounds 430
+OUTER cat64_direct 4 R2 0.9167997786670103 train 0.9484218861659889 trees 478
+OUTER_COMPLETE 20261020
+SENSITIVITY_GATE {'run_secondary': False, 'delta_r2_cat': -0.0017408004424359635, 'delta_r2_blend': -0.0006612531770290309, 'blend_fold_deltas': [0.0, -0.0029262260768883053, -0.0004641940613334672, -0.00028394096517303513, 0.00038260193707129186], 'note': 'Registered compute allocation only; not a promotion or statistical significance test'}
+full_direct64 trial 0 inner_MSE 114636726.6 rounds 625
+full_direct64 trial 1 inner_MSE 109503299.91 rounds 485
+full_direct64 trial 2 inner_MSE 110278985.54 rounds 1104
+full_direct64 trial 3 inner_MSE 116718489.1 rounds 628
+full_direct64 trial 4 inner_MSE 120342770.75 rounds 908
+full_direct64 trial 5 inner_MSE 111481153.91 rounds 679
+full_direct64 trial 6 inner_MSE 109733986.96 rounds 189
+full_direct64 trial 7 inner_MSE 110442118.71 rounds 718
+full_direct64 trial 8 inner_MSE 109204954.53 rounds 1003
+full_direct64 trial 9 inner_MSE 111305415.44 rounds 879
+full_direct64 trial 10 inner_MSE 116080630.19 rounds 1080
+full_direct64 trial 11 inner_MSE 109689372.99 rounds 556
+FINAL_COMPLETE 1003 context

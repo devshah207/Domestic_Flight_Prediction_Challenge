@@ -1,0 +1,78 @@
+{
+  "study": "business_sensitivity_outer2",
+  "trial": 5,
+  "configuration": {
+    "depth": 6,
+    "leaves": 24,
+    "learning_rate": 0.06467465552251088,
+    "row_sample": 0.7683059652044417,
+    "column_sample": 0.7083401418859936,
+    "l2": 34.13456326344679,
+    "l1": 0.9502578357946546,
+    "split_gain": 0.01837703275488295,
+    "min_child": 12
+  },
+  "mode": "context",
+  "rounds": 497,
+  "inner_splits": [
+    {
+      "split": 0,
+      "rounds": 379,
+      "trained_rounds": 449,
+      "n_fit": 4085,
+      "n_tune": 1020,
+      "seconds": 5.254350116999376,
+      "best_plus_patience_reaches_ceiling": false,
+      "r2": 0.8730458378364886,
+      "rmse": 16978.694622014595,
+      "mae": 8084.931229285633,
+      "bias": -117.36492786126978
+    },
+    {
+      "split": 1,
+      "rounds": 615,
+      "trained_rounds": 685,
+      "n_fit": 4083,
+      "n_tune": 1022,
+      "seconds": 4.541085424999437,
+      "best_plus_patience_reaches_ceiling": false,
+      "r2": 0.8999027884154903,
+      "rmse": 14476.147986879414,
+      "mae": 7406.926978772867,
+      "bias": -445.61023132955023
+    }
+  ],
+  "raw_optuna_parameters": {
+    "depth": 6,
+    "leaves": 24,
+    "learning_rate": 0.06467465552251088,
+    "row_sample": 0.7683059652044417,
+    "column_sample": 0.7083401418859936,
+    "l2": 34.13456326344679,
+    "l1": 0.9502578357946546,
+    "split_gain": 0.01837703275488295,
+    "min_child": 12
+  },
+  "objective": "original-price Business halfblend MSE",
+  "tuning_mse": 248878916.72813392,
+  "trial_count": 12,
+  "signature": {
+    "source_hashes": {
+      "airfare_business/specialist.py": "61f3ee6f79473abcefa6d0ec59200c9f2819771748604bfa5a20197a68fc2037",
+      "airfare_business/PROTOCOL.md": "da040e6d84264facfbd63481a974bd1ec1607ef4767d30ef1a1b5767b5401dc4",
+      "airfare_round2/direct_cat64.py": "37bb3b151894f79617ad7aaf827bda3e84517564258be94c1c1bac87d0120732",
+      "airfare_fresh/study.py": "577774ae3227d9c1c2540d1a3a8deb1f3634a474e23bb84f10e10cb86d054134",
+      "airfare_fresh/features.py": "71f5b7d1c96d76d6fef81fb4692c636bc553c31ec5bee123fee64437d23ab62e"
+    },
+    "training_sha256": "6b0c9793817dc3e1b229ecea9ebbef14eef34452abf05a6f708d197cf6d8cc07",
+    "local_raw_sha256": "bb8a6d678662d23bcc16afeca51445630efd83a2c13f7e442fc9bbf1f27d4885",
+    "local_y_sha256": "202a0a39411d9dc1c655fc2f22738b223092c337d908dbd0e9986d29f75c6d90",
+    "global_selected_sha256": "849c2d0328d8286b9c281f9e79c043407fb5198dd2f3d4043274fed59fc73e83",
+    "inner_seed": 20276022,
+    "sampler_seed": 20277022,
+    "trials": 12,
+    "cap": 1200,
+    "patience": 70,
+    "mixture": 0.5
+  }
+}

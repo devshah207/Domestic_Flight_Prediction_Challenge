@@ -1,0 +1,7 @@
+candidate,control,fold,delta_r2,delta_rmse
+business_augmented_xgb,global_xgb,0,0.00039731473254023264,-28.320118580870258
+business_augmented_xgb,global_xgb,1,-0.0005835055843307346,41.42382554065989
+business_augmented_xgb,global_xgb,2,0.0041652608169145955,-301.32662987212643
+business_augmented_xgb,global_xgb,3,-0.0007437313550173741,58.42041582656384
+business_augmented_xgb,global_xgb,4,-0.000659188014659362,44.56417373302429
+business_augmented_xgb,global_xgb,pooled,0.0004946317437645176,-35.54368461650847

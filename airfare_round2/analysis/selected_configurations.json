@@ -1,0 +1,146 @@
+[
+  {
+    "seed": "primary",
+    "family": "cat64_direct",
+    "scope": "full_training",
+    "mode": "context",
+    "rounds": 1003,
+    "inner_rounds": [
+      808,
+      1199
+    ],
+    "configuration": {
+      "depth": 4,
+      "learning_rate": 0.03873840417768285,
+      "leaves": 16,
+      "row_sample": 0.8830025122033385,
+      "column_sample": 0.8820438478320486,
+      "l2": 10.764353932174307,
+      "min_child": 33,
+      "random_strength": 0.4360875305874933
+    },
+    "threshold": 64,
+    "selected_trial": 8,
+    "new_trials": 12
+  },
+  {
+    "seed": "primary",
+    "family": "cat64_direct",
+    "scope": "outer0",
+    "mode": "context",
+    "rounds": 717,
+    "inner_rounds": [
+      558,
+      877
+    ],
+    "configuration": {
+      "depth": 6,
+      "learning_rate": 0.045,
+      "leaves": 32,
+      "row_sample": 0.85,
+      "column_sample": 0.85,
+      "l2": 12.0,
+      "min_child": 35,
+      "random_strength": 0.7
+    },
+    "threshold": 64,
+    "selected_trial": 1,
+    "new_trials": 12
+  },
+  {
+    "seed": "primary",
+    "family": "cat64_direct",
+    "scope": "outer1",
+    "mode": "minimal",
+    "rounds": 818,
+    "inner_rounds": [
+      739,
+      898
+    ],
+    "configuration": {
+      "depth": 6,
+      "learning_rate": 0.045,
+      "leaves": 32,
+      "row_sample": 0.85,
+      "column_sample": 0.85,
+      "l2": 12.0,
+      "min_child": 35,
+      "random_strength": 0.7
+    },
+    "threshold": 64,
+    "selected_trial": 0,
+    "new_trials": 12
+  },
+  {
+    "seed": "primary",
+    "family": "cat64_direct",
+    "scope": "outer2",
+    "mode": "context",
+    "rounds": 191,
+    "inner_rounds": [
+      228,
+      154
+    ],
+    "configuration": {
+      "depth": 5,
+      "learning_rate": 0.06938396409756391,
+      "leaves": 32,
+      "row_sample": 0.8886038960908215,
+      "column_sample": 0.7870758012545037,
+      "l2": 3.326039823567016,
+      "min_child": 10,
+      "random_strength": 0.20152885477976948
+    },
+    "threshold": 64,
+    "selected_trial": 11,
+    "new_trials": 12
+  },
+  {
+    "seed": "primary",
+    "family": "cat64_direct",
+    "scope": "outer3",
+    "mode": "context",
+    "rounds": 481,
+    "inner_rounds": [
+      525,
+      437
+    ],
+    "configuration": {
+      "depth": 7,
+      "learning_rate": 0.025016437741725656,
+      "leaves": 16,
+      "row_sample": 0.93309340894833,
+      "column_sample": 0.7013557195673101,
+      "l2": 3.1613288483263364,
+      "min_child": 60,
+      "random_strength": 0.20213549778465884
+    },
+    "threshold": 64,
+    "selected_trial": 11,
+    "new_trials": 12
+  },
+  {
+    "seed": "primary",
+    "family": "cat64_direct",
+    "scope": "outer4",
+    "mode": "context",
+    "rounds": 478,
+    "inner_rounds": [
+      493,
+      464
+    ],
+    "configuration": {
+      "depth": 7,
+      "learning_rate": 0.038065026312472786,
+      "leaves": 32,
+      "row_sample": 0.7903060771356863,
+      "column_sample": 0.9295842525170251,
+      "l2": 10.813552877105352,
+      "min_child": 53,
+      "random_strength": 1.9584478846390545
+    },
+    "threshold": 64,
+    "selected_trial": 6,
+    "new_trials": 12
+  }
+]

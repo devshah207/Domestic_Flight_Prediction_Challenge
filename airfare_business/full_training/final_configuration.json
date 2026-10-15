@@ -1,0 +1,257 @@
+{
+  "family": "business_xgb_specialist",
+  "selection": {
+    "study": "business_airfare_business_full_training",
+    "trial": 10,
+    "configuration": {
+      "depth": 6,
+      "leaves": 24,
+      "learning_rate": 0.034673213794503936,
+      "row_sample": 0.8142021409341734,
+      "column_sample": 0.7123590917054985,
+      "l2": 16.74543252034805,
+      "l1": 1.2154125600253947,
+      "split_gain": 0.02082905540196759,
+      "min_child": 27
+    },
+    "mode": "context",
+    "rounds": 461,
+    "inner_splits": [
+      {
+        "split": 0,
+        "rounds": 190,
+        "trained_rounds": 260,
+        "n_fit": 5102,
+        "n_tune": 1278,
+        "seconds": 1.4929918690004342,
+        "best_plus_patience_reaches_ceiling": false,
+        "r2": 0.8765138260775986,
+        "rmse": 16230.131905836104,
+        "mae": 8292.384387779684,
+        "bias": -57.389180458767314
+      },
+      {
+        "split": 1,
+        "rounds": 732,
+        "trained_rounds": 802,
+        "n_fit": 5103,
+        "n_tune": 1277,
+        "seconds": 5.137421484000697,
+        "best_plus_patience_reaches_ceiling": false,
+        "r2": 0.8886861821318669,
+        "rmse": 15562.646797469426,
+        "mae": 7594.963158355808,
+        "bias": -446.39150914944236
+      }
+    ],
+    "raw_optuna_parameters": {
+      "depth": 6,
+      "leaves": 24,
+      "learning_rate": 0.034673213794503936,
+      "row_sample": 0.8142021409341734,
+      "column_sample": 0.7123590917054985,
+      "l2": 16.74543252034805,
+      "l1": 1.2154125600253947,
+      "split_gain": 0.02082905540196759,
+      "min_child": 27
+    },
+    "objective": "original-price Business halfblend MSE",
+    "tuning_mse": 252810731.38976488,
+    "trial_count": 12,
+    "signature": {
+      "source_hashes": {
+        "airfare_business/specialist.py": "61f3ee6f79473abcefa6d0ec59200c9f2819771748604bfa5a20197a68fc2037",
+        "airfare_business/PROTOCOL.md": "da040e6d84264facfbd63481a974bd1ec1607ef4767d30ef1a1b5767b5401dc4",
+        "airfare_round2/direct_cat64.py": "37bb3b151894f79617ad7aaf827bda3e84517564258be94c1c1bac87d0120732",
+        "airfare_fresh/study.py": "577774ae3227d9c1c2540d1a3a8deb1f3634a474e23bb84f10e10cb86d054134",
+        "airfare_fresh/features.py": "71f5b7d1c96d76d6fef81fb4692c636bc553c31ec5bee123fee64437d23ab62e"
+      },
+      "training_sha256": "6b0c9793817dc3e1b229ecea9ebbef14eef34452abf05a6f708d197cf6d8cc07",
+      "local_raw_sha256": "f7fa78494abee12004b24a89237b6e58f1cac30e5673b0ecd25b80e778c5da42",
+      "local_y_sha256": "4b8c38fbfe78ef290a95fdf0ad9acc3f65010f3429e3b3e750bf91c18fd08542",
+      "global_selected_sha256": "821d44e823ef69616e868e396aad571a2d5b63f17e516a3bfe6d401384fac1b2",
+      "inner_seed": 20263020,
+      "sampler_seed": 20275020,
+      "trials": 12,
+      "cap": 1200,
+      "patience": 70,
+      "mixture": 0.5
+    }
+  },
+  "constructor_parameters": {
+    "objective": "reg:squarederror",
+    "base_score": null,
+    "booster": null,
+    "callbacks": null,
+    "colsample_bylevel": null,
+    "colsample_bynode": null,
+    "colsample_bytree": 0.7123590917054985,
+    "device": null,
+    "early_stopping_rounds": null,
+    "enable_categorical": true,
+    "eval_metric": null,
+    "feature_types": null,
+    "feature_weights": null,
+    "gamma": 0.02082905540196759,
+    "grow_policy": "depthwise",
+    "importance_type": null,
+    "interaction_constraints": null,
+    "learning_rate": 0.034673213794503936,
+    "max_bin": 192,
+    "max_cat_threshold": 32,
+    "max_cat_to_onehot": 4,
+    "max_delta_step": null,
+    "max_depth": 6,
+    "max_leaves": 24,
+    "min_child_weight": 27,
+    "missing": "NaN",
+    "monotone_constraints": null,
+    "multi_strategy": null,
+    "n_estimators": 461,
+    "n_jobs": 4,
+    "num_parallel_tree": null,
+    "random_state": 42,
+    "reg_alpha": 1.2154125600253947,
+    "reg_lambda": 16.74543252034805,
+    "sampling_method": null,
+    "scale_pos_weight": null,
+    "subsample": 0.8142021409341734,
+    "tree_method": "hist",
+    "validate_parameters": null,
+    "verbosity": 0
+  },
+  "resolved_booster_configuration": {
+    "learner": {
+      "generic_param": {
+        "device": "cpu",
+        "fail_on_invalid_gpu_id": "0",
+        "n_jobs": "4",
+        "nthread": "4",
+        "random_state": "42",
+        "seed": "42",
+        "seed_per_iteration": "0",
+        "validate_parameters": "1"
+      },
+      "gradient_booster": {
+        "gbtree_model_param": {
+          "num_parallel_tree": "1",
+          "num_trees": "461"
+        },
+        "gbtree_train_param": {
+          "process_type": "default",
+          "tree_method": "hist",
+          "updater": "grow_quantile_histmaker",
+          "updater_seq": "grow_quantile_histmaker"
+        },
+        "name": "gbtree",
+        "specified_updater": false,
+        "tree_train_param": {
+          "alpha": "1.21541262",
+          "cache_opt": "1",
+          "colsample_bylevel": "1",
+          "colsample_bynode": "1",
+          "colsample_bytree": "0.712359071",
+          "eta": "0.034673214",
+          "gamma": "0.0208290555",
+          "grow_policy": "depthwise",
+          "interaction_constraints": "",
+          "lambda": "16.7454319",
+          "learning_rate": "0.034673214",
+          "max_bin": "192",
+          "max_cat_threshold": "32",
+          "max_cat_to_onehot": "4",
+          "max_delta_step": "0",
+          "max_depth": "6",
+          "max_leaves": "24",
+          "min_child_weight": "27",
+          "min_split_loss": "0.0208290555",
+          "monotone_constraints": "()",
+          "refresh_leaf": "1",
+          "reg_alpha": "1.21541262",
+          "reg_lambda": "16.7454319",
+          "sampling_method": "uniform",
+          "sketch_ratio": "2",
+          "sparse_threshold": "0.20000000000000001",
+          "subsample": "0.81420213"
+        },
+        "updater": [
+          {
+            "hist_train_param": {
+              "debug_synchronize": "0",
+              "extmem_single_page": "0",
+              "max_cached_hist_node": "18446744073709551615"
+            },
+            "name": "grow_quantile_histmaker"
+          }
+        ]
+      },
+      "learner_model_param": {
+        "base_score": "[6.0126605E0]",
+        "boost_from_average": "1",
+        "num_class": "0",
+        "num_feature": "17",
+        "num_target": "1"
+      },
+      "learner_train_param": {
+        "booster": "gbtree",
+        "disable_default_eval_metric": "0",
+        "multi_strategy": "one_output_per_tree",
+        "objective": "reg:squarederror"
+      },
+      "metrics": [
+        {
+          "name": "rmse"
+        }
+      ],
+      "objective": {
+        "name": "reg:squarederror",
+        "reg_loss_param": {
+          "scale_pos_weight": "1"
+        }
+      }
+    },
+    "version": [
+      3,
+      1,
+      1
+    ]
+  },
+  "actual_trees": 461,
+  "feature_names": [
+    "airline",
+    "flight",
+    "source_city",
+    "departure_time",
+    "stops",
+    "arrival_time",
+    "destination_city",
+    "flight_class",
+    "duration",
+    "days_left",
+    "flight_prefix",
+    "airline_missing",
+    "duration_missing",
+    "route",
+    "prefix_class",
+    "stops_numeric",
+    "duration_raw"
+  ],
+  "training_rows": 15589,
+  "specialist_training_rows": 6380,
+  "training_sha256": "6b0c9793817dc3e1b229ecea9ebbef14eef34452abf05a6f708d197cf6d8cc07",
+  "model_sha256": "c3374a82dd3608103d10942a291f21856b0f79249367337424026d16772bd447",
+  "source_hashes": {
+    "airfare_business/specialist.py": "61f3ee6f79473abcefa6d0ec59200c9f2819771748604bfa5a20197a68fc2037",
+    "airfare_business/PROTOCOL.md": "da040e6d84264facfbd63481a974bd1ec1607ef4767d30ef1a1b5767b5401dc4",
+    "airfare_round2/direct_cat64.py": "37bb3b151894f79617ad7aaf827bda3e84517564258be94c1c1bac87d0120732",
+    "airfare_fresh/study.py": "577774ae3227d9c1c2540d1a3a8deb1f3634a474e23bb84f10e10cb86d054134",
+    "airfare_fresh/features.py": "71f5b7d1c96d76d6fef81fb4692c636bc553c31ec5bee123fee64437d23ab62e"
+  },
+  "full_business_train_r2": 0.93005570187304,
+  "mixture": 0.5,
+  "test_accessed": false,
+  "compatibility": {
+    "_estimator_type": "regressor",
+    "reason": "XGBoost3.1.1 callable metric expects estimator tag removed in sklearn1.8"
+  }
+}

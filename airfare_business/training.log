@@ -1,0 +1,204 @@
+primary outer0 trial 0 business_halfblend_MSE 281857099.55 trees 223
+primary outer0 trial 1 business_halfblend_MSE 283368434.99 trees 337
+primary outer0 trial 2 business_halfblend_MSE 281060146.24 trees 483
+primary outer0 trial 3 business_halfblend_MSE 279107946.76 trees 139
+primary outer0 trial 4 business_halfblend_MSE 280479880.48 trees 292
+primary outer0 trial 5 business_halfblend_MSE 280819365.11 trees 504
+primary outer0 trial 6 business_halfblend_MSE 280894919.34 trees 240
+primary outer0 trial 7 business_halfblend_MSE 282671860.78 trees 228
+primary outer0 trial 8 business_halfblend_MSE 284338325.12 trees 136
+primary outer0 trial 9 business_halfblend_MSE 281325864.45 trees 205
+primary outer0 trial 10 business_halfblend_MSE 278996637.74 trees 237
+primary outer0 trial 11 business_halfblend_MSE 281200333.63 trees 277
+BUSINESS_OUTER primary 0 global_R2 0.9281750993205615 augmented_R2 0.9307569966460233
+primary outer1 trial 0 business_halfblend_MSE 250474604.95 trees 340
+primary outer1 trial 1 business_halfblend_MSE 250243828.58 trees 745
+primary outer1 trial 2 business_halfblend_MSE 253351485.51 trees 349
+primary outer1 trial 3 business_halfblend_MSE 251738196.98 trees 365
+primary outer1 trial 4 business_halfblend_MSE 250414293.37 trees 533
+primary outer1 trial 5 business_halfblend_MSE 257219261.16 trees 969
+primary outer1 trial 6 business_halfblend_MSE 255689681.19 trees 317
+primary outer1 trial 7 business_halfblend_MSE 249823775.5 trees 734
+primary outer1 trial 8 business_halfblend_MSE 254220182.07 trees 988
+primary outer1 trial 9 business_halfblend_MSE 255473345.46 trees 934
+primary outer1 trial 10 business_halfblend_MSE 246978306.44 trees 450
+primary outer1 trial 11 business_halfblend_MSE 248988772.04 trees 324
+BUSINESS_OUTER primary 1 global_R2 0.9167173525114334 augmented_R2 0.9204805535974796
+primary outer2 trial 0 business_halfblend_MSE 255982881.52 trees 322
+primary outer2 trial 1 business_halfblend_MSE 257769023.24 trees 462
+primary outer2 trial 2 business_halfblend_MSE 263439873.0 trees 398
+primary outer2 trial 3 business_halfblend_MSE 264041618.42 trees 1048
+primary outer2 trial 4 business_halfblend_MSE 257026762.81 trees 528
+primary outer2 trial 5 business_halfblend_MSE 253861745.67 trees 141
+primary outer2 trial 6 business_halfblend_MSE 262326903.27 trees 415
+primary outer2 trial 7 business_halfblend_MSE 253617343.94 trees 136
+primary outer2 trial 8 business_halfblend_MSE 257490019.62 trees 580
+primary outer2 trial 9 business_halfblend_MSE 260419539.45 trees 419
+primary outer2 trial 10 business_halfblend_MSE 258802949.22 trees 290
+primary outer2 trial 11 business_halfblend_MSE 251785780.93 trees 294
+BUSINESS_OUTER primary 2 global_R2 0.9343709310777926 augmented_R2 0.9359581920114926
+primary outer3 trial 0 business_halfblend_MSE 241933756.32 trees 134
+primary outer3 trial 1 business_halfblend_MSE 240718131.71 trees 336
+primary outer3 trial 2 business_halfblend_MSE 245119803.64 trees 301
+primary outer3 trial 3 business_halfblend_MSE 241085272.32 trees 448
+primary outer3 trial 4 business_halfblend_MSE 243787443.97 trees 479
+primary outer3 trial 5 business_halfblend_MSE 241089729.4 trees 603
+primary outer3 trial 6 business_halfblend_MSE 245289917.34 trees 402
+primary outer3 trial 7 business_halfblend_MSE 239173430.68 trees 160
+primary outer3 trial 8 business_halfblend_MSE 244749274.54 trees 214
+primary outer3 trial 9 business_halfblend_MSE 242299097.36 trees 256
+primary outer3 trial 10 business_halfblend_MSE 239903794.9 trees 239
+primary outer3 trial 11 business_halfblend_MSE 240228194.81 trees 510
+BUSINESS_OUTER primary 3 global_R2 0.9300889556718119 augmented_R2 0.9311046281653397
+primary outer4 trial 0 business_halfblend_MSE 266023342.88 trees 158
+primary outer4 trial 1 business_halfblend_MSE 271578503.89 trees 233
+primary outer4 trial 2 business_halfblend_MSE 268577427.36 trees 222
+primary outer4 trial 3 business_halfblend_MSE 272845748.95 trees 293
+primary outer4 trial 4 business_halfblend_MSE 270583039.24 trees 154
+primary outer4 trial 5 business_halfblend_MSE 268589992.63 trees 707
+primary outer4 trial 6 business_halfblend_MSE 267106763.25 trees 235
+primary outer4 trial 7 business_halfblend_MSE 273015579.55 trees 154
+primary outer4 trial 8 business_halfblend_MSE 270026617.95 trees 404
+primary outer4 trial 9 business_halfblend_MSE 270867602.0 trees 302
+primary outer4 trial 10 business_halfblend_MSE 273008474.16 trees 330
+primary outer4 trial 11 business_halfblend_MSE 265412117.2 trees 158
+BUSINESS_OUTER primary 4 global_R2 0.9179522689719493 augmented_R2 0.9161874547825465
+BUSINESS_SENSITIVITY_GATE {'run_secondary': True, 'augmented_delta_r2': 0.0014365662404740576, 'blend_delta_r2': 3.949869034103326e-05, 'blend_fold_deltas': [0.0006124725207866666, 0.0006712004578600661, 0.0006441391806321084, 4.81289803957452e-05, -0.0017664355872816229], 'note': 'Prospective compute rule, not significance or submission eligibility'}
+xgb_secondary0 trial 0 MSE 102689603.86 rounds 457
+xgb_secondary0 trial 1 MSE 96164679.46 rounds 286
+xgb_secondary0 trial 2 MSE 101518263.79 rounds 888
+xgb_secondary0 trial 3 MSE 106667539.81 rounds 901
+xgb_secondary0 trial 4 MSE 100980226.96 rounds 601
+xgb_secondary0 trial 5 MSE 97802170.09 rounds 100
+xgb_secondary0 trial 6 MSE 94445506.69 rounds 637
+xgb_secondary0 trial 7 MSE 98769790.32 rounds 873
+xgb_secondary0 trial 8 MSE 96996553.12 rounds 542
+xgb_secondary0 trial 9 MSE 98423677.75 rounds 648
+xgb_secondary0 trial 10 MSE 106709072.35 rounds 518
+xgb_secondary0 trial 11 MSE 95953501.24 rounds 481
+sensitivity outer0 trial 0 business_halfblend_MSE 217911648.01 trees 307
+sensitivity outer0 trial 1 business_halfblend_MSE 218611726.87 trees 446
+sensitivity outer0 trial 2 business_halfblend_MSE 218682565.26 trees 638
+sensitivity outer0 trial 3 business_halfblend_MSE 220880172.34 trees 265
+sensitivity outer0 trial 4 business_halfblend_MSE 218787851.95 trees 439
+sensitivity outer0 trial 5 business_halfblend_MSE 220329613.01 trees 277
+sensitivity outer0 trial 6 business_halfblend_MSE 221460735.6 trees 399
+sensitivity outer0 trial 7 business_halfblend_MSE 217703697.86 trees 171
+sensitivity outer0 trial 8 business_halfblend_MSE 220186929.93 trees 208
+sensitivity outer0 trial 9 business_halfblend_MSE 220943187.64 trees 243
+sensitivity outer0 trial 10 business_halfblend_MSE 218424412.07 trees 341
+sensitivity outer0 trial 11 business_halfblend_MSE 219510803.65 trees 266
+BUSINESS_OUTER sensitivity 0 global_R2 0.9250497725128581 augmented_R2 0.9254470872453984
+xgb_secondary1 trial 0 MSE 114825647.66 rounds 474
+xgb_secondary1 trial 1 MSE 107962731.06 rounds 352
+xgb_secondary1 trial 2 MSE 116815113.42 rounds 677
+xgb_secondary1 trial 3 MSE 108121156.33 rounds 305
+xgb_secondary1 trial 4 MSE 113844313.58 rounds 385
+xgb_secondary1 trial 5 MSE 106798393.46 rounds 1137
+xgb_secondary1 trial 6 MSE 108263457.02 rounds 1193
+xgb_secondary1 trial 7 MSE 106511041.6 rounds 1127
+xgb_secondary1 trial 8 MSE 107922771.95 rounds 893
+xgb_secondary1 trial 9 MSE 108782128.48 rounds 936
+xgb_secondary1 trial 10 MSE 113694052.45 rounds 874
+xgb_secondary1 trial 11 MSE 107079869.76 rounds 1113
+sensitivity outer1 trial 0 business_halfblend_MSE 255678341.19 trees 367
+sensitivity outer1 trial 1 business_halfblend_MSE 256527567.3 trees 697
+sensitivity outer1 trial 2 business_halfblend_MSE 256939039.15 trees 393
+sensitivity outer1 trial 3 business_halfblend_MSE 256911949.43 trees 872
+sensitivity outer1 trial 4 business_halfblend_MSE 254014258.22 trees 944
+sensitivity outer1 trial 5 business_halfblend_MSE 256584557.88 trees 862
+sensitivity outer1 trial 6 business_halfblend_MSE 256750816.73 trees 632
+sensitivity outer1 trial 7 business_halfblend_MSE 254539164.33 trees 308
+sensitivity outer1 trial 8 business_halfblend_MSE 256491830.19 trees 328
+sensitivity outer1 trial 9 business_halfblend_MSE 257154258.49 trees 799
+sensitivity outer1 trial 10 business_halfblend_MSE 256196375.15 trees 589
+sensitivity outer1 trial 11 business_halfblend_MSE 255472672.6 trees 313
+BUSINESS_OUTER sensitivity 1 global_R2 0.9253652503016289 augmented_R2 0.9247817447172981
+xgb_secondary2 trial 0 MSE 107020606.22 rounds 658
+xgb_secondary2 trial 1 MSE 109399432.24 rounds 471
+xgb_secondary2 trial 2 MSE 114066727.94 rounds 388
+xgb_secondary2 trial 3 MSE 112242733.89 rounds 1144
+xgb_secondary2 trial 4 MSE 113713413.05 rounds 301
+xgb_secondary2 trial 5 MSE 114411954.77 rounds 956
+xgb_secondary2 trial 6 MSE 117235969.8 rounds 745
+xgb_secondary2 trial 7 MSE 110749050.78 rounds 1058
+xgb_secondary2 trial 8 MSE 110545146.38 rounds 596
+xgb_secondary2 trial 9 MSE 117302602.9 rounds 906
+xgb_secondary2 trial 10 MSE 112898476.63 rounds 393
+xgb_secondary2 trial 11 MSE 109049265.55 rounds 473
+sensitivity outer2 trial 0 business_halfblend_MSE 249890881.91 trees 461
+sensitivity outer2 trial 1 business_halfblend_MSE 258157005.14 trees 486
+sensitivity outer2 trial 2 business_halfblend_MSE 258743467.36 trees 866
+sensitivity outer2 trial 3 business_halfblend_MSE 249374378.07 trees 941
+sensitivity outer2 trial 4 business_halfblend_MSE 253747623.48 trees 774
+sensitivity outer2 trial 5 business_halfblend_MSE 248878916.73 trees 497
+sensitivity outer2 trial 6 business_halfblend_MSE 258227311.35 trees 525
+sensitivity outer2 trial 7 business_halfblend_MSE 257366536.28 trees 491
+sensitivity outer2 trial 8 business_halfblend_MSE 249037026.17 trees 649
+sensitivity outer2 trial 9 business_halfblend_MSE 257644730.02 trees 259
+sensitivity outer2 trial 10 business_halfblend_MSE 258016892.77 trees 672
+sensitivity outer2 trial 11 business_halfblend_MSE 251200774.31 trees 434
+BUSINESS_OUTER sensitivity 2 global_R2 0.9261888784978363 augmented_R2 0.930354139314751
+xgb_secondary3 trial 0 MSE 117151509.52 rounds 398
+xgb_secondary3 trial 1 MSE 113464152.77 rounds 366
+xgb_secondary3 trial 2 MSE 122841710.96 rounds 612
+xgb_secondary3 trial 3 MSE 120075469.27 rounds 995
+xgb_secondary3 trial 4 MSE 119196407.57 rounds 489
+xgb_secondary3 trial 5 MSE 116978947.96 rounds 477
+xgb_secondary3 trial 6 MSE 117193498.22 rounds 528
+xgb_secondary3 trial 7 MSE 123102439.87 rounds 518
+xgb_secondary3 trial 8 MSE 116550941.76 rounds 1057
+xgb_secondary3 trial 9 MSE 114711886.88 rounds 392
+xgb_secondary3 trial 10 MSE 124312506.91 rounds 354
+xgb_secondary3 trial 11 MSE 115480697.32 rounds 516
+sensitivity outer3 trial 0 business_halfblend_MSE 268461069.58 trees 333
+sensitivity outer3 trial 1 business_halfblend_MSE 270416722.25 trees 675
+sensitivity outer3 trial 2 business_halfblend_MSE 269654558.94 trees 326
+sensitivity outer3 trial 3 business_halfblend_MSE 271087176.67 trees 485
+sensitivity outer3 trial 4 business_halfblend_MSE 271059098.36 trees 649
+sensitivity outer3 trial 5 business_halfblend_MSE 274690871.1 trees 454
+sensitivity outer3 trial 6 business_halfblend_MSE 269702978.33 trees 376
+sensitivity outer3 trial 7 business_halfblend_MSE 269295420.78 trees 357
+sensitivity outer3 trial 8 business_halfblend_MSE 269096543.55 trees 1182
+sensitivity outer3 trial 9 business_halfblend_MSE 269501256.2 trees 514
+sensitivity outer3 trial 10 business_halfblend_MSE 268298028.8 trees 317
+sensitivity outer3 trial 11 business_halfblend_MSE 267481752.59 trees 316
+BUSINESS_OUTER sensitivity 3 global_R2 0.9376912515454368 augmented_R2 0.9369475201904194
+xgb_secondary4 trial 0 MSE 114232488.08 rounds 389
+xgb_secondary4 trial 1 MSE 111756273.45 rounds 329
+xgb_secondary4 trial 2 MSE 118499880.28 rounds 758
+xgb_secondary4 trial 3 MSE 123023461.71 rounds 587
+xgb_secondary4 trial 4 MSE 115621532.97 rounds 544
+xgb_secondary4 trial 5 MSE 110586609.64 rounds 557
+xgb_secondary4 trial 6 MSE 113300080.57 rounds 304
+xgb_secondary4 trial 7 MSE 111740959.75 rounds 366
+xgb_secondary4 trial 8 MSE 114883426.62 rounds 458
+xgb_secondary4 trial 9 MSE 117784842.79 rounds 403
+xgb_secondary4 trial 10 MSE 109934504.07 rounds 553
+xgb_secondary4 trial 11 MSE 111011228.12 rounds 499
+sensitivity outer4 trial 0 business_halfblend_MSE 259336459.37 trees 223
+sensitivity outer4 trial 1 business_halfblend_MSE 264278006.34 trees 280
+sensitivity outer4 trial 2 business_halfblend_MSE 258741862.37 trees 449
+sensitivity outer4 trial 3 business_halfblend_MSE 264783839.55 trees 343
+sensitivity outer4 trial 4 business_halfblend_MSE 263345152.12 trees 352
+sensitivity outer4 trial 5 business_halfblend_MSE 260818755.33 trees 353
+sensitivity outer4 trial 6 business_halfblend_MSE 263832827.25 trees 165
+sensitivity outer4 trial 7 business_halfblend_MSE 262587291.76 trees 499
+sensitivity outer4 trial 8 business_halfblend_MSE 258687222.81 trees 219
+sensitivity outer4 trial 9 business_halfblend_MSE 268285350.67 trees 178
+sensitivity outer4 trial 10 business_halfblend_MSE 264153899.32 trees 278
+sensitivity outer4 trial 11 business_halfblend_MSE 256674551.37 trees 312
+BUSINESS_OUTER sensitivity 4 global_R2 0.914093946999256 augmented_R2 0.9134347589845966
+airfare_business full_training trial 0 business_halfblend_MSE 253452071.22 trees 326
+airfare_business full_training trial 1 business_halfblend_MSE 255496148.47 trees 341
+airfare_business full_training trial 2 business_halfblend_MSE 255914204.75 trees 269
+airfare_business full_training trial 3 business_halfblend_MSE 257875929.76 trees 680
+airfare_business full_training trial 4 business_halfblend_MSE 255631908.24 trees 329
+airfare_business full_training trial 5 business_halfblend_MSE 253795690.45 trees 137
+airfare_business full_training trial 6 business_halfblend_MSE 257705630.75 trees 640
+airfare_business full_training trial 7 business_halfblend_MSE 253056300.23 trees 238
+airfare_business full_training trial 8 business_halfblend_MSE 253933186.44 trees 349
+airfare_business full_training trial 9 business_halfblend_MSE 254953279.03 trees 375
+airfare_business full_training trial 10 business_halfblend_MSE 252810731.39 trees 461
+airfare_business full_training trial 11 business_halfblend_MSE 253513443.18 trees 464
+BUSINESS_FINAL_COMPLETE 461

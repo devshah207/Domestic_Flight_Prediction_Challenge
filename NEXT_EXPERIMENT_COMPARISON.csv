@@ -1,0 +1,6 @@
+candidate,filename,primary_outer_r2
+Frozen previous best blend,submission_equal_blend_onehot64.csv,0.9285937076224434
+Directly tuned CatBoost64,submission_catboost64_direct_tuned.csv,0.92331554755578
+Blend with directly tuned CatBoost64,submission_equal_blend_direct64.csv,0.9279324544454144
+Business-augmented XGBoost,submission_business_augmented_xgb.csv,0.9268526866949186
+Blend with Business-augmented XGBoost,submission_business_equal_blend64.csv,0.9286332063127845

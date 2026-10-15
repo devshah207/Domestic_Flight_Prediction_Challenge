@@ -1,0 +1,121 @@
+model,row_position,id,airline,flight,source_city,departure_time,stops,arrival_time,destination_city,flight_class,duration,days_left,price,fold,prediction,error,outer_training_flight_support
+global_xgb,4049,4050,Nakatomi Airlines,EY 353,Los Santos,Early_Morning,one,Evening,Springfield,Business,15.42,11,308302,1,144061.37466430664,-164240.62533569336,47
+global_xgb,2858,2859,Stark Aviation,EK 573,Hill Valley,Night,one,Morning,Springfield,Business,11.92,26,289045,1,130842.14210510254,-158202.85789489746,22
+global_xgb,12466,12467,,EY 223,Hill Valley,Night,one,Morning,Springfield,Business,11.5,20,233090,2,86341.59088134766,-146748.40911865234,28
+global_xgb,3137,3138,,EK 567,Springfield,Night,one,Morning,Los Santos,Business,11.42,31,288886,3,144575.21438598633,-144310.78561401367,33
+global_xgb,2541,2542,Nakatomi Airlines,EY 239,Springfield,Night,one,Early_Morning,Night City,Business,8.92,39,317854,4,175041.96166992188,-142812.03833007812,13
+global_xgb,13314,13315,Stark Aviation,EK 573,Hill Valley,Night,one,Morning,Springfield,Business,11.92,25,271552,1,129576.33018493652,-141975.66981506348,22
+global_xgb,13206,13207,Nakatomi Airlines,EY 353,Los Santos,Early_Morning,one,Afternoon,Springfield,Business,9.75,23,81456,4,221222.6676940918,139766.6676940918,47
+global_xgb,8881,8882,Nakatomi Airlines,EY 353,Los Santos,Early_Morning,one,Afternoon,Springfield,Business,9.75,23,81456,4,221222.6676940918,139766.6676940918,47
+global_xgb,5431,5432,Nakatomi Airlines,EY 353,Los Santos,Early_Morning,one,Evening,Springfield,Business,15.42,10,86727,4,223692.45529174805,136965.45529174805,47
+global_xgb,14099,14100,Ajira Airways,UL 144,Night City,Night,one,Early_Morning,Metropolis,Business,7.58,3,213680,1,79417.36221313477,-134262.63778686523,22
+global_xgb,2844,2845,Nakatomi Airlines,EY 239,Springfield,Night,one,Morning,Gotham,Business,10.17,3,86227,2,214725.91400146484,128498.91400146484,11
+global_xgb,12496,12497,Nakatomi Airlines,EY 359,Los Santos,Night,one,Morning,Gotham,Business,11.08,4,271113,0,142693.89152526855,-128419.10847473145,31
+global_xgb,3384,3385,Nakatomi Airlines,EY 237,Springfield,Evening,one,Late_Night,Los Santos,Business,9.83,18,300148,2,177659.32083129883,-122488.67916870117,25
+global_xgb,2496,2497,Nakatomi Airlines,EY 353,Los Santos,Early_Morning,one,Evening,Springfield,Business,15.42,21,81214,4,202779.6745300293,121565.6745300293,47
+global_xgb,15006,15007,,EY 353,Los Santos,Early_Morning,one,Late_Night,Gotham,Business,,3,100140,2,221102.5047302246,120962.50473022461,54
+global_xgb,10851,10852,,6E 1345,Metropolis,Evening,one,Late_Night,Los Santos,Business,9.83,4,153460,1,33062.124252319336,-120397.87574768066,0
+global_xgb,14999,15000,Stark Aviation,EK 529,Los Santos,Night,one,Morning,Springfield,Business,10.83,11,275823,4,156486.94038391113,-119336.05961608887,54
+global_xgb,5548,5549,Ajira Airways,UL 196,Metropolis,Evening,one,Late_Night,Night City,Business,7.42,7,206953,0,88004.8942565918,-118948.1057434082,54
+global_xgb,13579,13580,Nakatomi Airlines,EY 239,Springfield,Night,one,Evening,Los Santos,Business,21.42,5,246996,1,129397.02987670898,-117598.97012329102,12
+global_xgb,3160,3161,,UL 172,Springfield,Night,one,Early_Morning,Metropolis,Business,6.92,24,196754,2,79889.78385925293,-116864.21614074707,19
+global_xgb,13720,13721,Stark Aviation,EK 529,Los Santos,Night,one,Morning,Springfield,Business,10.83,5,275823,3,159538.80310058594,-116284.19689941406,47
+global_xgb,5221,5222,Nakatomi Airlines,EY 237,Springfield,Evening,one,Late_Night,Los Santos,Business,9.83,2,117850,3,233792.6483154297,115942.64831542969,27
+global_xgb,8239,8240,Nakatomi Airlines,EY 239,Springfield,Night,one,Morning,Gotham,Business,10.17,33,249249,0,133966.82739257812,-115282.17260742188,9
+global_xgb,5085,5086,,EY 237,Springfield,Evening,one,Late_Night,Hill Valley,Business,,25,249344,4,134984.0545654297,-114359.94543457031,26
+global_xgb,5582,5583,,EK 515,Metropolis,Night,one,Morning,Hill Valley,Business,10.08,12,241543,1,130231.81915283205,-111311.18084716795,3
+global_xgb,15062,15063,Nakatomi Airlines,EY 359,Los Santos,Night,one,Morning,Gotham,Business,11.08,5,79971,1,190898.24676513672,110927.24676513672,29
+global_xgb,6863,6864,Nakatomi Airlines,EY 353,Los Santos,Early_Morning,one,Late_Night,Hill Valley,Business,22.42,18,72920,4,179906.94046020508,106986.94046020508,47
+global_xgb,12636,12637,,EY 205,Night City,Night,one,Morning,Gotham,Business,9.25,3,228084,1,121311.32125854492,-106772.67874145508,2
+global_xgb,691,692,Wayfarer Aviation,AI 2710,Hill Valley,Night,two_or_more,Afternoon,Gotham,Business,16.42,30,233740,0,130136.5566253662,-103603.4433746338,36
+global_xgb,12148,12149,,AI 2710,Hill Valley,Night,two_or_more,Afternoon,Gotham,Business,16.42,30,233740,0,130253.2958984375,-103486.7041015625,36
+business_augmented_xgb,4049,4050,Nakatomi Airlines,EY 353,Los Santos,Early_Morning,one,Evening,Springfield,Business,15.42,11,308302,1,147707.14282989502,-160594.85717010498,47
+business_augmented_xgb,2858,2859,Stark Aviation,EK 573,Hill Valley,Night,one,Morning,Springfield,Business,11.92,26,289045,1,132696.80976867676,-156348.19023132324,22
+business_augmented_xgb,2541,2542,Nakatomi Airlines,EY 239,Springfield,Night,one,Early_Morning,Night City,Business,8.92,39,317854,4,163711.4715576172,-154142.5284423828,13
+business_augmented_xgb,3137,3138,,EK 567,Springfield,Night,one,Morning,Los Santos,Business,11.42,31,288886,3,142521.4910507202,-146364.5089492798,33
+business_augmented_xgb,12466,12467,,EY 223,Hill Valley,Night,one,Morning,Springfield,Business,11.5,20,233090,2,88892.03548431396,-144197.96451568604,28
+business_augmented_xgb,13314,13315,Stark Aviation,EK 573,Hill Valley,Night,one,Morning,Springfield,Business,11.92,25,271552,1,132256.09302520752,-139295.90697479248,22
+business_augmented_xgb,5431,5432,Nakatomi Airlines,EY 353,Los Santos,Early_Morning,one,Evening,Springfield,Business,15.42,10,86727,4,225623.32153320312,138896.32153320312,47
+business_augmented_xgb,13206,13207,Nakatomi Airlines,EY 353,Los Santos,Early_Morning,one,Afternoon,Springfield,Business,9.75,23,81456,4,218714.8952484131,137258.8952484131,47
+business_augmented_xgb,8881,8882,Nakatomi Airlines,EY 353,Los Santos,Early_Morning,one,Afternoon,Springfield,Business,9.75,23,81456,4,218714.8952484131,137258.8952484131,47
+business_augmented_xgb,2844,2845,Nakatomi Airlines,EY 239,Springfield,Night,one,Morning,Gotham,Business,10.17,3,86227,2,220612.84065246585,134385.84065246585,11
+business_augmented_xgb,14099,14100,Ajira Airways,UL 144,Night City,Night,one,Early_Morning,Metropolis,Business,7.58,3,213680,1,84552.25467681885,-129127.74532318115,22
+business_augmented_xgb,14999,15000,Stark Aviation,EK 529,Los Santos,Night,one,Morning,Springfield,Business,10.83,11,275823,4,152218.34182739258,-123604.65817260742,54
+business_augmented_xgb,13720,13721,Stark Aviation,EK 529,Los Santos,Night,one,Morning,Springfield,Business,10.83,5,275823,3,153136.71112060547,-122686.28887939453,47
+business_augmented_xgb,3384,3385,Nakatomi Airlines,EY 237,Springfield,Evening,one,Late_Night,Los Santos,Business,9.83,18,300148,2,177699.0509033203,-122448.94909667969,25
+business_augmented_xgb,5085,5086,,EY 237,Springfield,Evening,one,Late_Night,Hill Valley,Business,,25,249344,4,127480.53073883057,-121863.46926116943,26
+business_augmented_xgb,10851,10852,,6E 1345,Metropolis,Evening,one,Late_Night,Los Santos,Business,9.83,4,153460,1,32108.715772628784,-121351.28422737122,0
+business_augmented_xgb,2496,2497,Nakatomi Airlines,EY 353,Los Santos,Early_Morning,one,Evening,Springfield,Business,15.42,21,81214,4,201397.95303344727,120183.95303344727,47
+business_augmented_xgb,3160,3161,,UL 172,Springfield,Night,one,Early_Morning,Metropolis,Business,6.92,24,196754,2,77895.68662643433,-118858.31337356567,19
+business_augmented_xgb,5548,5549,Ajira Airways,UL 196,Metropolis,Evening,one,Late_Night,Night City,Business,7.42,7,206953,0,89222.0687866211,-117730.9312133789,54
+business_augmented_xgb,15006,15007,,EY 353,Los Santos,Early_Morning,one,Late_Night,Gotham,Business,,3,100140,2,217718.2102203369,117578.21022033691,54
+business_augmented_xgb,12496,12497,Nakatomi Airlines,EY 359,Los Santos,Night,one,Morning,Gotham,Business,11.08,4,271113,0,154227.05173492432,-116885.94826507568,31
+business_augmented_xgb,5582,5583,,EK 515,Metropolis,Night,one,Morning,Hill Valley,Business,10.08,12,241543,1,127977.876663208,-113565.123336792,3
+business_augmented_xgb,15062,15063,Nakatomi Airlines,EY 359,Los Santos,Night,one,Morning,Gotham,Business,11.08,5,79971,1,190173.0155944824,110202.0155944824,29
+business_augmented_xgb,6863,6864,Nakatomi Airlines,EY 353,Los Santos,Early_Morning,one,Late_Night,Hill Valley,Business,22.42,18,72920,4,182481.8325042725,109561.83250427249,47
+business_augmented_xgb,8239,8240,Nakatomi Airlines,EY 239,Springfield,Night,one,Morning,Gotham,Business,10.17,33,249249,0,141004.1093826294,-108244.8906173706,9
+business_augmented_xgb,5221,5222,Nakatomi Airlines,EY 237,Springfield,Evening,one,Late_Night,Los Santos,Business,9.83,2,117850,3,226037.0635986328,108187.06359863281,27
+business_augmented_xgb,12148,12149,,AI 2710,Hill Valley,Night,two_or_more,Afternoon,Gotham,Business,16.42,30,233740,0,127110.5432510376,-106629.4567489624,36
+business_augmented_xgb,691,692,Wayfarer Aviation,AI 2710,Hill Valley,Night,two_or_more,Afternoon,Gotham,Business,16.42,30,233740,0,127174.93057250977,-106565.06942749023,36
+business_augmented_xgb,11035,11036,Nakatomi Airlines,EY 353,Los Santos,Early_Morning,one,Night,Gotham,Business,15.67,23,73167,4,179243.9365386963,106076.93653869629,47
+business_augmented_xgb,13579,13580,Nakatomi Airlines,EY 239,Springfield,Night,one,Evening,Los Santos,Business,21.42,5,246996,1,141013.5555267334,-105982.4444732666,12
+frozen_equal_blend64,2858,2859,Stark Aviation,EK 573,Hill Valley,Night,one,Morning,Springfield,Business,11.92,26,289045,1,133360.13004317414,-155684.86995682586,22
+frozen_equal_blend64,2541,2542,Nakatomi Airlines,EY 239,Springfield,Night,one,Early_Morning,Night City,Business,8.92,39,317854,4,163046.73213440282,-154807.26786559718,13
+frozen_equal_blend64,4049,4050,Nakatomi Airlines,EY 353,Los Santos,Early_Morning,one,Evening,Springfield,Business,15.42,11,308302,1,154997.91848200036,-153304.08151799964,47
+frozen_equal_blend64,3137,3138,,EK 567,Springfield,Night,one,Morning,Los Santos,Business,11.42,31,288886,3,142320.5154373245,-146565.4845626755,33
+frozen_equal_blend64,12466,12467,,EY 223,Hill Valley,Night,one,Morning,Springfield,Business,11.5,20,233090,2,93646.6935758989,-139443.30642410112,28
+frozen_equal_blend64,13314,13315,Stark Aviation,EK 573,Hill Valley,Night,one,Morning,Springfield,Business,11.92,25,271552,1,132750.23926354936,-138801.76073645064,22
+frozen_equal_blend64,13206,13207,Nakatomi Airlines,EY 353,Los Santos,Early_Morning,one,Afternoon,Springfield,Business,9.75,23,81456,4,216937.10238359086,135481.10238359086,47
+frozen_equal_blend64,8881,8882,Nakatomi Airlines,EY 353,Los Santos,Early_Morning,one,Afternoon,Springfield,Business,9.75,23,81456,4,216937.10238359086,135481.10238359086,47
+frozen_equal_blend64,5431,5432,Nakatomi Airlines,EY 353,Los Santos,Early_Morning,one,Evening,Springfield,Business,15.42,10,86727,4,220475.96660517014,133748.96660517014,47
+frozen_equal_blend64,2844,2845,Nakatomi Airlines,EY 239,Springfield,Night,one,Morning,Gotham,Business,10.17,3,86227,2,214941.9550833665,128714.95508336651,11
+frozen_equal_blend64,14999,15000,Stark Aviation,EK 529,Los Santos,Night,one,Morning,Springfield,Business,10.83,11,275823,4,149408.3636677775,-126414.6363322225,54
+frozen_equal_blend64,14099,14100,Ajira Airways,UL 144,Night City,Night,one,Early_Morning,Metropolis,Business,7.58,3,213680,1,89270.41766529628,-124409.58233470372,22
+frozen_equal_blend64,3384,3385,Nakatomi Airlines,EY 237,Springfield,Evening,one,Late_Night,Los Santos,Business,9.83,18,300148,2,176515.08633323363,-123632.91366676637,25
+frozen_equal_blend64,5085,5086,,EY 237,Springfield,Evening,one,Late_Night,Hill Valley,Business,,25,249344,4,125977.02910335206,-123366.97089664794,26
+frozen_equal_blend64,13720,13721,Stark Aviation,EK 529,Los Santos,Night,one,Morning,Springfield,Business,10.83,5,275823,3,154786.24859876223,-121036.75140123777,47
+frozen_equal_blend64,5548,5549,Ajira Airways,UL 196,Metropolis,Evening,one,Late_Night,Night City,Business,7.42,7,206953,0,87116.07765654377,-119836.92234345623,54
+frozen_equal_blend64,2496,2497,Nakatomi Airlines,EY 353,Los Santos,Early_Morning,one,Evening,Springfield,Business,15.42,21,81214,4,200789.4217689354,119575.4217689354,47
+frozen_equal_blend64,3160,3161,,UL 172,Springfield,Night,one,Early_Morning,Metropolis,Business,6.92,24,196754,2,77961.47867221622,-118792.52132778378,19
+frozen_equal_blend64,5221,5222,Nakatomi Airlines,EY 237,Springfield,Evening,one,Late_Night,Los Santos,Business,9.83,2,117850,3,230164.6817469642,112314.6817469642,27
+frozen_equal_blend64,5582,5583,,EK 515,Metropolis,Night,one,Morning,Hill Valley,Business,10.08,12,241543,1,129686.04589279555,-111856.95410720445,3
+frozen_equal_blend64,12496,12497,Nakatomi Airlines,EY 359,Los Santos,Night,one,Morning,Gotham,Business,11.08,4,271113,0,159558.8735024908,-111554.12649750919,31
+frozen_equal_blend64,8239,8240,Nakatomi Airlines,EY 239,Springfield,Night,one,Morning,Gotham,Business,10.17,33,249249,0,138396.61995233144,-110852.38004766856,9
+frozen_equal_blend64,15062,15063,Nakatomi Airlines,EY 359,Los Santos,Night,one,Morning,Gotham,Business,11.08,5,79971,1,190379.66342989515,110408.66342989515,29
+frozen_equal_blend64,15006,15007,,EY 353,Los Santos,Early_Morning,one,Late_Night,Gotham,Business,,3,100140,2,210415.97599038924,110275.97599038924,54
+frozen_equal_blend64,6453,6454,,EY 343,Gotham,Morning,one,Evening,Springfield,Business,9.67,11,278762,3,174217.54636371828,-104544.45363628172,44
+frozen_equal_blend64,2823,2824,,EY 233,Springfield,Early_Morning,one,Afternoon,Metropolis,Business,,15,262890,4,158500.5720697779,-104389.4279302221,16
+frozen_equal_blend64,12148,12149,,AI 2710,Hill Valley,Night,two_or_more,Afternoon,Gotham,Business,16.42,30,233740,0,130903.64187268664,-102836.35812731336,36
+frozen_equal_blend64,691,692,Wayfarer Aviation,AI 2710,Hill Valley,Night,two_or_more,Afternoon,Gotham,Business,16.42,30,233740,0,131071.80492489746,-102668.19507510254,36
+frozen_equal_blend64,13579,13580,Nakatomi Airlines,EY 239,Springfield,Night,one,Evening,Los Santos,Business,21.42,5,246996,1,146504.54103515545,-100491.45896484455,12
+frozen_equal_blend64,8132,8133,Nakatomi Airlines,EY 233,Springfield,Early_Morning,one,Night,Gotham,Business,15.58,21,249249,4,149135.70460312106,-100113.29539687894,16
+business_equal_blend64,2541,2542,Nakatomi Airlines,EY 239,Springfield,Night,one,Early_Morning,Night City,Business,8.92,39,317854,4,159269.90209696794,-158584.09790303206,13
+business_equal_blend64,2858,2859,Stark Aviation,EK 573,Hill Valley,Night,one,Morning,Springfield,Business,11.92,26,289045,1,133978.3525976989,-155066.6474023011,22
+business_equal_blend64,4049,4050,Nakatomi Airlines,EY 353,Los Santos,Early_Morning,one,Evening,Springfield,Business,15.42,11,308302,1,156213.1745371965,-152088.8254628035,47
+business_equal_blend64,3137,3138,,EK 567,Springfield,Night,one,Morning,Los Santos,Business,11.42,31,288886,3,141635.9409922358,-147250.0590077642,33
+business_equal_blend64,12466,12467,,EY 223,Hill Valley,Night,one,Morning,Springfield,Business,11.5,20,233090,2,94496.84177688767,-138593.15822311235,28
+business_equal_blend64,13314,13315,Stark Aviation,EK 573,Hill Valley,Night,one,Morning,Springfield,Business,11.92,25,271552,1,133643.4935436397,-137908.5064563603,22
+business_equal_blend64,13206,13207,Nakatomi Airlines,EY 353,Los Santos,Early_Morning,one,Afternoon,Springfield,Business,9.75,23,81456,4,216101.1782350313,134645.1782350313,47
+business_equal_blend64,8881,8882,Nakatomi Airlines,EY 353,Los Santos,Early_Morning,one,Afternoon,Springfield,Business,9.75,23,81456,4,216101.1782350313,134645.1782350313,47
+business_equal_blend64,5431,5432,Nakatomi Airlines,EY 353,Los Santos,Early_Morning,one,Evening,Springfield,Business,15.42,10,86727,4,221119.58868565515,134392.58868565515,47
+business_equal_blend64,2844,2845,Nakatomi Airlines,EY 239,Springfield,Night,one,Morning,Gotham,Business,10.17,3,86227,2,216904.2639670335,130677.2639670335,11
+business_equal_blend64,14999,15000,Stark Aviation,EK 529,Los Santos,Night,one,Morning,Springfield,Business,10.83,11,275823,4,147985.4974822713,-127837.50251772869,54
+business_equal_blend64,5085,5086,,EY 237,Springfield,Evening,one,Late_Night,Hill Valley,Business,,25,249344,4,123475.8544944857,-125868.1455055143,26
+business_equal_blend64,3384,3385,Nakatomi Airlines,EY 237,Springfield,Evening,one,Late_Night,Los Santos,Business,9.83,18,300148,2,176528.32969057412,-123619.67030942588,25
+business_equal_blend64,13720,13721,Stark Aviation,EK 529,Los Santos,Night,one,Morning,Springfield,Business,10.83,5,275823,3,152652.21793876874,-123170.78206123126,47
+business_equal_blend64,14099,14100,Ajira Airways,UL 144,Night City,Night,one,Early_Morning,Metropolis,Business,7.58,3,213680,1,90982.0484865243,-122697.9515134757,22
+business_equal_blend64,3160,3161,,UL 172,Springfield,Night,one,Early_Morning,Metropolis,Business,6.92,24,196754,2,77296.77959461002,-119457.22040538998,19
+business_equal_blend64,5548,5549,Ajira Airways,UL 196,Metropolis,Evening,one,Late_Night,Night City,Business,7.42,7,206953,0,87521.80249988688,-119431.19750011312,54
+business_equal_blend64,2496,2497,Nakatomi Airlines,EY 353,Los Santos,Early_Morning,one,Evening,Springfield,Business,15.42,21,81214,4,200328.8479367414,119114.8479367414,47
+business_equal_blend64,2823,2824,,EY 233,Springfield,Early_Morning,one,Afternoon,Metropolis,Business,,15,262890,4,147919.70175931245,-114970.29824068755,16
+business_equal_blend64,5582,5583,,EK 515,Metropolis,Night,one,Morning,Hill Valley,Business,10.08,12,241543,1,128934.73172958754,-112608.26827041246,3
+business_equal_blend64,15062,15063,Nakatomi Airlines,EY 359,Los Santos,Night,one,Morning,Gotham,Business,11.08,5,79971,1,190137.9197063437,110166.9197063437,29
+business_equal_blend64,5221,5222,Nakatomi Airlines,EY 237,Springfield,Evening,one,Late_Night,Los Santos,Business,9.83,2,117850,3,227579.48684136523,109729.48684136523,27
+business_equal_blend64,15006,15007,,EY 353,Los Santos,Early_Morning,one,Late_Night,Gotham,Business,,3,100140,2,209287.8778204267,109147.87782042669,54
+business_equal_blend64,8239,8240,Nakatomi Airlines,EY 239,Springfield,Night,one,Morning,Gotham,Business,10.17,33,249249,0,140742.38061568188,-108506.61938431812,9
+business_equal_blend64,12496,12497,Nakatomi Airlines,EY 359,Los Santos,Night,one,Morning,Gotham,Business,11.08,4,271113,0,163403.26023904272,-107709.73976095728,31
+business_equal_blend64,6453,6454,,EY 343,Gotham,Morning,one,Evening,Springfield,Business,9.67,11,278762,3,173720.67568704186,-105041.32431295814,44
+business_equal_blend64,12148,12149,,AI 2710,Hill Valley,Night,two_or_more,Afternoon,Gotham,Business,16.42,30,233740,0,129856.05765688668,-103883.94234311332,36
+business_equal_blend64,691,692,Wayfarer Aviation,AI 2710,Hill Valley,Night,two_or_more,Afternoon,Gotham,Business,16.42,30,233740,0,130084.59624061198,-103655.40375938802,36
+business_equal_blend64,6863,6864,Nakatomi Airlines,EY 353,Los Santos,Early_Morning,one,Late_Night,Hill Valley,Business,22.42,18,72920,4,173878.46363261432,100958.46363261432,47
+business_equal_blend64,8132,8133,Nakatomi Airlines,EY 233,Springfield,Early_Morning,one,Night,Gotham,Business,15.58,21,249249,4,148521.6813945029,-100727.3186054971,16

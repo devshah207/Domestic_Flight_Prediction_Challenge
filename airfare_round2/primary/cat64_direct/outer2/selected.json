@@ -1,0 +1,85 @@
+{
+  "study": "primary_direct64_2",
+  "trial": 11,
+  "mode": "context",
+  "configuration": {
+    "depth": 5,
+    "learning_rate": 0.06938396409756391,
+    "leaves": 32,
+    "row_sample": 0.8886038960908215,
+    "column_sample": 0.7870758012545037,
+    "l2": 3.326039823567016,
+    "min_child": 10,
+    "random_strength": 0.20152885477976948
+  },
+  "rounds": 191,
+  "inner_splits": [
+    {
+      "split": 0,
+      "rounds": 228,
+      "n_fit": 9976,
+      "n_tune": 2494,
+      "fit_hash": "e748d9e28d5193ad2e1d8847ef066a561cb27a0950a0b7bfcd37728bd137d89f",
+      "tune_hash": "fbe4a6a5c6cabb011d6e28da0954d56316fe73b5814f98eab5c4917b9ce90704",
+      "seconds": 1.9247822369998175,
+      "r2": 0.9273495131715015,
+      "rmse": 10521.413854852664,
+      "mae": 4312.7944387722655,
+      "bias": -104.26232799475787
+    },
+    {
+      "split": 1,
+      "rounds": 154,
+      "n_fit": 9976,
+      "n_tune": 2494,
+      "fit_hash": "2e3325e9da6e5e764bb4934c02d98c01c51d69bbefe8c11a899a1daf38a9dd05",
+      "tune_hash": "7f53b94561014cbac6e91e75e9638c85abf5e98eabaf679b853f630568448e5e",
+      "seconds": 1.1073480649997691,
+      "r2": 0.9292636917853816,
+      "rmse": 10364.661968623823,
+      "mae": 4514.236247566062,
+      "bias": 300.04771737129204
+    }
+  ],
+  "threshold": 64,
+  "tuning_mse": 109063183.61446133,
+  "raw_optuna_parameters": {
+    "feature_mode": "context",
+    "depth": 5,
+    "learning_rate": 0.06938396409756391,
+    "leaves": 48,
+    "row_sample": 0.8886038960908215,
+    "column_sample": 0.7870758012545037,
+    "l2": 3.326039823567016,
+    "min_child": 10,
+    "random_strength": 0.20152885477976948
+  },
+  "trial_count": 12,
+  "signature": {
+    "sources": {
+      "airfare_round2/direct_cat64.py": "37bb3b151894f79617ad7aaf827bda3e84517564258be94c1c1bac87d0120732",
+      "airfare_round2/PROTOCOL.md": "fc9a9c3e5a6f50d324c7e518a9e23cd8bfcd87e22e009d4468cba9c6e427d37d",
+      "airfare_fresh/study.py": "577774ae3227d9c1c2540d1a3a8deb1f3634a474e23bb84f10e10cb86d054134",
+      "airfare_fresh/features.py": "71f5b7d1c96d76d6fef81fb4692c636bc553c31ec5bee123fee64437d23ab62e"
+    },
+    "input_rows": "6b0c9793817dc3e1b229ecea9ebbef14eef34452abf05a6f708d197cf6d8cc07",
+    "raw_sha256": "60a27a8390cc639f720fd490389592b0e941af4576f49ee9ed394fc0408609d4",
+    "target_sha256": "2a994f6ab2942435ee3e7d699f7524badb621fcc17cd379124b9c81c8a004de4",
+    "seed": 20262222,
+    "threshold": 64,
+    "trials": 12,
+    "cap": 1200,
+    "patience": 70,
+    "versions": {
+      "numpy": "2.3.5",
+      "pandas": "2.2.3",
+      "scipy": "1.17.0",
+      "scikit-learn": "1.8.0",
+      "xgboost-cpu": "3.1.1",
+      "lightgbm": "4.6.0",
+      "catboost": "1.2.8",
+      "optuna": "4.6.0",
+      "joblib": "1.5.3"
+    }
+  }
+}

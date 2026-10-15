@@ -2,6 +2,19 @@
 
 Executed airfare regression research, Python implementations, exact model configurations, validation diagnostics and Kaggle submission files. No neural networks were used. The competition datasets and Python virtual environment are not included.
 
+## Follow-up experiments
+
+The follow-up studies directly tune CatBoost64 and evaluate a bounded Business-class specialist, with fixed prediction mixtures and a conditionally registered second split-seed check. The earlier six submissions remain available below.
+
+- **[Download four new comparison submissions and exact configurations](https://github.com/devshah207/Domestic_Flight_Prediction_Challenge/raw/refs/heads/main/downloads/Airfare_New_Submissions_and_Configs.zip)**
+- [Read the measured results, trade-offs and reproduction instructions](NEXT_EXPERIMENTS.md)
+- [Exact follow-up model parameters](NEXT_MODEL_CONFIGURATIONS.json)
+- [Direct CatBoost64 validation findings](airfare_round2/analysis/FINDINGS.md)
+- [Business-specialist validation findings](airfare_business/analysis/FINDINGS.md)
+- [Download the complete follow-up code, models and results](https://github.com/devshah207/Domestic_Flight_Prediction_Challenge/raw/refs/heads/main/downloads/Airfare_Next_Experiments_Results.zip)
+
+These are training-only validation results, not new Kaggle scores. Read the paired folds and expensive-fare diagnostics before treating a small pooled gain as evidence of improvement.
+
 ## Download the submissions
 
 **[Download all six CSVs and exact configurations as one ZIP](https://github.com/devshah207/Domestic_Flight_Prediction_Challenge/raw/refs/heads/main/downloads/Airfare_Submissions_and_Configs.zip)**

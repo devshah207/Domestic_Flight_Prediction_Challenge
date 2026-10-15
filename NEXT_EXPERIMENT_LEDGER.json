@@ -1,0 +1,111 @@
+{
+  "direct": {
+    "trials_completed": 72,
+    "research_model_fits": 150,
+    "synthetic_smoke_fits_excluded": 1,
+    "secondary_completed": false,
+    "source_hashes": {
+      "airfare_round2/direct_cat64.py": "37bb3b151894f79617ad7aaf827bda3e84517564258be94c1c1bac87d0120732",
+      "airfare_round2/PROTOCOL.md": "fc9a9c3e5a6f50d324c7e518a9e23cd8bfcd87e22e009d4468cba9c6e427d37d",
+      "airfare_fresh/study.py": "577774ae3227d9c1c2540d1a3a8deb1f3634a474e23bb84f10e10cb86d054134",
+      "airfare_fresh/features.py": "71f5b7d1c96d76d6fef81fb4692c636bc553c31ec5bee123fee64437d23ab62e"
+    },
+    "test_accessed_by_analysis": false
+  },
+  "business": {
+    "source_hashes": {
+      "airfare_business/specialist.py": "61f3ee6f79473abcefa6d0ec59200c9f2819771748604bfa5a20197a68fc2037",
+      "airfare_business/PROTOCOL.md": "da040e6d84264facfbd63481a974bd1ec1607ef4767d30ef1a1b5767b5401dc4",
+      "airfare_round2/direct_cat64.py": "37bb3b151894f79617ad7aaf827bda3e84517564258be94c1c1bac87d0120732",
+      "airfare_fresh/study.py": "577774ae3227d9c1c2540d1a3a8deb1f3634a474e23bb84f10e10cb86d054134",
+      "airfare_fresh/features.py": "71f5b7d1c96d76d6fef81fb4692c636bc553c31ec5bee123fee64437d23ab62e"
+    },
+    "specialist_trials": 132,
+    "secondary_global_trials": 60,
+    "total_trials": 192,
+    "research_model_fits": 427,
+    "synthetic_smoke_fits_excluded": 1,
+    "secondary_completed": true,
+    "economy_oof_predictions_unchanged": true,
+    "test_accessed_by_analysis": false
+  },
+  "direct_compute_gate": {
+    "run_secondary": false,
+    "delta_r2_cat": -0.0017408004424359635,
+    "delta_r2_blend": -0.0006612531770290309,
+    "blend_fold_deltas": [
+      0.0,
+      -0.0029262260768883053,
+      -0.0004641940613334672,
+      -0.00028394096517303513,
+      0.00038260193707129186
+    ],
+    "note": "Registered compute allocation only; not a promotion or statistical significance test"
+  },
+  "business_compute_gate": {
+    "run_secondary": true,
+    "augmented_delta_r2": 0.0014365662404740576,
+    "blend_delta_r2": 3.949869034103326e-05,
+    "blend_fold_deltas": [
+      0.0006124725207866666,
+      0.0006712004578600661,
+      0.0006441391806321084,
+      4.81289803957452e-05,
+      -0.0017664355872816229
+    ],
+    "note": "Prospective compute rule, not significance or submission eligibility"
+  },
+  "inference_audit": {
+    "completed_at_utc": "2026-10-15T10:14:47.613015+00:00",
+    "manifest_sha256": "a13ca037e9e4babea3627f129d347d5dde259683374e2128ed4018d5a0794662",
+    "test_content_reads": 1,
+    "test_sha256": "fa76192bf0d6c4186011cb594a300dd40c3418655c16a9844840977043907861",
+    "sample_sha256": "4aab67b24e1a4a56327f54084280fad29d33986c0c3ee1387c5b4f8d6588a75b",
+    "rows_per_submission": 3898,
+    "checks": [
+      "frozen sources, versions and trained-model hashes",
+      "id,price schema",
+      "sample ID order",
+      "unique nonmissing IDs",
+      "3898 rows",
+      "finite nonnegative prices"
+    ],
+    "submission_sha256": {
+      "submission_catboost64_direct_tuned.csv": "f7684d14f2151ea3e69d7020afc61aea5dc4fefab9584bdc676bbc1b882a25af",
+      "submission_equal_blend_direct64.csv": "5b068838756bc3a332b6e798982095062631def6066b44a385b5784d7a70dd4f",
+      "submission_business_augmented_xgb.csv": "aa6efec1f7120449d0a3a01e2dd44de2fb3f32d0685b079178366b6f74cdb775",
+      "submission_business_equal_blend64.csv": "a0cb9b68a5f7530f2f984e055ef6cc8d216605c1af08a64fa9961cfbdb7690a7"
+    },
+    "model_training_performed": false,
+    "model_changes_after_test_access": false
+  },
+  "primary_comparison": [
+    {
+      "candidate": "Frozen previous best blend",
+      "filename": "submission_equal_blend_onehot64.csv",
+      "primary_outer_r2": 0.9285937076224434
+    },
+    {
+      "candidate": "Directly tuned CatBoost64",
+      "filename": "submission_catboost64_direct_tuned.csv",
+      "primary_outer_r2": 0.92331554755578
+    },
+    {
+      "candidate": "Blend with directly tuned CatBoost64",
+      "filename": "submission_equal_blend_direct64.csv",
+      "primary_outer_r2": 0.9279324544454144
+    },
+    {
+      "candidate": "Business-augmented XGBoost",
+      "filename": "submission_business_augmented_xgb.csv",
+      "primary_outer_r2": 0.9268526866949186
+    },
+    {
+      "candidate": "Blend with Business-augmented XGBoost",
+      "filename": "submission_business_equal_blend64.csv",
+      "primary_outer_r2": 0.9286332063127845
+    }
+  ],
+  "total_research_model_fits": 577,
+  "total_trials": 264
+}

@@ -1,0 +1,103 @@
+{
+  "fold": 3,
+  "selected": {
+    "study": "primary_direct64_3",
+    "trial": 11,
+    "mode": "context",
+    "configuration": {
+      "depth": 7,
+      "learning_rate": 0.025016437741725656,
+      "leaves": 16,
+      "row_sample": 0.93309340894833,
+      "column_sample": 0.7013557195673101,
+      "l2": 3.1613288483263364,
+      "min_child": 60,
+      "random_strength": 0.20213549778465884
+    },
+    "rounds": 481,
+    "inner_splits": [
+      {
+        "split": 0,
+        "rounds": 525,
+        "n_fit": 9978,
+        "n_tune": 2494,
+        "fit_hash": "a09c10c4b69f722103bee665162dcdf02203ce7b848effe2d6f564c36190ec6f",
+        "tune_hash": "c4c1ea47fc271f76685b0189b9ae623ee7d8dac0b69a0233bf0d402bb1683c58",
+        "seconds": 2.660837245000039,
+        "r2": 0.9343883398657817,
+        "rmse": 9710.566869399807,
+        "mae": 4221.191508497305,
+        "bias": 685.4173025134387
+      },
+      {
+        "split": 1,
+        "rounds": 437,
+        "n_fit": 9977,
+        "n_tune": 2495,
+        "fit_hash": "82c4e436f054f151594a6a748d4e4fef9d48890f78eeaea35840ccebcd24a80a",
+        "tune_hash": "b433047f7805dc7e29b0eff68c84dc2ba984c133f7267ef1a0e156075638de32",
+        "seconds": 2.0284267900001396,
+        "r2": 0.9269116803853449,
+        "rmse": 10588.169106093268,
+        "mae": 4450.1353287985185,
+        "bias": 12.852353236463701
+      }
+    ],
+    "threshold": 64,
+    "tuning_mse": 103204002.32153459,
+    "raw_optuna_parameters": {
+      "feature_mode": "context",
+      "depth": 7,
+      "learning_rate": 0.025016437741725656,
+      "leaves": 16,
+      "row_sample": 0.93309340894833,
+      "column_sample": 0.7013557195673101,
+      "l2": 3.1613288483263364,
+      "min_child": 60,
+      "random_strength": 0.20213549778465884
+    },
+    "trial_count": 12,
+    "signature": {
+      "sources": {
+        "airfare_round2/direct_cat64.py": "37bb3b151894f79617ad7aaf827bda3e84517564258be94c1c1bac87d0120732",
+        "airfare_round2/PROTOCOL.md": "fc9a9c3e5a6f50d324c7e518a9e23cd8bfcd87e22e009d4468cba9c6e427d37d",
+        "airfare_fresh/study.py": "577774ae3227d9c1c2540d1a3a8deb1f3634a474e23bb84f10e10cb86d054134",
+        "airfare_fresh/features.py": "71f5b7d1c96d76d6fef81fb4692c636bc553c31ec5bee123fee64437d23ab62e"
+      },
+      "input_rows": "6b0c9793817dc3e1b229ecea9ebbef14eef34452abf05a6f708d197cf6d8cc07",
+      "raw_sha256": "ebc29d3c779fea661505bc294126565af75f26231a1196c85f6fca7938814696",
+      "target_sha256": "d20ed660c6d7cc5fd72f4636530a910840efed14955999d7dbf45df709724b5f",
+      "seed": 20262223,
+      "threshold": 64,
+      "trials": 12,
+      "cap": 1200,
+      "patience": 70,
+      "versions": {
+        "numpy": "2.3.5",
+        "pandas": "2.2.3",
+        "scipy": "1.17.0",
+        "scikit-learn": "1.8.0",
+        "xgboost-cpu": "3.1.1",
+        "lightgbm": "4.6.0",
+        "catboost": "1.2.8",
+        "optuna": "4.6.0",
+        "joblib": "1.5.3"
+      }
+    }
+  },
+  "n_fit": 12472,
+  "n_validation": 3117,
+  "train_r2": 0.9427206317073087,
+  "refit_seconds": 2.5963196399998196,
+  "actual_trees": 481,
+  "source_hashes": {
+    "airfare_round2/direct_cat64.py": "37bb3b151894f79617ad7aaf827bda3e84517564258be94c1c1bac87d0120732",
+    "airfare_round2/PROTOCOL.md": "fc9a9c3e5a6f50d324c7e518a9e23cd8bfcd87e22e009d4468cba9c6e427d37d",
+    "airfare_fresh/study.py": "577774ae3227d9c1c2540d1a3a8deb1f3634a474e23bb84f10e10cb86d054134",
+    "airfare_fresh/features.py": "71f5b7d1c96d76d6fef81fb4692c636bc553c31ec5bee123fee64437d23ab62e"
+  },
+  "r2": 0.9284710429238676,
+  "rmse": 10434.227748422396,
+  "mae": 4326.655708807505,
+  "bias": 7.590036505614406
+}

@@ -1,0 +1,85 @@
+{
+  "study": "primary_direct64_1",
+  "trial": 0,
+  "mode": "minimal",
+  "configuration": {
+    "depth": 6,
+    "learning_rate": 0.045,
+    "leaves": 32,
+    "row_sample": 0.85,
+    "column_sample": 0.85,
+    "l2": 12.0,
+    "min_child": 35,
+    "random_strength": 0.7
+  },
+  "rounds": 818,
+  "inner_splits": [
+    {
+      "split": 0,
+      "rounds": 739,
+      "n_fit": 9978,
+      "n_tune": 2494,
+      "fit_hash": "fcf1790fb8a264ce4b9925c7aa74797900a7e4a2fdc2cfb578f659d865facdb6",
+      "tune_hash": "5be1b04cef243f1686be60938d1954eae7f2775269f9fafdf17e7a7239afa6f1",
+      "seconds": 3.6744224130002294,
+      "r2": 0.9404911739117664,
+      "rmse": 9510.157986631571,
+      "mae": 4194.835681642164,
+      "bias": 286.8434673557677
+    },
+    {
+      "split": 1,
+      "rounds": 898,
+      "n_fit": 9978,
+      "n_tune": 2494,
+      "fit_hash": "8c4d8711aca326e690e0b53566aeee9de5265bad96d8376bee9f66226267a8c3",
+      "tune_hash": "0dd5f5b5ee314a35736e491e0ad12ea7c51364589d886943245da8036a0ee26a",
+      "seconds": 4.327288469999985,
+      "r2": 0.9115932079958383,
+      "rmse": 11652.277031190908,
+      "mae": 4510.775012480227,
+      "bias": 362.31039266895766
+    }
+  ],
+  "threshold": 64,
+  "tuning_mse": 113109332.47115572,
+  "raw_optuna_parameters": {
+    "feature_mode": "minimal",
+    "depth": 6,
+    "learning_rate": 0.045,
+    "leaves": 32,
+    "row_sample": 0.85,
+    "column_sample": 0.85,
+    "l2": 12.0,
+    "min_child": 35,
+    "random_strength": 0.7
+  },
+  "trial_count": 12,
+  "signature": {
+    "sources": {
+      "airfare_round2/direct_cat64.py": "37bb3b151894f79617ad7aaf827bda3e84517564258be94c1c1bac87d0120732",
+      "airfare_round2/PROTOCOL.md": "fc9a9c3e5a6f50d324c7e518a9e23cd8bfcd87e22e009d4468cba9c6e427d37d",
+      "airfare_fresh/study.py": "577774ae3227d9c1c2540d1a3a8deb1f3634a474e23bb84f10e10cb86d054134",
+      "airfare_fresh/features.py": "71f5b7d1c96d76d6fef81fb4692c636bc553c31ec5bee123fee64437d23ab62e"
+    },
+    "input_rows": "6b0c9793817dc3e1b229ecea9ebbef14eef34452abf05a6f708d197cf6d8cc07",
+    "raw_sha256": "56b46a72b80d0988c522fdac7d7cc18e46ebb13274c42c0b11c898d81873efdc",
+    "target_sha256": "360d96ea53d18e46ebef294c51d1dd41e12ecfe4376243dbe9b7ff84f5e4952c",
+    "seed": 20262221,
+    "threshold": 64,
+    "trials": 12,
+    "cap": 1200,
+    "patience": 70,
+    "versions": {
+      "numpy": "2.3.5",
+      "pandas": "2.2.3",
+      "scipy": "1.17.0",
+      "scikit-learn": "1.8.0",
+      "xgboost-cpu": "3.1.1",
+      "lightgbm": "4.6.0",
+      "catboost": "1.2.8",
+      "optuna": "4.6.0",
+      "joblib": "1.5.3"
+    }
+  }
+}

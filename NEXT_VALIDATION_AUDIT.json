@@ -1,0 +1,130 @@
+{
+  "training_sha256": "6b0c9793817dc3e1b229ecea9ebbef14eef34452abf05a6f708d197cf6d8cc07",
+  "training_rows": 15589,
+  "checks": [
+    {
+      "study": "business",
+      "split": "primary",
+      "fold": 0,
+      "global_and_specialist_input_hashes_match": true,
+      "global_and_specialist_seed_identities_match": true,
+      "inner_business_fit_indices_match": true,
+      "group_overlap": 0
+    },
+    {
+      "study": "business",
+      "split": "primary",
+      "fold": 1,
+      "global_and_specialist_input_hashes_match": true,
+      "global_and_specialist_seed_identities_match": true,
+      "inner_business_fit_indices_match": true,
+      "group_overlap": 0
+    },
+    {
+      "study": "business",
+      "split": "primary",
+      "fold": 2,
+      "global_and_specialist_input_hashes_match": true,
+      "global_and_specialist_seed_identities_match": true,
+      "inner_business_fit_indices_match": true,
+      "group_overlap": 0
+    },
+    {
+      "study": "business",
+      "split": "primary",
+      "fold": 3,
+      "global_and_specialist_input_hashes_match": true,
+      "global_and_specialist_seed_identities_match": true,
+      "inner_business_fit_indices_match": true,
+      "group_overlap": 0
+    },
+    {
+      "study": "business",
+      "split": "primary",
+      "fold": 4,
+      "global_and_specialist_input_hashes_match": true,
+      "global_and_specialist_seed_identities_match": true,
+      "inner_business_fit_indices_match": true,
+      "group_overlap": 0
+    },
+    {
+      "study": "business",
+      "split": "sensitivity",
+      "fold": 0,
+      "global_and_specialist_input_hashes_match": true,
+      "global_and_specialist_seed_identities_match": true,
+      "inner_business_fit_indices_match": true,
+      "group_overlap": 0
+    },
+    {
+      "study": "business",
+      "split": "sensitivity",
+      "fold": 1,
+      "global_and_specialist_input_hashes_match": true,
+      "global_and_specialist_seed_identities_match": true,
+      "inner_business_fit_indices_match": true,
+      "group_overlap": 0
+    },
+    {
+      "study": "business",
+      "split": "sensitivity",
+      "fold": 2,
+      "global_and_specialist_input_hashes_match": true,
+      "global_and_specialist_seed_identities_match": true,
+      "inner_business_fit_indices_match": true,
+      "group_overlap": 0
+    },
+    {
+      "study": "business",
+      "split": "sensitivity",
+      "fold": 3,
+      "global_and_specialist_input_hashes_match": true,
+      "global_and_specialist_seed_identities_match": true,
+      "inner_business_fit_indices_match": true,
+      "group_overlap": 0
+    },
+    {
+      "study": "business",
+      "split": "sensitivity",
+      "fold": 4,
+      "global_and_specialist_input_hashes_match": true,
+      "global_and_specialist_seed_identities_match": true,
+      "inner_business_fit_indices_match": true,
+      "group_overlap": 0
+    },
+    {
+      "study": "direct_cat64",
+      "split": "primary",
+      "fold": 0,
+      "input_hashes_and_seed_match": true
+    },
+    {
+      "study": "direct_cat64",
+      "split": "primary",
+      "fold": 1,
+      "input_hashes_and_seed_match": true
+    },
+    {
+      "study": "direct_cat64",
+      "split": "primary",
+      "fold": 2,
+      "input_hashes_and_seed_match": true
+    },
+    {
+      "study": "direct_cat64",
+      "split": "primary",
+      "fold": 3,
+      "input_hashes_and_seed_match": true
+    },
+    {
+      "study": "direct_cat64",
+      "split": "primary",
+      "fold": 4,
+      "input_hashes_and_seed_match": true
+    }
+  ],
+  "full_training_input_identities_verified": true,
+  "conclusion": "Stored global and specialist tuning inputs correspond to outer training partitions; group and inner specialist fitting identities verified.",
+  "limitation": "This audits leakage boundaries, not hidden-test performance or absence of statistical overfitting.",
+  "test_accessed": false
+}

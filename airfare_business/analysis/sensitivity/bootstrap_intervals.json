@@ -1,0 +1,31 @@
+{
+  "draws": 500,
+  "seed": 20261101,
+  "resampling_unit": "whole itinerary group",
+  "n_groups": 14905,
+  "absolute": [
+    {
+      "model": "global_xgb",
+      "estimate": 0.9256344077207181,
+      "ci_low": 0.9178496338512987,
+      "ci_high": 0.932952430856285
+    },
+    {
+      "model": "business_augmented_xgb",
+      "estimate": 0.9261290394644827,
+      "ci_low": 0.9182654280370469,
+      "ci_high": 0.9334654564949966
+    }
+  ],
+  "paired": [
+    {
+      "model_a": "global_xgb",
+      "model_b": "business_augmented_xgb",
+      "delta_r2_a_minus_b": -0.0004946317437645176,
+      "ci_low": -0.001584974556993754,
+      "ci_high": 0.0005282220538176913,
+      "bootstrap_fraction_positive": 0.174
+    }
+  ],
+  "limitations": "Descriptive OOF prediction uncertainty only; no retraining, repeated tuning, fold-generation, or accumulated model-selection uncertainty. Confidence intervals are not submission eligibility gates."
+}

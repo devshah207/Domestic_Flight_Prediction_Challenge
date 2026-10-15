@@ -1,0 +1,13 @@
+candidate,control,fold,delta_r2,delta_rmse
+business_augmented_xgb,global_xgb,0,0.0025818973254617683,-190.2826899709289
+business_augmented_xgb,global_xgb,1,0.0037632010860462195,-259.10555460341675
+business_augmented_xgb,global_xgb,2,0.0015872609336999854,-121.35275344966612
+business_augmented_xgb,global_xgb,3,0.0010156724935277417,-75.20664145728733
+business_augmented_xgb,global_xgb,4,-0.0017648141894027747,120.27946280507604
+business_augmented_xgb,global_xgb,pooled,0.0014365662404740576,-103.40753814182426
+business_equal_blend64,frozen_equal_blend64,0,0.0006124725207866666,-45.87968586306306
+business_equal_blend64,frozen_equal_blend64,1,0.0006712004578600661,-47.96583327352164
+business_equal_blend64,frozen_equal_blend64,2,0.0006441391806321084,-49.32498144652891
+business_equal_blend64,frozen_equal_blend64,3,4.81289803957452e-05,-3.623733927253852
+business_equal_blend64,frozen_equal_blend64,4,-0.0017664355872816229,121.68215950817466
+business_equal_blend64,frozen_equal_blend64,pooled,3.949869034103326e-05,-2.892124856096416

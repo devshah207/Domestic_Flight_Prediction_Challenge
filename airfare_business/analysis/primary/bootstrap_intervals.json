@@ -1,0 +1,83 @@
+{
+  "draws": 500,
+  "seed": 20261031,
+  "resampling_unit": "whole itinerary group",
+  "n_groups": 14905,
+  "absolute": [
+    {
+      "model": "global_xgb",
+      "estimate": 0.9254161204544445,
+      "ci_low": 0.9175500622259223,
+      "ci_high": 0.9336255240135027
+    },
+    {
+      "model": "business_augmented_xgb",
+      "estimate": 0.9268526866949186,
+      "ci_low": 0.9192750542129804,
+      "ci_high": 0.9350154372190354
+    },
+    {
+      "model": "frozen_equal_blend64",
+      "estimate": 0.9285937076224434,
+      "ci_low": 0.9212004012158918,
+      "ci_high": 0.9363683511894111
+    },
+    {
+      "model": "business_equal_blend64",
+      "estimate": 0.9286332063127845,
+      "ci_low": 0.9212925308926642,
+      "ci_high": 0.936417630930674
+    }
+  ],
+  "paired": [
+    {
+      "model_a": "global_xgb",
+      "model_b": "business_augmented_xgb",
+      "delta_r2_a_minus_b": -0.0014365662404740576,
+      "ci_low": -0.002858566207450491,
+      "ci_high": -6.402682541500102e-05,
+      "bootstrap_fraction_positive": 0.018
+    },
+    {
+      "model_a": "global_xgb",
+      "model_b": "frozen_equal_blend64",
+      "delta_r2_a_minus_b": -0.0031775871679988743,
+      "ci_low": -0.005136329603486251,
+      "ci_high": -0.0012273868924805823,
+      "bootstrap_fraction_positive": 0.002
+    },
+    {
+      "model_a": "global_xgb",
+      "model_b": "business_equal_blend64",
+      "delta_r2_a_minus_b": -0.0032170858583399076,
+      "ci_low": -0.005494108429953265,
+      "ci_high": -0.001010367962306252,
+      "bootstrap_fraction_positive": 0.002
+    },
+    {
+      "model_a": "business_augmented_xgb",
+      "model_b": "frozen_equal_blend64",
+      "delta_r2_a_minus_b": -0.0017410209275248167,
+      "ci_low": -0.0032824528294416234,
+      "ci_high": -0.0002107950129678305,
+      "bootstrap_fraction_positive": 0.012
+    },
+    {
+      "model_a": "business_augmented_xgb",
+      "model_b": "business_equal_blend64",
+      "delta_r2_a_minus_b": -0.00178051961786585,
+      "ci_low": -0.003332237891523593,
+      "ci_high": -0.00012159816839605055,
+      "bootstrap_fraction_positive": 0.014
+    },
+    {
+      "model_a": "frozen_equal_blend64",
+      "model_b": "business_equal_blend64",
+      "delta_r2_a_minus_b": -3.949869034103326e-05,
+      "ci_low": -0.0004944277748713561,
+      "ci_high": 0.00045461700880738965,
+      "bootstrap_fraction_positive": 0.428
+    }
+  ],
+  "limitations": "Descriptive OOF prediction uncertainty only; no retraining, repeated tuning, fold-generation, or accumulated model-selection uncertainty. Confidence intervals are not submission eligibility gates."
+}

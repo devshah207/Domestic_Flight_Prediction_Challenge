@@ -1,0 +1,119 @@
+{
+  "source_hashes": {
+    "airfare_business/specialist.py": "61f3ee6f79473abcefa6d0ec59200c9f2819771748604bfa5a20197a68fc2037",
+    "airfare_business/PROTOCOL.md": "da040e6d84264facfbd63481a974bd1ec1607ef4767d30ef1a1b5767b5401dc4",
+    "airfare_round2/direct_cat64.py": "37bb3b151894f79617ad7aaf827bda3e84517564258be94c1c1bac87d0120732",
+    "airfare_fresh/study.py": "577774ae3227d9c1c2540d1a3a8deb1f3634a474e23bb84f10e10cb86d054134",
+    "airfare_fresh/features.py": "71f5b7d1c96d76d6fef81fb4692c636bc553c31ec5bee123fee64437d23ab62e"
+  },
+  "rows": [
+    {
+      "model": "global_xgb",
+      "fold": 4,
+      "n_fit": 12471,
+      "n_validation": 3118,
+      "business_fit_rows": 5104,
+      "business_validation_rows": 1276,
+      "train_r2": 0.957175312264475,
+      "r2": 0.914093946999256,
+      "rmse": 11637.536463259657,
+      "mae": 4322.070970688209,
+      "bias": -490.56293204382797
+    },
+    {
+      "model": "business_augmented_xgb",
+      "fold": 4,
+      "n_fit": 12471,
+      "n_validation": 3118,
+      "business_fit_rows": 5104,
+      "business_validation_rows": 1276,
+      "train_r2": 0.959108662069058,
+      "r2": 0.9134347589845966,
+      "rmse": 11682.100636992682,
+      "mae": 4264.327978863634,
+      "bias": -490.20625291748485
+    }
+  ],
+  "specialist_selected": {
+    "study": "business_sensitivity_outer4",
+    "trial": 11,
+    "configuration": {
+      "depth": 5,
+      "leaves": 32,
+      "learning_rate": 0.03152892271999065,
+      "row_sample": 0.8078738726168164,
+      "column_sample": 0.781771931988027,
+      "l2": 9.817698219040658,
+      "l1": 0.4051161834686972,
+      "split_gain": 0.019322808142450965,
+      "min_child": 12
+    },
+    "mode": "context",
+    "rounds": 312,
+    "inner_splits": [
+      {
+        "split": 0,
+        "rounds": 454,
+        "trained_rounds": 524,
+        "n_fit": 4082,
+        "n_tune": 1022,
+        "seconds": 2.9666540609996446,
+        "best_plus_patience_reaches_ceiling": false,
+        "r2": 0.8886566847120217,
+        "rmse": 15618.167276548247,
+        "mae": 7562.7141119496,
+        "bias": -1164.2883351040446
+      },
+      {
+        "split": 1,
+        "rounds": 171,
+        "trained_rounds": 241,
+        "n_fit": 4082,
+        "n_tune": 1022,
+        "seconds": 1.204441959000178,
+        "best_plus_patience_reaches_ceiling": false,
+        "r2": 0.8734239839879364,
+        "rmse": 16414.07791066787,
+        "mae": 8243.975633875965,
+        "bias": 143.97113703468307
+      }
+    ],
+    "raw_optuna_parameters": {
+      "depth": 5,
+      "leaves": 32,
+      "learning_rate": 0.03152892271999065,
+      "row_sample": 0.8078738726168164,
+      "column_sample": 0.781771931988027,
+      "l2": 9.817698219040658,
+      "l1": 0.4051161834686972,
+      "split_gain": 0.019322808142450965,
+      "min_child": 12
+    },
+    "objective": "original-price Business halfblend MSE",
+    "tuning_mse": 256674551.36785874,
+    "trial_count": 12,
+    "signature": {
+      "source_hashes": {
+        "airfare_business/specialist.py": "61f3ee6f79473abcefa6d0ec59200c9f2819771748604bfa5a20197a68fc2037",
+        "airfare_business/PROTOCOL.md": "da040e6d84264facfbd63481a974bd1ec1607ef4767d30ef1a1b5767b5401dc4",
+        "airfare_round2/direct_cat64.py": "37bb3b151894f79617ad7aaf827bda3e84517564258be94c1c1bac87d0120732",
+        "airfare_fresh/study.py": "577774ae3227d9c1c2540d1a3a8deb1f3634a474e23bb84f10e10cb86d054134",
+        "airfare_fresh/features.py": "71f5b7d1c96d76d6fef81fb4692c636bc553c31ec5bee123fee64437d23ab62e"
+      },
+      "training_sha256": "6b0c9793817dc3e1b229ecea9ebbef14eef34452abf05a6f708d197cf6d8cc07",
+      "local_raw_sha256": "3d10024cd67e75a3f8681b88998a05fb4fd99474267df12a4edc1094d6f6654b",
+      "local_y_sha256": "33f81ad827e2454affae9f5ffcd9c7bdfaa372dd6457e4626d509ba5a23820be",
+      "global_selected_sha256": "5f10e827132a330b957d76e3511234411ed83d4bd919553af85b9e4eef7f7f17",
+      "inner_seed": 20276024,
+      "sampler_seed": 20277024,
+      "trials": 12,
+      "cap": 1200,
+      "patience": 70,
+      "mixture": 0.5
+    }
+  },
+  "refit_seconds": 4.178698269000051,
+  "global_rounds": 553,
+  "specialist_rounds": 312,
+  "economy_predictions_unchanged": true
+}

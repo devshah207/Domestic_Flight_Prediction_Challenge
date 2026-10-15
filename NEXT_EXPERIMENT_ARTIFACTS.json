@@ -1,0 +1,862 @@
+{
+  "airfare_round2/PROTOCOL.md": {
+    "bytes": 6632,
+    "sha256": "fc9a9c3e5a6f50d324c7e518a9e23cd8bfcd87e22e009d4468cba9c6e427d37d"
+  },
+  "airfare_round2/REGISTRATION.json": {
+    "bytes": 1186,
+    "sha256": "52085cc51d99abf004873489b8685a44c4dc5bd7cf5b65af2494ecaa53035d93"
+  },
+  "airfare_round2/USER_REPORTED_PUBLIC_RESULTS.json": {
+    "bytes": 331,
+    "sha256": "8e9384343855fd22f54760642ddfe68fd8283564bb5224cf79c068de99065b12"
+  },
+  "airfare_round2/analysis/FINDINGS.md": {
+    "bytes": 4431,
+    "sha256": "9954e98999984360d9acf84b4ed19b21ba626da06cbf3b16137cd486695a728d"
+  },
+  "airfare_round2/analysis/all_trials.json": {
+    "bytes": 133335,
+    "sha256": "eaa44881ffc145b4991d5570c987bf8a22acd3daa1d16e9ae408c33b3e159c17"
+  },
+  "airfare_round2/analysis/completion.json": {
+    "bytes": 599,
+    "sha256": "6405e59bfc853e50c85b5fff7d568e0153e34f930dae1ad20d0a7da813a18938"
+  },
+  "airfare_round2/analysis/primary/aligned_oof.csv": {
+    "bytes": 2371975,
+    "sha256": "7822b06174f436b1be6c21c329e84e8aa315e5fc15512e28391763b7087f4aa1"
+  },
+  "airfare_round2/analysis/primary/bootstrap_draws.csv": {
+    "bytes": 56695,
+    "sha256": "2545dc30b36b2f686e0d8776c6f72f750c1c328c0f575d8fcbc746f71801a2e8"
+  },
+  "airfare_round2/analysis/primary/bootstrap_intervals.json": {
+    "bytes": 5051,
+    "sha256": "ba4abf8deacd30584dd1c4111f0a31e29861808053e4f557ed072141af50e68d"
+  },
+  "airfare_round2/analysis/primary/expensive_fare_error_share.png": {
+    "bytes": 68499,
+    "sha256": "8956fbd7b2bf8ef9f44a614f4dd4fc6dedc985c4afe0075886059994e8b0ae39"
+  },
+  "airfare_round2/analysis/primary/fold_metrics.csv": {
+    "bytes": 4475,
+    "sha256": "51c6e4207465f7eca7e4b6c29226594f53ba7f9ba4babc4413906c61440db938"
+  },
+  "airfare_round2/analysis/primary/fold_scores_and_gaps.png": {
+    "bytes": 183836,
+    "sha256": "11e2d3672191b5fd72b04985ed9fc71296d07b171885fdbca37e8b463ae9e98d"
+  },
+  "airfare_round2/analysis/primary/model_metrics.csv": {
+    "bytes": 1326,
+    "sha256": "4be240a6b249aa9168d501ddfef4797ca804a8595ea5e0a9e9cb121ab69ed8ce"
+  },
+  "airfare_round2/analysis/primary/paired_fold_deltas.csv": {
+    "bytes": 1019,
+    "sha256": "9a3a911bec0cb891a73a49528088535d40eb5c456c9cb61406751a289c4d0eee"
+  },
+  "airfare_round2/analysis/primary/residual_correlations.csv": {
+    "bytes": 745,
+    "sha256": "b894905d34157ca74530cf5bb887220baa38b0920ceb96bb6c4ef2f4eba05f50"
+  },
+  "airfare_round2/analysis/primary/subgroup_metrics.csv": {
+    "bytes": 94111,
+    "sha256": "9b397ee5b63f4f8f6ed7ff4c2fa7b24fa18880f4450c16bdfdff9924466880ff"
+  },
+  "airfare_round2/analysis/primary/tail_metrics.csv": {
+    "bytes": 811,
+    "sha256": "848e2f9fcc0c61fe0d896c52394dcd8f304b483e6eb04bfa5a2880ad8dde351b"
+  },
+  "airfare_round2/analysis/primary/worst_errors.csv": {
+    "bytes": 29283,
+    "sha256": "2f260063db585583c3593f4653adcd967e6ec73f0ec9470a7e331021269326fd"
+  },
+  "airfare_round2/analysis/selected_configurations.csv": {
+    "bytes": 1745,
+    "sha256": "b7248637272a2166d55377e1553b2a08f129cc8c86f4e8f6f584f267676def7f"
+  },
+  "airfare_round2/analysis/selected_configurations.json": {
+    "bytes": 3101,
+    "sha256": "2a63e02a2f6fb7c364b6cecafc259c137d2db620b3d67ecb954b95a81ac1a9df"
+  },
+  "airfare_round2/analysis.log": {
+    "bytes": 319,
+    "sha256": "8f14bdfd71e09d36959e46dc71ff260e8871fabb58a8ff371ce75f3d03dc6dae"
+  },
+  "airfare_round2/analyze.py": {
+    "bytes": 12576,
+    "sha256": "08d1d4c00eb9e03190b0fb76fd9d9c922be26088a5a6f280c0dac9b31af65929"
+  },
+  "airfare_round2/direct_cat64.py": {
+    "bytes": 13664,
+    "sha256": "37bb3b151894f79617ad7aaf827bda3e84517564258be94c1c1bac87d0120732"
+  },
+  "airfare_round2/inference.log": {
+    "bytes": 68,
+    "sha256": "c197532c1bc9784803bd8c7e3ad02e1abe3a40d7e1330e142f15b5ee2666cd7a"
+  },
+  "airfare_round2/inference.py": {
+    "bytes": 13334,
+    "sha256": "9961bfa4fbe98d542d396f7af1bd91879a00b6eff51a3dc47d35bb52594e1bd0"
+  },
+  "airfare_round2/primary/cat64_direct/full_training/all_trials.json": {
+    "bytes": 21324,
+    "sha256": "982a54db3f71b9ad1f5f79c52479b195b8bae8d52b4576f1409acc6402e4c035"
+  },
+  "airfare_round2/primary/cat64_direct/full_training/final_configuration.json": {
+    "bytes": 6824,
+    "sha256": "41012df7eb14f0603e2a6c64f136e4041fd4e008137a2913040337f3482c8889"
+  },
+  "airfare_round2/primary/cat64_direct/full_training/final_model.joblib": {
+    "bytes": 219538,
+    "sha256": "e7342dc2f2b3eac7b27654fb1e15e2a30c445ad794ffa05949412c33589e7b73"
+  },
+  "airfare_round2/primary/cat64_direct/full_training/sampler.joblib": {
+    "bytes": 11525,
+    "sha256": "e4a6d50d5316428f89e561d99a7de4b1c792560d7b924ac753ad9966fb04dd0a"
+  },
+  "airfare_round2/primary/cat64_direct/full_training/selected.json": {
+    "bytes": 2723,
+    "sha256": "24e7450580453e474cb02f6923e7b8197be23696b14c9dddb1f774351a853b3b"
+  },
+  "airfare_round2/primary/cat64_direct/full_training/trials.sqlite3": {
+    "bytes": 147456,
+    "sha256": "e067675da8b8505683c61fde47463ddefb4d59203df5e19afd2e17ccff819a77"
+  },
+  "airfare_round2/primary/cat64_direct/oof.csv": {
+    "bytes": 915742,
+    "sha256": "ca9c62964e74914d68bc7329387bc5cd1280ee4e27ae1b0b1dc84dc3b0a45f01"
+  },
+  "airfare_round2/primary/cat64_direct/outer0/all_trials.json": {
+    "bytes": 21301,
+    "sha256": "27aaeedd190a79d1ef761de3d7a1851b97a119668480e7954735816d4087744d"
+  },
+  "airfare_round2/primary/cat64_direct/outer0/outer_metrics.json": {
+    "bytes": 3467,
+    "sha256": "4339546bf0a4cea1b22ef1276e27ea2acae0a52e6e80610761bb41a84e80e9c6"
+  },
+  "airfare_round2/primary/cat64_direct/outer0/sampler.joblib": {
+    "bytes": 11525,
+    "sha256": "faeea3244733c0824963842b7f6f90fdb57b1942c6d3c19e4175e0d73666073b"
+  },
+  "airfare_round2/primary/cat64_direct/outer0/selected.json": {
+    "bytes": 2584,
+    "sha256": "759902d3876577f23af40c4318bc7024086d37c864a19d360fe9d20093a628d0"
+  },
+  "airfare_round2/primary/cat64_direct/outer0/trials.sqlite3": {
+    "bytes": 147456,
+    "sha256": "9728a8b4294462165bb3f359d593f0844ecf72d4903ee821d69e82aaf69873fc"
+  },
+  "airfare_round2/primary/cat64_direct/outer0/validation_predictions.csv": {
+    "bytes": 73344,
+    "sha256": "bef8759ebcb4eb2558bb59007f4504e1292066be5dff2afcdb67991a6b9165ce"
+  },
+  "airfare_round2/primary/cat64_direct/outer1/all_trials.json": {
+    "bytes": 21279,
+    "sha256": "9eb313d71c68c7c6a68d8d7f029e94a620c724c191a0bc2ceb6430be74ede397"
+  },
+  "airfare_round2/primary/cat64_direct/outer1/outer_metrics.json": {
+    "bytes": 3467,
+    "sha256": "c74fbe99888b64caf950260419aac7640f0633cb094805b86e1103916931ebf7"
+  },
+  "airfare_round2/primary/cat64_direct/outer1/sampler.joblib": {
+    "bytes": 11525,
+    "sha256": "90af681dc88d49709a3034b745339f7b2850e838196f59edd225a0695ffe8bd7"
+  },
+  "airfare_round2/primary/cat64_direct/outer1/selected.json": {
+    "bytes": 2583,
+    "sha256": "b138bc69b6fba17e7b58d41c13ce3e89b971f728054db5191f7af70db7c6a5ad"
+  },
+  "airfare_round2/primary/cat64_direct/outer1/trials.sqlite3": {
+    "bytes": 147456,
+    "sha256": "649d30eb99263f329c9e7426d41c1896755ad1d9fd7dec6ddca75049bfabc5ae"
+  },
+  "airfare_round2/primary/cat64_direct/outer1/validation_predictions.csv": {
+    "bytes": 73093,
+    "sha256": "b486984213cc38e565edb4712504415ea855c81a0a72e711c0fd914f983addcb"
+  },
+  "airfare_round2/primary/cat64_direct/outer2/all_trials.json": {
+    "bytes": 21307,
+    "sha256": "a600e438642ee3f640139e6c725f95c36ab84e1c8e37b0b0f79e37bc2bdbc908"
+  },
+  "airfare_round2/primary/cat64_direct/outer2/outer_metrics.json": {
+    "bytes": 3616,
+    "sha256": "ab1b6f4830c06eead47963c7343b2b6f4c6c21d1c6c76603025665c707eb589a"
+  },
+  "airfare_round2/primary/cat64_direct/outer2/sampler.joblib": {
+    "bytes": 11525,
+    "sha256": "b2323f1b35533d9493ad9298567de6682c8a3db364c3873a333b0c6eea52225a"
+  },
+  "airfare_round2/primary/cat64_direct/outer2/selected.json": {
+    "bytes": 2731,
+    "sha256": "42107db8073d83a656d8062bbee5cef20bb0641d3d1c106550f7f15a136f4189"
+  },
+  "airfare_round2/primary/cat64_direct/outer2/trials.sqlite3": {
+    "bytes": 147456,
+    "sha256": "6cf809bd2c70674bcd5c709561f7a543e298ea73c5f7a1670d85e56bc9449ae9"
+  },
+  "airfare_round2/primary/cat64_direct/outer2/validation_predictions.csv": {
+    "bytes": 73147,
+    "sha256": "ae1f64429e10db6af31f32383c0ebb9c28fe620e9a966614cef78ae1d1d7151d"
+  },
+  "airfare_round2/primary/cat64_direct/outer3/all_trials.json": {
+    "bytes": 21289,
+    "sha256": "c43e13efb2e68f728f489420d4b74db6ac15de1457147dba7a80fd7a11432f18"
+  },
+  "airfare_round2/primary/cat64_direct/outer3/outer_metrics.json": {
+    "bytes": 3611,
+    "sha256": "c90d3ad6e13737973af42234e76fa78427c683486f9869e930a9f57eaa4114c4"
+  },
+  "airfare_round2/primary/cat64_direct/outer3/sampler.joblib": {
+    "bytes": 11525,
+    "sha256": "bd45b664fa8fe98a6d0196f592031265cb9f490f919dcc956111d2f8dd9e3050"
+  },
+  "airfare_round2/primary/cat64_direct/outer3/selected.json": {
+    "bytes": 2727,
+    "sha256": "20b902e0d4ca5e398345485a81a06428af90fcf4060339ad3ecfb1af3739adb6"
+  },
+  "airfare_round2/primary/cat64_direct/outer3/trials.sqlite3": {
+    "bytes": 147456,
+    "sha256": "ed9a1daf5ba6d4e119469dd354eb1679b43e3bf71eb9a82f4b8eac76d05aab9a"
+  },
+  "airfare_round2/primary/cat64_direct/outer3/validation_predictions.csv": {
+    "bytes": 73145,
+    "sha256": "d1c21a73b651ce2570ec20b36dae6a43e202e33453c18cd33e59dbc6b97ba565"
+  },
+  "airfare_round2/primary/cat64_direct/outer4/all_trials.json": {
+    "bytes": 21294,
+    "sha256": "67c60b6a4dd0b320e2afdbecaa0ee0584af4decdb74d1230903b21ca21bf3923"
+  },
+  "airfare_round2/primary/cat64_direct/outer4/outer_metrics.json": {
+    "bytes": 3610,
+    "sha256": "9123c13662a7a345c92d4ae4639e295f52bccc9866d0640c458220638bf3b435"
+  },
+  "airfare_round2/primary/cat64_direct/outer4/sampler.joblib": {
+    "bytes": 11525,
+    "sha256": "f39c52a30f9def94ca9ade0c692287a1c561686c810e63212996f74ebeb3a632"
+  },
+  "airfare_round2/primary/cat64_direct/outer4/selected.json": {
+    "bytes": 2726,
+    "sha256": "c300d3280d4c2ccd633b4beb4f5d181479e684e03f42986ba8c9d124587dd92c"
+  },
+  "airfare_round2/primary/cat64_direct/outer4/trials.sqlite3": {
+    "bytes": 147456,
+    "sha256": "8e3b93d8fc6c977a261ad1a5850baa49f8e0916209d99c8b9b0116871201cd19"
+  },
+  "airfare_round2/primary/cat64_direct/outer4/validation_predictions.csv": {
+    "bytes": 73261,
+    "sha256": "5a542a9766ac28bc981e5817997c0e0c2359be52ccfc05629bbd2b6993fa4f87"
+  },
+  "airfare_round2/primary/cat64_direct/summary.json": {
+    "bytes": 20566,
+    "sha256": "15498ca024ab9a32f7cd1a5fa15e1b1517deffbabd05d0c23190a6cb8d0f782c"
+  },
+  "airfare_round2/sensitivity_decision.json": {
+    "bytes": 364,
+    "sha256": "02de4d5e08740204a727732e7ba5c4bac1ce88759d676d2723f3e5a4951e1fbb"
+  },
+  "airfare_round2/submissions/INFERENCE_STARTED.json": {
+    "bytes": 234,
+    "sha256": "a3724cc8a959acfca3da1f6f96ccdb445fcd6f386392ae22886c377c99faa67a"
+  },
+  "airfare_round2/submissions/frozen_manifest.json": {
+    "bytes": 49785,
+    "sha256": "a13ca037e9e4babea3627f129d347d5dde259683374e2128ed4018d5a0794662"
+  },
+  "airfare_round2/submissions/inference_audit.json": {
+    "bytes": 1141,
+    "sha256": "1f8d63c7460b5f73ebd122e6803e2be0c2b6aef3f781cafd854ffdc9c7e7e2fe"
+  },
+  "airfare_round2/submissions/submission_business_augmented_xgb.csv": {
+    "bytes": 89284,
+    "sha256": "aa6efec1f7120449d0a3a01e2dd44de2fb3f32d0685b079178366b6f74cdb775"
+  },
+  "airfare_round2/submissions/submission_business_equal_blend64.csv": {
+    "bytes": 89280,
+    "sha256": "a0cb9b68a5f7530f2f984e055ef6cc8d216605c1af08a64fa9961cfbdb7690a7"
+  },
+  "airfare_round2/submissions/submission_catboost64_direct_tuned.csv": {
+    "bytes": 89393,
+    "sha256": "f7684d14f2151ea3e69d7020afc61aea5dc4fefab9584bdc676bbc1b882a25af"
+  },
+  "airfare_round2/submissions/submission_equal_blend_direct64.csv": {
+    "bytes": 89328,
+    "sha256": "5b068838756bc3a332b6e798982095062631def6066b44a385b5784d7a70dd4f"
+  },
+  "airfare_round2/training.log": {
+    "bytes": 5130,
+    "sha256": "2e671d7dad687f23b778ec78f9eb4c857ce582f7eecac6d80f91fc98725c08ea"
+  },
+  "airfare_business/PROTOCOL.md": {
+    "bytes": 7841,
+    "sha256": "da040e6d84264facfbd63481a974bd1ec1607ef4767d30ef1a1b5767b5401dc4"
+  },
+  "airfare_business/REGISTRATION.json": {
+    "bytes": 1260,
+    "sha256": "5e3b87b43811c6a2465700e537f0f06cd7d4488e5169061e7931541dd31f2c18"
+  },
+  "airfare_business/analysis/FINDINGS.md": {
+    "bytes": 4694,
+    "sha256": "df74c697841bc95c754974378b1ea64d3fa302b9fa64edd9ff5db69ba9fe247a"
+  },
+  "airfare_business/analysis/completion.json": {
+    "bytes": 809,
+    "sha256": "e74ee06a18fc196b639039007bbee6a7e45c65a6ea68b480e33ebb72d6cabe11"
+  },
+  "airfare_business/analysis/primary/aligned_oof.csv": {
+    "bytes": 1807365,
+    "sha256": "39cb670f87e3d43860b5db37b157f63ba7e72db4abf15023c2ccdd5ed3440bcb"
+  },
+  "airfare_business/analysis/primary/bootstrap_draws.csv": {
+    "bytes": 37826,
+    "sha256": "1428b8b7d8fcd9f6b44c9bde9840518b75064e1d6e4fdf9cfe503e2aba3ba6bf"
+  },
+  "airfare_business/analysis/primary/bootstrap_intervals.json": {
+    "bytes": 2604,
+    "sha256": "9b8292c01216553d94501c7c4be38d11cdb3ad9eb868515ac035f8e1bcd85dcc"
+  },
+  "airfare_business/analysis/primary/fold_metrics.csv": {
+    "bytes": 2851,
+    "sha256": "a97f7a11e28d5c5936dac1f73b2f31e1855e6f89d803c528d73b4cd8332e1a8a"
+  },
+  "airfare_business/analysis/primary/model_metrics.csv": {
+    "bytes": 885,
+    "sha256": "117174d5fd91d08a123fbedfb94e891aa573dd28014c45dac78b6c9b94d63373"
+  },
+  "airfare_business/analysis/primary/paired_fold_deltas.csv": {
+    "bytes": 1041,
+    "sha256": "e078d96d935410be9fa0d7155ae94fd80dbde379d8504dd427c140c71404f865"
+  },
+  "airfare_business/analysis/primary/paired_fold_scores.png": {
+    "bytes": 145555,
+    "sha256": "a1e63ec29c2b8a3e07e4ced42c405aeee6f53abd0323ad40616281e9abc7cb4a"
+  },
+  "airfare_business/analysis/primary/residual_correlations.csv": {
+    "bytes": 401,
+    "sha256": "d27a1e71d68dce72ae10b537b5fa9621df26c3608b6781da0ee5d0b89ee24c19"
+  },
+  "airfare_business/analysis/primary/subgroup_metrics.csv": {
+    "bytes": 22027,
+    "sha256": "77628882b74fe09b3a4132ed510612d25a3c7da1a876efc76d749c67545b5eab"
+  },
+  "airfare_business/analysis/primary/tail_metrics.csv": {
+    "bytes": 471,
+    "sha256": "a5dc60249c9f59688eeeb6d190ceed2b05ae10fb42f276b729502cda16536665"
+  },
+  "airfare_business/analysis/primary/worst_errors.csv": {
+    "bytes": 19443,
+    "sha256": "3eb16a6e336fcd8c91114de89b02cc5a8966f53068e9286e48066a064e7eb42c"
+  },
+  "airfare_business/analysis/secondary_global_trials.json": {
+    "bytes": 88660,
+    "sha256": "fd67f6df586127562bca19c7be881a5258b6897db3d288edf1ebfdc21e3eeef8"
+  },
+  "airfare_business/analysis/selected_configurations.csv": {
+    "bytes": 3305,
+    "sha256": "954dc3a77f0a8d7bc873d29b6ec6150d82ad9a19878c5d4976a89752f90c6c62"
+  },
+  "airfare_business/analysis/selected_configurations.json": {
+    "bytes": 30746,
+    "sha256": "2c92814c1e953c2574040eb8e3dafc4e740cab3bf59c90ffebbf729971bdbb98"
+  },
+  "airfare_business/analysis/sensitivity/aligned_oof.csv": {
+    "bytes": 1240297,
+    "sha256": "1e4bedf816ea3f87e094d8fe61c4d0929445b77aad4f7e7b02dff7cfda80043d"
+  },
+  "airfare_business/analysis/sensitivity/bootstrap_draws.csv": {
+    "bytes": 18918,
+    "sha256": "9a3344a338c0f17632d2c2005379e3939e9bf9cbe347cd0e8ecf1022b3a4bd8f"
+  },
+  "airfare_business/analysis/sensitivity/bootstrap_intervals.json": {
+    "bytes": 937,
+    "sha256": "224031ebf2fb26086fdcbc98f7d1b7d44505e9772f9cbb471863e2dcbb6a7a31"
+  },
+  "airfare_business/analysis/sensitivity/fold_metrics.csv": {
+    "bytes": 1608,
+    "sha256": "05b1f704ec62ac8cfd707ef37d4e86a58246f2774e774892b0dfdb510c82cda6"
+  },
+  "airfare_business/analysis/sensitivity/model_metrics.csv": {
+    "bytes": 514,
+    "sha256": "eb8820a62d15346af0d15bf4c4bad6aae16eb180f59642e226a4719ac6844f47"
+  },
+  "airfare_business/analysis/sensitivity/paired_fold_deltas.csv": {
+    "bytes": 512,
+    "sha256": "e86692de8aac1ae9efdee424580e6c95705f5c0eb2cc597e6066d62bc19e0052"
+  },
+  "airfare_business/analysis/sensitivity/paired_fold_scores.png": {
+    "bytes": 76209,
+    "sha256": "561993dd27ed744f1d65245157986d160fd1ce5415ec9a5b5726e0aaab8b7f6d"
+  },
+  "airfare_business/analysis/sensitivity/residual_correlations.csv": {
+    "bytes": 115,
+    "sha256": "a425f305a480da875870c54c04dd275c0221e7ecfdbfc720608f3e4d114aa601"
+  },
+  "airfare_business/analysis/sensitivity/subgroup_metrics.csv": {
+    "bytes": 10815,
+    "sha256": "e986892b1e3608971669c2e0c990699f64f2c5e695077081217889b5d73feea0"
+  },
+  "airfare_business/analysis/sensitivity/tail_metrics.csv": {
+    "bytes": 277,
+    "sha256": "eb07eeb9a2398413a4ad651ed4204da93ee44d9bbae3718ae011ee78a94813cf"
+  },
+  "airfare_business/analysis/sensitivity/worst_errors.csv": {
+    "bytes": 9684,
+    "sha256": "dc1cb80267db96048c56fabfa5251cc7c4ed04de2e13e7aff006c4ee54e51ffc"
+  },
+  "airfare_business/analysis/specialist_trials.json": {
+    "bytes": 213395,
+    "sha256": "3f2c97568cb2a5276f521e09a5a4a23fa7cd3ac5a01b4484f4a9a474041058db"
+  },
+  "airfare_business/analysis.log": {
+    "bytes": 230,
+    "sha256": "0078212cf8600dc636f313fa0a703b59c411162c25382540bbc3b6023c4b86de"
+  },
+  "airfare_business/analyze.py": {
+    "bytes": 10707,
+    "sha256": "a1f7803a7713cda3fb94b39c534927d711c42891cc3fcf0c886424ecb7bb41c0"
+  },
+  "airfare_business/full_training/all_trials.json": {
+    "bytes": 19034,
+    "sha256": "1e29a0b8ebac20f765a43eddd8f16fb8de013cefe4645153b0e28666ad1fa385"
+  },
+  "airfare_business/full_training/final_configuration.json": {
+    "bytes": 8133,
+    "sha256": "50eddb27bd43e403106d2cf4d1e1a877c6782894ab20ff3a019fec619323eddf"
+  },
+  "airfare_business/full_training/final_model.joblib": {
+    "bytes": 481108,
+    "sha256": "c3374a82dd3608103d10942a291f21856b0f79249367337424026d16772bd447"
+  },
+  "airfare_business/full_training/global_inner_reconstructions.json": {
+    "bytes": 682,
+    "sha256": "729b1e32dbe60a510439a443ce9609b1fd48f7b6145d534c1541c2b9aa1ef0a1"
+  },
+  "airfare_business/full_training/sampler.joblib": {
+    "bytes": 11525,
+    "sha256": "45fc4aae86ba04e036798b3de922f0df03814c42e029746a927e0adc2309e367"
+  },
+  "airfare_business/full_training/selected.json": {
+    "bytes": 2621,
+    "sha256": "37778f0258dc040e961c1ddda8d76d6a0b500a35860da45be718acf5d6b9ad31"
+  },
+  "airfare_business/full_training/trials.sqlite3": {
+    "bytes": 143360,
+    "sha256": "d95403604d7368ae126ed70c43331763bc60d21ad367e6c3fc4f4ffd0eacc8cd"
+  },
+  "airfare_business/primary/business_augmented_xgb_oof.csv": {
+    "bytes": 915955,
+    "sha256": "09e9e203c6365ec2a4ef4e38ac4c81d1098614f902bb49d9b78deaadc4e1c1bc"
+  },
+  "airfare_business/primary/global_xgb_oof.csv": {
+    "bytes": 915877,
+    "sha256": "7eff8dedc1cdff307396ad414e0a50c36e8cb4af127d8af21bb1404b427e7b77"
+  },
+  "airfare_business/primary/outer0/all_trials.json": {
+    "bytes": 19016,
+    "sha256": "a0cd0c04d4f571b4ef1fa45e93ad01d4bc8ebe49ad529c635fbe1c5f2435234d"
+  },
+  "airfare_business/primary/outer0/global_inner_reconstructions.json": {
+    "bytes": 683,
+    "sha256": "f43a3845a8d57d998025167fa39ebccdf858c360e005a9032cfdba6ad01a4cbb"
+  },
+  "airfare_business/primary/outer0/global_selected.json": {
+    "bytes": 1664,
+    "sha256": "cada64804898b5b020cf4ce7b2a1ff3d24ca428607200ff58301b0b240414b56"
+  },
+  "airfare_business/primary/outer0/outer_metrics.json": {
+    "bytes": 4183,
+    "sha256": "7caad87ffc8e7dfcf1080ea76c4b3abac6a08ea9298ba3df5a37959d367b1d04"
+  },
+  "airfare_business/primary/outer0/sampler.joblib": {
+    "bytes": 11525,
+    "sha256": "3f3df9f130cf4a9944f7fcfdcff12238c3fc5f110431c3191883fc072ad1b799"
+  },
+  "airfare_business/primary/outer0/selected.json": {
+    "bytes": 2602,
+    "sha256": "d92040a8b481e4672811254bc8e1c0ced0483762fca01367290f3248841df4ad"
+  },
+  "airfare_business/primary/outer0/trials.sqlite3": {
+    "bytes": 143360,
+    "sha256": "d40105f61883c768f76edbd66e9daf1c62dfb29787fefa603a251c74b462afaf"
+  },
+  "airfare_business/primary/outer0/validation_predictions.csv": {
+    "bytes": 130066,
+    "sha256": "10f0dc07dc86eacf8eb83cd9b290bd711a8914414ffce55881c455d8c67431f2"
+  },
+  "airfare_business/primary/outer1/all_trials.json": {
+    "bytes": 19012,
+    "sha256": "4ad37d8e13a830c4597be489c4b9dcba51968eb545363d1dcdf01de5167d5f9f"
+  },
+  "airfare_business/primary/outer1/global_inner_reconstructions.json": {
+    "bytes": 683,
+    "sha256": "daa59a799723587cbc65b40f19583d47be84ad298a7f17dcb5d630e0c70039d5"
+  },
+  "airfare_business/primary/outer1/global_selected.json": {
+    "bytes": 1832,
+    "sha256": "aa1694aa8229e8c089237ffae93f2cc55c382f83ad1958ed7a811bddc72186dd"
+  },
+  "airfare_business/primary/outer1/outer_metrics.json": {
+    "bytes": 4185,
+    "sha256": "a6f68080080bab90c876bcd58316623f4bd846c40a54fb78a2658747bc63ebe5"
+  },
+  "airfare_business/primary/outer1/sampler.joblib": {
+    "bytes": 11525,
+    "sha256": "9266bebf99969ffa72a8066d842761fa24b645aabaf12bcc5d6cd84f4fc19db8"
+  },
+  "airfare_business/primary/outer1/selected.json": {
+    "bytes": 2601,
+    "sha256": "85b9b22ad7ec30a03c4f923a70197f1e772a14ddf956476b145112a7522e9bb2"
+  },
+  "airfare_business/primary/outer1/trials.sqlite3": {
+    "bytes": 143360,
+    "sha256": "f2b331a931dcdf6879f87bf09dcadf4164ea8925046911f29a8ffd5fd8f31f98"
+  },
+  "airfare_business/primary/outer1/validation_predictions.csv": {
+    "bytes": 129857,
+    "sha256": "226bf4a4cf239e267962a3f3aa4c5873d916fdfc2733ae4db9b87e3381e2b995"
+  },
+  "airfare_business/primary/outer2/all_trials.json": {
+    "bytes": 19001,
+    "sha256": "0870b81a539d37bec1e438dcb8ad17394e558c244c1fba38ae7b55cca0f4eca1"
+  },
+  "airfare_business/primary/outer2/global_inner_reconstructions.json": {
+    "bytes": 682,
+    "sha256": "5090d940e04511178088d6ef558234c15565ceda6818174a2caf8e5078ad5f07"
+  },
+  "airfare_business/primary/outer2/global_selected.json": {
+    "bytes": 1662,
+    "sha256": "89081bc3f9ba2458b53aa4e09d662922bbe485996172914d29c0484bee72f1a0"
+  },
+  "airfare_business/primary/outer2/outer_metrics.json": {
+    "bytes": 4185,
+    "sha256": "6649ac67c50b266dd6125285f76f50dfb97dd3237d91288dc80abd6c813ad2af"
+  },
+  "airfare_business/primary/outer2/sampler.joblib": {
+    "bytes": 11525,
+    "sha256": "0b5e75dcf5ed6f63485d23cf073f0a34cffff2ee5a3c0c11f1ae0d06670a7792"
+  },
+  "airfare_business/primary/outer2/selected.json": {
+    "bytes": 2602,
+    "sha256": "e6ef90e585d45e4d130aa853763a6789200cdaa839366dbb20d734dbd5ba7825"
+  },
+  "airfare_business/primary/outer2/trials.sqlite3": {
+    "bytes": 143360,
+    "sha256": "3937fc36d9f8280784256c8bfeced846f7af6be0b9c3f44c42531b610d67040a"
+  },
+  "airfare_business/primary/outer2/validation_predictions.csv": {
+    "bytes": 129913,
+    "sha256": "88c74a2d392afa02db32709c185b7c28f1785e8225d31c448ae5f90b5deb1c2e"
+  },
+  "airfare_business/primary/outer3/all_trials.json": {
+    "bytes": 19002,
+    "sha256": "718afbeec7870d92834d12f857574b1408be6bed679e6275b5751b9861982701"
+  },
+  "airfare_business/primary/outer3/global_inner_reconstructions.json": {
+    "bytes": 682,
+    "sha256": "63d62c33f8a462a8fda13e6d9c1d3315576b100da0868516a527e1bf77a48c75"
+  },
+  "airfare_business/primary/outer3/global_selected.json": {
+    "bytes": 1660,
+    "sha256": "9322deb7cf64fefc0269d18428c6d7a543acc72aacffe44d8fcd1fbdf289c78b"
+  },
+  "airfare_business/primary/outer3/outer_metrics.json": {
+    "bytes": 4186,
+    "sha256": "4da13ecb897187d6407add2064fcd456cdf6648e9a1c7e0e1f842c645e001d59"
+  },
+  "airfare_business/primary/outer3/sampler.joblib": {
+    "bytes": 11525,
+    "sha256": "b5ba046019ad0788d2e14871e818e50cf3839e3f12b62fcf77c86f490e451504"
+  },
+  "airfare_business/primary/outer3/selected.json": {
+    "bytes": 2602,
+    "sha256": "cd80dcf446be83a4a9d58119033556814bfe6f3889dd12cfbe48722bacd90b9a"
+  },
+  "airfare_business/primary/outer3/trials.sqlite3": {
+    "bytes": 143360,
+    "sha256": "e17d4415fededdd7f14f52d04d0c8f66fac748002dd4594b703caab494907d1b"
+  },
+  "airfare_business/primary/outer3/validation_predictions.csv": {
+    "bytes": 130052,
+    "sha256": "4b5b1699d2ebf859196776e5c8fd7f2d217142c6d001d958cf60272b0c3ec414"
+  },
+  "airfare_business/primary/outer4/all_trials.json": {
+    "bytes": 18988,
+    "sha256": "a91831e17fc0fcd03167d27fbbd69c6230f6adbe10e7ddde02bdffe12f8baf05"
+  },
+  "airfare_business/primary/outer4/global_inner_reconstructions.json": {
+    "bytes": 681,
+    "sha256": "f6c432153c8abd5cc8ec24b75a6adf522419388132caa57222f942fee87a3ec5"
+  },
+  "airfare_business/primary/outer4/global_selected.json": {
+    "bytes": 1833,
+    "sha256": "8a5b9c6f927257617b628ad597c7f2fad95ef8ae2456526e4d22724b12dd2381"
+  },
+  "airfare_business/primary/outer4/outer_metrics.json": {
+    "bytes": 4182,
+    "sha256": "2f27eac671fbb8c71abb23e16118577386c3ef3a96118f4594fa47676a2392a2"
+  },
+  "airfare_business/primary/outer4/sampler.joblib": {
+    "bytes": 11525,
+    "sha256": "01f40e7e9754a1964832078fbf48c358cb4913fcee03df61911422fbabb72a5c"
+  },
+  "airfare_business/primary/outer4/selected.json": {
+    "bytes": 2600,
+    "sha256": "da89a1983719bcda7f651770c40889f1dd137cd1246defaafb462a02742d4a9c"
+  },
+  "airfare_business/primary/outer4/trials.sqlite3": {
+    "bytes": 143360,
+    "sha256": "d801c0d1a735548c7780002e94d8fe4ee42a3cf2aa206613f865843fca9229ba"
+  },
+  "airfare_business/primary/outer4/validation_predictions.csv": {
+    "bytes": 130011,
+    "sha256": "6a8cbe3863820ef863d1586fba688f4049c69a85c9a764e2a275f307712513a3"
+  },
+  "airfare_business/primary/summary.json": {
+    "bytes": 4496,
+    "sha256": "f934c0c4b7ed298ecea1717c0e7a130154c72b4780680f60f03574f959ffa3c2"
+  },
+  "airfare_business/sensitivity/business_augmented_xgb_oof.csv": {
+    "bytes": 915929,
+    "sha256": "d3b09d0284dfab6c12ec544a202e0d02fa0c60a8ec9d5e5d3d59ad728b828764"
+  },
+  "airfare_business/sensitivity/global_xgb_oof.csv": {
+    "bytes": 915771,
+    "sha256": "98b42c55b72a4b10239fe5fdf3365941c4c9e15f7d47dca753c3cd2bb34388d1"
+  },
+  "airfare_business/sensitivity/outer0/all_trials.json": {
+    "bytes": 19001,
+    "sha256": "7076a272716da48c51620f24efdcdc8c1c3a167527a41cffe71ac11655b2f6b0"
+  },
+  "airfare_business/sensitivity/outer0/global_inner_reconstructions.json": {
+    "bytes": 683,
+    "sha256": "06c437ed1f2ed71e657e5da81a9e9376d82fde6d800e04bec4600d8384897ac1"
+  },
+  "airfare_business/sensitivity/outer0/global_selected.json": {
+    "bytes": 1830,
+    "sha256": "18e32efd6d25d64c9f8f23c1bf8c59371b03b58eb97c9da611707c591161e214"
+  },
+  "airfare_business/sensitivity/outer0/outer_metrics.json": {
+    "bytes": 4189,
+    "sha256": "1ca7388e3f1573a830c7c22129f3bf526e33a35b20dc6b8a2a408be5e7fe4da6"
+  },
+  "airfare_business/sensitivity/outer0/sampler.joblib": {
+    "bytes": 11525,
+    "sha256": "bd70a65ae685de8c81acc49f15473d4aa1e0982f92c51ac82330ebb72990fee2"
+  },
+  "airfare_business/sensitivity/outer0/selected.json": {
+    "bytes": 2607,
+    "sha256": "63683812248c4e0163233fc3ff1a0717eec41db0989c087187be4ee413434378"
+  },
+  "airfare_business/sensitivity/outer0/trials.sqlite3": {
+    "bytes": 143360,
+    "sha256": "0fb75516e7dde0624c4fa433c5839c17a17c55953bf3a09260ea088c7537282a"
+  },
+  "airfare_business/sensitivity/outer0/validation_predictions.csv": {
+    "bytes": 129970,
+    "sha256": "03683ce2419a60143681a35cca12cd770ca97b49594352d298fc116edcae378a"
+  },
+  "airfare_business/sensitivity/outer0/xgb_secondary0.sqlite3": {
+    "bytes": 143360,
+    "sha256": "3762eda489f0b9d5fec133f5cbce2e13a88a97de341fcd57a6d518c75511bb97"
+  },
+  "airfare_business/sensitivity/outer0/xgb_secondary0_all_trials.json": {
+    "bytes": 17275,
+    "sha256": "d5e231cfa259854b77c6c180db5482ae180a494170470b23eb526a0c1f7bc7c8"
+  },
+  "airfare_business/sensitivity/outer0/xgb_secondary0_selected.json": {
+    "bytes": 1830,
+    "sha256": "18e32efd6d25d64c9f8f23c1bf8c59371b03b58eb97c9da611707c591161e214"
+  },
+  "airfare_business/sensitivity/outer1/all_trials.json": {
+    "bytes": 19005,
+    "sha256": "64fc2e5196189a9c8bf095bcfe58ed70e1343867afd3020803760d64b6e35c11"
+  },
+  "airfare_business/sensitivity/outer1/global_inner_reconstructions.json": {
+    "bytes": 683,
+    "sha256": "c438a65a81fa8c8e52af91c59cc0d04018c3675d8a8342b02c72f8d3abd8513d"
+  },
+  "airfare_business/sensitivity/outer1/global_selected.json": {
+    "bytes": 1841,
+    "sha256": "a11ebd62ab93df34f90e7b93bde2bfc31f4e24fd61f40e4712d829db143539a3"
+  },
+  "airfare_business/sensitivity/outer1/outer_metrics.json": {
+    "bytes": 4187,
+    "sha256": "87d19717e588c06472607de8d63f90afc62551bcdc24936c676a014400015812"
+  },
+  "airfare_business/sensitivity/outer1/sampler.joblib": {
+    "bytes": 11525,
+    "sha256": "18fcccb63231270ab4b4156a6ac1c3add15f35b2e6dd21b386ab7fd58820053c"
+  },
+  "airfare_business/sensitivity/outer1/selected.json": {
+    "bytes": 2604,
+    "sha256": "648b492e6a86be7e0f0ffd81dd4f1df20d1109d1bb07c209edeb4190dd5fd0ab"
+  },
+  "airfare_business/sensitivity/outer1/trials.sqlite3": {
+    "bytes": 143360,
+    "sha256": "e8513c0feaadb5316ae66969c90745247745b1112fff03484b9540d279793329"
+  },
+  "airfare_business/sensitivity/outer1/validation_predictions.csv": {
+    "bytes": 129932,
+    "sha256": "5e8c1e61c16f7bd48cc3515cb87ccc78c0a5cc96e62b8612ea87e761e5e1ad54"
+  },
+  "airfare_business/sensitivity/outer1/xgb_secondary1.sqlite3": {
+    "bytes": 143360,
+    "sha256": "216e683c9d8c87c925f28bb20d04094ec279270b100ea58c3ad4e3ba56e52e44"
+  },
+  "airfare_business/sensitivity/outer1/xgb_secondary1_all_trials.json": {
+    "bytes": 17336,
+    "sha256": "40f4e5f2a8c6858adcbf15bd7707f1b0278e25a96c6140a0f6651e716a0913b2"
+  },
+  "airfare_business/sensitivity/outer1/xgb_secondary1_selected.json": {
+    "bytes": 1841,
+    "sha256": "a11ebd62ab93df34f90e7b93bde2bfc31f4e24fd61f40e4712d829db143539a3"
+  },
+  "airfare_business/sensitivity/outer2/all_trials.json": {
+    "bytes": 19026,
+    "sha256": "c12a5c1039b6c31e34cd81bca0ce54ad295222e3bcde17413e05b59c7a4c7271"
+  },
+  "airfare_business/sensitivity/outer2/global_inner_reconstructions.json": {
+    "bytes": 680,
+    "sha256": "360872ccfe6b7b03964cdaad51dd2773bf97a775d9838672e3138adf05ea6042"
+  },
+  "airfare_business/sensitivity/outer2/global_selected.json": {
+    "bytes": 1662,
+    "sha256": "be3b6f4775421d14234a6aa7095eb4f74b1bb64a77e68d4a31ef47b2014d0b99"
+  },
+  "airfare_business/sensitivity/outer2/outer_metrics.json": {
+    "bytes": 4187,
+    "sha256": "27d19ae1ad80b50253d276f429b4ff3836170ce2cdfa502b00beca1a1f5a8e8b"
+  },
+  "airfare_business/sensitivity/outer2/sampler.joblib": {
+    "bytes": 11525,
+    "sha256": "b615ff51c433fd5f90c8251dd71bd77b9466120a9eab1715fbbd0c0c426574af"
+  },
+  "airfare_business/sensitivity/outer2/selected.json": {
+    "bytes": 2605,
+    "sha256": "99b93619bdfcddea66a45c51bc213027db361da11df86f9d353facdd5f27d409"
+  },
+  "airfare_business/sensitivity/outer2/trials.sqlite3": {
+    "bytes": 143360,
+    "sha256": "ef07cdeb535772be6274f78fc7cd429eb5c6e07151436ec59801dfdcdf5fd286"
+  },
+  "airfare_business/sensitivity/outer2/validation_predictions.csv": {
+    "bytes": 129979,
+    "sha256": "581cf939cee5429f991a6faa5aad7d7f988f5d8417467db0db36823824ddd7de"
+  },
+  "airfare_business/sensitivity/outer2/xgb_secondary2.sqlite3": {
+    "bytes": 143360,
+    "sha256": "e385d48aac81a3964f099a6dd35386dd62e0e7b85c83211e357ab8f2756a9d74"
+  },
+  "airfare_business/sensitivity/outer2/xgb_secondary2_all_trials.json": {
+    "bytes": 17322,
+    "sha256": "ae6be9b5e0495a07bdf14982478631f6c3d9a1957561cafc50753c752623203c"
+  },
+  "airfare_business/sensitivity/outer2/xgb_secondary2_selected.json": {
+    "bytes": 1662,
+    "sha256": "be3b6f4775421d14234a6aa7095eb4f74b1bb64a77e68d4a31ef47b2014d0b99"
+  },
+  "airfare_business/sensitivity/outer3/all_trials.json": {
+    "bytes": 19008,
+    "sha256": "d752130c0f425d13a25f47e86169c8379fd6e0cff4f22529f850a4bde7713376"
+  },
+  "airfare_business/sensitivity/outer3/global_inner_reconstructions.json": {
+    "bytes": 682,
+    "sha256": "92fe7fdc5a985d286b1b8cefa4f8986ed0b033140bcb9b78395c8ee080b9a3d3"
+  },
+  "airfare_business/sensitivity/outer3/global_selected.json": {
+    "bytes": 1667,
+    "sha256": "afe1d6a72f69ba9102e8009103a8a29244453d2c0b56c00dc3a31684f664b1dd"
+  },
+  "airfare_business/sensitivity/outer3/outer_metrics.json": {
+    "bytes": 4192,
+    "sha256": "5f1f146da7d61039d2ae9d0dcd2c0f1ba83f0fa377fe7f3dd17f5edcf8e88986"
+  },
+  "airfare_business/sensitivity/outer3/sampler.joblib": {
+    "bytes": 11525,
+    "sha256": "fbad29bdc8276c1de17f9ac902aad0e50c74dd3adbea509f8d1e22d1e6f885a4"
+  },
+  "airfare_business/sensitivity/outer3/selected.json": {
+    "bytes": 2609,
+    "sha256": "22b30d963c68e23907cc3e6dd474c6ecf049aa63c7be7081e572ffbd1bfd0301"
+  },
+  "airfare_business/sensitivity/outer3/trials.sqlite3": {
+    "bytes": 143360,
+    "sha256": "c78efc9a11aa07abed087dd44eb979f038a14858566aa4a2e9b73549fcaa55fd"
+  },
+  "airfare_business/sensitivity/outer3/validation_predictions.csv": {
+    "bytes": 129880,
+    "sha256": "31cb1de91689b111281106d7b2a257c62322508eee5fbbf2993526bf76fbea2b"
+  },
+  "airfare_business/sensitivity/outer3/xgb_secondary3.sqlite3": {
+    "bytes": 143360,
+    "sha256": "1ca68facf82218ffbdf98664eb658fafa9bf2e953c49ff17f7d0b404dd59a8d2"
+  },
+  "airfare_business/sensitivity/outer3/xgb_secondary3_all_trials.json": {
+    "bytes": 17331,
+    "sha256": "fa442c7bc6b928a56bb902b0e9ed215f5278121c84e26a59ede7d778383bb23b"
+  },
+  "airfare_business/sensitivity/outer3/xgb_secondary3_selected.json": {
+    "bytes": 1667,
+    "sha256": "afe1d6a72f69ba9102e8009103a8a29244453d2c0b56c00dc3a31684f664b1dd"
+  },
+  "airfare_business/sensitivity/outer4/all_trials.json": {
+    "bytes": 19012,
+    "sha256": "21770f8be35e94aaddbd4d1dacb01e89f3c173f6e28301f2de9c805945d4dcfa"
+  },
+  "airfare_business/sensitivity/outer4/global_inner_reconstructions.json": {
+    "bytes": 682,
+    "sha256": "e2de6c4396cfb7fca6ed1f24dd11b83bed83f078d9b8213c76d339cb28aff307"
+  },
+  "airfare_business/sensitivity/outer4/global_selected.json": {
+    "bytes": 1836,
+    "sha256": "432ca40d8551bc5a776e86459970a70638e20b1af7f7fab3036a6225831455e6"
+  },
+  "airfare_business/sensitivity/outer4/outer_metrics.json": {
+    "bytes": 4186,
+    "sha256": "54393722d0111fc623d897cbfaacc71894739594b00d1335b4bff5edab877f01"
+  },
+  "airfare_business/sensitivity/outer4/sampler.joblib": {
+    "bytes": 11525,
+    "sha256": "150b95569240d69e156fc907e9e67a301248b00e63e848b499b514e75a19a229"
+  },
+  "airfare_business/sensitivity/outer4/selected.json": {
+    "bytes": 2603,
+    "sha256": "527d553a53f27ef526fa256e138ead1ebd8cb56f90c1d8f9e2f072b41b9156f7"
+  },
+  "airfare_business/sensitivity/outer4/trials.sqlite3": {
+    "bytes": 143360,
+    "sha256": "0145dfa2424aeaaf7a973aec3bd314aca10a264e504d4d5e4d64f0b6a3c54443"
+  },
+  "airfare_business/sensitivity/outer4/validation_predictions.csv": {
+    "bytes": 130006,
+    "sha256": "947f7d7783fed2140ae27f59143a77d3bd33eb2327bd7f43dce19df8ec72a80a"
+  },
+  "airfare_business/sensitivity/outer4/xgb_secondary4.sqlite3": {
+    "bytes": 143360,
+    "sha256": "f77f53ee7706b08186cca414c2d7655cce981f56cf3157212a2d26489abba1fc"
+  },
+  "airfare_business/sensitivity/outer4/xgb_secondary4_all_trials.json": {
+    "bytes": 17308,
+    "sha256": "76a1c3fab744a9d794482f13df32176f6093224a2aab71880c1f61cd45499396"
+  },
+  "airfare_business/sensitivity/outer4/xgb_secondary4_selected.json": {
+    "bytes": 1836,
+    "sha256": "432ca40d8551bc5a776e86459970a70638e20b1af7f7fab3036a6225831455e6"
+  },
+  "airfare_business/sensitivity/summary.json": {
+    "bytes": 4493,
+    "sha256": "52798b3562e5d361f959fa1d0744f89cde8675a8e9ebdf37674427d82c5236de"
+  },
+  "airfare_business/sensitivity_decision.json": {
+    "bytes": 364,
+    "sha256": "d47851c3c6960bb9ad15e172440267a90237c8f1429284b43e336bbb60df0d4a"
+  },
+  "airfare_business/specialist.py": {
+    "bytes": 14816,
+    "sha256": "61f3ee6f79473abcefa6d0ec59200c9f2819771748604bfa5a20197a68fc2037"
+  },
+  "airfare_business/training.log": {
+    "bytes": 13879,
+    "sha256": "dc90d2a3b2bf9b1d0db1250ab73ad8fa4dc1404362e3dbcbd37b2485233744d9"
+  }
+}

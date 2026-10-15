@@ -1,0 +1,6 @@
+                 model       r2  mean_gap
+            global_xgb 0.925416  0.042506
+business_augmented_xgb 0.926853  0.038239
+  frozen_equal_blend64 0.928594       NaN
+business_equal_blend64 0.928633       NaN
+Trials 192 fits 427

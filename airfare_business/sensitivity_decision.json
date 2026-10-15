@@ -1,0 +1,13 @@
+{
+  "run_secondary": true,
+  "augmented_delta_r2": 0.0014365662404740576,
+  "blend_delta_r2": 3.949869034103326e-05,
+  "blend_fold_deltas": [
+    0.0006124725207866666,
+    0.0006712004578600661,
+    0.0006441391806321084,
+    4.81289803957452e-05,
+    -0.0017664355872816229
+  ],
+  "note": "Prospective compute rule, not significance or submission eligibility"
+}

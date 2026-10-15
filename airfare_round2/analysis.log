@@ -1,0 +1,8 @@
+               model       r2  mean_gap
+        cat64_direct 0.923316  0.028162
+                 xgb 0.925416  0.042506
+                 lgb 0.925142  0.040547
+        cat_onehot64 0.925056  0.026362
+frozen_equal_blend64 0.928594       NaN
+direct_equal_blend64 0.927932       NaN
+Completed 72 trials; 150 research fits

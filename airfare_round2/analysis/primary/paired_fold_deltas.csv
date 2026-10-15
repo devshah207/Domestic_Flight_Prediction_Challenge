@@ -1,0 +1,13 @@
+seed,candidate,control,fold,delta_r2,delta_rmse
+primary,cat64_direct,cat_onehot64,0,0.0,0.0
+primary,cat64_direct,cat_onehot64,1,-0.006720811543672767,464.76933137548986
+primary,cat64_direct,cat_onehot64,2,-0.0029047832929871564,212.41325006758598
+primary,cat64_direct,cat_onehot64,3,-0.002233952741608869,164.23046901252565
+primary,cat64_direct,cat_onehot64,4,0.0031471823533062437,-212.1545244086701
+primary,cat64_direct,cat_onehot64,pooled,-0.0017408004424359635,123.68692785539315
+primary,direct_equal_blend64,frozen_equal_blend64,0,0.0,0.0
+primary,direct_equal_blend64,frozen_equal_blend64,1,-0.0029262260768883053,206.67925396170904
+primary,direct_equal_blend64,frozen_equal_blend64,2,-0.0004641940613334672,35.394201848428565
+primary,direct_equal_blend64,frozen_equal_blend64,3,-0.00028394096517303513,21.35214298651954
+primary,direct_equal_blend64,frozen_equal_blend64,4,0.00038260193707129186,-26.531610913971235
+primary,direct_equal_blend64,frozen_equal_blend64,pooled,-0.0006612531770290309,48.29921566048142

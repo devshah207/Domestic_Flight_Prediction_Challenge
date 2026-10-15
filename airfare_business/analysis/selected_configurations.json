@@ -1,0 +1,871 @@
+[
+  {
+    "study": "business_primary_outer3",
+    "trial": 7,
+    "configuration": {
+      "depth": 5,
+      "leaves": 24,
+      "learning_rate": 0.05747704595015642,
+      "row_sample": 0.9221495427194333,
+      "column_sample": 0.8020994530140081,
+      "l2": 7.6818326871606635,
+      "l1": 0.06325012097573797,
+      "split_gain": 0.030375027428523854,
+      "min_child": 36
+    },
+    "mode": "context",
+    "rounds": 160,
+    "inner_splits": [
+      {
+        "split": 0,
+        "rounds": 149,
+        "trained_rounds": 219,
+        "n_fit": 4084,
+        "n_tune": 1021,
+        "seconds": 8.526263699999618,
+        "best_plus_patience_reaches_ceiling": false,
+        "r2": 0.8864910534295288,
+        "rmse": 15656.086179022515,
+        "mae": 7890.039070419887,
+        "bias": 112.85150617717179
+      },
+      {
+        "split": 1,
+        "rounds": 172,
+        "trained_rounds": 242,
+        "n_fit": 4085,
+        "n_tune": 1020,
+        "seconds": 1.306229613999676,
+        "best_plus_patience_reaches_ceiling": false,
+        "r2": 0.8902805351093803,
+        "rmse": 15271.80420850254,
+        "mae": 8016.990790507372,
+        "bias": 26.0047584103603
+      }
+    ],
+    "raw_optuna_parameters": {
+      "depth": 5,
+      "leaves": 24,
+      "learning_rate": 0.05747704595015642,
+      "row_sample": 0.9221495427194333,
+      "column_sample": 0.8020994530140081,
+      "l2": 7.6818326871606635,
+      "l1": 0.06325012097573797,
+      "split_gain": 0.030375027428523854,
+      "min_child": 36
+    },
+    "objective": "original-price Business halfblend MSE",
+    "tuning_mse": 239173430.68437874,
+    "trial_count": 12,
+    "signature": {
+      "source_hashes": {
+        "airfare_business/specialist.py": "61f3ee6f79473abcefa6d0ec59200c9f2819771748604bfa5a20197a68fc2037",
+        "airfare_business/PROTOCOL.md": "da040e6d84264facfbd63481a974bd1ec1607ef4767d30ef1a1b5767b5401dc4",
+        "airfare_round2/direct_cat64.py": "37bb3b151894f79617ad7aaf827bda3e84517564258be94c1c1bac87d0120732",
+        "airfare_fresh/study.py": "577774ae3227d9c1c2540d1a3a8deb1f3634a474e23bb84f10e10cb86d054134",
+        "airfare_fresh/features.py": "71f5b7d1c96d76d6fef81fb4692c636bc553c31ec5bee123fee64437d23ab62e"
+      },
+      "training_sha256": "6b0c9793817dc3e1b229ecea9ebbef14eef34452abf05a6f708d197cf6d8cc07",
+      "local_raw_sha256": "ebc29d3c779fea661505bc294126565af75f26231a1196c85f6fca7938814696",
+      "local_y_sha256": "d20ed660c6d7cc5fd72f4636530a910840efed14955999d7dbf45df709724b5f",
+      "global_selected_sha256": "92111280e4082c7d6135a576db12c298cf6611a76f162c487df90ef68bda3c85",
+      "inner_seed": 20262023,
+      "sampler_seed": 20274023,
+      "trials": 12,
+      "cap": 1200,
+      "patience": 70,
+      "mixture": 0.5
+    },
+    "scope": "primary/outer3"
+  },
+  {
+    "study": "business_primary_outer4",
+    "trial": 11,
+    "configuration": {
+      "depth": 5,
+      "leaves": 32,
+      "learning_rate": 0.06170544955195759,
+      "row_sample": 0.85751733895536,
+      "column_sample": 0.885070772543982,
+      "l2": 14.480682113099046,
+      "l1": 0.14320236323235142,
+      "split_gain": 0.010035418994208768,
+      "min_child": 12
+    },
+    "mode": "context",
+    "rounds": 158,
+    "inner_splits": [
+      {
+        "split": 0,
+        "rounds": 228,
+        "trained_rounds": 298,
+        "n_fit": 4084,
+        "n_tune": 1023,
+        "seconds": 1.691104292000091,
+        "best_plus_patience_reaches_ceiling": false,
+        "r2": 0.8792435286803142,
+        "rmse": 16301.050920462085,
+        "mae": 7985.373987485003,
+        "bias": -26.821063050077107
+      },
+      {
+        "split": 1,
+        "rounds": 89,
+        "trained_rounds": 159,
+        "n_fit": 4087,
+        "n_tune": 1020,
+        "seconds": 0.6956681659994501,
+        "best_plus_patience_reaches_ceiling": false,
+        "r2": 0.8738298026488848,
+        "rmse": 16281.862768545696,
+        "mae": 8159.281608607722,
+        "bias": 422.2745994904462
+      }
+    ],
+    "raw_optuna_parameters": {
+      "depth": 5,
+      "leaves": 32,
+      "learning_rate": 0.06170544955195759,
+      "row_sample": 0.85751733895536,
+      "column_sample": 0.885070772543982,
+      "l2": 14.480682113099046,
+      "l1": 0.14320236323235142,
+      "split_gain": 0.010035418994208768,
+      "min_child": 12
+    },
+    "objective": "original-price Business halfblend MSE",
+    "tuning_mse": 265412117.19779333,
+    "trial_count": 12,
+    "signature": {
+      "source_hashes": {
+        "airfare_business/specialist.py": "61f3ee6f79473abcefa6d0ec59200c9f2819771748604bfa5a20197a68fc2037",
+        "airfare_business/PROTOCOL.md": "da040e6d84264facfbd63481a974bd1ec1607ef4767d30ef1a1b5767b5401dc4",
+        "airfare_round2/direct_cat64.py": "37bb3b151894f79617ad7aaf827bda3e84517564258be94c1c1bac87d0120732",
+        "airfare_fresh/study.py": "577774ae3227d9c1c2540d1a3a8deb1f3634a474e23bb84f10e10cb86d054134",
+        "airfare_fresh/features.py": "71f5b7d1c96d76d6fef81fb4692c636bc553c31ec5bee123fee64437d23ab62e"
+      },
+      "training_sha256": "6b0c9793817dc3e1b229ecea9ebbef14eef34452abf05a6f708d197cf6d8cc07",
+      "local_raw_sha256": "f053d6b418ffd26b139393523243a844974482c7394d80dd58300c0b1e9c4bac",
+      "local_y_sha256": "47b4cc793ca0775da227ecf9b9528508d2b84c00f78701184674e9be8305dcb1",
+      "global_selected_sha256": "c4860a75f5d39292852793124ccb699e3893448596ed4aa189514ab9667574a0",
+      "inner_seed": 20262024,
+      "sampler_seed": 20274024,
+      "trials": 12,
+      "cap": 1200,
+      "patience": 70,
+      "mixture": 0.5
+    },
+    "scope": "primary/outer4"
+  },
+  {
+    "study": "business_primary_outer0",
+    "trial": 10,
+    "configuration": {
+      "depth": 6,
+      "leaves": 16,
+      "learning_rate": 0.04985230157970272,
+      "row_sample": 0.8009347003273506,
+      "column_sample": 0.8105230719524179,
+      "l2": 16.078965277116165,
+      "l1": 0.1276374719459948,
+      "split_gain": 0.08454780602167207,
+      "min_child": 46
+    },
+    "mode": "context",
+    "rounds": 237,
+    "inner_splits": [
+      {
+        "split": 0,
+        "rounds": 263,
+        "trained_rounds": 333,
+        "n_fit": 4085,
+        "n_tune": 1019,
+        "seconds": 1.4023622779996003,
+        "best_plus_patience_reaches_ceiling": false,
+        "r2": 0.8647959045315103,
+        "rmse": 17184.054044002747,
+        "mae": 8484.34169257354,
+        "bias": -196.22328577799698
+      },
+      {
+        "split": 1,
+        "rounds": 211,
+        "trained_rounds": 281,
+        "n_fit": 4087,
+        "n_tune": 1017,
+        "seconds": 1.1640543120001894,
+        "best_plus_patience_reaches_ceiling": false,
+        "r2": 0.8745043931086618,
+        "rmse": 16207.082300848786,
+        "mae": 7994.68269754558,
+        "bias": 409.22798724441753
+      }
+    ],
+    "raw_optuna_parameters": {
+      "depth": 6,
+      "leaves": 16,
+      "learning_rate": 0.04985230157970272,
+      "row_sample": 0.8009347003273506,
+      "column_sample": 0.8105230719524179,
+      "l2": 16.078965277116165,
+      "l1": 0.1276374719459948,
+      "split_gain": 0.08454780602167207,
+      "min_child": 46
+    },
+    "objective": "original-price Business halfblend MSE",
+    "tuning_mse": 278996637.7367683,
+    "trial_count": 12,
+    "signature": {
+      "source_hashes": {
+        "airfare_business/specialist.py": "61f3ee6f79473abcefa6d0ec59200c9f2819771748604bfa5a20197a68fc2037",
+        "airfare_business/PROTOCOL.md": "da040e6d84264facfbd63481a974bd1ec1607ef4767d30ef1a1b5767b5401dc4",
+        "airfare_round2/direct_cat64.py": "37bb3b151894f79617ad7aaf827bda3e84517564258be94c1c1bac87d0120732",
+        "airfare_fresh/study.py": "577774ae3227d9c1c2540d1a3a8deb1f3634a474e23bb84f10e10cb86d054134",
+        "airfare_fresh/features.py": "71f5b7d1c96d76d6fef81fb4692c636bc553c31ec5bee123fee64437d23ab62e"
+      },
+      "training_sha256": "6b0c9793817dc3e1b229ecea9ebbef14eef34452abf05a6f708d197cf6d8cc07",
+      "local_raw_sha256": "d2796b9f596d0a6e48c1ed304e751065bc2501ed2ba4952fb9840f3c99a056e2",
+      "local_y_sha256": "b2ee757eda4a42f45475f84ddf0202f2fe2c20947e6b9d1e832441134e652c38",
+      "global_selected_sha256": "e5e22306cdeac5284e4b7fdf7d114e07da8a206fb5f6c68ae6e860a79ae1547d",
+      "inner_seed": 20262020,
+      "sampler_seed": 20274020,
+      "trials": 12,
+      "cap": 1200,
+      "patience": 70,
+      "mixture": 0.5
+    },
+    "scope": "primary/outer0"
+  },
+  {
+    "study": "business_primary_outer2",
+    "trial": 11,
+    "configuration": {
+      "depth": 6,
+      "leaves": 32,
+      "learning_rate": 0.053917306305835994,
+      "row_sample": 0.9445540903421811,
+      "column_sample": 0.7639428944454486,
+      "l2": 5.026053196998413,
+      "l1": 1.3497795411313762,
+      "split_gain": 0.010218051881687413,
+      "min_child": 12
+    },
+    "mode": "context",
+    "rounds": 294,
+    "inner_splits": [
+      {
+        "split": 0,
+        "rounds": 291,
+        "trained_rounds": 361,
+        "n_fit": 4080,
+        "n_tune": 1021,
+        "seconds": 1.698399894999966,
+        "best_plus_patience_reaches_ceiling": false,
+        "r2": 0.8895311024571255,
+        "rmse": 15361.45436584934,
+        "mae": 7723.667239322718,
+        "bias": 46.66540794484646
+      },
+      {
+        "split": 1,
+        "rounds": 297,
+        "trained_rounds": 367,
+        "n_fit": 4079,
+        "n_tune": 1022,
+        "seconds": 1.675141488999543,
+        "best_plus_patience_reaches_ceiling": false,
+        "r2": 0.8799893183993348,
+        "rmse": 16357.928062190515,
+        "mae": 7662.828509814119,
+        "bias": -348.1941688597319
+      }
+    ],
+    "raw_optuna_parameters": {
+      "depth": 6,
+      "leaves": 32,
+      "learning_rate": 0.053917306305835994,
+      "row_sample": 0.9445540903421811,
+      "column_sample": 0.7639428944454486,
+      "l2": 5.026053196998413,
+      "l1": 1.3497795411313762,
+      "split_gain": 0.010218051881687413,
+      "min_child": 12
+    },
+    "objective": "original-price Business halfblend MSE",
+    "tuning_mse": 251785780.92879042,
+    "trial_count": 12,
+    "signature": {
+      "source_hashes": {
+        "airfare_business/specialist.py": "61f3ee6f79473abcefa6d0ec59200c9f2819771748604bfa5a20197a68fc2037",
+        "airfare_business/PROTOCOL.md": "da040e6d84264facfbd63481a974bd1ec1607ef4767d30ef1a1b5767b5401dc4",
+        "airfare_round2/direct_cat64.py": "37bb3b151894f79617ad7aaf827bda3e84517564258be94c1c1bac87d0120732",
+        "airfare_fresh/study.py": "577774ae3227d9c1c2540d1a3a8deb1f3634a474e23bb84f10e10cb86d054134",
+        "airfare_fresh/features.py": "71f5b7d1c96d76d6fef81fb4692c636bc553c31ec5bee123fee64437d23ab62e"
+      },
+      "training_sha256": "6b0c9793817dc3e1b229ecea9ebbef14eef34452abf05a6f708d197cf6d8cc07",
+      "local_raw_sha256": "60a27a8390cc639f720fd490389592b0e941af4576f49ee9ed394fc0408609d4",
+      "local_y_sha256": "2a994f6ab2942435ee3e7d699f7524badb621fcc17cd379124b9c81c8a004de4",
+      "global_selected_sha256": "69802f15863f0905b4dfc399ba726ac1fa819b4ed2b72ab390136e5e211b2b6f",
+      "inner_seed": 20262022,
+      "sampler_seed": 20274022,
+      "trials": 12,
+      "cap": 1200,
+      "patience": 70,
+      "mixture": 0.5
+    },
+    "scope": "primary/outer2"
+  },
+  {
+    "study": "business_primary_outer1",
+    "trial": 10,
+    "configuration": {
+      "depth": 5,
+      "leaves": 24,
+      "learning_rate": 0.060353488340405416,
+      "row_sample": 0.9000884521428502,
+      "column_sample": 0.759714588949006,
+      "l2": 15.622505957279813,
+      "l1": 0.6957714672538386,
+      "split_gain": 0.14335558148045904,
+      "min_child": 12
+    },
+    "mode": "context",
+    "rounds": 450,
+    "inner_splits": [
+      {
+        "split": 0,
+        "rounds": 335,
+        "trained_rounds": 405,
+        "n_fit": 4082,
+        "n_tune": 1021,
+        "seconds": 1.61536064899974,
+        "best_plus_patience_reaches_ceiling": false,
+        "r2": 0.9000096226898832,
+        "rmse": 14421.85953105861,
+        "mae": 7592.724484995693,
+        "bias": -130.3373370007133
+      },
+      {
+        "split": 1,
+        "rounds": 565,
+        "trained_rounds": 635,
+        "n_fit": 4084,
+        "n_tune": 1019,
+        "seconds": 2.743904306999866,
+        "best_plus_patience_reaches_ceiling": false,
+        "r2": 0.8735995691518167,
+        "rmse": 16912.808848970584,
+        "mae": 7771.120277075351,
+        "bias": -150.70500033924228
+      }
+    ],
+    "raw_optuna_parameters": {
+      "depth": 5,
+      "leaves": 24,
+      "learning_rate": 0.060353488340405416,
+      "row_sample": 0.9000884521428502,
+      "column_sample": 0.759714588949006,
+      "l2": 15.622505957279813,
+      "l1": 0.6957714672538386,
+      "split_gain": 0.14335558148045904,
+      "min_child": 12
+    },
+    "objective": "original-price Business halfblend MSE",
+    "tuning_mse": 246978306.43847233,
+    "trial_count": 12,
+    "signature": {
+      "source_hashes": {
+        "airfare_business/specialist.py": "61f3ee6f79473abcefa6d0ec59200c9f2819771748604bfa5a20197a68fc2037",
+        "airfare_business/PROTOCOL.md": "da040e6d84264facfbd63481a974bd1ec1607ef4767d30ef1a1b5767b5401dc4",
+        "airfare_round2/direct_cat64.py": "37bb3b151894f79617ad7aaf827bda3e84517564258be94c1c1bac87d0120732",
+        "airfare_fresh/study.py": "577774ae3227d9c1c2540d1a3a8deb1f3634a474e23bb84f10e10cb86d054134",
+        "airfare_fresh/features.py": "71f5b7d1c96d76d6fef81fb4692c636bc553c31ec5bee123fee64437d23ab62e"
+      },
+      "training_sha256": "6b0c9793817dc3e1b229ecea9ebbef14eef34452abf05a6f708d197cf6d8cc07",
+      "local_raw_sha256": "56b46a72b80d0988c522fdac7d7cc18e46ebb13274c42c0b11c898d81873efdc",
+      "local_y_sha256": "360d96ea53d18e46ebef294c51d1dd41e12ecfe4376243dbe9b7ff84f5e4952c",
+      "global_selected_sha256": "8a5fdc377c10b224af94b52130fe120941917dc82d6a272a0879399a00721cfe",
+      "inner_seed": 20262021,
+      "sampler_seed": 20274021,
+      "trials": 12,
+      "cap": 1200,
+      "patience": 70,
+      "mixture": 0.5
+    },
+    "scope": "primary/outer1"
+  },
+  {
+    "study": "business_sensitivity_outer3",
+    "trial": 11,
+    "configuration": {
+      "depth": 6,
+      "leaves": 32,
+      "learning_rate": 0.04900811828301741,
+      "row_sample": 0.9314469312868554,
+      "column_sample": 0.8744426282889128,
+      "l2": 8.854417719489964,
+      "l1": 0.12044315589031024,
+      "split_gain": 0.012113426166024103,
+      "min_child": 22
+    },
+    "mode": "context",
+    "rounds": 316,
+    "inner_splits": [
+      {
+        "split": 0,
+        "rounds": 372,
+        "trained_rounds": 442,
+        "n_fit": 4082,
+        "n_tune": 1021,
+        "seconds": 3.2405634329998065,
+        "best_plus_patience_reaches_ceiling": false,
+        "r2": 0.8788224747129134,
+        "rmse": 16501.685971010746,
+        "mae": 7823.68421910442,
+        "bias": -881.6541170779685
+      },
+      {
+        "split": 1,
+        "rounds": 261,
+        "trained_rounds": 331,
+        "n_fit": 4084,
+        "n_tune": 1019,
+        "seconds": 1.7752929950001999,
+        "best_plus_patience_reaches_ceiling": false,
+        "r2": 0.8758037332782257,
+        "rmse": 16206.43074239077,
+        "mae": 7717.3932438982365,
+        "bias": 205.63994138865522
+      }
+    ],
+    "raw_optuna_parameters": {
+      "depth": 6,
+      "leaves": 32,
+      "learning_rate": 0.04900811828301741,
+      "row_sample": 0.9314469312868554,
+      "column_sample": 0.8744426282889128,
+      "l2": 8.854417719489964,
+      "l1": 0.12044315589031024,
+      "split_gain": 0.012113426166024103,
+      "min_child": 22
+    },
+    "objective": "original-price Business halfblend MSE",
+    "tuning_mse": 267481752.58927193,
+    "trial_count": 12,
+    "signature": {
+      "source_hashes": {
+        "airfare_business/specialist.py": "61f3ee6f79473abcefa6d0ec59200c9f2819771748604bfa5a20197a68fc2037",
+        "airfare_business/PROTOCOL.md": "da040e6d84264facfbd63481a974bd1ec1607ef4767d30ef1a1b5767b5401dc4",
+        "airfare_round2/direct_cat64.py": "37bb3b151894f79617ad7aaf827bda3e84517564258be94c1c1bac87d0120732",
+        "airfare_fresh/study.py": "577774ae3227d9c1c2540d1a3a8deb1f3634a474e23bb84f10e10cb86d054134",
+        "airfare_fresh/features.py": "71f5b7d1c96d76d6fef81fb4692c636bc553c31ec5bee123fee64437d23ab62e"
+      },
+      "training_sha256": "6b0c9793817dc3e1b229ecea9ebbef14eef34452abf05a6f708d197cf6d8cc07",
+      "local_raw_sha256": "1b55ff32a2d2335d1f3714aa92e7615bf4246b12970f73d846673826893a4cf5",
+      "local_y_sha256": "40bb718ccc4e5a6146ed4164a729825ec9783ee504aceab084b3865422b9abe9",
+      "global_selected_sha256": "b780594747da62743c8691d73ba2e42fc098f26736c07aa862d52b04eb25a332",
+      "inner_seed": 20276023,
+      "sampler_seed": 20277023,
+      "trials": 12,
+      "cap": 1200,
+      "patience": 70,
+      "mixture": 0.5
+    },
+    "scope": "sensitivity/outer3"
+  },
+  {
+    "study": "business_sensitivity_outer4",
+    "trial": 11,
+    "configuration": {
+      "depth": 5,
+      "leaves": 32,
+      "learning_rate": 0.03152892271999065,
+      "row_sample": 0.8078738726168164,
+      "column_sample": 0.781771931988027,
+      "l2": 9.817698219040658,
+      "l1": 0.4051161834686972,
+      "split_gain": 0.019322808142450965,
+      "min_child": 12
+    },
+    "mode": "context",
+    "rounds": 312,
+    "inner_splits": [
+      {
+        "split": 0,
+        "rounds": 454,
+        "trained_rounds": 524,
+        "n_fit": 4082,
+        "n_tune": 1022,
+        "seconds": 2.9666540609996446,
+        "best_plus_patience_reaches_ceiling": false,
+        "r2": 0.8886566847120217,
+        "rmse": 15618.167276548247,
+        "mae": 7562.7141119496,
+        "bias": -1164.2883351040446
+      },
+      {
+        "split": 1,
+        "rounds": 171,
+        "trained_rounds": 241,
+        "n_fit": 4082,
+        "n_tune": 1022,
+        "seconds": 1.204441959000178,
+        "best_plus_patience_reaches_ceiling": false,
+        "r2": 0.8734239839879364,
+        "rmse": 16414.07791066787,
+        "mae": 8243.975633875965,
+        "bias": 143.97113703468307
+      }
+    ],
+    "raw_optuna_parameters": {
+      "depth": 5,
+      "leaves": 32,
+      "learning_rate": 0.03152892271999065,
+      "row_sample": 0.8078738726168164,
+      "column_sample": 0.781771931988027,
+      "l2": 9.817698219040658,
+      "l1": 0.4051161834686972,
+      "split_gain": 0.019322808142450965,
+      "min_child": 12
+    },
+    "objective": "original-price Business halfblend MSE",
+    "tuning_mse": 256674551.36785874,
+    "trial_count": 12,
+    "signature": {
+      "source_hashes": {
+        "airfare_business/specialist.py": "61f3ee6f79473abcefa6d0ec59200c9f2819771748604bfa5a20197a68fc2037",
+        "airfare_business/PROTOCOL.md": "da040e6d84264facfbd63481a974bd1ec1607ef4767d30ef1a1b5767b5401dc4",
+        "airfare_round2/direct_cat64.py": "37bb3b151894f79617ad7aaf827bda3e84517564258be94c1c1bac87d0120732",
+        "airfare_fresh/study.py": "577774ae3227d9c1c2540d1a3a8deb1f3634a474e23bb84f10e10cb86d054134",
+        "airfare_fresh/features.py": "71f5b7d1c96d76d6fef81fb4692c636bc553c31ec5bee123fee64437d23ab62e"
+      },
+      "training_sha256": "6b0c9793817dc3e1b229ecea9ebbef14eef34452abf05a6f708d197cf6d8cc07",
+      "local_raw_sha256": "3d10024cd67e75a3f8681b88998a05fb4fd99474267df12a4edc1094d6f6654b",
+      "local_y_sha256": "33f81ad827e2454affae9f5ffcd9c7bdfaa372dd6457e4626d509ba5a23820be",
+      "global_selected_sha256": "5f10e827132a330b957d76e3511234411ed83d4bd919553af85b9e4eef7f7f17",
+      "inner_seed": 20276024,
+      "sampler_seed": 20277024,
+      "trials": 12,
+      "cap": 1200,
+      "patience": 70,
+      "mixture": 0.5
+    },
+    "scope": "sensitivity/outer4"
+  },
+  {
+    "study": "business_sensitivity_outer0",
+    "trial": 7,
+    "configuration": {
+      "depth": 5,
+      "leaves": 24,
+      "learning_rate": 0.059471908195130437,
+      "row_sample": 0.9437332590690277,
+      "column_sample": 0.7548862026558654,
+      "l2": 5.172141161131582,
+      "l1": 0.10389029534257313,
+      "split_gain": 0.09260303169103272,
+      "min_child": 23
+    },
+    "mode": "context",
+    "rounds": 171,
+    "inner_splits": [
+      {
+        "split": 0,
+        "rounds": 294,
+        "trained_rounds": 364,
+        "n_fit": 4083,
+        "n_tune": 1021,
+        "seconds": 1.5961145820001548,
+        "best_plus_patience_reaches_ceiling": false,
+        "r2": 0.8977579626953948,
+        "rmse": 14808.335849485764,
+        "mae": 7577.924308738559,
+        "bias": 54.218879638993194
+      },
+      {
+        "split": 1,
+        "rounds": 49,
+        "trained_rounds": 119,
+        "n_fit": 4083,
+        "n_tune": 1021,
+        "seconds": 0.6911189950005792,
+        "best_plus_patience_reaches_ceiling": false,
+        "r2": 0.8926912784465889,
+        "rmse": 14701.040272327928,
+        "mae": 8090.867799494573,
+        "bias": 370.67711971462296
+      }
+    ],
+    "raw_optuna_parameters": {
+      "depth": 5,
+      "leaves": 24,
+      "learning_rate": 0.059471908195130437,
+      "row_sample": 0.9437332590690277,
+      "column_sample": 0.7548862026558654,
+      "l2": 5.172141161131582,
+      "l1": 0.10389029534257313,
+      "split_gain": 0.09260303169103272,
+      "min_child": 23
+    },
+    "objective": "original-price Business halfblend MSE",
+    "tuning_mse": 217703697.8598864,
+    "trial_count": 12,
+    "signature": {
+      "source_hashes": {
+        "airfare_business/specialist.py": "61f3ee6f79473abcefa6d0ec59200c9f2819771748604bfa5a20197a68fc2037",
+        "airfare_business/PROTOCOL.md": "da040e6d84264facfbd63481a974bd1ec1607ef4767d30ef1a1b5767b5401dc4",
+        "airfare_round2/direct_cat64.py": "37bb3b151894f79617ad7aaf827bda3e84517564258be94c1c1bac87d0120732",
+        "airfare_fresh/study.py": "577774ae3227d9c1c2540d1a3a8deb1f3634a474e23bb84f10e10cb86d054134",
+        "airfare_fresh/features.py": "71f5b7d1c96d76d6fef81fb4692c636bc553c31ec5bee123fee64437d23ab62e"
+      },
+      "training_sha256": "6b0c9793817dc3e1b229ecea9ebbef14eef34452abf05a6f708d197cf6d8cc07",
+      "local_raw_sha256": "9fb908dd5b6c86cf1611d344b0b42089b971226263dedfdd7d495c3a0fd49d9b",
+      "local_y_sha256": "ac7cfa003e08b1e37ae40679d609e1d6077efcc2ac0448e8ea2b82496ce088a0",
+      "global_selected_sha256": "0a73d43bdd1879c25096cc0b15842e4cc4dded4574f4cb58056c353774ef5149",
+      "inner_seed": 20276020,
+      "sampler_seed": 20277020,
+      "trials": 12,
+      "cap": 1200,
+      "patience": 70,
+      "mixture": 0.5
+    },
+    "scope": "sensitivity/outer0"
+  },
+  {
+    "study": "business_sensitivity_outer2",
+    "trial": 5,
+    "configuration": {
+      "depth": 6,
+      "leaves": 24,
+      "learning_rate": 0.06467465552251088,
+      "row_sample": 0.7683059652044417,
+      "column_sample": 0.7083401418859936,
+      "l2": 34.13456326344679,
+      "l1": 0.9502578357946546,
+      "split_gain": 0.01837703275488295,
+      "min_child": 12
+    },
+    "mode": "context",
+    "rounds": 497,
+    "inner_splits": [
+      {
+        "split": 0,
+        "rounds": 379,
+        "trained_rounds": 449,
+        "n_fit": 4085,
+        "n_tune": 1020,
+        "seconds": 5.254350116999376,
+        "best_plus_patience_reaches_ceiling": false,
+        "r2": 0.8730458378364886,
+        "rmse": 16978.694622014595,
+        "mae": 8084.931229285633,
+        "bias": -117.36492786126978
+      },
+      {
+        "split": 1,
+        "rounds": 615,
+        "trained_rounds": 685,
+        "n_fit": 4083,
+        "n_tune": 1022,
+        "seconds": 4.541085424999437,
+        "best_plus_patience_reaches_ceiling": false,
+        "r2": 0.8999027884154903,
+        "rmse": 14476.147986879414,
+        "mae": 7406.926978772867,
+        "bias": -445.61023132955023
+      }
+    ],
+    "raw_optuna_parameters": {
+      "depth": 6,
+      "leaves": 24,
+      "learning_rate": 0.06467465552251088,
+      "row_sample": 0.7683059652044417,
+      "column_sample": 0.7083401418859936,
+      "l2": 34.13456326344679,
+      "l1": 0.9502578357946546,
+      "split_gain": 0.01837703275488295,
+      "min_child": 12
+    },
+    "objective": "original-price Business halfblend MSE",
+    "tuning_mse": 248878916.72813392,
+    "trial_count": 12,
+    "signature": {
+      "source_hashes": {
+        "airfare_business/specialist.py": "61f3ee6f79473abcefa6d0ec59200c9f2819771748604bfa5a20197a68fc2037",
+        "airfare_business/PROTOCOL.md": "da040e6d84264facfbd63481a974bd1ec1607ef4767d30ef1a1b5767b5401dc4",
+        "airfare_round2/direct_cat64.py": "37bb3b151894f79617ad7aaf827bda3e84517564258be94c1c1bac87d0120732",
+        "airfare_fresh/study.py": "577774ae3227d9c1c2540d1a3a8deb1f3634a474e23bb84f10e10cb86d054134",
+        "airfare_fresh/features.py": "71f5b7d1c96d76d6fef81fb4692c636bc553c31ec5bee123fee64437d23ab62e"
+      },
+      "training_sha256": "6b0c9793817dc3e1b229ecea9ebbef14eef34452abf05a6f708d197cf6d8cc07",
+      "local_raw_sha256": "bb8a6d678662d23bcc16afeca51445630efd83a2c13f7e442fc9bbf1f27d4885",
+      "local_y_sha256": "202a0a39411d9dc1c655fc2f22738b223092c337d908dbd0e9986d29f75c6d90",
+      "global_selected_sha256": "849c2d0328d8286b9c281f9e79c043407fb5198dd2f3d4043274fed59fc73e83",
+      "inner_seed": 20276022,
+      "sampler_seed": 20277022,
+      "trials": 12,
+      "cap": 1200,
+      "patience": 70,
+      "mixture": 0.5
+    },
+    "scope": "sensitivity/outer2"
+  },
+  {
+    "study": "business_sensitivity_outer1",
+    "trial": 4,
+    "configuration": {
+      "depth": 5,
+      "leaves": 16,
+      "learning_rate": 0.04406061849127676,
+      "row_sample": 0.9408381044485994,
+      "column_sample": 0.7495537168699994,
+      "l2": 39.25589294016409,
+      "l1": 0.485724650830631,
+      "split_gain": 0.014768486464677091,
+      "min_child": 38
+    },
+    "mode": "context",
+    "rounds": 944,
+    "inner_splits": [
+      {
+        "split": 0,
+        "rounds": 965,
+        "trained_rounds": 1035,
+        "n_fit": 4084,
+        "n_tune": 1020,
+        "seconds": 5.3684088150002935,
+        "best_plus_patience_reaches_ceiling": false,
+        "r2": 0.8791210873078015,
+        "rmse": 16358.25872896242,
+        "mae": 8126.186881706762,
+        "bias": 148.64697930766087
+      },
+      {
+        "split": 1,
+        "rounds": 924,
+        "trained_rounds": 994,
+        "n_fit": 4084,
+        "n_tune": 1020,
+        "seconds": 5.4577488309996625,
+        "best_plus_patience_reaches_ceiling": false,
+        "r2": 0.8843190056489783,
+        "rmse": 15505.995221249814,
+        "mae": 7754.681758132635,
+        "bias": 80.73116542591768
+      }
+    ],
+    "raw_optuna_parameters": {
+      "depth": 5,
+      "leaves": 16,
+      "learning_rate": 0.04406061849127676,
+      "row_sample": 0.9408381044485994,
+      "column_sample": 0.7495537168699994,
+      "l2": 39.25589294016409,
+      "l1": 0.485724650830631,
+      "split_gain": 0.014768486464677091,
+      "min_child": 38
+    },
+    "objective": "original-price Business halfblend MSE",
+    "tuning_mse": 254014258.22254866,
+    "trial_count": 12,
+    "signature": {
+      "source_hashes": {
+        "airfare_business/specialist.py": "61f3ee6f79473abcefa6d0ec59200c9f2819771748604bfa5a20197a68fc2037",
+        "airfare_business/PROTOCOL.md": "da040e6d84264facfbd63481a974bd1ec1607ef4767d30ef1a1b5767b5401dc4",
+        "airfare_round2/direct_cat64.py": "37bb3b151894f79617ad7aaf827bda3e84517564258be94c1c1bac87d0120732",
+        "airfare_fresh/study.py": "577774ae3227d9c1c2540d1a3a8deb1f3634a474e23bb84f10e10cb86d054134",
+        "airfare_fresh/features.py": "71f5b7d1c96d76d6fef81fb4692c636bc553c31ec5bee123fee64437d23ab62e"
+      },
+      "training_sha256": "6b0c9793817dc3e1b229ecea9ebbef14eef34452abf05a6f708d197cf6d8cc07",
+      "local_raw_sha256": "70ea43d66234296b11a40191bcc1ccab7d9fa82d7a0e33d6979909af447a8a92",
+      "local_y_sha256": "fc3bfdce0d53d69adb77c58eff5d34715597c6b23cd8aecf3dc96770b300d218",
+      "global_selected_sha256": "171deb719b6566395577bfc5c6b84885251092adb6707b59c376e8ac96ab66fe",
+      "inner_seed": 20276021,
+      "sampler_seed": 20277021,
+      "trials": 12,
+      "cap": 1200,
+      "patience": 70,
+      "mixture": 0.5
+    },
+    "scope": "sensitivity/outer1"
+  },
+  {
+    "study": "business_airfare_business_full_training",
+    "trial": 10,
+    "configuration": {
+      "depth": 6,
+      "leaves": 24,
+      "learning_rate": 0.034673213794503936,
+      "row_sample": 0.8142021409341734,
+      "column_sample": 0.7123590917054985,
+      "l2": 16.74543252034805,
+      "l1": 1.2154125600253947,
+      "split_gain": 0.02082905540196759,
+      "min_child": 27
+    },
+    "mode": "context",
+    "rounds": 461,
+    "inner_splits": [
+      {
+        "split": 0,
+        "rounds": 190,
+        "trained_rounds": 260,
+        "n_fit": 5102,
+        "n_tune": 1278,
+        "seconds": 1.4929918690004342,
+        "best_plus_patience_reaches_ceiling": false,
+        "r2": 0.8765138260775986,
+        "rmse": 16230.131905836104,
+        "mae": 8292.384387779684,
+        "bias": -57.389180458767314
+      },
+      {
+        "split": 1,
+        "rounds": 732,
+        "trained_rounds": 802,
+        "n_fit": 5103,
+        "n_tune": 1277,
+        "seconds": 5.137421484000697,
+        "best_plus_patience_reaches_ceiling": false,
+        "r2": 0.8886861821318669,
+        "rmse": 15562.646797469426,
+        "mae": 7594.963158355808,
+        "bias": -446.39150914944236
+      }
+    ],
+    "raw_optuna_parameters": {
+      "depth": 6,
+      "leaves": 24,
+      "learning_rate": 0.034673213794503936,
+      "row_sample": 0.8142021409341734,
+      "column_sample": 0.7123590917054985,
+      "l2": 16.74543252034805,
+      "l1": 1.2154125600253947,
+      "split_gain": 0.02082905540196759,
+      "min_child": 27
+    },
+    "objective": "original-price Business halfblend MSE",
+    "tuning_mse": 252810731.38976488,
+    "trial_count": 12,
+    "signature": {
+      "source_hashes": {
+        "airfare_business/specialist.py": "61f3ee6f79473abcefa6d0ec59200c9f2819771748604bfa5a20197a68fc2037",
+        "airfare_business/PROTOCOL.md": "da040e6d84264facfbd63481a974bd1ec1607ef4767d30ef1a1b5767b5401dc4",
+        "airfare_round2/direct_cat64.py": "37bb3b151894f79617ad7aaf827bda3e84517564258be94c1c1bac87d0120732",
+        "airfare_fresh/study.py": "577774ae3227d9c1c2540d1a3a8deb1f3634a474e23bb84f10e10cb86d054134",
+        "airfare_fresh/features.py": "71f5b7d1c96d76d6fef81fb4692c636bc553c31ec5bee123fee64437d23ab62e"
+      },
+      "training_sha256": "6b0c9793817dc3e1b229ecea9ebbef14eef34452abf05a6f708d197cf6d8cc07",
+      "local_raw_sha256": "f7fa78494abee12004b24a89237b6e58f1cac30e5673b0ecd25b80e778c5da42",
+      "local_y_sha256": "4b8c38fbfe78ef290a95fdf0ad9acc3f65010f3429e3b3e750bf91c18fd08542",
+      "global_selected_sha256": "821d44e823ef69616e868e396aad571a2d5b63f17e516a3bfe6d401384fac1b2",
+      "inner_seed": 20263020,
+      "sampler_seed": 20275020,
+      "trials": 12,
+      "cap": 1200,
+      "patience": 70,
+      "mixture": 0.5
+    },
+    "scope": "full_training"
+  }
+]

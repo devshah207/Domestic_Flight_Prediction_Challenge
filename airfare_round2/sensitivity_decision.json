@@ -1,0 +1,13 @@
+{
+  "run_secondary": false,
+  "delta_r2_cat": -0.0017408004424359635,
+  "delta_r2_blend": -0.0006612531770290309,
+  "blend_fold_deltas": [
+    0.0,
+    -0.0029262260768883053,
+    -0.0004641940613334672,
+    -0.00028394096517303513,
+    0.00038260193707129186
+  ],
+  "note": "Registered compute allocation only; not a promotion or statistical significance test"
+}

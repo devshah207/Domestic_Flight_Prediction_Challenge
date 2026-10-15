@@ -1,0 +1,12 @@
+{
+  "source": "User message; not independently verified; provenance only, excluded from all tuning and compute-gate inputs",
+  "scores": {
+    "xgboost": 0.95797,
+    "lightgbm": 0.95167,
+    "equal_blend_onehot64": 0.95803,
+    "equal_blend": 0.95504,
+    "catboost_onehot64": 0.95638,
+    "catboost": 0.94199
+  },
+  "rank": 12
+}

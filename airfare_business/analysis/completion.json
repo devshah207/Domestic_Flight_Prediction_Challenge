@@ -1,0 +1,17 @@
+{
+  "source_hashes": {
+    "airfare_business/specialist.py": "61f3ee6f79473abcefa6d0ec59200c9f2819771748604bfa5a20197a68fc2037",
+    "airfare_business/PROTOCOL.md": "da040e6d84264facfbd63481a974bd1ec1607ef4767d30ef1a1b5767b5401dc4",
+    "airfare_round2/direct_cat64.py": "37bb3b151894f79617ad7aaf827bda3e84517564258be94c1c1bac87d0120732",
+    "airfare_fresh/study.py": "577774ae3227d9c1c2540d1a3a8deb1f3634a474e23bb84f10e10cb86d054134",
+    "airfare_fresh/features.py": "71f5b7d1c96d76d6fef81fb4692c636bc553c31ec5bee123fee64437d23ab62e"
+  },
+  "specialist_trials": 132,
+  "secondary_global_trials": 60,
+  "total_trials": 192,
+  "research_model_fits": 427,
+  "synthetic_smoke_fits_excluded": 1,
+  "secondary_completed": true,
+  "economy_oof_predictions_unchanged": true,
+  "test_accessed_by_analysis": false
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "n_fit": 4082,
+    "n_tune": 1022,
+    "fit_positions_sha256": "01af97d61314f8ec7049bc8e8d36e806c8608a04ffd1ef3850193a510b9a7ea2",
+    "tune_positions_sha256": "0b31304675f59bc4523241d2e6cf3c8a3dfdea6e93a837f2ed3409162ed743dc",
+    "global_reconstruction_seconds": 3.203201049999734,
+    "global_r2_reconstruction_error": 0.0
+  },
+  {
+    "n_fit": 4082,
+    "n_tune": 1022,
+    "fit_positions_sha256": "ee1127ebe9327fbfc760b4ac02fb10d3f2c8eeb58271999a47258cdba4f29a15",
+    "tune_positions_sha256": "d2b8fefe4503b8d8780417e714135c5262050b729bdd1d4b63e4772a1c0d5655",
+    "global_reconstruction_seconds": 1.8633503139999448,
+    "global_r2_reconstruction_error": 0.0
+  }
+]

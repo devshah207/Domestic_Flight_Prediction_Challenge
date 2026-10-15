@@ -1,0 +1,67 @@
+{
+  "study": "xgb_secondary2",
+  "best_trial": 0,
+  "tuning_mse": 107020606.21969904,
+  "mode": "minimal",
+  "configuration": {
+    "depth": 6,
+    "learning_rate": 0.045,
+    "leaves": 32,
+    "row_sample": 0.85,
+    "column_sample": 0.85,
+    "l2": 12.0,
+    "l1": 0.2,
+    "split_gain": 0.04,
+    "min_child": 20
+  },
+  "rounds": 658,
+  "inner_splits": [
+    {
+      "split": 0,
+      "rounds": 569,
+      "n_fit": 9977,
+      "n_tune": 2494,
+      "r2": 0.9229043782517187,
+      "rmse": 11126.860408301729,
+      "mae": 4122.503551929401,
+      "bias": 4.64488463719176
+    },
+    {
+      "split": 1,
+      "rounds": 747,
+      "n_fit": 9977,
+      "n_tune": 2494,
+      "r2": 0.939599498369022,
+      "rmse": 9499.167852689285,
+      "mae": 3871.517286453232,
+      "bias": -170.47065954238965
+    }
+  ],
+  "trial_count": 12,
+  "raw_optuna_parameters": {
+    "feature_mode": "minimal",
+    "depth": 6,
+    "learning_rate": 0.045,
+    "leaves": 32,
+    "row_sample": 0.85,
+    "column_sample": 0.85,
+    "l2": 12.0,
+    "l1": 0.2,
+    "split_gain": 0.04,
+    "min_child": 20
+  },
+  "round_policy": "fresh median of two inner80/20 stops; floor100 ceiling1200; refit100%",
+  "signature": {
+    "code": {
+      "study.py": "577774ae3227d9c1c2540d1a3a8deb1f3634a474e23bb84f10e10cb86d054134",
+      "features.py": "71f5b7d1c96d76d6fef81fb4692c636bc553c31ec5bee123fee64437d23ab62e"
+    },
+    "row_hash": "bb8a6d678662d23bcc16afeca51445630efd83a2c13f7e442fc9bbf1f27d4885",
+    "target_hash": "202a0a39411d9dc1c655fc2f22738b223092c337d908dbd0e9986d29f75c6d90",
+    "seed": 20276022,
+    "family": "xgb",
+    "trials": 12,
+    "cap": 1200,
+    "patience": 70
+  }
+}

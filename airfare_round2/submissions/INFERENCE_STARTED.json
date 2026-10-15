@@ -1,0 +1,5 @@
+{
+  "started_at_utc": "2026-10-15T10:14:47.082313+00:00",
+  "manifest_sha256": "a13ca037e9e4babea3627f129d347d5dde259683374e2128ed4018d5a0794662",
+  "test_access": "permitted only for final prediction; no new training or selection"
+}
