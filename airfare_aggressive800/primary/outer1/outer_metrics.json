@@ -1,0 +1,31 @@
+{
+  "fold": 1,
+  "r2": 0.9184009608599514,
+  "rmse": 11222.194704046635,
+  "mae": 3875.1660197135307,
+  "bias": 28.109442971553563,
+  "train_r2": 0.9872229559681865,
+  "reference_r2": 0.9204805535974796,
+  "reference_train_r2": 0.9757635427523706,
+  "delta_r2": -0.002079592737528224,
+  "n_fit": 12472,
+  "n_validation": 3117,
+  "business_fit_rows": 5103,
+  "business_validation_rows": 1277,
+  "specialist_trees": 800,
+  "global_trees": 812,
+  "global_selection_sha256": "aa1694aa8229e8c089237ffae93f2cc55c382f83ad1958ed7a811bddc72186dd",
+  "group_overlap": 0,
+  "global_input_identities_verified": true,
+  "global_reconstruction_max_abs_error": 2.9103830456733704e-11,
+  "economy_predictions_unchanged": true,
+  "refit_seconds": 12.843351920000714,
+  "source_hashes": {
+    "airfare_aggressive800/experiment.py": "061fbe20e1316385ba5cc7328c87e3c66e7e8e63ef44156f8b2a0bfd9d50dcc8",
+    "airfare_aggressive800/PROTOCOL.md": "7e6f18744e187667099364ef0fbc737a09760b698126621498f91a4e78166b01",
+    "airfare_business/specialist.py": "61f3ee6f79473abcefa6d0ec59200c9f2819771748604bfa5a20197a68fc2037",
+    "airfare_round2/direct_cat64.py": "37bb3b151894f79617ad7aaf827bda3e84517564258be94c1c1bac87d0120732",
+    "airfare_fresh/study.py": "577774ae3227d9c1c2540d1a3a8deb1f3634a474e23bb84f10e10cb86d054134",
+    "airfare_fresh/features.py": "71f5b7d1c96d76d6fef81fb4692c636bc553c31ec5bee123fee64437d23ab62e"
+  }
+}

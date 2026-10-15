@@ -1,0 +1,45 @@
+{
+  "registered_at_utc": "2026-10-15T10:59:19.796721+00:00",
+  "source_hashes": {
+    "airfare_aggressive800/experiment.py": "061fbe20e1316385ba5cc7328c87e3c66e7e8e63ef44156f8b2a0bfd9d50dcc8",
+    "airfare_aggressive800/PROTOCOL.md": "7e6f18744e187667099364ef0fbc737a09760b698126621498f91a4e78166b01",
+    "airfare_business/specialist.py": "61f3ee6f79473abcefa6d0ec59200c9f2819771748604bfa5a20197a68fc2037",
+    "airfare_round2/direct_cat64.py": "37bb3b151894f79617ad7aaf827bda3e84517564258be94c1c1bac87d0120732",
+    "airfare_fresh/study.py": "577774ae3227d9c1c2540d1a3a8deb1f3634a474e23bb84f10e10cb86d054134",
+    "airfare_fresh/features.py": "71f5b7d1c96d76d6fef81fb4692c636bc553c31ec5bee123fee64437d23ab62e"
+  },
+  "training_sha256": "6b0c9793817dc3e1b229ecea9ebbef14eef34452abf05a6f708d197cf6d8cc07",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "scikit-learn": "1.8.0",
+    "xgboost-cpu": "3.1.1",
+    "lightgbm": "4.6.0",
+    "catboost": "1.2.8",
+    "optuna": "4.6.0",
+    "joblib": "1.5.3"
+  },
+  "profile": {
+    "depth": 7,
+    "leaves": 48,
+    "learning_rate": 0.045,
+    "min_child": 8,
+    "l2": 3.0,
+    "l1": 0.05,
+    "split_gain": 0.01,
+    "row_sample": 0.95,
+    "column_sample": 0.9
+  },
+  "rounds": 800,
+  "outer_seeds": {
+    "primary": 20261020,
+    "sensitivity": 20261027
+  },
+  "research_fit_budget": 21,
+  "optuna_trials": 0,
+  "mixture": 0.5,
+  "feature_mode": "context",
+  "exploratory_csv_authorized_even_with_weaker_validation": true,
+  "test_accessed": false
+}

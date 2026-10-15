@@ -2,6 +2,14 @@
 
 Executed airfare regression research, Python implementations, exact model configurations, validation diagnostics and Kaggle submission files. No neural networks were used. The competition datasets and Python virtual environment are not included.
 
+## One exploratory 800-tree candidate
+
+The latest experiment supplies exactly one new, more aggressive Business-augmented XGBoost candidate. It keeps the original global branch and fixed 50/50 Business mixture, while replacing the specialist with a fixed 800-tree profile. Validation improved on both reused split seeds, with larger training–validation gaps; no new Kaggle score is claimed.
+
+- **[Download the one new CSV](https://github.com/devshah207/Domestic_Flight_Prediction_Challenge/raw/refs/heads/main/submissions/submission_aggressive_business_xgb800.csv)**
+- [Read validation results and exact settings](airfare_aggressive800/README.md)
+- [Download candidate, configuration, model and diagnostics](https://github.com/devshah207/Domestic_Flight_Prediction_Challenge/raw/refs/heads/main/downloads/Airfare_Aggressive800_Candidate.zip)
+
 ## Follow-up experiments
 
 The follow-up studies directly tune CatBoost64 and evaluate a bounded Business-class specialist, with fixed prediction mixtures and a conditionally registered second split-seed check. The earlier six submissions remain available below.

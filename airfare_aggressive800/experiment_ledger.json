@@ -1,0 +1,109 @@
+{
+  "registration": {
+    "registered_at_utc": "2026-10-15T10:59:19.796721+00:00",
+    "source_hashes": {
+      "airfare_aggressive800/experiment.py": "061fbe20e1316385ba5cc7328c87e3c66e7e8e63ef44156f8b2a0bfd9d50dcc8",
+      "airfare_aggressive800/PROTOCOL.md": "7e6f18744e187667099364ef0fbc737a09760b698126621498f91a4e78166b01",
+      "airfare_business/specialist.py": "61f3ee6f79473abcefa6d0ec59200c9f2819771748604bfa5a20197a68fc2037",
+      "airfare_round2/direct_cat64.py": "37bb3b151894f79617ad7aaf827bda3e84517564258be94c1c1bac87d0120732",
+      "airfare_fresh/study.py": "577774ae3227d9c1c2540d1a3a8deb1f3634a474e23bb84f10e10cb86d054134",
+      "airfare_fresh/features.py": "71f5b7d1c96d76d6fef81fb4692c636bc553c31ec5bee123fee64437d23ab62e"
+    },
+    "training_sha256": "6b0c9793817dc3e1b229ecea9ebbef14eef34452abf05a6f708d197cf6d8cc07",
+    "versions": {
+      "numpy": "2.3.5",
+      "pandas": "2.2.3",
+      "scipy": "1.17.0",
+      "scikit-learn": "1.8.0",
+      "xgboost-cpu": "3.1.1",
+      "lightgbm": "4.6.0",
+      "catboost": "1.2.8",
+      "optuna": "4.6.0",
+      "joblib": "1.5.3"
+    },
+    "profile": {
+      "depth": 7,
+      "leaves": 48,
+      "learning_rate": 0.045,
+      "min_child": 8,
+      "l2": 3.0,
+      "l1": 0.05,
+      "split_gain": 0.01,
+      "row_sample": 0.95,
+      "column_sample": 0.9
+    },
+    "rounds": 800,
+    "outer_seeds": {
+      "primary": 20261020,
+      "sensitivity": 20261027
+    },
+    "research_fit_budget": 21,
+    "optuna_trials": 0,
+    "mixture": 0.5,
+    "feature_mode": "context",
+    "exploratory_csv_authorized_even_with_weaker_validation": true,
+    "test_accessed": false
+  },
+  "completion": {
+    "source_hashes": {
+      "airfare_aggressive800/experiment.py": "061fbe20e1316385ba5cc7328c87e3c66e7e8e63ef44156f8b2a0bfd9d50dcc8",
+      "airfare_aggressive800/PROTOCOL.md": "7e6f18744e187667099364ef0fbc737a09760b698126621498f91a4e78166b01",
+      "airfare_business/specialist.py": "61f3ee6f79473abcefa6d0ec59200c9f2819771748604bfa5a20197a68fc2037",
+      "airfare_round2/direct_cat64.py": "37bb3b151894f79617ad7aaf827bda3e84517564258be94c1c1bac87d0120732",
+      "airfare_fresh/study.py": "577774ae3227d9c1c2540d1a3a8deb1f3634a474e23bb84f10e10cb86d054134",
+      "airfare_fresh/features.py": "71f5b7d1c96d76d6fef81fb4692c636bc553c31ec5bee123fee64437d23ab62e"
+    },
+    "outer_scopes": 10,
+    "reconstructed_global_fits": 10,
+    "specialist_outer_fits": 10,
+    "specialist_full_fits": 1,
+    "research_model_fits": 21,
+    "optuna_trials": 0,
+    "economy_oof_unchanged": true,
+    "test_accessed_by_analysis": false
+  },
+  "comparison": [
+    {
+      "validation": "primary",
+      "control_r2": 0.9268526866949186,
+      "aggressive_r2": 0.9274732490905668,
+      "control_mean_gap": 0.0382393276254895,
+      "aggressive_mean_gap": 0.0569282747645717,
+      "paired_fold_wins": 2
+    },
+    {
+      "validation": "sensitivity",
+      "control_r2": 0.9261290394644828,
+      "aggressive_r2": 0.9274832061059876,
+      "control_mean_gap": 0.0372466594342433,
+      "aggressive_mean_gap": 0.0550908323453748,
+      "paired_fold_wins": 5
+    }
+  ],
+  "inference_audit": {
+    "completed_at_utc": "2026-10-15T11:03:35.149605+00:00",
+    "manifest_sha256": "011f437c8593ea9e7bb0b8147750c73554af27ea8adbed31a888668066e87cb9",
+    "test_content_reads": 1,
+    "test_sha256": "fa76192bf0d6c4186011cb594a300dd40c3418655c16a9844840977043907861",
+    "sample_sha256": "4aab67b24e1a4a56327f54084280fad29d33986c0c3ee1387c5b4f8d6588a75b",
+    "rows": 3898,
+    "filename": "submission_aggressive_business_xgb800.csv",
+    "submission_sha256": "13a8d4084ed016d10422586e957c487deccf30aa292e1b84c534e6e03a1f13bd",
+    "economy_predictions_unchanged": true,
+    "checks": [
+      "frozen trained-model/source/version identities",
+      "id,price schema",
+      "exact sample ID order",
+      "unique IDs",
+      "3898 rows",
+      "finite nonnegative prices"
+    ],
+    "model_training_performed": false,
+    "model_changes_after_test_access": false
+  },
+  "prior_public_result": {
+    "source": "User reported; not independently verified",
+    "business_augmented_xgb_r2": 0.95881
+  },
+  "candidate_public_result": null
+}

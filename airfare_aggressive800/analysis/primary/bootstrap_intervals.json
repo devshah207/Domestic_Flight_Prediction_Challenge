@@ -1,0 +1,31 @@
+{
+  "draws": 500,
+  "seed": 20261110,
+  "resampling_unit": "whole itinerary group",
+  "n_groups": 14905,
+  "absolute": [
+    {
+      "model": "current_business_augmented",
+      "estimate": 0.9268526866949186,
+      "ci_low": 0.9184857398524907,
+      "ci_high": 0.9348336151024172
+    },
+    {
+      "model": "aggressive800",
+      "estimate": 0.9274732490905668,
+      "ci_low": 0.9194122672850755,
+      "ci_high": 0.9348829040514547
+    }
+  ],
+  "paired": [
+    {
+      "model_a": "current_business_augmented",
+      "model_b": "aggressive800",
+      "delta_r2_a_minus_b": -0.0006205623956482276,
+      "ci_low": -0.002756966944416664,
+      "ci_high": 0.001756188574981173,
+      "bootstrap_fraction_positive": 0.32
+    }
+  ],
+  "limitations": "Descriptive OOF prediction uncertainty only; no retraining, repeated tuning, fold-generation, or accumulated model-selection uncertainty. Confidence intervals are not submission eligibility gates."
+}

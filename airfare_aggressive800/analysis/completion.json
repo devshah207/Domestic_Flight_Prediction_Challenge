@@ -1,0 +1,18 @@
+{
+  "source_hashes": {
+    "airfare_aggressive800/experiment.py": "061fbe20e1316385ba5cc7328c87e3c66e7e8e63ef44156f8b2a0bfd9d50dcc8",
+    "airfare_aggressive800/PROTOCOL.md": "7e6f18744e187667099364ef0fbc737a09760b698126621498f91a4e78166b01",
+    "airfare_business/specialist.py": "61f3ee6f79473abcefa6d0ec59200c9f2819771748604bfa5a20197a68fc2037",
+    "airfare_round2/direct_cat64.py": "37bb3b151894f79617ad7aaf827bda3e84517564258be94c1c1bac87d0120732",
+    "airfare_fresh/study.py": "577774ae3227d9c1c2540d1a3a8deb1f3634a474e23bb84f10e10cb86d054134",
+    "airfare_fresh/features.py": "71f5b7d1c96d76d6fef81fb4692c636bc553c31ec5bee123fee64437d23ab62e"
+  },
+  "outer_scopes": 10,
+  "reconstructed_global_fits": 10,
+  "specialist_outer_fits": 10,
+  "specialist_full_fits": 1,
+  "research_model_fits": 21,
+  "optuna_trials": 0,
+  "economy_oof_unchanged": true,
+  "test_accessed_by_analysis": false
+}

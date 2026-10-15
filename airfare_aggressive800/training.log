@@ -1,0 +1,17 @@
+OUTER primary 0 candidate_R2 0.9281492677939771 reference_R2 0.9307569966460233 train 0.9866212957260152
+OUTER primary 1 candidate_R2 0.9184009608599514 reference_R2 0.9204805535974796 train 0.9872229559681865
+OUTER primary 2 candidate_R2 0.9375369769469626 reference_R2 0.9359581920114926 train 0.9825225538152901
+OUTER primary 3 candidate_R2 0.9307973505868525 reference_R2 0.9311046281653397 train 0.9840868012362062
+OUTER primary 4 candidate_R2 0.9226955892855997 reference_R2 0.9161874547825465 train 0.9817679125505041
+OUTER sensitivity 0 candidate_R2 0.9276558453716315 reference_R2 0.9254470872453984 train 0.9840225177991266
+OUTER sensitivity 1 candidate_R2 0.9267787885547327 reference_R2 0.9247817447172981 train 0.9801808467892267
+OUTER sensitivity 2 candidate_R2 0.9310021320012054 reference_R2 0.930354139314751 train 0.9851742122410723
+OUTER sensitivity 3 candidate_R2 0.9378138539799521 reference_R2 0.9369475201904194 train 0.9829790099786263
+OUTER sensitivity 4 candidate_R2 0.9145006141747789 reference_R2 0.9134347589845966 train 0.9808488090011231
+FINAL_COMPLETE800
+primary                      model       r2  mean_gap
+current_business_augmented 0.926853  0.038239
+             aggressive800 0.927473  0.056928
+sensitivity                      model       r2  mean_gap
+current_business_augmented 0.926129  0.037247
+             aggressive800 0.927483  0.055091
