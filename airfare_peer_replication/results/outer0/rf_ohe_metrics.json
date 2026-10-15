@@ -1,0 +1,16 @@
+{
+  "model": "rf_ohe",
+  "fold": 0,
+  "r2": 0.7980159993877717,
+  "rmse": 17592.587382654194,
+  "mae": 8163.370908156246,
+  "bias": 386.72221885160496,
+  "train_r2": 0.7874391264975713,
+  "seconds": 1.2065842599986354,
+  "actual_trees": 200,
+  "max_observed_depth": 2,
+  "max_observed_leaves": 4,
+  "configured_depth_bound": 2,
+  "all_checks_passed": true,
+  "gap": -0.010576872890200373
+}

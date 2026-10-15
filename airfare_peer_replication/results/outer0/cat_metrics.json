@@ -1,0 +1,16 @@
+{
+  "model": "cat",
+  "fold": 0,
+  "r2": 0.8986863640416116,
+  "rmse": 12459.631061957221,
+  "mae": 4853.902129670589,
+  "bias": 335.9151249937159,
+  "train_r2": 0.964615428637686,
+  "seconds": 6.451909490999242,
+  "actual_trees": 1000,
+  "max_observed_depth": 6,
+  "max_observed_leaves": 64,
+  "configured_depth_bound": 6,
+  "all_checks_passed": true,
+  "gap": 0.0659290645960744
+}

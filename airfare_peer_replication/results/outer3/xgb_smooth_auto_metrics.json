@@ -1,0 +1,16 @@
+{
+  "model": "xgb_smooth_auto",
+  "fold": 3,
+  "r2": 0.9207009979622103,
+  "rmse": 10986.344834379574,
+  "mae": 3714.1215469746166,
+  "bias": 255.6405516039457,
+  "train_r2": 0.9998823521289527,
+  "seconds": 16.537158922001254,
+  "actual_trees": 964,
+  "max_observed_depth": 9,
+  "max_observed_leaves": 416,
+  "configured_depth_bound": 9,
+  "all_checks_passed": true,
+  "gap": 0.07918135416674243
+}

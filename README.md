@@ -4,7 +4,19 @@ Executed airfare regression research, Python implementations, exact model config
 
 **Best user-reported public Kaggle R²: 0.95885**, from `submission_highround_optuna_classic_gradient.csv`. See [public submission feedback](PUBLIC_RESULTS.md) for all reported scores and their limitations.
 
-## Ten new high-round Optuna candidates
+## Replication of the disclosed RF + XGBoost + CatBoost settings
+
+The disclosed settings were evaluated with two fixed encodings: one-hot controls and scikit-learn `TargetEncoder(smooth="auto")` for RF/XGBoost. CatBoost uses native categories. All disclosed counts, depths, learning rates, seeds and equal-third weights are preserved. The exact peer encoder implementation, feature list and other parameters are unknown, so this is an approximate pipeline replication.
+
+- **[Download seven replication CSVs, code, configurations and diagnostics](https://github.com/devshah207/Domestic_Flight_Prediction_Challenge/raw/refs/heads/main/downloads/Airfare_Peer_Replication_Submissions.zip)**
+- [Smoothed-encoding equal blend CSV](https://github.com/devshah207/Domestic_Flight_Prediction_Challenge/raw/refs/heads/main/submissions/submission_peer_equal_smooth_auto.csv)
+- [One-hot equal blend CSV](https://github.com/devshah207/Domestic_Flight_Prediction_Challenge/raw/refs/heads/main/submissions/submission_peer_equal_ohe.csv)
+- [Exact settings and all individual CSV links](airfare_peer_replication/README.md)
+- [Complete replication including fitted models](https://github.com/devshah207/Domestic_Flight_Prediction_Challenge/raw/refs/heads/main/downloads/Airfare_Peer_Replication_Complete.zip)
+
+RF uses 200 trees/depth 2/no bootstrap/70% feature sampling; XGBoost uses 964 trees/depth 9/lr .054; CatBoost uses 1000 iterations/depth 6/lr .139; every seed is 42. Target encoding excludes each training row's entire itinerary group. No hyperparameters or mixture weights were optimized. On training-only outer validation, the smooth-auto equal blend scored **0.917575** and its one-hot control **0.907913**; smooth-auto XGBoost individually scored **0.922700** with a substantial training gap. These are replication candidates, not demonstrated improvements over the earlier validation controls. No new public score or replication of the peer's 0.96080 is claimed.
+
+## Previous high-round Optuna candidates
 
 Eight boosting procedures completed 336 Optuna trials with requested budgets of 800, 1,100 or 1,400 rounds, followed by nested training-only validation and full-data refits. Two fixed equal-weight blends bring the delivery to ten CSVs. All requested candidates are supplied, including weaker comparisons. The user subsequently reported **0.95885** for classic gradient boosting, the only improvement from this batch. The other nine exact public scores remain unreported.
 

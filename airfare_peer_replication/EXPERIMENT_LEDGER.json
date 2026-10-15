@@ -1,0 +1,21 @@
+{
+  "regressor_fits": 30,
+  "outer_fits": 25,
+  "full_fits": 5,
+  "target_encoder_mapping_fits": 72,
+  "tuning_trials": 0,
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "scikit-learn": "1.8.0",
+    "xgboost-cpu": "3.1.1",
+    "catboost": "1.2.8",
+    "joblib": "1.5.3"
+  },
+  "test_accessed": false,
+  "all_outer_groups_disjoint": true,
+  "all_target_encoding_groups_disjoint": true,
+  "inherited_reused_folds": true,
+  "public_feedback_used_as_tuning_objective": false
+}

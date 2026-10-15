@@ -1,0 +1,19 @@
+{
+  "regressor_fits": 30,
+  "models": 5,
+  "blends": 2,
+  "registration_sha256": "863c0d10076f03999f6f481b5e2ebe049c1ecb0d7e46487772722cab5f0591d3",
+  "configurations_sha256": "9b4cf273f37e54bdf4b26d51308e52bb9f508247177c3baab64db4b6fd2ce79b",
+  "sources": {
+    "airfare_peer_replication/models.py": "dccb4cb71952adff663ba2230757fd28ac8e0cf732283df6e6a7af06ef808535",
+    "airfare_peer_replication/common.py": "42205350c15d7f7d420236fe53aa9dc7c1314863025ada9e0903529602513899",
+    "airfare_peer_replication/run.py": "061a4a5cc51ad0e5aa73833299700316982083a5b1ca26d09ef88ad3f3585079",
+    "airfare_peer_replication/inference.py": "a7b334eef3a52a6c743e9f056662648ac3c1db9af3d1301fae3e1886a58fdaf2",
+    "airfare_peer_replication/check_inference.py": "3079496b2738e67b5df7c9e85358a204da8601963730272c89519a3de998c0c3",
+    "airfare_peer_replication/PROTOCOL.md": "4897f9619a24680bf7bda8520e256a8e1aa5b1887d2a7d933b6883f951390c20",
+    "airfare_fresh/features.py": "71f5b7d1c96d76d6fef81fb4692c636bc553c31ec5bee123fee64437d23ab62e",
+    "airfare_fresh/study.py": "577774ae3227d9c1c2540d1a3a8deb1f3634a474e23bb84f10e10cb86d054134"
+  },
+  "training_sha256": "6b0c9793817dc3e1b229ecea9ebbef14eef34452abf05a6f708d197cf6d8cc07",
+  "test_accessed": false
+}

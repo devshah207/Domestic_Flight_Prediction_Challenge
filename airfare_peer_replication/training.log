@@ -1,0 +1,40 @@
+OUTER 0 rf_ohe R2 0.798016 gap -0.010577
+OUTER 0 xgb_ohe R2 0.920318 gap 0.072509
+OUTER 0 rf_smooth_auto R2 0.847106 gap 0.009164
+OUTER 0 xgb_smooth_auto R2 0.923935 gap 0.07594
+OUTER 0 cat R2 0.898686 gap 0.065929
+OUTER 1 rf_ohe R2 0.795896 gap -0.00312
+OUTER 1 xgb_ohe R2 0.916432 gap 0.076466
+OUTER 1 rf_smooth_auto R2 0.856552 gap 0.00196
+OUTER 1 xgb_smooth_auto R2 0.918167 gap 0.081682
+OUTER 1 cat R2 0.900307 gap 0.065219
+OUTER 2 rf_ohe R2 0.800995 gap -0.010251
+OUTER 2 xgb_ohe R2 0.930269 gap 0.062568
+OUTER 2 rf_smooth_auto R2 0.859143 gap -0.004757
+OUTER 2 xgb_smooth_auto R2 0.937733 gap 0.062157
+OUTER 2 cat R2 0.909551 gap 0.053721
+OUTER 3 rf_ohe R2 0.785718 gap 0.004653
+OUTER 3 xgb_ohe R2 0.920959 gap 0.071391
+OUTER 3 rf_smooth_auto R2 0.869356 gap -0.017435
+OUTER 3 xgb_smooth_auto R2 0.920701 gap 0.079181
+OUTER 3 cat R2 0.90027 gap 0.064071
+OUTER 4 rf_ohe R2 0.770455 gap 0.024987
+OUTER 4 xgb_ohe R2 0.912121 gap 0.081487
+OUTER 4 rf_smooth_auto R2 0.844148 gap 0.012606
+OUTER 4 xgb_smooth_auto R2 0.913188 gap 0.086703
+OUTER 4 cat R2 0.899841 gap 0.067801
+FINAL rf_ohe trees 200
+FINAL xgb_ohe trees 964
+FINAL rf_smooth_auto trees 200
+FINAL xgb_smooth_auto trees 964
+FINAL cat trees 1000
+                     model       r2  mean_gap
+  control_previous_equal64 0.928594       NaN
+control_business_augmented 0.926853       NaN
+           xgb_smooth_auto 0.922700  0.077133
+                   xgb_ohe 0.919984  0.072884
+         equal_smooth_auto 0.917575  0.052886
+                 equal_ohe 0.907913  0.047881
+                       cat 0.901714  0.063348
+            rf_smooth_auto 0.855224  0.000308
+                    rf_ohe 0.790188  0.001138

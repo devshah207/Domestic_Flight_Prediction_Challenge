@@ -1,0 +1,90 @@
+{
+  "family": "rf_smooth_auto",
+  "constructor": {
+    "bootstrap": false,
+    "ccp_alpha": 0.0,
+    "criterion": "squared_error",
+    "max_depth": 2,
+    "max_features": 0.7,
+    "max_leaf_nodes": 4,
+    "max_samples": null,
+    "min_impurity_decrease": 0.0,
+    "min_samples_leaf": 1,
+    "min_samples_split": 2,
+    "min_weight_fraction_leaf": 0.0,
+    "monotonic_cst": null,
+    "n_estimators": 200,
+    "n_jobs": 4,
+    "oob_score": false,
+    "random_state": 42,
+    "verbose": 0,
+    "warm_start": false
+  },
+  "actual_structure": {
+    "actual_trees": 200,
+    "max_observed_depth": 2,
+    "max_observed_leaves": 4,
+    "configured_depth_bound": 2,
+    "all_checks_passed": true
+  },
+  "feature_schema": {
+    "features": [
+      "airline",
+      "flight",
+      "source_city",
+      "departure_time",
+      "stops",
+      "arrival_time",
+      "destination_city",
+      "flight_class",
+      "duration",
+      "days_left",
+      "flight_prefix",
+      "airline_missing",
+      "duration_missing",
+      "route",
+      "prefix_class",
+      "stops_numeric",
+      "duration_raw"
+    ],
+    "categorical": [
+      "airline",
+      "flight",
+      "source_city",
+      "departure_time",
+      "stops",
+      "arrival_time",
+      "destination_city",
+      "flight_class",
+      "flight_prefix",
+      "route",
+      "prefix_class"
+    ],
+    "numerical": [
+      "duration",
+      "days_left",
+      "airline_missing",
+      "duration_missing",
+      "stops_numeric",
+      "duration_raw"
+    ],
+    "representation": "group-cross-fitted TargetEncoder + numeric medians",
+    "smooth": "sklearn TargetEncoder smooth=auto; interpretation, not confirmed peer implementation",
+    "mode": "context; assumption, not confirmed peer feature list"
+  },
+  "model_sha256": "4f1644006b2e08d1cb16e665ba0f633bb11ea1f1aeff7f779d5b610be925eb3b",
+  "training_rows": 15589,
+  "training_r2": 0.8550747991274577,
+  "seconds": 2.5236372310027946,
+  "sources": {
+    "airfare_peer_replication/models.py": "dccb4cb71952adff663ba2230757fd28ac8e0cf732283df6e6a7af06ef808535",
+    "airfare_peer_replication/common.py": "42205350c15d7f7d420236fe53aa9dc7c1314863025ada9e0903529602513899",
+    "airfare_peer_replication/run.py": "061a4a5cc51ad0e5aa73833299700316982083a5b1ca26d09ef88ad3f3585079",
+    "airfare_peer_replication/inference.py": "a7b334eef3a52a6c743e9f056662648ac3c1db9af3d1301fae3e1886a58fdaf2",
+    "airfare_peer_replication/check_inference.py": "3079496b2738e67b5df7c9e85358a204da8601963730272c89519a3de998c0c3",
+    "airfare_peer_replication/PROTOCOL.md": "4897f9619a24680bf7bda8520e256a8e1aa5b1887d2a7d933b6883f951390c20",
+    "airfare_fresh/features.py": "71f5b7d1c96d76d6fef81fb4692c636bc553c31ec5bee123fee64437d23ab62e",
+    "airfare_fresh/study.py": "577774ae3227d9c1c2540d1a3a8deb1f3634a474e23bb84f10e10cb86d054134"
+  },
+  "test_accessed": false
+}

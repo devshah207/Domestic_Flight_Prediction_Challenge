@@ -1,0 +1,16 @@
+{
+  "model": "rf_smooth_auto",
+  "fold": 3,
+  "r2": 0.8693557513037191,
+  "rmse": 14101.474073636511,
+  "mae": 6868.581706697682,
+  "bias": 177.97784704689604,
+  "train_r2": 0.8519202722382198,
+  "seconds": 1.4186277180015168,
+  "actual_trees": 200,
+  "max_observed_depth": 2,
+  "max_observed_leaves": 4,
+  "configured_depth_bound": 2,
+  "all_checks_passed": true,
+  "gap": -0.01743547906549936
+}
