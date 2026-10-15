@@ -2,11 +2,11 @@
 
 Executed airfare regression research, Python implementations, exact model configurations, validation diagnostics and Kaggle submission files. No neural networks were used. The competition datasets and Python virtual environment are not included.
 
-**Best user-reported public Kaggle R²: 0.95881**, from `submission_business_augmented_xgb.csv`. See [public submission feedback](PUBLIC_RESULTS.md) for all reported scores and their limitations.
+**Best user-reported public Kaggle R²: 0.95885**, from `submission_highround_optuna_classic_gradient.csv`. See [public submission feedback](PUBLIC_RESULTS.md) for all reported scores and their limitations.
 
 ## Ten new high-round Optuna candidates
 
-Eight boosting procedures completed 336 Optuna trials with requested budgets of 800, 1,100 or 1,400 rounds, followed by nested training-only validation and full-data refits. Two fixed equal-weight blends bring the delivery to ten CSVs. All requested candidates are supplied, including weaker comparisons; no new public Kaggle scores are known.
+Eight boosting procedures completed 336 Optuna trials with requested budgets of 800, 1,100 or 1,400 rounds, followed by nested training-only validation and full-data refits. Two fixed equal-weight blends bring the delivery to ten CSVs. All requested candidates are supplied, including weaker comparisons. The user subsequently reported **0.95885** for classic gradient boosting, the only improvement from this batch. The other nine exact public scores remain unreported.
 
 - **[Download all ten new CSVs, code, configurations and diagnostics](https://github.com/devshah207/Domestic_Flight_Prediction_Challenge/raw/refs/heads/main/downloads/Airfare_HighRound_Submissions_and_Configs.zip)**
 - [Measured scores, actual tree counts and individual CSV links](airfare_boosting_sweep/README.md)
@@ -14,9 +14,9 @@ Eight boosting procedures completed 336 Optuna trials with requested budgets of 
 - [Validation results and error diagnostics](airfare_boosting_sweep/analysis/FINDINGS.md)
 - [Complete experiment including fitted models and trial databases](https://github.com/devshah207/Domestic_Flight_Prediction_Challenge/raw/refs/heads/main/downloads/Airfare_HighRound_Complete.zip)
 
-The new study includes XGBoost, LightGBM GBDT and DART, CatBoost symmetric and Lossguide trees, histogram and classic gradient boosting, and AdaBoost.R2. Its five outer folds evaluate tuning performed solely within each training partition. These folds have informed earlier research, so their scores are comparative evidence rather than a fresh untouched test. High tree counts do not establish a leaderboard gain. The best user-reported public submission remains available above.
+The new study includes XGBoost, LightGBM GBDT and DART, CatBoost symmetric and Lossguide trees, histogram and classic gradient boosting, and AdaBoost.R2. Its five outer folds evaluate tuning performed solely within each training partition. These folds have informed earlier research, so their scores are comparative evidence rather than a fresh untouched test. High tree counts do not establish a leaderboard gain. The latest user-reported public result and its limitations are recorded above.
 
-The strongest new candidate locally is `equal_dart3` (outer R² **0.927333**), followed by `equal_main3` (**0.927105**). The previous equal-blend64 control scored **0.928594** on the same rows and folds. The new DART blend's gain over the Business control is small and its paired uncertainty interval includes zero. These results do not establish improved generalization. Every new CSV passed the 3,898-row, exact sample-ID order, `id,price` schema and finite nonnegative price checks.
+The strongest new candidate locally is `equal_dart3` (outer R² **0.927333**), followed by `equal_main3` (**0.927105**). The previous equal-blend64 control scored **0.928594** on the same rows and folds. The new DART blend's gain over the Business control is small and its paired uncertainty interval includes zero. These local results did not predict the subsequently reported classic gradient public win. They do not establish private-test generalization. See [the feedback review](MODEL_FEEDBACK_REVIEW.md). Every new CSV passed the 3,898-row, exact sample-ID order, `id,price` schema and finite nonnegative price checks.
 
 ## Previous exploratory 800-tree candidate
 

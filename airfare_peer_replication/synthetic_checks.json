@@ -1,0 +1,13 @@
+{
+  "inference_rows": 3898,
+  "outputs": 7,
+  "target_inverse": true,
+  "shuffled_sample_order": true,
+  "clipping": true,
+  "equal_weights": true,
+  "repeat_guard": true,
+  "own_group_target_perturbation_cannot_change_its_training_encoding": true,
+  "regressor_fits": 0,
+  "competition_inputs_read": false,
+  "synthetic_encoder_mapping_fits": 12
+}
