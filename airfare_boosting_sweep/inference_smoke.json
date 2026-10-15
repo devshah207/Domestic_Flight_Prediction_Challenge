@@ -1,0 +1,11 @@
+{
+  "synthetic_rows": 3898,
+  "output_count": 10,
+  "exact_shuffled_sample_id_order": true,
+  "original_price_inversion": true,
+  "nonnegative_clipping": true,
+  "fixed_equal_weights": true,
+  "repeated_test_access_blocked_before_read": true,
+  "competition_test_sample_or_previous_submissions_read": false,
+  "new_model_fits": 0
+}

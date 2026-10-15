@@ -1,0 +1,63 @@
+{
+  "training_data_only": true,
+  "smoke_fits": 8,
+  "checks": [
+    {
+      "family": "xgb",
+      "api_fit_passed": true,
+      "unseen_category_transform_passed": true,
+      "rounds": 8,
+      "seconds": 0.09755729300013627
+    },
+    {
+      "family": "lgb_gbdt",
+      "api_fit_passed": true,
+      "unseen_category_transform_passed": true,
+      "rounds": 8,
+      "seconds": 0.07065074999991339
+    },
+    {
+      "family": "lgb_dart",
+      "api_fit_passed": true,
+      "unseen_category_transform_passed": true,
+      "rounds": 8,
+      "seconds": 0.06916818600075203
+    },
+    {
+      "family": "cat_symmetric",
+      "api_fit_passed": true,
+      "unseen_category_transform_passed": true,
+      "rounds": 8,
+      "seconds": 0.09608501699949556
+    },
+    {
+      "family": "cat_leafwise",
+      "api_fit_passed": true,
+      "unseen_category_transform_passed": true,
+      "rounds": 8,
+      "seconds": 0.050446283999917796
+    },
+    {
+      "family": "hist_gradient",
+      "api_fit_passed": true,
+      "unseen_category_transform_passed": true,
+      "rounds": 8,
+      "seconds": 0.16130787099973531
+    },
+    {
+      "family": "classic_gradient",
+      "api_fit_passed": true,
+      "unseen_category_transform_passed": true,
+      "rounds": 8,
+      "seconds": 0.0884259699996619
+    },
+    {
+      "family": "adaboost",
+      "api_fit_passed": true,
+      "unseen_category_transform_passed": true,
+      "rounds": 8,
+      "seconds": 0.12110349699833023
+    }
+  ],
+  "model_choices_not_selected_by_smoke_scores": true
+}
