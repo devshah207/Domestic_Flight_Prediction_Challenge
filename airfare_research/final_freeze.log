@@ -1,0 +1,3 @@
+Fitting full training data: baseline, exactly 850 rounds.
+Frozen manifest and serialized refits saved to /workspace/airfare_research/final.
+Freeze-only complete; Kaggle test and sample CSV content was not read.

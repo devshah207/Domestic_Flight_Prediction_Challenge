@@ -1,0 +1,1938 @@
+flight,route,departure_time,arrival_time,stops,n,std,minimum,maximum,median,range
+6E 102,Night City>Metropolis,Night,Night,zero,7,0.0,2.25,2.25,2.25,0.0
+6E 105,Springfield>Los Santos,Evening,Night,one,2,0.0,4.83,4.83,4.83,0.0
+6E 115,Hill Valley>Gotham,Night,Early_Morning,one,11,0.0,8.42,8.42,8.42,0.0
+6E 115,Hill Valley>Los Santos,Night,Early_Morning,one,5,0.0,6.67,6.67,6.67,0.0
+6E 115,Hill Valley>Night City,Night,Late_Night,zero,5,0.0,2.75,2.75,2.75,0.0
+6E 116,Springfield>Los Santos,Night,Late_Night,one,4,0.0,4.08,4.08,4.08,0.0
+6E 116,Springfield>Metropolis,Night,Early_Morning,one,8,0.0,4.92,4.92,4.92,0.0
+6E 121,Los Santos>Night City,Afternoon,Evening,one,1,,4.33,4.33,4.33,0.0
+6E 1315,Los Santos>Gotham,Afternoon,Late_Night,one,5,0.0,11.17,11.17,11.17,0.0
+6E 1315,Los Santos>Hill Valley,Afternoon,Late_Night,one,11,0.172336879396141,10.5,10.83,10.5,0.33000000000000007
+6E 1315,Los Santos>Springfield,Afternoon,Late_Night,one,9,0.0,10.83,10.83,10.83,0.0
+6E 1315,Los Santos>Springfield,Evening,Late_Night,one,2,0.0,10.0,10.0,10.0,0.0
+6E 1321,Gotham>Hill Valley,Early_Morning,Late_Night,one,0,,,,,
+6E 134,Los Santos>Metropolis,Morning,Afternoon,one,4,0.0,5.33,5.33,5.33,0.0
+6E 1345,Metropolis>Los Santos,Evening,Late_Night,one,1,,9.83,9.83,9.83,0.0
+6E 135,Hill Valley>Los Santos,Morning,Evening,one,2,0.0,5.75,5.75,5.75,0.0
+6E 135,Hill Valley>Springfield,Morning,Evening,one,1,,6.0,6.0,6.0,0.0
+6E 136,Night City>Gotham,Early_Morning,Early_Morning,zero,5,0.0,2.0,2.0,2.0,0.0
+6E 136,Night City>Springfield,Early_Morning,Morning,one,1,,4.0,4.0,4.0,0.0
+6E 138,Night City>Hill Valley,Late_Night,Early_Morning,zero,4,0.0,2.75,2.75,2.75,0.0
+6E 151,Los Santos>Metropolis,Morning,Afternoon,one,1,,5.5,5.5,5.5,0.0
+6E 151,Los Santos>Night City,Early_Morning,Afternoon,one,1,,4.42,4.42,4.42,0.0
+6E 151,Los Santos>Springfield,Early_Morning,Morning,zero,3,0.0,1.0,1.0,1.0,0.0
+6E 151,Los Santos>Springfield,Morning,Morning,zero,3,0.0,1.42,1.42,1.42,0.0
+6E 172,Springfield>Hill Valley,Afternoon,Evening,zero,9,0.0,2.67,2.67,2.67,0.0
+6E 173,Springfield>Los Santos,Afternoon,Evening,one,1,,4.33,4.33,4.33,0.0
+6E 173,Springfield>Metropolis,Afternoon,Night,one,1,,5.92,5.92,5.92,0.0
+6E 175,Springfield>Metropolis,Morning,Afternoon,zero,11,0.0,2.83,2.83,2.83,0.0
+6E 176,Metropolis>Gotham,Afternoon,Evening,one,6,0.4409081537009721,4.92,6.0,4.92,1.08
+6E 176,Metropolis>Springfield,Afternoon,Evening,zero,17,0.0,2.92,2.92,2.92,0.0
+6E 179,Los Santos>Metropolis,Early_Morning,Afternoon,one,3,0.0,4.75,4.75,4.75,0.0
+6E 182,Springfield>Gotham,Afternoon,Evening,zero,1,,1.25,1.25,1.25,0.0
+6E 189,Gotham>Metropolis,Evening,Late_Night,one,1,,5.75,5.75,5.75,0.0
+6E 189,Gotham>Night City,Evening,Late_Night,one,3,0.0,5.0,5.0,5.0,0.0
+6E 189,Gotham>Springfield,Evening,Night,zero,9,0.0,1.08,1.08,1.08,0.0
+6E 193,Gotham>Los Santos,Evening,Evening,zero,0,,,,,
+6E 193,Gotham>Los Santos,Night,Night,zero,7,0.0,1.42,1.42,1.42,0.0
+6E 194,Springfield>Metropolis,Early_Morning,Morning,one,1,,5.25,5.25,5.25,0.0
+6E 201,Hill Valley>Metropolis,Morning,Afternoon,one,0,,,,,
+6E 2013,Metropolis>Night City,Night,Late_Night,one,5,0.0,5.08,5.08,5.08,0.0
+6E 2024,Night City>Metropolis,Morning,Afternoon,one,0,,,,,
+6E 203,Metropolis>Hill Valley,Early_Morning,Afternoon,one,1,,7.0,7.0,7.0,0.0
+6E 203,Metropolis>Los Santos,Early_Morning,Morning,zero,5,0.0,2.17,2.17,2.17,0.0
+6E 2037,Metropolis>Hill Valley,Morning,Afternoon,one,1,,4.42,4.42,4.42,0.0
+6E 2076,Metropolis>Night City,Early_Morning,Afternoon,one,9,0.0,4.83,4.83,4.83,0.0
+6E 208,Los Santos>Hill Valley,Evening,Night,one,3,0.0,4.08,4.08,4.08,0.0
+6E 208,Los Santos>Springfield,Evening,Night,one,1,,5.58,5.58,5.58,0.0
+6E 2100,Night City>Los Santos,Evening,Night,one,1,,4.17,4.17,4.17,0.0
+6E 2122,Hill Valley>Springfield,Early_Morning,Afternoon,one,1,,5.5,5.5,5.5,0.0
+6E 2132,Metropolis>Gotham,Morning,Afternoon,one,3,0.0,5.83,5.83,5.83,0.0
+6E 2151,Metropolis>Springfield,Evening,Late_Night,one,1,,5.25,5.25,5.25,0.0
+6E 216,Los Santos>Metropolis,Night,Late_Night,one,4,0.0,4.75,4.75,4.75,0.0
+6E 2164,Metropolis>Night City,Early_Morning,Afternoon,one,1,,4.92,4.92,4.92,0.0
+6E 2201,Metropolis>Gotham,Morning,Morning,zero,1,,2.83,2.83,2.83,0.0
+6E 221,Springfield>Hill Valley,Evening,Night,one,2,0.0,5.0,5.0,5.0,0.0
+6E 223,Springfield>Hill Valley,Evening,Evening,zero,6,0.0,2.83,2.83,2.83,0.0
+6E 2237,Night City>Hill Valley,Evening,Late_Night,one,2,0.0,6.0,6.0,6.0,0.0
+6E 2237,Night City>Metropolis,Evening,Night,one,1,,4.83,4.83,4.83,0.0
+6E 2256,Hill Valley>Los Santos,Evening,Night,zero,4,0.0,2.08,2.08,2.08,0.0
+6E 2256,Hill Valley>Night City,Evening,Late_Night,one,1,,5.67,5.67,5.67,0.0
+6E 2257,Los Santos>Hill Valley,Night,Late_Night,zero,6,0.0,2.17,2.17,2.17,0.0
+6E 2262,Metropolis>Gotham,Early_Morning,Morning,one,2,0.0,4.92,4.92,4.92,0.0
+6E 2265,Metropolis>Los Santos,Early_Morning,Morning,one,1,,5.08,5.08,5.08,0.0
+6E 2275,Hill Valley>Metropolis,Afternoon,Evening,zero,8,0.0,2.42,2.42,2.42,0.0
+6E 2276,Metropolis>Gotham,Evening,Night,one,2,0.0,5.58,5.58,5.58,0.0
+6E 2276,Metropolis>Hill Valley,Evening,Night,zero,22,0.0,2.33,2.33,2.33,0.0
+6E 2277,Metropolis>Springfield,Morning,Afternoon,one,1,,5.33,5.33,5.33,0.0
+6E 2285,Hill Valley>Metropolis,Afternoon,Evening,zero,1,,2.42,2.42,2.42,0.0
+6E 230,Night City>Los Santos,Afternoon,Evening,one,1,,3.92,3.92,3.92,0.0
+6E 230,Night City>Springfield,Afternoon,Evening,one,1,,4.42,4.42,4.42,0.0
+6E 2303,Metropolis>Gotham,Early_Morning,Morning,one,0,,,,,
+6E 2303,Metropolis>Night City,Early_Morning,Morning,one,1,,6.0,6.0,6.0,0.0
+6E 2303,Metropolis>Springfield,Early_Morning,Morning,one,1,,5.5,5.5,5.5,0.0
+6E 2313,Springfield>Metropolis,Night,Late_Night,zero,8,0.0,2.83,2.83,2.83,0.0
+6E 2314,Metropolis>Gotham,Early_Morning,Morning,one,4,0.0,6.0,6.0,6.0,0.0
+6E 2314,Metropolis>Springfield,Early_Morning,Morning,zero,20,0.0,2.92,2.92,2.92,0.0
+6E 2316,Metropolis>Hill Valley,Evening,Night,one,1,,4.92,4.92,4.92,0.0
+6E 2329,Metropolis>Gotham,Afternoon,Night,one,1,,5.83,5.83,5.83,0.0
+6E 2329,Metropolis>Springfield,Afternoon,Evening,zero,2,0.0,2.92,2.92,2.92,0.0
+6E 2331,Metropolis>Los Santos,Afternoon,Evening,one,1,,4.42,4.42,4.42,0.0
+6E 2336,Metropolis>Gotham,Evening,Evening,zero,1,,2.83,2.83,2.83,0.0
+6E 234,Hill Valley>Gotham,Evening,Night,zero,5,0.0,2.33,2.33,2.33,0.0
+6E 234,Hill Valley>Night City,Evening,Late_Night,one,1,,6.33,6.33,6.33,0.0
+6E 234,Hill Valley>Springfield,Evening,Night,one,6,0.0,4.83,4.83,4.83,0.0
+6E 2341,Metropolis>Hill Valley,Afternoon,Night,one,1,,5.33,5.33,5.33,0.0
+6E 2343,Metropolis>Gotham,Late_Night,Early_Morning,one,7,0.0,5.0,5.0,5.0,0.0
+6E 2343,Metropolis>Los Santos,Late_Night,Early_Morning,one,4,0.0,5.5,5.5,5.5,0.0
+6E 2345,Metropolis>Night City,Early_Morning,Morning,one,0,,,,,
+6E 235,Hill Valley>Night City,Morning,Evening,one,2,0.0,6.0,6.0,6.0,0.0
+6E 235,Hill Valley>Springfield,Morning,Afternoon,zero,4,0.0,2.67,2.67,2.67,0.0
+6E 2361,Metropolis>Hill Valley,Afternoon,Night,one,2,0.0,7.67,7.67,7.67,0.0
+6E 2368,Metropolis>Gotham,Early_Morning,Morning,zero,5,0.0,2.83,2.83,2.83,0.0
+6E 2369,Gotham>Metropolis,Night,Late_Night,zero,8,0.0,2.92,2.92,2.92,0.0
+6E 2373,Metropolis>Gotham,Morning,Evening,one,0,,,,,
+6E 2373,Metropolis>Hill Valley,Morning,Evening,one,0,,,,,
+6E 2387,Night City>Hill Valley,Early_Morning,Afternoon,one,4,0.0,6.17,6.17,6.17,0.0
+6E 2387,Night City>Los Santos,Early_Morning,Afternoon,one,1,,5.25,5.25,5.25,0.0
+6E 2402,Metropolis>Springfield,Early_Morning,Morning,one,1,,5.0,5.0,5.0,0.0
+6E 243,Los Santos>Gotham,Early_Morning,Morning,zero,7,0.0,1.33,1.33,1.33,0.0
+6E 243,Los Santos>Springfield,Early_Morning,Afternoon,one,0,,,,,
+6E 244,Gotham>Metropolis,Late_Night,Morning,one,3,0.0,5.33,5.33,5.33,0.0
+6E 2445,Gotham>Los Santos,Evening,Evening,zero,1,,1.25,1.25,1.25,0.0
+6E 245,Hill Valley>Metropolis,Early_Morning,Morning,one,1,,5.58,5.58,5.58,0.0
+6E 2453,Metropolis>Hill Valley,Afternoon,Evening,one,3,0.0,4.08,4.08,4.08,0.0
+6E 2453,Metropolis>Hill Valley,Afternoon,Night,one,6,0.0,7.5,7.5,7.5,0.0
+6E 246,Hill Valley>Metropolis,Late_Night,Early_Morning,zero,5,0.0,2.42,2.42,2.42,0.0
+6E 247,Metropolis>Hill Valley,Night,Late_Night,zero,27,0.0,2.25,2.25,2.25,0.0
+6E 2487,Metropolis>Hill Valley,Morning,Afternoon,zero,3,0.0,2.17,2.17,2.17,0.0
+6E 2487,Metropolis>Los Santos,Morning,Evening,one,1,,5.83,5.83,5.83,0.0
+6E 261,Night City>Springfield,Morning,Afternoon,one,0,,,,,
+6E 2614,Metropolis>Hill Valley,Afternoon,Evening,one,2,0.0,4.42,4.42,4.42,0.0
+6E 2618,Metropolis>Gotham,Night,Late_Night,one,1,,5.0,5.0,5.0,0.0
+6E 2623,Metropolis>Gotham,Evening,Late_Night,one,1,,6.33,6.33,6.33,0.0
+6E 2623,Metropolis>Los Santos,Evening,Night,one,3,0.0,5.42,5.42,5.42,0.0
+6E 263,Hill Valley>Gotham,Night,Night,zero,2,0.0,2.33,2.33,2.33,0.0
+6E 264,Gotham>Hill Valley,Night,Late_Night,zero,1,,2.42,2.42,2.42,0.0
+6E 2698,Gotham>Hill Valley,Evening,Night,one,2,0.0,5.0,5.0,5.0,0.0
+6E 2698,Gotham>Los Santos,Evening,Night,one,3,0.721687836487032,4.08,5.33,4.08,1.25
+6E 273,Night City>Metropolis,Afternoon,Evening,one,1,,5.0,5.0,5.0,0.0
+6E 2769,Metropolis>Hill Valley,Morning,Afternoon,one,1,,5.58,5.58,5.58,0.0
+6E 283,Los Santos>Hill Valley,Evening,Night,zero,8,0.0,2.17,2.17,2.17,0.0
+6E 285,Los Santos>Night City,Night,Late_Night,one,1,,5.33,5.33,5.33,0.0
+6E 285,Los Santos>Springfield,Night,Night,zero,6,0.0,1.33,1.33,1.33,0.0
+6E 288,Gotham>Hill Valley,Early_Morning,Morning,one,1,,4.75,4.75,4.75,0.0
+6E 293,Gotham>Los Santos,Early_Morning,Morning,zero,2,0.0,1.25,1.25,1.25,0.0
+6E 301,Night City>Hill Valley,Early_Morning,Afternoon,one,9,0.056666666666666844,5.5,5.67,5.5,0.16999999999999993
+6E 301,Night City>Metropolis,Early_Morning,Morning,zero,4,0.0,2.17,2.17,2.17,0.0
+6E 303,Metropolis>Night City,Night,Night,zero,35,0.058876026994200685,2.17,2.42,2.17,0.25
+6E 305,Night City>Hill Valley,Morning,Afternoon,one,2,0.0,5.92,5.92,5.92,0.0
+6E 307,Hill Valley>Metropolis,Evening,Night,one,1,,5.58,5.58,5.58,0.0
+6E 310,Night City>Hill Valley,Morning,Evening,one,2,0.0,6.17,6.17,6.17,0.0
+6E 310,Night City>Metropolis,Morning,Afternoon,zero,10,0.0,2.42,2.42,2.42,0.0
+6E 311,Los Santos>Springfield,Afternoon,Afternoon,zero,1,,1.33,1.33,1.33,0.0
+6E 311,Los Santos>Springfield,Afternoon,Evening,one,1,,5.75,5.75,5.75,0.0
+6E 312,Springfield>Hill Valley,Morning,Afternoon,one,1,,4.92,4.92,4.92,0.0
+6E 312,Springfield>Los Santos,Morning,Morning,zero,5,0.0,1.25,1.25,1.25,0.0
+6E 312,Springfield>Metropolis,Morning,Afternoon,one,5,0.07155417527999333,4.67,4.83,4.67,0.16000000000000014
+6E 312,Springfield>Night City,Morning,Afternoon,one,1,,5.17,5.17,5.17,0.0
+6E 3127,Metropolis>Night City,Late_Night,Late_Night,zero,1,,2.25,2.25,2.25,0.0
+6E 313,Night City>Hill Valley,Evening,Night,one,2,0.0,5.75,5.75,5.75,0.0
+6E 313,Night City>Metropolis,Evening,Evening,zero,8,0.0,2.25,2.25,2.25,0.0
+6E 314,Los Santos>Gotham,Evening,Night,one,1,,4.08,4.08,4.08,0.0
+6E 314,Los Santos>Night City,Evening,Night,one,1,,4.17,4.17,4.17,0.0
+6E 314,Los Santos>Springfield,Evening,Evening,zero,6,0.0,1.33,1.33,1.33,0.0
+6E 315,Night City>Metropolis,Evening,Evening,zero,9,0.0,2.42,2.42,2.42,0.0
+6E 317,Night City>Hill Valley,Evening,Late_Night,one,2,0.0,5.42,5.42,5.42,0.0
+6E 317,Night City>Metropolis,Evening,Night,zero,9,0.0,2.25,2.25,2.25,0.0
+6E 318,Hill Valley>Metropolis,Afternoon,Evening,one,1,,5.33,5.33,5.33,0.0
+6E 318,Hill Valley>Night City,Afternoon,Evening,one,0,,,,,
+6E 320,Metropolis>Gotham,Morning,Afternoon,one,1,,5.75,5.75,5.75,0.0
+6E 320,Metropolis>Night City,Morning,Morning,zero,32,0.022134121957708305,2.33,2.42,2.33,0.08999999999999986
+6E 321,Gotham>Hill Valley,Morning,Morning,zero,7,0.0,2.33,2.33,2.33,0.0
+6E 321,Gotham>Metropolis,Morning,Afternoon,one,5,0.0,6.08,6.08,6.08,0.0
+6E 322,Metropolis>Night City,Night,Late_Night,zero,29,0.0,2.25,2.25,2.25,0.0
+6E 324,Metropolis>Night City,Afternoon,Afternoon,zero,37,0.0691811826730075,2.17,2.42,2.17,0.25
+6E 327,Metropolis>Night City,Evening,Evening,zero,33,0.02627433936545144,2.33,2.42,2.33,0.08999999999999986
+6E 328,Metropolis>Night City,Evening,Night,zero,0,,,,,
+6E 329,Metropolis>Night City,Evening,Night,zero,35,0.040035698356056464,2.25,2.42,2.25,0.16999999999999993
+6E 330,Night City>Hill Valley,Night,Late_Night,one,1,,5.42,5.42,5.42,0.0
+6E 330,Night City>Metropolis,Night,Night,zero,7,0.0,2.42,2.42,2.42,0.0
+6E 333,Night City>Metropolis,Morning,Morning,zero,11,0.0,2.25,2.25,2.25,0.0
+6E 334,Hill Valley>Los Santos,Morning,Afternoon,zero,9,0.0,2.33,2.33,2.33,0.0
+6E 334,Hill Valley>Metropolis,Morning,Evening,one,1,,6.0,6.0,6.0,0.0
+6E 334,Hill Valley>Night City,Morning,Afternoon,one,2,0.0,5.0,5.0,5.0,0.0
+6E 334,Hill Valley>Springfield,Morning,Afternoon,one,5,0.0,4.92,4.92,4.92,0.0
+6E 337,Los Santos>Gotham,Late_Night,Early_Morning,one,2,0.0,6.17,6.17,6.17,0.0
+6E 337,Los Santos>Springfield,Late_Night,Early_Morning,one,2,0.0,5.42,5.42,5.42,0.0
+6E 340,Metropolis>Hill Valley,Early_Morning,Morning,zero,24,0.0,2.33,2.33,2.33,0.0
+6E 344,Hill Valley>Gotham,Early_Morning,Early_Morning,zero,5,0.0,2.25,2.25,2.25,0.0
+6E 344,Hill Valley>Los Santos,Early_Morning,Morning,one,1,,5.25,5.25,5.25,0.0
+6E 344,Hill Valley>Night City,Early_Morning,Morning,one,0,,,,,
+6E 344,Hill Valley>Springfield,Early_Morning,Morning,one,2,0.0,5.0,5.0,5.0,0.0
+6E 349,Night City>Metropolis,Afternoon,Evening,zero,14,0.0,2.25,2.25,2.25,0.0
+6E 350,Night City>Metropolis,Night,Late_Night,zero,7,0.0,2.25,2.25,2.25,0.0
+6E 351,Los Santos>Metropolis,Early_Morning,Morning,one,4,0.0,5.08,5.08,5.08,0.0
+6E 353,Metropolis>Night City,Late_Night,Early_Morning,zero,23,0.030991519941758205,2.33,2.42,2.33,0.08999999999999986
+6E 354,Metropolis>Gotham,Evening,Late_Night,one,2,0.0,6.08,6.08,6.08,0.0
+6E 354,Metropolis>Night City,Evening,Night,zero,35,0.0,2.42,2.42,2.42,0.0
+6E 355,Night City>Hill Valley,Morning,Afternoon,one,4,0.0,6.08,6.08,6.08,0.0
+6E 355,Night City>Metropolis,Morning,Morning,zero,10,0.0,2.25,2.25,2.25,0.0
+6E 356,Springfield>Gotham,Evening,Evening,zero,6,0.0,0.92,0.92,0.92,0.0
+6E 356,Springfield>Los Santos,Evening,Night,one,3,0.0,4.17,4.17,4.17,0.0
+6E 362,Los Santos>Springfield,Morning,Afternoon,one,2,0.0,4.42,4.42,4.42,0.0
+6E 365,Gotham>Los Santos,Evening,Night,one,1,,3.25,3.25,3.25,0.0
+6E 365,Gotham>Metropolis,Evening,Night,one,2,0.0,5.75,5.75,5.75,0.0
+6E 365,Gotham>Night City,Evening,Night,one,2,0.0,4.25,4.25,4.25,0.0
+6E 365,Gotham>Springfield,Evening,Evening,zero,2,0.0,1.0,1.0,1.0,0.0
+6E 371,Los Santos>Gotham,Early_Morning,Morning,zero,10,0.0,1.42,1.42,1.42,0.0
+6E 371,Los Santos>Springfield,Early_Morning,Afternoon,one,1,,4.08,4.08,4.08,0.0
+6E 372,Gotham>Hill Valley,Morning,Evening,one,2,0.0,6.42,6.42,6.42,0.0
+6E 372,Gotham>Los Santos,Morning,Morning,zero,8,0.0,1.25,1.25,1.25,0.0
+6E 372,Gotham>Metropolis,Morning,Afternoon,one,5,0.0,5.5,5.5,5.5,0.0
+6E 372,Gotham>Night City,Morning,Afternoon,one,2,0.0,4.5,4.5,4.5,0.0
+6E 376,Los Santos>Hill Valley,Morning,Afternoon,zero,9,0.0,2.25,2.25,2.25,0.0
+6E 382,Metropolis>Los Santos,Night,Night,zero,7,0.0,2.25,2.25,2.25,0.0
+6E 386,Hill Valley>Night City,Morning,Evening,one,0,,,,,
+6E 386,Hill Valley>Springfield,Morning,Afternoon,zero,8,0.0,2.75,2.75,2.75,0.0
+6E 389,Metropolis>Hill Valley,Night,Late_Night,zero,20,0.0,2.25,2.25,2.25,0.0
+6E 392,Los Santos>Metropolis,Morning,Afternoon,one,2,0.0,4.5,4.5,4.5,0.0
+6E 395,Metropolis>Night City,Night,Late_Night,zero,32,0.026653012297226955,2.33,2.42,2.33,0.08999999999999986
+6E 401,Gotham>Metropolis,Morning,Afternoon,one,1,,5.58,5.58,5.58,0.0
+6E 404,Gotham>Metropolis,Morning,Afternoon,zero,9,0.0,2.92,2.92,2.92,0.0
+6E 405,Springfield>Hill Valley,Early_Morning,Afternoon,one,1,,5.75,5.75,5.75,0.0
+6E 407,Springfield>Los Santos,Afternoon,Evening,zero,1,,1.25,1.25,1.25,0.0
+6E 407,Springfield>Night City,Afternoon,Evening,one,1,,4.0,4.0,4.0,0.0
+6E 408,Springfield>Metropolis,Early_Morning,Morning,one,8,0.1166726188957804,5.17,5.5,5.17,0.33000000000000007
+6E 413,Los Santos>Night City,Early_Morning,Afternoon,one,0,,,,,
+6E 413,Los Santos>Springfield,Early_Morning,Early_Morning,zero,7,0.03903600291794135,1.25,1.33,1.25,0.08000000000000007
+6E 414,Springfield>Los Santos,Afternoon,Evening,one,1,,4.17,4.17,4.17,0.0
+6E 417,Hill Valley>Gotham,Evening,Night,one,1,,4.75,4.75,4.75,0.0
+6E 417,Hill Valley>Metropolis,Evening,Night,one,2,0.06363961030678918,6.33,6.42,6.375,0.08999999999999986
+6E 417,Hill Valley>Springfield,Evening,Night,one,7,0.0,4.83,4.83,4.83,0.0
+6E 426,Los Santos>Gotham,Night,Late_Night,one,0,,,,,
+6E 426,Los Santos>Springfield,Night,Late_Night,one,1,,5.17,5.17,5.17,0.0
+6E 434,Metropolis>Gotham,Morning,Afternoon,zero,5,0.0,2.83,2.83,2.83,0.0
+6E 434,Metropolis>Springfield,Morning,Evening,one,2,0.0,5.5,5.5,5.5,0.0
+6E 441,Springfield>Hill Valley,Night,Late_Night,one,1,,5.67,5.67,5.67,0.0
+6E 441,Springfield>Metropolis,Night,Late_Night,one,2,0.0,5.83,5.83,5.83,0.0
+6E 442,Springfield>Hill Valley,Morning,Morning,zero,2,0.0,2.42,2.42,2.42,0.0
+6E 447,Gotham>Los Santos,Afternoon,Evening,one,1,,5.08,5.08,5.08,0.0
+6E 447,Gotham>Springfield,Afternoon,Afternoon,one,0,,,,,
+6E 449,Metropolis>Night City,Early_Morning,Early_Morning,zero,32,0.041808897031226984,2.25,2.42,2.25,0.16999999999999993
+6E 455,Hill Valley>Gotham,Afternoon,Evening,one,2,0.0,4.75,4.75,4.75,0.0
+6E 455,Hill Valley>Springfield,Afternoon,Evening,zero,1,,2.75,2.75,2.75,0.0
+6E 468,Los Santos>Springfield,Morning,Afternoon,one,1,,5.5,5.5,5.5,0.0
+6E 474,Hill Valley>Metropolis,Early_Morning,Early_Morning,zero,9,0.0,2.42,2.42,2.42,0.0
+6E 474,Hill Valley>Night City,Early_Morning,Morning,one,5,0.0,5.67,5.67,5.67,0.0
+6E 474,Hill Valley>Springfield,Early_Morning,Afternoon,one,2,0.0,7.08,7.08,7.08,0.0
+6E 476,Hill Valley>Los Santos,Night,Late_Night,one,1,,7.17,7.17,7.17,0.0
+6E 476,Hill Valley>Springfield,Night,Late_Night,one,1,,5.5,5.5,5.5,0.0
+6E 479,Gotham>Los Santos,Morning,Afternoon,one,2,0.0,3.67,3.67,3.67,0.0
+6E 484,Springfield>Los Santos,Morning,Morning,zero,7,0.0,1.25,1.25,1.25,0.0
+6E 484,Springfield>Metropolis,Morning,Afternoon,one,2,0.0,5.67,5.67,5.67,0.0
+6E 484,Springfield>Night City,Morning,Afternoon,one,1,,6.17,6.17,6.17,0.0
+6E 489,Gotham>Night City,Evening,Night,one,1,,5.5,5.5,5.5,0.0
+6E 493,Hill Valley>Metropolis,Evening,Night,zero,7,0.0,2.42,2.42,2.42,0.0
+6E 493,Hill Valley>Night City,Evening,Late_Night,one,2,0.0,5.83,5.83,5.83,0.0
+6E 495,Gotham>Los Santos,Afternoon,Afternoon,zero,1,,1.25,1.25,1.25,0.0
+6E 495,Gotham>Los Santos,Early_Morning,Morning,zero,6,0.0,1.25,1.25,1.25,0.0
+6E 495,Gotham>Metropolis,Early_Morning,Afternoon,one,3,0.0,5.33,5.33,5.33,0.0
+6E 495,Gotham>Night City,Early_Morning,Morning,one,0,,,,,
+6E 496,Hill Valley>Gotham,Morning,Afternoon,one,2,0.0,5.58,5.58,5.58,0.0
+6E 496,Hill Valley>Springfield,Morning,Morning,zero,8,0.0,2.67,2.67,2.67,0.0
+6E 501,Los Santos>Metropolis,Evening,Night,one,1,,5.75,5.75,5.75,0.0
+6E 5014,Metropolis>Night City,Evening,Night,one,8,0.0,3.92,3.92,3.92,0.0
+6E 502,Gotham>Los Santos,Morning,Evening,one,1,,4.92,4.92,4.92,0.0
+6E 502,Gotham>Metropolis,Morning,Evening,one,5,0.11180339887498954,5.58,5.83,5.83,0.25
+6E 5023,Metropolis>Los Santos,Evening,Night,one,0,,,,,
+6E 503,Springfield>Hill Valley,Morning,Afternoon,zero,1,,2.58,2.58,2.58,0.0
+6E 5031,Springfield>Hill Valley,Evening,Night,one,6,0.0,6.75,6.75,6.75,0.0
+6E 5031,Springfield>Night City,Evening,Evening,zero,2,0.0,1.75,1.75,1.75,0.0
+6E 5032,Night City>Springfield,Evening,Night,zero,9,0.04743416490252562,1.83,1.92,1.92,0.08999999999999986
+6E 5033,Metropolis>Hill Valley,Afternoon,Night,one,7,0.0,4.67,4.67,4.67,0.0
+6E 5033,Metropolis>Los Santos,Afternoon,Night,one,3,0.0,5.33,5.33,5.33,0.0
+6E 5036,Metropolis>Hill Valley,Morning,Afternoon,one,5,0.0,4.42,4.42,4.42,0.0
+6E 5038,Metropolis>Springfield,Afternoon,Evening,one,1,,5.67,5.67,5.67,0.0
+6E 5039,Los Santos>Night City,Evening,Night,zero,5,0.0,1.5,1.5,1.5,0.0
+6E 5041,Metropolis>Hill Valley,Afternoon,Night,one,2,0.0,5.33,5.33,5.33,0.0
+6E 5047,Night City>Gotham,Evening,Night,one,12,0.0,4.42,4.42,4.42,0.0
+6E 5047,Night City>Hill Valley,Evening,Late_Night,one,5,0.0,6.5,6.5,6.5,0.0
+6E 5047,Night City>Los Santos,Evening,Night,one,3,0.04618802153517023,4.17,4.25,4.17,0.08000000000000007
+6E 5047,Night City>Springfield,Evening,Night,zero,9,0.0749629538134967,1.75,1.92,1.92,0.16999999999999993
+6E 5048,Night City>Gotham,Evening,Evening,zero,6,0.0,2.17,2.17,2.17,0.0
+6E 5048,Night City>Hill Valley,Evening,Night,one,2,0.0,6.08,6.08,6.08,0.0
+6E 5048,Night City>Springfield,Evening,Night,one,1,,5.58,5.58,5.58,0.0
+6E 5051,Springfield>Hill Valley,Morning,Afternoon,one,4,0.0,7.0,7.0,7.0,0.0
+6E 5051,Springfield>Night City,Morning,Morning,zero,3,0.0,1.75,1.75,1.75,0.0
+6E 5056,Night City>Los Santos,Night,Night,zero,5,0.0,1.58,1.58,1.58,0.0
+6E 5056,Night City>Metropolis,Night,Late_Night,one,5,0.0,4.92,4.92,4.92,0.0
+6E 5058,Metropolis>Gotham,Afternoon,Evening,one,1,,5.5,5.5,5.5,0.0
+6E 5058,Metropolis>Night City,Afternoon,Evening,one,4,0.0,5.5,5.5,5.5,0.0
+6E 5069,Springfield>Hill Valley,Morning,Evening,one,6,0.0,6.5,6.5,6.5,0.0
+6E 5069,Springfield>Night City,Morning,Afternoon,zero,3,0.0,1.83,1.83,1.83,0.0
+6E 5071,Night City>Gotham,Afternoon,Night,one,4,0.4792007234273894,5.0,5.83,5.415,0.8300000000000001
+6E 5071,Night City>Hill Valley,Afternoon,Night,one,3,0.0,5.58,5.58,5.58,0.0
+6E 5071,Night City>Los Santos,Afternoon,Evening,one,5,0.0,4.17,4.17,4.17,0.0
+6E 5071,Night City>Springfield,Afternoon,Evening,zero,10,0.0,1.83,1.83,1.83,0.0
+6E 5073,Metropolis>Los Santos,Evening,Night,one,3,0.0,5.42,5.42,5.42,0.0
+6E 5073,Metropolis>Night City,Evening,Night,one,6,0.0,4.0,4.0,4.0,0.0
+6E 5081,Night City>Los Santos,Early_Morning,Morning,one,1,,4.33,4.33,4.33,0.0
+6E 5082,Night City>Springfield,Evening,Night,one,0,,,,,
+6E 5086,Night City>Hill Valley,Evening,Night,zero,6,0.0,2.83,2.83,2.83,0.0
+6E 5089,Springfield>Night City,Early_Morning,Early_Morning,zero,2,0.0,1.75,1.75,1.75,0.0
+6E 5092,Night City>Hill Valley,Morning,Evening,one,2,0.0,6.5,6.5,6.5,0.0
+6E 5092,Night City>Springfield,Morning,Morning,zero,9,0.0,2.08,2.08,2.08,0.0
+6E 5093,Gotham>Night City,Early_Morning,Early_Morning,zero,6,0.0,1.92,1.92,1.92,0.0
+6E 5094,Springfield>Night City,Night,Late_Night,zero,4,0.0,1.75,1.75,1.75,0.0
+6E 5099,Los Santos>Hill Valley,Afternoon,Night,one,11,0.0,6.58,6.58,6.58,0.0
+6E 5099,Los Santos>Night City,Afternoon,Afternoon,zero,7,0.0,1.67,1.67,1.67,0.0
+6E 5104,Gotham>Los Santos,Evening,Night,one,15,0.0,4.67,4.67,4.67,0.0
+6E 5104,Gotham>Night City,Evening,Evening,zero,12,0.0,2.0,2.0,2.0,0.0
+6E 5105,Night City>Gotham,Evening,Night,zero,4,0.0,2.08,2.08,2.08,0.0
+6E 5105,Night City>Hill Valley,Evening,Late_Night,one,3,0.0,6.33,6.33,6.33,0.0
+6E 5119,Metropolis>Hill Valley,Early_Morning,Afternoon,one,1,,6.83,6.83,6.83,0.0
+6E 5119,Metropolis>Los Santos,Early_Morning,Morning,one,4,0.0,5.08,5.08,5.08,0.0
+6E 5119,Metropolis>Night City,Early_Morning,Morning,one,4,0.0,4.42,4.42,4.42,0.0
+6E 5123,Night City>Gotham,Afternoon,Night,one,1,,5.33,5.33,5.33,0.0
+6E 5126,Night City>Springfield,Evening,Night,one,1,,4.42,4.42,4.42,0.0
+6E 5128,Hill Valley>Los Santos,Evening,Late_Night,one,2,0.0,7.42,7.42,7.42,0.0
+6E 5128,Hill Valley>Night City,Evening,Night,zero,1,,2.75,2.75,2.75,0.0
+6E 513,Metropolis>Hill Valley,Morning,Morning,zero,21,0.0,2.25,2.25,2.25,0.0
+6E 5138,Metropolis>Night City,Evening,Late_Night,one,1,,5.0,5.0,5.0,0.0
+6E 514,Los Santos>Gotham,Afternoon,Afternoon,zero,11,0.0,1.33,1.33,1.33,0.0
+6E 514,Los Santos>Metropolis,Afternoon,Evening,one,1,,5.5,5.5,5.5,0.0
+6E 514,Los Santos>Night City,Afternoon,Evening,one,1,,4.5,4.5,4.5,0.0
+6E 5143,Los Santos>Hill Valley,Late_Night,Morning,one,1,,7.5,7.5,7.5,0.0
+6E 5143,Los Santos>Night City,Late_Night,Early_Morning,zero,6,0.03265986323710907,1.5,1.58,1.58,0.08000000000000007
+6E 5144,Night City>Hill Valley,Early_Morning,Afternoon,one,4,0.0,5.83,5.83,5.83,0.0
+6E 5147,Night City>Metropolis,Evening,Night,one,2,0.0,4.42,4.42,4.42,0.0
+6E 5149,Gotham>Los Santos,Night,Late_Night,one,1,,5.92,5.92,5.92,0.0
+6E 5149,Gotham>Night City,Night,Night,zero,11,0.0,2.0,2.0,2.0,0.0
+6E 5164,Night City>Metropolis,Night,Late_Night,one,2,0.23334523779156074,4.42,4.75,4.585,0.33000000000000007
+6E 5165,Night City>Hill Valley,Morning,Afternoon,zero,9,0.0,2.83,2.83,2.83,0.0
+6E 5174,Los Santos>Hill Valley,Morning,Afternoon,one,15,0.0,6.0,6.0,6.0,0.0
+6E 5174,Los Santos>Night City,Morning,Morning,zero,9,0.0,1.42,1.42,1.42,0.0
+6E 5178,Night City>Gotham,Morning,Evening,one,1,,6.0,6.0,6.0,0.0
+6E 5178,Night City>Los Santos,Morning,Afternoon,zero,6,0.03674234614174763,1.58,1.67,1.58,0.08999999999999986
+6E 5178,Night City>Metropolis,Morning,Evening,one,2,0.0,5.17,5.17,5.17,0.0
+6E 5178,Night City>Springfield,Morning,Afternoon,one,9,0.03968626966596882,4.08,4.17,4.08,0.08999999999999986
+6E 5178,Night City>Springfield,Morning,Evening,one,2,0.0,6.08,6.08,6.08,0.0
+6E 5179,Night City>Gotham,Late_Night,Morning,one,1,,6.58,6.58,6.58,0.0
+6E 5179,Night City>Hill Valley,Late_Night,Morning,one,2,0.0,5.33,5.33,5.33,0.0
+6E 5179,Night City>Los Santos,Late_Night,Early_Morning,zero,4,0.0,1.58,1.58,1.58,0.0
+6E 5179,Night City>Metropolis,Late_Night,Early_Morning,one,1,,5.0,5.0,5.0,0.0
+6E 5179,Night City>Springfield,Late_Night,Early_Morning,one,4,0.0,5.08,5.08,5.08,0.0
+6E 5181,Night City>Metropolis,Morning,Afternoon,one,1,,4.5,4.5,4.5,0.0
+6E 5183,Hill Valley>Gotham,Morning,Afternoon,one,19,0.0,6.58,6.58,6.58,0.0
+6E 5183,Hill Valley>Los Santos,Morning,Evening,one,1,,7.5,7.5,7.5,0.0
+6E 5183,Hill Valley>Night City,Morning,Morning,zero,5,0.0,2.5,2.5,2.5,0.0
+6E 5184,Night City>Gotham,Afternoon,Evening,one,12,0.0,5.67,5.67,5.67,0.0
+6E 5184,Night City>Los Santos,Afternoon,Evening,one,1,,5.25,5.25,5.25,0.0
+6E 5184,Night City>Springfield,Afternoon,Afternoon,zero,12,0.0,1.92,1.92,1.92,0.0
+6E 5188,Night City>Gotham,Early_Morning,Morning,zero,3,0.0,2.08,2.08,2.08,0.0
+6E 5188,Night City>Springfield,Early_Morning,Afternoon,one,1,,5.75,5.75,5.75,0.0
+6E 5190,Hill Valley>Metropolis,Night,Late_Night,zero,10,0.0,2.42,2.42,2.42,0.0
+6E 5191,Metropolis>Gotham,Early_Morning,Morning,one,3,0.0,5.92,5.92,5.92,0.0
+6E 5191,Metropolis>Hill Valley,Early_Morning,Early_Morning,zero,28,0.0,2.25,2.25,2.25,0.0
+6E 5193,Night City>Gotham,Early_Morning,Afternoon,one,1,,6.17,6.17,6.17,0.0
+6E 5193,Night City>Gotham,Early_Morning,Morning,one,1,,4.0,4.0,4.0,0.0
+6E 5193,Night City>Los Santos,Early_Morning,Afternoon,one,1,,5.08,5.08,5.08,0.0
+6E 5193,Night City>Los Santos,Morning,Afternoon,one,1,,4.75,4.75,4.75,0.0
+6E 5193,Night City>Springfield,Early_Morning,Morning,zero,3,0.0,2.0,2.0,2.0,0.0
+6E 5193,Night City>Springfield,Morning,Morning,zero,6,0.0,1.83,1.83,1.83,0.0
+6E 5194,Hill Valley>Gotham,Early_Morning,Afternoon,one,18,0.0,7.33,7.33,7.33,0.0
+6E 5194,Hill Valley>Los Santos,Early_Morning,Afternoon,one,1,,6.92,6.92,6.92,0.0
+6E 5194,Hill Valley>Los Santos,Early_Morning,Morning,one,15,0.0,5.25,5.25,5.25,0.0
+6E 5194,Hill Valley>Night City,Early_Morning,Morning,zero,3,0.0,2.83,2.83,2.83,0.0
+6E 5194,Hill Valley>Springfield,Early_Morning,Afternoon,one,16,0.0,6.5,6.5,6.5,0.0
+6E 5196,Night City>Gotham,Afternoon,Evening,zero,6,0.0,2.08,2.08,2.08,0.0
+6E 5196,Night City>Springfield,Afternoon,Night,one,3,0.0,4.75,4.75,4.75,0.0
+6E 5203,Los Santos>Night City,Night,Night,zero,8,0.0,1.42,1.42,1.42,0.0
+6E 5204,Night City>Gotham,Morning,Morning,zero,3,0.0,2.08,2.08,2.08,0.0
+6E 5204,Night City>Hill Valley,Morning,Afternoon,one,6,0.0,5.92,5.92,5.92,0.0
+6E 5205,Springfield>Hill Valley,Late_Night,Morning,one,4,0.0,6.75,6.75,6.75,0.0
+6E 5205,Springfield>Night City,Late_Night,Early_Morning,zero,4,0.0,1.75,1.75,1.75,0.0
+6E 5209,Los Santos>Metropolis,Early_Morning,Morning,one,2,0.0,5.25,5.25,5.25,0.0
+6E 5209,Los Santos>Night City,Early_Morning,Morning,one,1,,5.33,5.33,5.33,0.0
+6E 5213,Los Santos>Night City,Morning,Morning,zero,10,0.0,1.5,1.5,1.5,0.0
+6E 5214,Gotham>Hill Valley,Morning,Evening,one,16,0.0,7.0,7.0,7.0,0.0
+6E 5214,Gotham>Los Santos,Morning,Evening,one,17,0.0,5.75,5.75,5.75,0.0
+6E 5214,Gotham>Night City,Morning,Afternoon,zero,8,0.0,2.0,2.0,2.0,0.0
+6E 5216,Springfield>Night City,Early_Morning,Morning,zero,3,0.0,1.75,1.75,1.75,0.0
+6E 5217,Night City>Gotham,Morning,Evening,one,2,0.0,5.25,5.25,5.25,0.0
+6E 5217,Night City>Los Santos,Morning,Evening,one,1,,5.08,5.08,5.08,0.0
+6E 5217,Night City>Springfield,Morning,Afternoon,zero,8,0.0,1.92,1.92,1.92,0.0
+6E 5218,Springfield>Night City,Afternoon,Afternoon,zero,4,0.0,1.83,1.83,1.83,0.0
+6E 5221,Night City>Gotham,Evening,Night,one,8,0.0,4.42,4.42,4.42,0.0
+6E 5221,Night City>Hill Valley,Evening,Night,one,2,0.0,6.0,6.0,6.0,0.0
+6E 5221,Night City>Springfield,Evening,Evening,zero,11,0.0,1.92,1.92,1.92,0.0
+6E 5227,Hill Valley>Gotham,Afternoon,Night,one,15,0.0,7.75,7.75,7.75,0.0
+6E 5227,Hill Valley>Night City,Afternoon,Evening,zero,1,,2.75,2.75,2.75,0.0
+6E 5227,Hill Valley>Springfield,Afternoon,Night,one,12,0.06617241025372936,6.5,6.67,6.67,0.16999999999999993
+6E 5228,Night City>Hill Valley,Evening,Night,one,1,,6.67,6.67,6.67,0.0
+6E 5228,Night City>Los Santos,Evening,Evening,zero,7,0.0,1.58,1.58,1.58,0.0
+6E 5228,Night City>Springfield,Evening,Night,one,8,0.7522110266218041,4.58,6.08,6.0,1.5
+6E 5237,Springfield>Night City,Morning,Afternoon,zero,3,0.0,1.83,1.83,1.83,0.0
+6E 5239,Night City>Hill Valley,Afternoon,Afternoon,zero,8,0.0,2.75,2.75,2.75,0.0
+6E 524,Springfield>Hill Valley,Morning,Afternoon,one,2,0.05656854249492385,5.92,6.0,5.96,0.08000000000000007
+6E 5241,Night City>Gotham,Evening,Night,one,2,0.0,4.67,4.67,4.67,0.0
+6E 5241,Night City>Los Santos,Evening,Night,one,1,,3.75,3.75,3.75,0.0
+6E 5241,Night City>Springfield,Evening,Night,one,1,,3.75,3.75,3.75,0.0
+6E 5245,Los Santos>Hill Valley,Early_Morning,Morning,one,12,0.0,5.5,5.5,5.5,0.0
+6E 5245,Los Santos>Night City,Early_Morning,Early_Morning,zero,8,0.0,1.42,1.42,1.42,0.0
+6E 5246,Night City>Gotham,Early_Morning,Morning,one,5,0.0,4.08,4.08,4.08,0.0
+6E 5246,Night City>Los Santos,Early_Morning,Morning,zero,7,0.0,1.58,1.58,1.58,0.0
+6E 5246,Night City>Metropolis,Early_Morning,Afternoon,one,2,0.0,5.25,5.25,5.25,0.0
+6E 5252,Metropolis>Night City,Early_Morning,Morning,one,2,0.0,4.67,4.67,4.67,0.0
+6E 5255,Springfield>Night City,Evening,Evening,zero,4,0.0,1.67,1.67,1.67,0.0
+6E 5258,Gotham>Los Santos,Afternoon,Evening,one,16,0.0,5.58,5.58,5.58,0.0
+6E 5258,Gotham>Metropolis,Afternoon,Evening,one,1,,6.17,6.17,6.17,0.0
+6E 5258,Gotham>Night City,Afternoon,Afternoon,zero,11,0.0,2.0,2.0,2.0,0.0
+6E 5259,Los Santos>Night City,Evening,Evening,zero,7,0.0,1.5,1.5,1.5,0.0
+6E 528,Springfield>Metropolis,Night,Late_Night,one,4,0.0,4.83,4.83,4.83,0.0
+6E 5288,Hill Valley>Gotham,Morning,Evening,one,16,0.0,8.0,8.0,8.0,0.0
+6E 5288,Hill Valley>Los Santos,Morning,Evening,one,10,0.0,6.75,6.75,6.75,0.0
+6E 5288,Hill Valley>Night City,Morning,Afternoon,zero,4,0.0,3.0,3.0,3.0,0.0
+6E 5288,Hill Valley>Springfield,Morning,Evening,one,17,0.0,5.83,5.83,5.83,0.0
+6E 5291,Night City>Gotham,Night,Night,zero,3,0.0,2.08,2.08,2.08,0.0
+6E 5293,Springfield>Night City,Late_Night,Late_Night,zero,5,0.0,1.83,1.83,1.83,0.0
+6E 5294,Night City>Hill Valley,Early_Morning,Morning,one,2,0.0,6.08,6.08,6.08,0.0
+6E 5294,Night City>Springfield,Early_Morning,Early_Morning,zero,13,0.0,1.92,1.92,1.92,0.0
+6E 5296,Night City>Gotham,Early_Morning,Morning,one,2,0.0,5.25,5.25,5.25,0.0
+6E 5296,Night City>Hill Valley,Early_Morning,Afternoon,one,4,0.14433756729740643,6.08,6.33,6.205,0.25
+6E 5296,Night City>Los Santos,Early_Morning,Morning,one,2,0.0,5.0,5.0,5.0,0.0
+6E 5296,Night City>Springfield,Early_Morning,Morning,zero,11,0.08576924644861719,1.75,1.92,1.92,0.16999999999999993
+6E 5298,Metropolis>Hill Valley,Morning,Afternoon,one,4,0.0,6.25,6.25,6.25,0.0
+6E 5307,Metropolis>Hill Valley,Morning,Afternoon,one,9,0.0,4.58,4.58,4.58,0.0
+6E 5313,Night City>Gotham,Morning,Afternoon,zero,4,0.0,2.17,2.17,2.17,0.0
+6E 5313,Night City>Springfield,Morning,Afternoon,one,1,,5.83,5.83,5.83,0.0
+6E 5314,Gotham>Hill Valley,Early_Morning,Afternoon,one,12,0.7475915875785266,6.08,8.75,6.17,2.67
+6E 5314,Gotham>Los Santos,Early_Morning,Morning,one,17,0.0,4.92,4.92,4.92,0.0
+6E 5314,Gotham>Night City,Early_Morning,Morning,zero,10,0.0,2.0,2.0,2.0,0.0
+6E 5318,Night City>Gotham,Morning,Afternoon,one,4,0.0,5.25,5.25,5.25,0.0
+6E 5318,Night City>Hill Valley,Morning,Evening,one,7,0.0,6.08,6.08,6.08,0.0
+6E 5318,Night City>Los Santos,Morning,Morning,zero,5,0.0,1.42,1.42,1.42,0.0
+6E 5318,Night City>Metropolis,Morning,Afternoon,one,3,0.0,5.17,5.17,5.17,0.0
+6E 5318,Night City>Springfield,Morning,Afternoon,one,6,0.8572203139605751,3.92,5.58,5.58,1.6600000000000001
+6E 5323,Night City>Hill Valley,Late_Night,Early_Morning,one,1,,6.42,6.42,6.42,0.0
+6E 5323,Night City>Springfield,Late_Night,Late_Night,zero,10,0.0,1.92,1.92,1.92,0.0
+6E 5326,Night City>Los Santos,Evening,Night,zero,6,0.0,1.67,1.67,1.67,0.0
+6E 5329,Night City>Hill Valley,Early_Morning,Morning,zero,10,0.0,2.75,2.75,2.75,0.0
+6E 5337,Night City>Gotham,Afternoon,Afternoon,zero,6,0.0,2.08,2.08,2.08,0.0
+6E 5337,Night City>Springfield,Afternoon,Evening,one,3,0.0,5.0,5.0,5.0,0.0
+6E 5345,Night City>Hill Valley,Afternoon,Night,one,4,0.0,6.0,6.0,6.0,0.0
+6E 5351,Springfield>Hill Valley,Afternoon,Night,one,9,0.0,6.5,6.5,6.5,0.0
+6E 5351,Springfield>Night City,Afternoon,Evening,zero,4,0.0,1.75,1.75,1.75,0.0
+6E 5354,Night City>Hill Valley,Afternoon,Evening,zero,10,0.0,2.75,2.75,2.75,0.0
+6E 5367,Gotham>Los Santos,Evening,Late_Night,one,4,0.0,6.33,6.33,6.33,0.0
+6E 5367,Gotham>Night City,Evening,Night,zero,14,0.0,2.0,2.0,2.0,0.0
+6E 537,Los Santos>Metropolis,Afternoon,Evening,one,1,,5.25,5.25,5.25,0.0
+6E 537,Springfield>Hill Valley,Morning,Evening,one,1,,6.08,6.08,6.08,0.0
+6E 537,Springfield>Los Santos,Morning,Morning,zero,8,0.0,1.25,1.25,1.25,0.0
+6E 537,Springfield>Metropolis,Morning,Afternoon,one,4,0.0,5.17,5.17,5.17,0.0
+6E 537,Springfield>Night City,Morning,Afternoon,one,2,0.0,4.17,4.17,4.17,0.0
+6E 5371,Gotham>Hill Valley,Afternoon,Night,one,19,0.9515416853440359,6.08,8.0,6.08,1.92
+6E 5371,Gotham>Night City,Afternoon,Evening,zero,9,0.0,1.92,1.92,1.92,0.0
+6E 5376,Springfield>Night City,Night,Night,zero,5,0.0,1.75,1.75,1.75,0.0
+6E 5382,Night City>Gotham,Afternoon,Evening,one,8,0.0,4.75,4.75,4.75,0.0
+6E 5382,Night City>Los Santos,Afternoon,Evening,one,0,,,,,
+6E 5382,Night City>Springfield,Afternoon,Evening,zero,7,0.0,1.92,1.92,1.92,0.0
+6E 5384,Los Santos>Night City,Afternoon,Afternoon,zero,7,0.0,1.5,1.5,1.5,0.0
+6E 5386,Night City>Gotham,Afternoon,Evening,one,2,0.0,4.0,4.0,4.0,0.0
+6E 5386,Night City>Gotham,Afternoon,Night,one,1,,6.92,6.92,6.92,0.0
+6E 5386,Night City>Hill Valley,Afternoon,Night,one,8,0.0,4.92,4.92,4.92,0.0
+6E 5386,Night City>Los Santos,Afternoon,Evening,zero,6,0.0,1.58,1.58,1.58,0.0
+6E 5386,Night City>Metropolis,Afternoon,Night,one,1,,5.0,5.0,5.0,0.0
+6E 5386,Night City>Springfield,Afternoon,Evening,one,2,0.0,3.92,3.92,3.92,0.0
+6E 5386,Night City>Springfield,Afternoon,Night,one,6,0.0,4.92,4.92,4.92,0.0
+6E 5388,Night City>Springfield,Night,Late_Night,zero,12,0.0,2.0,2.0,2.0,0.0
+6E 561,Gotham>Los Santos,Night,Late_Night,one,0,,,,,
+6E 561,Gotham>Metropolis,Night,Early_Morning,one,6,0.0,5.67,5.67,5.67,0.0
+6E 562,Gotham>Los Santos,Evening,Evening,zero,7,0.0,1.25,1.25,1.25,0.0
+6E 562,Gotham>Metropolis,Evening,Night,one,2,0.0,5.08,5.08,5.08,0.0
+6E 563,Hill Valley>Gotham,Morning,Morning,zero,5,0.0,2.33,2.33,2.33,0.0
+6E 563,Hill Valley>Night City,Morning,Afternoon,one,1,,6.17,6.17,6.17,0.0
+6E 563,Hill Valley>Springfield,Morning,Afternoon,one,0,,,,,
+6E 573,Hill Valley>Springfield,Night,Late_Night,zero,7,0.0,2.67,2.67,2.67,0.0
+6E 576,Springfield>Metropolis,Evening,Night,one,3,0.0,5.0,5.0,5.0,0.0
+6E 588,Gotham>Metropolis,Evening,Night,one,1,,5.08,5.08,5.08,0.0
+6E 598,Los Santos>Gotham,Evening,Evening,zero,9,0.0,1.25,1.25,1.25,0.0
+6E 6002,Gotham>Metropolis,Morning,Afternoon,zero,9,0.0,2.75,2.75,2.75,0.0
+6E 6003,Springfield>Metropolis,Afternoon,Night,one,7,0.0,4.92,4.92,4.92,0.0
+6E 6012,Springfield>Gotham,Evening,Night,zero,0,,,,,
+6E 6012,Springfield>Metropolis,Evening,Late_Night,one,3,0.0,5.08,5.08,5.08,0.0
+6E 6012,Springfield>Night City,Evening,Late_Night,one,1,,5.0,5.0,5.0,0.0
+6E 6017,Springfield>Gotham,Evening,Evening,zero,7,0.0,1.0,1.0,1.0,0.0
+6E 6017,Springfield>Hill Valley,Evening,Night,one,1,,5.25,5.25,5.25,0.0
+6E 6017,Springfield>Los Santos,Evening,Night,one,1,,4.42,4.42,4.42,0.0
+6E 6018,Metropolis>Los Santos,Early_Morning,Morning,one,2,0.0,5.42,5.42,5.42,0.0
+6E 6022,Metropolis>Night City,Afternoon,Evening,zero,31,0.0,2.42,2.42,2.42,0.0
+6E 6025,Los Santos>Metropolis,Night,Late_Night,zero,7,0.0,2.25,2.25,2.25,0.0
+6E 6026,Metropolis>Gotham,Early_Morning,Morning,one,1,,5.83,5.83,5.83,0.0
+6E 6026,Metropolis>Los Santos,Early_Morning,Early_Morning,zero,2,0.0,2.33,2.33,2.33,0.0
+6E 6026,Metropolis>Night City,Early_Morning,Morning,one,6,0.0,5.42,5.42,5.42,0.0
+6E 6026,Metropolis>Springfield,Early_Morning,Morning,one,4,0.0,5.42,5.42,5.42,0.0
+6E 6027,Night City>Metropolis,Evening,Night,one,1,,3.75,3.75,3.75,0.0
+6E 6028,Night City>Hill Valley,Afternoon,Evening,one,5,0.3176790833529964,5.42,6.0,6.0,0.5800000000000001
+6E 6028,Night City>Metropolis,Afternoon,Afternoon,zero,8,0.0,2.17,2.17,2.17,0.0
+6E 6031,Los Santos>Metropolis,Afternoon,Afternoon,zero,8,0.0,2.42,2.42,2.42,0.0
+6E 6034,Springfield>Metropolis,Evening,Night,zero,9,0.0,2.83,2.83,2.83,0.0
+6E 6037,Hill Valley>Los Santos,Late_Night,Early_Morning,one,0,,,,,
+6E 6037,Hill Valley>Springfield,Late_Night,Morning,one,1,,6.17,6.17,6.17,0.0
+6E 6039,Springfield>Hill Valley,Evening,Late_Night,one,1,,7.08,7.08,7.08,0.0
+6E 6039,Springfield>Metropolis,Evening,Evening,zero,7,0.0,2.83,2.83,2.83,0.0
+6E 6043,Los Santos>Metropolis,Evening,Night,zero,6,0.0,2.5,2.5,2.5,0.0
+6E 6045,Night City>Hill Valley,Late_Night,Morning,one,0,,,,,
+6E 6045,Night City>Metropolis,Late_Night,Early_Morning,zero,4,0.0,2.17,2.17,2.17,0.0
+6E 6047,Metropolis>Night City,Morning,Afternoon,zero,26,0.055388140913431604,2.25,2.42,2.25,0.16999999999999993
+6E 6049,Night City>Metropolis,Evening,Night,zero,10,0.0,2.17,2.17,2.17,0.0
+6E 6051,Metropolis>Night City,Morning,Afternoon,zero,4,0.0,2.5,2.5,2.5,0.0
+6E 6052,Night City>Metropolis,Morning,Afternoon,zero,9,0.0,2.5,2.5,2.5,0.0
+6E 6053,Metropolis>Hill Valley,Afternoon,Evening,one,2,0.0,4.42,4.42,4.42,0.0
+6E 6054,Metropolis>Springfield,Late_Night,Early_Morning,zero,1,,2.92,2.92,2.92,0.0
+6E 6057,Night City>Gotham,Morning,Afternoon,one,0,,,,,
+6E 606,Gotham>Hill Valley,Evening,Night,zero,7,0.0,2.5,2.5,2.5,0.0
+6E 6061,Metropolis>Gotham,Night,Late_Night,zero,4,0.0,2.92,2.92,2.92,0.0
+6E 6066,Los Santos>Gotham,Morning,Afternoon,one,1,,4.33,4.33,4.33,0.0
+6E 6066,Los Santos>Metropolis,Morning,Afternoon,one,0,,,,,
+6E 6066,Los Santos>Night City,Morning,Afternoon,one,1,,5.25,5.25,5.25,0.0
+6E 6066,Los Santos>Springfield,Morning,Morning,zero,5,0.0,1.33,1.33,1.33,0.0
+6E 6067,Springfield>Los Santos,Evening,Evening,zero,6,0.0,1.25,1.25,1.25,0.0
+6E 6067,Springfield>Metropolis,Evening,Night,one,9,0.08333333333333336,4.92,5.17,5.17,0.25
+6E 6067,Springfield>Night City,Evening,Night,one,1,,4.0,4.0,4.0,0.0
+6E 6068,Hill Valley>Springfield,Morning,Evening,one,0,,,,,
+6E 607,Gotham>Metropolis,Early_Morning,Morning,one,3,0.0,5.42,5.42,5.42,0.0
+6E 6073,Metropolis>Hill Valley,Early_Morning,Morning,one,2,0.0,5.83,5.83,5.83,0.0
+6E 6077,Springfield>Gotham,Night,Night,zero,6,0.0,1.08,1.08,1.08,0.0
+6E 6077,Springfield>Metropolis,Night,Late_Night,one,1,,5.17,5.17,5.17,0.0
+6E 6077,Springfield>Night City,Night,Late_Night,one,1,,4.17,4.17,4.17,0.0
+6E 6079,Gotham>Metropolis,Morning,Afternoon,one,1,,5.42,5.42,5.42,0.0
+6E 6081,Gotham>Los Santos,Early_Morning,Morning,one,1,,3.42,3.42,3.42,0.0
+6E 6081,Gotham>Metropolis,Early_Morning,Afternoon,one,2,0.0,5.42,5.42,5.42,0.0
+6E 6081,Gotham>Springfield,Early_Morning,Morning,zero,8,0.0,1.0,1.0,1.0,0.0
+6E 6082,Night City>Metropolis,Evening,Evening,zero,11,0.0,2.17,2.17,2.17,0.0
+6E 6091,Metropolis>Gotham,Afternoon,Evening,zero,5,0.0,2.83,2.83,2.83,0.0
+6E 6091,Metropolis>Springfield,Afternoon,Night,one,3,0.0,4.92,4.92,4.92,0.0
+6E 6104,Springfield>Los Santos,Morning,Afternoon,one,1,,3.75,3.75,3.75,0.0
+6E 6104,Springfield>Metropolis,Morning,Evening,one,6,0.13693063937629152,5.08,5.33,5.205,0.25
+6E 6107,Metropolis>Night City,Morning,Morning,zero,27,0.0,2.42,2.42,2.42,0.0
+6E 6113,Gotham>Metropolis,Evening,Night,one,1,,5.58,5.58,5.58,0.0
+6E 6114,Metropolis>Night City,Night,Late_Night,zero,32,0.022134121957708308,2.33,2.42,2.33,0.08999999999999986
+6E 6115,Metropolis>Gotham,Afternoon,Afternoon,zero,1,,2.83,2.83,2.83,0.0
+6E 6115,Metropolis>Gotham,Afternoon,Evening,zero,5,0.0,2.83,2.83,2.83,0.0
+6E 6115,Metropolis>Springfield,Afternoon,Evening,one,3,0.046188021535170036,5.5,5.58,5.58,0.08000000000000007
+6E 613,Gotham>Metropolis,Evening,Night,zero,10,0.0,2.92,2.92,2.92,0.0
+6E 6134,Hill Valley>Metropolis,Evening,Night,one,0,,,,,
+6E 6137,Night City>Gotham,Night,Late_Night,zero,6,0.0,2.08,2.08,2.08,0.0
+6E 6139,Hill Valley>Metropolis,Early_Morning,Afternoon,one,1,,5.75,5.75,5.75,0.0
+6E 6140,Gotham>Hill Valley,Late_Night,Morning,one,3,0.0,8.0,8.0,8.0,0.0
+6E 6140,Gotham>Los Santos,Late_Night,Early_Morning,one,5,0.0,4.83,4.83,4.83,0.0
+6E 6140,Gotham>Metropolis,Late_Night,Morning,one,5,0.0,5.67,5.67,5.67,0.0
+6E 6140,Gotham>Night City,Late_Night,Early_Morning,zero,9,0.0,2.25,2.25,2.25,0.0
+6E 6141,Springfield>Metropolis,Evening,Night,one,2,0.0,5.08,5.08,5.08,0.0
+6E 6146,Los Santos>Metropolis,Afternoon,Night,one,2,0.0,5.67,5.67,5.67,0.0
+6E 615,Night City>Metropolis,Afternoon,Afternoon,zero,11,0.0,2.25,2.25,2.25,0.0
+6E 6151,Los Santos>Gotham,Morning,Morning,zero,8,0.0,1.33,1.33,1.33,0.0
+6E 6151,Los Santos>Night City,Morning,Afternoon,one,2,0.0,4.75,4.75,4.75,0.0
+6E 6151,Los Santos>Springfield,Morning,Afternoon,one,1,,5.67,5.67,5.67,0.0
+6E 6154,Hill Valley>Los Santos,Night,Night,zero,11,0.0,2.17,2.17,2.17,0.0
+6E 6158,Gotham>Los Santos,Afternoon,Evening,zero,2,0.0,1.25,1.25,1.25,0.0
+6E 6158,Gotham>Los Santos,Evening,Evening,zero,8,0.0,1.25,1.25,1.25,0.0
+6E 6158,Gotham>Metropolis,Evening,Night,one,4,0.0,5.5,5.5,5.5,0.0
+6E 6158,Gotham>Night City,Evening,Night,one,1,,4.33,4.33,4.33,0.0
+6E 616,Hill Valley>Los Santos,Evening,Night,one,5,0.0,4.08,4.08,4.08,0.0
+6E 616,Hill Valley>Springfield,Evening,Night,one,3,0.0,5.25,5.25,5.25,0.0
+6E 6162,Springfield>Metropolis,Evening,Night,one,0,,,,,
+6E 6168,Springfield>Los Santos,Evening,Night,one,5,0.15205262246998566,3.58,3.92,3.58,0.33999999999999986
+6E 6171,Metropolis>Night City,Early_Morning,Morning,one,8,0.03703280399090197,4.75,4.83,4.83,0.08000000000000007
+6E 6174,Los Santos>Gotham,Night,Night,zero,9,0.0,1.42,1.42,1.42,0.0
+6E 6178,Springfield>Los Santos,Early_Morning,Early_Morning,zero,8,0.0,1.17,1.17,1.17,0.0
+6E 6178,Springfield>Metropolis,Early_Morning,Morning,one,0,,,,,
+6E 6178,Springfield>Metropolis,Morning,Evening,one,1,,5.67,5.67,5.67,0.0
+6E 6178,Springfield>Night City,Early_Morning,Morning,one,4,0.125,4.5,4.75,4.5,0.25
+6E 6181,Gotham>Los Santos,Morning,Afternoon,one,1,,3.83,3.83,3.83,0.0
+6E 6183,Hill Valley>Gotham,Evening,Morning,two_or_more,1,,17.25,17.25,17.25,0.0
+6E 6183,Hill Valley>Metropolis,Evening,Night,zero,9,0.0,2.5,2.5,2.5,0.0
+6E 6183,Hill Valley>Night City,Evening,Late_Night,one,1,,6.58,6.58,6.58,0.0
+6E 6187,Night City>Los Santos,Late_Night,Late_Night,zero,4,0.0,1.67,1.67,1.67,0.0
+6E 6188,Night City>Springfield,Night,Night,zero,13,0.0,1.92,1.92,1.92,0.0
+6E 6190,Metropolis>Hill Valley,Early_Morning,Afternoon,one,11,0.0,4.42,4.42,4.42,0.0
+6E 6195,Night City>Los Santos,Night,Late_Night,zero,3,0.0,1.58,1.58,1.58,0.0
+6E 6195,Night City>Metropolis,Night,Early_Morning,one,2,0.0,5.67,5.67,5.67,0.0
+6E 6196,Los Santos>Hill Valley,Early_Morning,Afternoon,one,13,0.03379804272894629,6.33,6.42,6.42,0.08999999999999986
+6E 6196,Los Santos>Metropolis,Early_Morning,Morning,one,5,0.0,4.75,4.75,4.75,0.0
+6E 6196,Los Santos>Night City,Early_Morning,Early_Morning,zero,7,0.0,1.42,1.42,1.42,0.0
+6E 6202,Los Santos>Metropolis,Morning,Afternoon,zero,6,0.0,2.33,2.33,2.33,0.0
+6E 6206,Hill Valley>Gotham,Evening,Late_Night,one,1,,8.83,8.83,8.83,0.0
+6E 6206,Hill Valley>Los Santos,Evening,Night,one,16,0.0,6.5,6.5,6.5,0.0
+6E 6206,Hill Valley>Night City,Evening,Evening,zero,3,0.0,2.83,2.83,2.83,0.0
+6E 6206,Hill Valley>Springfield,Evening,Night,one,0,,,,,
+6E 6208,Springfield>Gotham,Afternoon,Afternoon,zero,8,0.03181980515339461,1.08,1.17,1.17,0.08999999999999986
+6E 6208,Springfield>Hill Valley,Afternoon,Evening,one,2,0.0,4.75,4.75,4.75,0.0
+6E 6208,Springfield>Night City,Afternoon,Evening,one,1,,5.92,5.92,5.92,0.0
+6E 6209,Gotham>Hill Valley,Afternoon,Evening,one,1,,5.33,5.33,5.33,0.0
+6E 6209,Gotham>Metropolis,Afternoon,Evening,one,3,0.0,5.25,5.25,5.25,0.0
+6E 6209,Gotham>Night City,Afternoon,Evening,one,5,0.0,4.5,4.5,4.5,0.0
+6E 6209,Gotham>Springfield,Afternoon,Afternoon,zero,5,0.0,1.08,1.08,1.08,0.0
+6E 621,Los Santos>Metropolis,Night,Late_Night,one,9,0.0,4.33,4.33,4.33,0.0
+6E 6212,Metropolis>Gotham,Afternoon,Night,one,4,0.0,5.58,5.58,5.58,0.0
+6E 6212,Metropolis>Los Santos,Afternoon,Evening,zero,2,0.0,2.33,2.33,2.33,0.0
+6E 6212,Metropolis>Night City,Afternoon,Night,one,6,0.04131182235954577,5.75,5.83,5.83,0.08000000000000007
+6E 6212,Metropolis>Springfield,Afternoon,Night,one,8,0.0,5.33,5.33,5.33,0.0
+6E 6214,Hill Valley>Los Santos,Afternoon,Night,one,1,,6.25,6.25,6.25,0.0
+6E 6217,Metropolis>Gotham,Evening,Night,one,6,0.6454972243679028,4.58,5.83,5.83,1.25
+6E 6217,Metropolis>Los Santos,Evening,Evening,zero,5,0.0,2.25,2.25,2.25,0.0
+6E 6217,Metropolis>Springfield,Evening,Night,one,8,0.17677669529663687,4.58,5.08,5.08,0.5
+6E 6218,Metropolis>Night City,Early_Morning,Morning,zero,29,0.05268878793808256,2.25,2.42,2.25,0.16999999999999993
+6E 6223,Los Santos>Hill Valley,Afternoon,Night,one,2,0.0,5.67,5.67,5.67,0.0
+6E 6225,Gotham>Hill Valley,Night,Early_Morning,one,1,,7.0,7.0,7.0,0.0
+6E 6225,Gotham>Los Santos,Night,Early_Morning,one,5,0.0,5.83,5.83,5.83,0.0
+6E 6225,Gotham>Night City,Night,Late_Night,zero,9,0.0,2.0,2.0,2.0,0.0
+6E 6234,Los Santos>Gotham,Evening,Night,one,1,,4.67,4.67,4.67,0.0
+6E 6236,Metropolis>Hill Valley,Evening,Night,one,5,0.0,4.75,4.75,4.75,0.0
+6E 6245,Metropolis>Hill Valley,Early_Morning,Afternoon,one,10,0.0,7.42,7.42,7.42,0.0
+6E 6246,Metropolis>Hill Valley,Early_Morning,Morning,one,2,0.0,4.92,4.92,4.92,0.0
+6E 6251,Hill Valley>Springfield,Evening,Night,zero,7,0.0,2.67,2.67,2.67,0.0
+6E 6261,Metropolis>Night City,Late_Night,Early_Morning,one,10,0.0,5.25,5.25,5.25,0.0
+6E 6263,Los Santos>Hill Valley,Afternoon,Night,one,1,,6.33,6.33,6.33,0.0
+6E 6263,Los Santos>Metropolis,Afternoon,Evening,one,2,0.0,4.67,4.67,4.67,0.0
+6E 6269,Springfield>Gotham,Early_Morning,Morning,zero,7,0.0,1.0,1.0,1.0,0.0
+6E 6269,Springfield>Hill Valley,Early_Morning,Afternoon,one,1,,6.92,6.92,6.92,0.0
+6E 6269,Springfield>Los Santos,Early_Morning,Morning,one,1,,3.92,3.92,3.92,0.0
+6E 6269,Springfield>Metropolis,Early_Morning,Afternoon,one,8,0.0,4.92,4.92,4.92,0.0
+6E 6269,Springfield>Night City,Early_Morning,Afternoon,one,1,,5.75,5.75,5.75,0.0
+6E 6277,Springfield>Hill Valley,Afternoon,Night,one,1,,6.33,6.33,6.33,0.0
+6E 6281,Los Santos>Metropolis,Morning,Afternoon,zero,4,0.0,2.5,2.5,2.5,0.0
+6E 6282,Metropolis>Gotham,Afternoon,Evening,one,5,0.0,5.67,5.67,5.67,0.0
+6E 6282,Metropolis>Hill Valley,Afternoon,Night,one,2,0.0,6.58,6.58,6.58,0.0
+6E 6282,Metropolis>Los Santos,Afternoon,Afternoon,zero,8,0.0,2.25,2.25,2.25,0.0
+6E 6282,Metropolis>Night City,Afternoon,Evening,one,22,0.0,5.33,5.33,5.33,0.0
+6E 6282,Metropolis>Springfield,Afternoon,Evening,one,10,0.0,5.58,5.58,5.58,0.0
+6E 6283,Springfield>Night City,Evening,Night,zero,3,0.0,1.58,1.58,1.58,0.0
+6E 6287,Night City>Hill Valley,Evening,Night,zero,7,0.0,2.92,2.92,2.92,0.0
+6E 6291,Los Santos>Hill Valley,Morning,Afternoon,one,3,0.0,4.08,4.08,4.08,0.0
+6E 6293,Metropolis>Gotham,Morning,Afternoon,one,1,,5.58,5.58,5.58,0.0
+6E 6293,Metropolis>Hill Valley,Morning,Evening,one,1,,6.42,6.42,6.42,0.0
+6E 6293,Metropolis>Los Santos,Morning,Afternoon,zero,4,0.0,2.42,2.42,2.42,0.0
+6E 6293,Metropolis>Night City,Morning,Afternoon,one,2,0.0,5.92,5.92,5.92,0.0
+6E 6293,Metropolis>Springfield,Morning,Afternoon,one,2,0.0,4.83,4.83,4.83,0.0
+6E 6308,Los Santos>Gotham,Evening,Night,one,2,0.05656854249492385,4.5,4.58,4.54,0.08000000000000007
+6E 6308,Los Santos>Springfield,Evening,Night,one,1,,4.42,4.42,4.42,0.0
+6E 6312,Metropolis>Hill Valley,Afternoon,Night,one,6,0.0,6.0,6.0,6.0,0.0
+6E 6314,Hill Valley>Night City,Night,Late_Night,one,2,0.0,5.83,5.83,5.83,0.0
+6E 6314,Hill Valley>Springfield,Night,Night,zero,5,0.0,2.75,2.75,2.75,0.0
+6E 6318,Metropolis>Night City,Afternoon,Evening,zero,38,0.04645697316462593,2.25,2.42,2.25,0.16999999999999993
+6E 6326,Gotham>Hill Valley,Morning,Afternoon,zero,7,0.0,2.42,2.42,2.42,0.0
+6E 6328,Metropolis>Night City,Morning,Afternoon,zero,32,0.022134121957708364,2.33,2.42,2.33,0.08999999999999986
+6E 634,Hill Valley>Springfield,Morning,Evening,one,1,,6.5,6.5,6.5,0.0
+6E 6341,Metropolis>Gotham,Night,Night,zero,7,0.0,2.83,2.83,2.83,0.0
+6E 6348,Gotham>Hill Valley,Morning,Evening,one,1,,9.0,9.0,9.0,0.0
+6E 6348,Gotham>Metropolis,Morning,Afternoon,one,1,,5.42,5.42,5.42,0.0
+6E 6348,Gotham>Night City,Morning,Morning,zero,9,0.0,1.83,1.83,1.83,0.0
+6E 6349,Night City>Gotham,Morning,Afternoon,zero,5,0.0,2.08,2.08,2.08,0.0
+6E 6349,Night City>Hill Valley,Morning,Evening,one,2,0.0,5.83,5.83,5.83,0.0
+6E 6349,Night City>Los Santos,Morning,Evening,one,1,,5.75,5.75,5.75,0.0
+6E 6349,Night City>Springfield,Morning,Evening,one,1,,5.67,5.67,5.67,0.0
+6E 6358,Hill Valley>Metropolis,Afternoon,Afternoon,zero,10,0.0,2.42,2.42,2.42,0.0
+6E 6358,Hill Valley>Night City,Afternoon,Evening,one,7,0.0642539604115686,5.75,5.92,5.75,0.16999999999999993
+6E 6358,Hill Valley>Springfield,Afternoon,Evening,one,16,0.0,6.67,6.67,6.67,0.0
+6E 6361,Night City>Springfield,Early_Morning,Morning,one,0,,,,,
+6E 6362,Night City>Los Santos,Early_Morning,Early_Morning,zero,4,0.0,1.58,1.58,1.58,0.0
+6E 6362,Night City>Metropolis,Early_Morning,Morning,one,1,,5.17,5.17,5.17,0.0
+6E 6362,Night City>Springfield,Early_Morning,Morning,one,0,,,,,
+6E 6363,Los Santos>Hill Valley,Night,Early_Morning,one,4,0.0,6.0,6.0,6.0,0.0
+6E 6363,Los Santos>Night City,Night,Late_Night,zero,8,0.0,1.5,1.5,1.5,0.0
+6E 6366,Hill Valley>Los Santos,Late_Night,Early_Morning,one,5,0.0,5.33,5.33,5.33,0.0
+6E 6366,Hill Valley>Night City,Late_Night,Early_Morning,zero,1,,2.75,2.75,2.75,0.0
+6E 6367,Night City>Hill Valley,Early_Morning,Morning,zero,7,0.0,2.75,2.75,2.75,0.0
+6E 6372,Los Santos>Metropolis,Evening,Evening,zero,6,0.0,2.5,2.5,2.5,0.0
+6E 638,Springfield>Los Santos,Evening,Evening,zero,9,0.0,1.17,1.17,1.17,0.0
+6E 638,Springfield>Metropolis,Evening,Night,one,6,0.06940220937885686,4.83,5.0,4.83,0.16999999999999993
+6E 638,Springfield>Night City,Evening,Night,one,1,,4.92,4.92,4.92,0.0
+6E 6404,Springfield>Hill Valley,Morning,Evening,one,1,,4.75,4.75,4.75,0.0
+6E 6404,Springfield>Los Santos,Morning,Afternoon,zero,6,0.0,1.25,1.25,1.25,0.0
+6E 6404,Springfield>Metropolis,Morning,Evening,one,8,0.0,5.33,5.33,5.33,0.0
+6E 6404,Springfield>Night City,Morning,Afternoon,one,1,,4.33,4.33,4.33,0.0
+6E 6405,Los Santos>Gotham,Afternoon,Evening,one,2,0.0,3.67,3.67,3.67,0.0
+6E 6405,Los Santos>Hill Valley,Afternoon,Evening,one,3,0.0,5.42,5.42,5.42,0.0
+6E 6405,Los Santos>Metropolis,Afternoon,Evening,one,1,,5.33,5.33,5.33,0.0
+6E 6405,Los Santos>Night City,Afternoon,Evening,one,1,,4.58,4.58,4.58,0.0
+6E 6405,Los Santos>Springfield,Afternoon,Afternoon,zero,5,0.0,1.33,1.33,1.33,0.0
+6E 6406,Springfield>Metropolis,Night,Late_Night,zero,10,0.0,2.83,2.83,2.83,0.0
+6E 6411,Los Santos>Gotham,Morning,Afternoon,one,2,0.0,5.83,5.83,5.83,0.0
+6E 6415,Metropolis>Hill Valley,Evening,Evening,zero,23,0.0,2.25,2.25,2.25,0.0
+6E 6417,Los Santos>Gotham,Evening,Night,one,4,0.0,3.67,3.67,3.67,0.0
+6E 6417,Los Santos>Night City,Evening,Night,one,5,0.0,4.25,4.25,4.25,0.0
+6E 6417,Los Santos>Springfield,Evening,Evening,zero,7,0.0,1.33,1.33,1.33,0.0
+6E 6425,Metropolis>Los Santos,Early_Morning,Morning,one,3,0.0,5.0,5.0,5.0,0.0
+6E 6433,Metropolis>Springfield,Evening,Night,one,1,,4.83,4.83,4.83,0.0
+6E 6438,Hill Valley>Springfield,Early_Morning,Early_Morning,zero,2,0.0,2.58,2.58,2.58,0.0
+6E 6439,Springfield>Hill Valley,Early_Morning,Morning,zero,5,0.0,2.67,2.67,2.67,0.0
+6E 6440,Metropolis>Gotham,Evening,Night,one,0,,,,,
+6E 6440,Metropolis>Hill Valley,Evening,Night,one,3,0.0,5.42,5.42,5.42,0.0
+6E 6440,Metropolis>Los Santos,Evening,Night,one,1,,6.08,6.08,6.08,0.0
+6E 6443,Metropolis>Hill Valley,Morning,Afternoon,one,1,,5.25,5.25,5.25,0.0
+6E 6445,Springfield>Los Santos,Morning,Afternoon,one,2,0.0,5.0,5.0,5.0,0.0
+6E 6454,Metropolis>Night City,Afternoon,Evening,one,3,0.0,4.33,4.33,4.33,0.0
+6E 6459,Metropolis>Hill Valley,Early_Morning,Afternoon,one,4,0.0,7.5,7.5,7.5,0.0
+6E 6459,Metropolis>Los Santos,Early_Morning,Morning,one,2,0.0,4.92,4.92,4.92,0.0
+6E 6459,Metropolis>Night City,Early_Morning,Morning,one,1,,5.67,5.67,5.67,0.0
+6E 6459,Metropolis>Springfield,Early_Morning,Morning,one,1,,5.92,5.92,5.92,0.0
+6E 6471,Los Santos>Gotham,Morning,Afternoon,one,2,0.0,4.67,4.67,4.67,0.0
+6E 6476,Metropolis>Los Santos,Early_Morning,Afternoon,one,1,,5.08,5.08,5.08,0.0
+6E 6486,Los Santos>Gotham,Evening,Night,zero,9,0.0,1.33,1.33,1.33,0.0
+6E 6486,Los Santos>Springfield,Evening,Night,one,1,,4.0,4.0,4.0,0.0
+6E 6487,Gotham>Los Santos,Night,Night,zero,7,0.0,1.25,1.25,1.25,0.0
+6E 6487,Gotham>Metropolis,Night,Late_Night,one,2,0.0,4.67,4.67,4.67,0.0
+6E 6494,Los Santos>Hill Valley,Early_Morning,Morning,zero,9,0.0,2.17,2.17,2.17,0.0
+6E 6501,Hill Valley>Metropolis,Afternoon,Evening,one,1,,3.92,3.92,3.92,0.0
+6E 6503,Metropolis>Hill Valley,Afternoon,Evening,one,1,,6.25,6.25,6.25,0.0
+6E 6505,Los Santos>Night City,Night,Late_Night,one,4,0.08500000000000002,5.25,5.42,5.42,0.16999999999999993
+6E 6505,Los Santos>Springfield,Night,Night,zero,4,0.04618802153517013,1.25,1.33,1.29,0.08000000000000007
+6E 651,Night City>Metropolis,Night,Late_Night,zero,11,0.0,2.25,2.25,2.25,0.0
+6E 6513,Hill Valley>Gotham,Morning,Afternoon,one,2,0.0,6.83,6.83,6.83,0.0
+6E 6513,Hill Valley>Los Santos,Morning,Morning,zero,6,0.0,2.33,2.33,2.33,0.0
+6E 6513,Hill Valley>Night City,Morning,Afternoon,one,1,,5.75,5.75,5.75,0.0
+6E 6513,Hill Valley>Springfield,Morning,Afternoon,one,1,,7.17,7.17,7.17,0.0
+6E 6515,Metropolis>Springfield,Night,Night,zero,14,0.0,2.92,2.92,2.92,0.0
+6E 6516,Hill Valley>Metropolis,Evening,Evening,zero,8,0.0,2.42,2.42,2.42,0.0
+6E 6516,Hill Valley>Night City,Evening,Night,one,6,0.0,6.0,6.0,6.0,0.0
+6E 6517,Metropolis>Hill Valley,Evening,Night,zero,24,0.0,2.25,2.25,2.25,0.0
+6E 6528,Hill Valley>Los Santos,Evening,Evening,zero,10,0.0,2.25,2.25,2.25,0.0
+6E 6528,Hill Valley>Metropolis,Evening,Night,one,3,0.0,6.42,6.42,6.42,0.0
+6E 6528,Hill Valley>Springfield,Evening,Night,one,3,0.04618802153517023,5.75,5.83,5.75,0.08000000000000007
+6E 6535,Springfield>Hill Valley,Morning,Evening,one,1,,5.42,5.42,5.42,0.0
+6E 6542,Springfield>Gotham,Afternoon,Evening,one,1,,4.08,4.08,4.08,0.0
+6E 6542,Springfield>Gotham,Afternoon,Night,one,1,,7.75,7.75,7.75,0.0
+6E 6542,Springfield>Los Santos,Afternoon,Evening,one,2,0.0,4.33,4.33,4.33,0.0
+6E 6551,Metropolis>Hill Valley,Afternoon,Evening,one,2,0.0,6.0,6.0,6.0,0.0
+6E 6554,Springfield>Los Santos,Evening,Night,one,2,0.0,3.58,3.58,3.58,0.0
+6E 656,Night City>Hill Valley,Early_Morning,Morning,one,5,0.0,5.75,5.75,5.75,0.0
+6E 656,Night City>Metropolis,Early_Morning,Early_Morning,zero,9,0.0,2.17,2.17,2.17,0.0
+6E 6562,Springfield>Gotham,Night,Night,zero,7,0.0,1.08,1.08,1.08,0.0
+6E 6562,Springfield>Metropolis,Evening,Night,one,1,,5.08,5.08,5.08,0.0
+6E 6572,Springfield>Hill Valley,Afternoon,Evening,zero,4,0.0,2.67,2.67,2.67,0.0
+6E 6595,Springfield>Hill Valley,Afternoon,Evening,one,2,0.0,5.92,5.92,5.92,0.0
+6E 6595,Springfield>Metropolis,Afternoon,Evening,one,3,0.0,4.92,4.92,4.92,0.0
+6E 6599,Night City>Hill Valley,Evening,Night,one,1,,5.83,5.83,5.83,0.0
+6E 6601,Metropolis>Los Santos,Evening,Night,zero,5,0.0,2.33,2.33,2.33,0.0
+6E 6601,Metropolis>Night City,Evening,Late_Night,one,24,0.11857853754038869,5.25,5.67,5.25,0.41999999999999993
+6E 6613,Night City>Hill Valley,Evening,Late_Night,one,3,0.0,5.83,5.83,5.83,0.0
+6E 6613,Night City>Metropolis,Evening,Night,zero,9,0.0,2.25,2.25,2.25,0.0
+6E 6623,Hill Valley>Gotham,Early_Morning,Morning,one,1,,6.0,6.0,6.0,0.0
+6E 6623,Hill Valley>Los Santos,Early_Morning,Early_Morning,zero,8,0.0,2.17,2.17,2.17,0.0
+6E 6623,Hill Valley>Metropolis,Early_Morning,Afternoon,one,2,0.0,7.17,7.17,7.17,0.0
+6E 6623,Hill Valley>Metropolis,Early_Morning,Morning,one,1,,5.58,5.58,5.58,0.0
+6E 6623,Hill Valley>Night City,Early_Morning,Morning,one,2,0.0,5.58,5.58,5.58,0.0
+6E 6623,Hill Valley>Springfield,Early_Morning,Morning,one,4,0.0,5.58,5.58,5.58,0.0
+6E 6632,Metropolis>Springfield,Evening,Night,one,1,,5.17,5.17,5.17,0.0
+6E 6638,Los Santos>Metropolis,Evening,Night,one,2,0.0,3.92,3.92,3.92,0.0
+6E 664,Los Santos>Hill Valley,Morning,Morning,zero,10,0.0,2.17,2.17,2.17,0.0
+6E 6646,Los Santos>Gotham,Early_Morning,Afternoon,one,2,0.0,5.33,5.33,5.33,0.0
+6E 6653,Springfield>Metropolis,Afternoon,Evening,one,2,0.0,5.42,5.42,5.42,0.0
+6E 6673,Metropolis>Gotham,Night,Late_Night,one,3,0.0,5.33,5.33,5.33,0.0
+6E 6673,Metropolis>Los Santos,Night,Late_Night,one,2,0.0,5.92,5.92,5.92,0.0
+6E 6673,Metropolis>Springfield,Night,Late_Night,one,8,0.0,5.67,5.67,5.67,0.0
+6E 6676,Metropolis>Night City,Afternoon,Afternoon,zero,30,0.040656961344241224,2.17,2.42,2.25,0.25
+6E 668,Los Santos>Gotham,Evening,Evening,zero,10,0.0,1.33,1.33,1.33,0.0
+6E 668,Los Santos>Springfield,Evening,Night,one,1,,3.83,3.83,3.83,0.0
+6E 6704,Night City>Metropolis,Afternoon,Evening,zero,10,0.0,2.25,2.25,2.25,0.0
+6E 6706,Metropolis>Night City,Evening,Evening,zero,31,0.04245427647950025,2.25,2.42,2.25,0.16999999999999993
+6E 6707,Los Santos>Gotham,Morning,Afternoon,one,1,,5.25,5.25,5.25,0.0
+6E 6707,Los Santos>Springfield,Morning,Afternoon,one,2,0.4101219330881976,5.0,5.58,5.29,0.5800000000000001
+6E 6712,Springfield>Metropolis,Afternoon,Evening,one,1,,4.92,4.92,4.92,0.0
+6E 6717,Hill Valley>Los Santos,Evening,Night,one,0,,,,,
+6E 6717,Hill Valley>Metropolis,Evening,Late_Night,one,0,,,,,
+6E 6719,Los Santos>Hill Valley,Morning,Afternoon,one,2,0.0,5.25,5.25,5.25,0.0
+6E 6727,Los Santos>Metropolis,Evening,Night,one,1,,5.25,5.25,5.25,0.0
+6E 673,Night City>Springfield,Afternoon,Evening,one,1,,4.75,4.75,4.75,0.0
+6E 6746,Los Santos>Hill Valley,Early_Morning,Afternoon,one,1,,5.42,5.42,5.42,0.0
+6E 675,Metropolis>Night City,Morning,Morning,zero,30,0.031037611591959408,2.25,2.42,2.25,0.16999999999999993
+6E 676,Springfield>Hill Valley,Evening,Night,zero,8,0.0,2.67,2.67,2.67,0.0
+6E 6779,Springfield>Metropolis,Late_Night,Early_Morning,one,3,0.0,5.58,5.58,5.58,0.0
+6E 6783,Los Santos>Gotham,Evening,Night,one,2,0.0,4.17,4.17,4.17,0.0
+6E 6783,Los Santos>Night City,Evening,Late_Night,one,1,,5.33,5.33,5.33,0.0
+6E 6783,Los Santos>Springfield,Evening,Night,zero,6,0.0,1.33,1.33,1.33,0.0
+6E 6784,Springfield>Los Santos,Night,Night,zero,7,0.0,1.25,1.25,1.25,0.0
+6E 6784,Springfield>Metropolis,Night,Late_Night,one,10,0.04743416490252591,4.58,4.67,4.625,0.08999999999999986
+6E 6785,Hill Valley>Los Santos,Early_Morning,Afternoon,one,1,,5.67,5.67,5.67,0.0
+6E 6785,Hill Valley>Metropolis,Early_Morning,Afternoon,one,4,0.0,4.42,4.42,4.42,0.0
+6E 6797,Gotham>Hill Valley,Afternoon,Night,one,1,,7.25,7.25,7.25,0.0
+6E 6797,Gotham>Metropolis,Afternoon,Evening,one,3,0.0,5.58,5.58,5.58,0.0
+6E 6801,Springfield>Hill Valley,Morning,Afternoon,one,2,0.0,5.33,5.33,5.33,0.0
+6E 6812,Gotham>Metropolis,Night,Late_Night,one,2,0.0,6.0,6.0,6.0,0.0
+6E 6814,Metropolis>Night City,Early_Morning,Morning,zero,29,0.059658304539205606,2.25,2.42,2.25,0.16999999999999993
+6E 6815,Gotham>Metropolis,Morning,Afternoon,one,4,0.0,5.92,5.92,5.92,0.0
+6E 6815,Gotham>Night City,Morning,Afternoon,one,1,,4.42,4.42,4.42,0.0
+6E 6815,Gotham>Springfield,Morning,Morning,zero,8,0.0,1.17,1.17,1.17,0.0
+6E 6817,Los Santos>Metropolis,Morning,Afternoon,one,1,,5.17,5.17,5.17,0.0
+6E 6827,Night City>Metropolis,Morning,Afternoon,zero,11,0.0,2.25,2.25,2.25,0.0
+6E 6829,Metropolis>Gotham,Evening,Night,one,2,0.0,5.83,5.83,5.83,0.0
+6E 6829,Metropolis>Hill Valley,Evening,Night,one,4,0.0,5.33,5.33,5.33,0.0
+6E 6829,Metropolis>Night City,Evening,Night,one,0,,,,,
+6E 6863,Springfield>Metropolis,Morning,Afternoon,one,3,0.0,4.58,4.58,4.58,0.0
+6E 6876,Springfield>Los Santos,Late_Night,Early_Morning,one,3,0.0,4.92,4.92,4.92,0.0
+6E 6876,Springfield>Metropolis,Late_Night,Early_Morning,one,7,0.0,4.58,4.58,4.58,0.0
+6E 6891,Springfield>Metropolis,Evening,Night,one,4,0.0,5.75,5.75,5.75,0.0
+6E 6892,Gotham>Hill Valley,Morning,Evening,one,1,,5.42,5.42,5.42,0.0
+6E 6892,Gotham>Metropolis,Morning,Evening,one,4,0.3300000000000001,5.17,5.83,5.17,0.6600000000000001
+6E 6892,Gotham>Night City,Morning,Afternoon,one,2,0.0,3.92,3.92,3.92,0.0
+6E 6892,Gotham>Night City,Morning,Evening,one,1,,5.17,5.17,5.17,0.0
+6E 6892,Gotham>Springfield,Morning,Afternoon,zero,6,0.0,1.08,1.08,1.08,0.0
+6E 6907,Los Santos>Hill Valley,Afternoon,Evening,zero,4,0.0,2.33,2.33,2.33,0.0
+6E 6908,Hill Valley>Los Santos,Afternoon,Evening,zero,10,0.0,2.17,2.17,2.17,0.0
+6E 6908,Hill Valley>Metropolis,Afternoon,Night,one,2,0.0,6.67,6.67,6.67,0.0
+6E 6908,Hill Valley>Night City,Afternoon,Night,one,3,0.0,5.5,5.5,5.5,0.0
+6E 6908,Hill Valley>Springfield,Afternoon,Night,one,4,0.625,5.08,6.33,5.08,1.25
+6E 6911,Los Santos>Hill Valley,Morning,Evening,one,1,,6.0,6.0,6.0,0.0
+6E 6917,Hill Valley>Metropolis,Afternoon,Night,one,1,,5.17,5.17,5.17,0.0
+6E 6917,Hill Valley>Springfield,Afternoon,Night,one,1,,5.33,5.33,5.33,0.0
+6E 6923,Springfield>Metropolis,Afternoon,Night,one,0,,,,,
+6E 6925,Gotham>Los Santos,Afternoon,Afternoon,zero,4,0.0,1.25,1.25,1.25,0.0
+6E 6925,Gotham>Los Santos,Morning,Morning,zero,1,,1.25,1.25,1.25,0.0
+6E 6925,Gotham>Metropolis,Afternoon,Evening,one,3,0.0,4.92,4.92,4.92,0.0
+6E 6925,Gotham>Night City,Afternoon,Afternoon,one,2,0.0,3.92,3.92,3.92,0.0
+6E 6974,Los Santos>Metropolis,Afternoon,Evening,one,3,0.0,5.17,5.17,5.17,0.0
+6E 698,Gotham>Metropolis,Evening,Evening,zero,7,0.0,2.92,2.92,2.92,0.0
+6E 6983,Metropolis>Night City,Afternoon,Night,one,3,0.0,5.25,5.25,5.25,0.0
+6E 703,Springfield>Los Santos,Afternoon,Evening,one,1,,3.83,3.83,3.83,0.0
+6E 704,Metropolis>Gotham,Late_Night,Morning,one,1,,6.0,6.0,6.0,0.0
+6E 704,Metropolis>Los Santos,Late_Night,Early_Morning,zero,5,0.0,2.25,2.25,2.25,0.0
+6E 704,Metropolis>Night City,Late_Night,Early_Morning,one,10,0.0,5.5,5.5,5.5,0.0
+6E 704,Metropolis>Night City,Late_Night,Morning,one,3,0.0,5.83,5.83,5.83,0.0
+6E 704,Metropolis>Springfield,Late_Night,Early_Morning,one,9,0.0,5.42,5.42,5.42,0.0
+6E 705,Metropolis>Gotham,Morning,Afternoon,one,2,0.0,4.58,4.58,4.58,0.0
+6E 705,Metropolis>Hill Valley,Morning,Afternoon,one,1,,5.67,5.67,5.67,0.0
+6E 705,Metropolis>Los Santos,Morning,Morning,zero,6,0.0,2.25,2.25,2.25,0.0
+6E 705,Metropolis>Night City,Morning,Afternoon,one,2,0.0,5.75,5.75,5.75,0.0
+6E 705,Metropolis>Springfield,Morning,Afternoon,one,1,,5.67,5.67,5.67,0.0
+6E 706,Los Santos>Metropolis,Late_Night,Early_Morning,zero,7,0.0,2.42,2.42,2.42,0.0
+6E 707,Los Santos>Metropolis,Early_Morning,Morning,zero,6,0.0,2.33,2.33,2.33,0.0
+6E 709,Los Santos>Metropolis,Early_Morning,Early_Morning,zero,4,0.0,2.42,2.42,2.42,0.0
+6E 710,Los Santos>Metropolis,Evening,Night,zero,5,0.0,2.42,2.42,2.42,0.0
+6E 711,Los Santos>Metropolis,Afternoon,Evening,zero,6,0.0,2.25,2.25,2.25,0.0
+6E 713,Hill Valley>Los Santos,Morning,Evening,one,2,0.0,7.17,7.17,7.17,0.0
+6E 713,Hill Valley>Metropolis,Morning,Afternoon,one,4,0.0,4.5,4.5,4.5,0.0
+6E 714,Los Santos>Gotham,Morning,Afternoon,one,0,,,,,
+6E 7165,Springfield>Gotham,Evening,Night,one,1,,3.42,3.42,3.42,0.0
+6E 717,Metropolis>Gotham,Evening,Night,one,2,0.0,4.75,4.75,4.75,0.0
+6E 717,Metropolis>Hill Valley,Evening,Night,one,2,0.0,5.5,5.5,5.5,0.0
+6E 717,Metropolis>Los Santos,Evening,Night,zero,7,0.0,2.33,2.33,2.33,0.0
+6E 717,Metropolis>Night City,Evening,Night,one,3,0.0,5.5,5.5,5.5,0.0
+6E 717,Metropolis>Springfield,Evening,Night,one,9,0.08333333333333327,4.67,4.92,4.92,0.25
+6E 7215,Hill Valley>Metropolis,Evening,Night,one,2,0.0,5.42,5.42,5.42,0.0
+6E 7227,Springfield>Los Santos,Early_Morning,Morning,one,1,,4.83,4.83,4.83,0.0
+6E 723,Hill Valley>Gotham,Night,Night,zero,6,0.0,2.25,2.25,2.25,0.0
+6E 7236,Springfield>Gotham,Early_Morning,Afternoon,one,1,,5.25,5.25,5.25,0.0
+6E 7248,Los Santos>Hill Valley,Evening,Night,one,2,0.0,4.92,4.92,4.92,0.0
+6E 726,Gotham>Springfield,Evening,Night,one,0,,,,,
+6E 7291,Gotham>Night City,Afternoon,Evening,one,1,,4.75,4.75,4.75,0.0
+6E 734,Metropolis>Gotham,Evening,Night,one,2,0.0,5.5,5.5,5.5,0.0
+6E 734,Metropolis>Hill Valley,Evening,Night,one,0,,,,,
+6E 751,Hill Valley>Metropolis,Afternoon,Evening,one,1,,6.75,6.75,6.75,0.0
+6E 752,Los Santos>Springfield,Early_Morning,Afternoon,one,0,,,,,
+6E 7543,Los Santos>Metropolis,Evening,Night,one,4,0.0,4.58,4.58,4.58,0.0
+6E 7554,Los Santos>Hill Valley,Early_Morning,Afternoon,one,1,,6.58,6.58,6.58,0.0
+6E 757,Hill Valley>Springfield,Evening,Evening,zero,8,0.0,2.67,2.67,2.67,0.0
+6E 762,Night City>Metropolis,Early_Morning,Morning,zero,10,0.0,2.17,2.17,2.17,0.0
+6E 763,Springfield>Gotham,Early_Morning,Morning,one,1,,3.5,3.5,3.5,0.0
+6E 763,Springfield>Los Santos,Early_Morning,Morning,one,1,,3.92,3.92,3.92,0.0
+6E 769,Metropolis>Gotham,Evening,Night,one,1,,5.58,5.58,5.58,0.0
+6E 771,Hill Valley>Gotham,Early_Morning,Morning,one,0,,,,,
+6E 771,Hill Valley>Los Santos,Early_Morning,Morning,one,1,,5.17,5.17,5.17,0.0
+6E 771,Hill Valley>Night City,Early_Morning,Afternoon,one,1,,5.75,5.75,5.75,0.0
+6E 771,Hill Valley>Springfield,Early_Morning,Morning,zero,9,0.0,2.67,2.67,2.67,0.0
+6E 7711,Springfield>Gotham,Afternoon,Night,one,0,,,,,
+6E 7737,Springfield>Los Santos,Morning,Afternoon,one,2,0.0,4.83,4.83,4.83,0.0
+6E 7924,Hill Valley>Metropolis,Morning,Afternoon,one,3,0.0,6.0,6.0,6.0,0.0
+6E 796,Gotham>Night City,Night,Late_Night,one,5,0.0,4.83,4.83,4.83,0.0
+6E 796,Gotham>Springfield,Night,Night,zero,3,0.0,1.0,1.0,1.0,0.0
+6E 798,Hill Valley>Metropolis,Evening,Late_Night,one,1,,5.83,5.83,5.83,0.0
+6E 798,Hill Valley>Night City,Evening,Night,one,2,0.0,4.83,4.83,4.83,0.0
+6E 804,Springfield>Hill Valley,Late_Night,Morning,one,12,0.0,6.67,6.67,6.67,0.0
+6E 804,Springfield>Metropolis,Late_Night,Early_Morning,zero,8,0.0,2.83,2.83,2.83,0.0
+6E 809,Springfield>Hill Valley,Afternoon,Evening,one,10,0.0,6.25,6.25,6.25,0.0
+6E 809,Springfield>Metropolis,Afternoon,Afternoon,zero,13,0.0,2.83,2.83,2.83,0.0
+6E 810,Metropolis>Gotham,Early_Morning,Morning,one,2,0.0,5.17,5.17,5.17,0.0
+6E 810,Metropolis>Springfield,Early_Morning,Morning,zero,15,0.0,2.92,2.92,2.92,0.0
+6E 811,Metropolis>Springfield,Evening,Night,zero,18,0.021213203435596406,2.83,2.92,2.83,0.08999999999999986
+6E 815,Los Santos>Metropolis,Early_Morning,Morning,one,2,0.0,5.08,5.08,5.08,0.0
+6E 817,Springfield>Metropolis,Night,Night,zero,9,0.0,2.83,2.83,2.83,0.0
+6E 820,Metropolis>Gotham,Late_Night,Morning,one,6,0.10206207261596566,5.25,5.5,5.25,0.25
+6E 820,Metropolis>Springfield,Late_Night,Early_Morning,zero,18,0.0,2.92,2.92,2.92,0.0
+6E 822,Hill Valley>Metropolis,Early_Morning,Afternoon,one,1,,6.58,6.58,6.58,0.0
+6E 826,Metropolis>Gotham,Morning,Afternoon,one,2,0.0,6.08,6.08,6.08,0.0
+6E 826,Metropolis>Springfield,Morning,Afternoon,zero,14,0.0,2.92,2.92,2.92,0.0
+6E 828,Metropolis>Gotham,Afternoon,Night,one,1,,6.08,6.08,6.08,0.0
+6E 828,Metropolis>Los Santos,Afternoon,Evening,one,1,,5.25,5.25,5.25,0.0
+6E 828,Metropolis>Springfield,Afternoon,Evening,zero,13,0.0,2.92,2.92,2.92,0.0
+6E 830,Springfield>Metropolis,Morning,Afternoon,zero,10,0.0,3.0,3.0,3.0,0.0
+6E 833,Hill Valley>Gotham,Morning,Afternoon,zero,2,0.0,2.25,2.25,2.25,0.0
+6E 833,Hill Valley>Night City,Morning,Evening,one,3,0.0,5.25,5.25,5.25,0.0
+6E 833,Hill Valley>Springfield,Morning,Evening,one,2,0.0,5.92,5.92,5.92,0.0
+6E 834,Gotham>Hill Valley,Morning,Afternoon,one,0,,,,,
+6E 834,Gotham>Los Santos,Morning,Morning,zero,11,0.0,1.25,1.25,1.25,0.0
+6E 834,Gotham>Metropolis,Morning,Afternoon,one,3,0.0,4.83,4.83,4.83,0.0
+6E 834,Gotham>Night City,Morning,Afternoon,one,1,,5.33,5.33,5.33,0.0
+6E 836,Springfield>Metropolis,Early_Morning,Early_Morning,zero,13,0.0,2.83,2.83,2.83,0.0
+6E 837,Metropolis>Gotham,Evening,Night,one,6,0.17557524502806948,5.58,5.92,5.92,0.33999999999999986
+6E 837,Metropolis>Los Santos,Evening,Night,one,1,,5.67,5.67,5.67,0.0
+6E 837,Metropolis>Springfield,Evening,Evening,zero,21,0.0,2.92,2.92,2.92,0.0
+6E 839,Springfield>Metropolis,Late_Night,Late_Night,zero,7,0.0,2.83,2.83,2.83,0.0
+6E 840,Springfield>Metropolis,Afternoon,Evening,zero,12,0.0,2.83,2.83,2.83,0.0
+6E 842,Metropolis>Springfield,Morning,Afternoon,zero,16,0.0,2.92,2.92,2.92,0.0
+6E 844,Springfield>Metropolis,Early_Morning,Morning,zero,9,0.0,2.83,2.83,2.83,0.0
+6E 846,Metropolis>Springfield,Night,Late_Night,zero,14,0.0,2.92,2.92,2.92,0.0
+6E 847,Gotham>Hill Valley,Evening,Night,one,1,,4.92,4.92,4.92,0.0
+6E 847,Gotham>Metropolis,Evening,Night,one,4,0.0,6.0,6.0,6.0,0.0
+6E 847,Gotham>Night City,Evening,Night,one,5,0.0,4.42,4.42,4.42,0.0
+6E 847,Gotham>Springfield,Evening,Evening,zero,6,0.0,1.08,1.08,1.08,0.0
+6E 849,Springfield>Hill Valley,Morning,Afternoon,one,6,0.0,6.83,6.83,6.83,0.0
+6E 849,Springfield>Metropolis,Morning,Morning,zero,10,0.0,2.83,2.83,2.83,0.0
+6E 850,Metropolis>Gotham,Afternoon,Evening,one,2,0.0,5.92,5.92,5.92,0.0
+6E 850,Metropolis>Los Santos,Afternoon,Evening,one,2,0.05656854249492385,5.42,5.5,5.46,0.08000000000000007
+6E 850,Metropolis>Springfield,Afternoon,Afternoon,zero,16,0.029211869733608887,2.92,3.08,3.0,0.16000000000000014
+6E 853,Metropolis>Los Santos,Night,Late_Night,one,3,0.0,5.42,5.42,5.42,0.0
+6E 853,Metropolis>Night City,Night,Night,zero,31,0.05793210709320076,2.25,2.42,2.25,0.16999999999999993
+6E 855,Springfield>Los Santos,Evening,Night,zero,7,0.0,1.25,1.25,1.25,0.0
+6E 855,Springfield>Metropolis,Night,Late_Night,one,1,,5.0,5.0,5.0,0.0
+6E 855,Springfield>Night City,Evening,Late_Night,one,1,,5.25,5.25,5.25,0.0
+6E 855,Springfield>Night City,Evening,Night,one,2,0.0,3.75,3.75,3.75,0.0
+6E 856,Hill Valley>Los Santos,Evening,Night,one,3,0.0,4.75,4.75,4.75,0.0
+6E 856,Hill Valley>Metropolis,Evening,Late_Night,one,1,,6.58,6.58,6.58,0.0
+6E 857,Springfield>Gotham,Early_Morning,Afternoon,one,2,0.0,5.58,5.58,5.58,0.0
+6E 857,Springfield>Los Santos,Early_Morning,Morning,one,2,0.0,3.67,3.67,3.67,0.0
+6E 860,Springfield>Metropolis,Afternoon,Evening,zero,7,0.0,2.83,2.83,2.83,0.0
+6E 861,Metropolis>Springfield,Evening,Night,zero,17,0.0,2.92,2.92,2.92,0.0
+6E 864,Metropolis>Night City,Afternoon,Evening,zero,36,0.0394928163047729,2.25,2.42,2.25,0.16999999999999993
+6E 869,Springfield>Metropolis,Afternoon,Evening,zero,9,0.0,2.92,2.92,2.92,0.0
+6E 870,Springfield>Hill Valley,Evening,Late_Night,one,9,0.0,6.25,6.25,6.25,0.0
+6E 870,Springfield>Metropolis,Evening,Night,zero,10,0.0,2.75,2.75,2.75,0.0
+6E 871,Metropolis>Springfield,Night,Late_Night,zero,9,0.0,2.92,2.92,2.92,0.0
+6E 873,Metropolis>Gotham,Morning,Afternoon,one,6,0.0,5.58,5.58,5.58,0.0
+6E 873,Metropolis>Springfield,Morning,Morning,zero,18,0.02910427500435984,2.83,2.92,2.83,0.08999999999999986
+6E 874,Hill Valley>Metropolis,Morning,Evening,one,1,,4.92,4.92,4.92,0.0
+6E 878,Los Santos>Hill Valley,Evening,Night,one,1,,5.0,5.0,5.0,0.0
+6E 879,Los Santos>Springfield,Morning,Evening,one,1,,5.5,5.5,5.5,0.0
+6E 880,Metropolis>Gotham,Afternoon,Night,one,4,0.0,5.67,5.67,5.67,0.0
+6E 880,Metropolis>Los Santos,Afternoon,Night,one,3,0.0,5.25,5.25,5.25,0.0
+6E 880,Metropolis>Springfield,Afternoon,Evening,zero,19,0.0,2.92,2.92,2.92,0.0
+6E 881,Gotham>Night City,Afternoon,Night,one,1,,6.0,6.0,6.0,0.0
+6E 882,Metropolis>Los Santos,Night,Late_Night,zero,6,0.0,2.25,2.25,2.25,0.0
+6E 882,Metropolis>Night City,Night,Early_Morning,one,5,0.04381780460041333,5.25,5.33,5.33,0.08000000000000007
+6E 884,Metropolis>Gotham,Morning,Evening,one,1,,5.92,5.92,5.92,0.0
+6E 884,Metropolis>Los Santos,Morning,Afternoon,zero,8,0.0,2.25,2.25,2.25,0.0
+6E 889,Los Santos>Metropolis,Morning,Morning,zero,3,0.0,2.42,2.42,2.42,0.0
+6E 890,Los Santos>Metropolis,Night,Night,zero,7,0.0,2.42,2.42,2.42,0.0
+6E 891,Hill Valley>Metropolis,Early_Morning,Morning,zero,12,0.041194292043555,2.42,2.5,2.42,0.08000000000000007
+6E 891,Hill Valley>Springfield,Early_Morning,Afternoon,one,17,0.044333296476469976,6.58,6.67,6.58,0.08999999999999986
+6E 892,Hill Valley>Gotham,Afternoon,Evening,zero,7,0.0,2.33,2.33,2.33,0.0
+6E 892,Hill Valley>Los Santos,Afternoon,Evening,one,1,,4.58,4.58,4.58,0.0
+6E 892,Hill Valley>Springfield,Afternoon,Night,one,2,0.0,5.17,5.17,5.17,0.0
+6E 894,Metropolis>Hill Valley,Morning,Afternoon,zero,26,0.0,2.25,2.25,2.25,0.0
+6E 895,Hill Valley>Metropolis,Evening,Night,one,2,0.0,4.5,4.5,4.5,0.0
+6E 896,Hill Valley>Metropolis,Morning,Morning,zero,10,0.0,2.33,2.33,2.33,0.0
+6E 896,Hill Valley>Night City,Morning,Afternoon,one,3,0.0,5.83,5.83,5.83,0.0
+6E 896,Hill Valley>Springfield,Morning,Afternoon,one,10,0.0,6.92,6.92,6.92,0.0
+6E 897,Metropolis>Hill Valley,Afternoon,Afternoon,zero,28,0.0,2.33,2.33,2.33,0.0
+6E 899,Hill Valley>Metropolis,Morning,Afternoon,zero,9,0.0,2.42,2.42,2.42,0.0
+6E 899,Hill Valley>Night City,Morning,Evening,one,5,0.0,6.17,6.17,6.17,0.0
+6E 902,Hill Valley>Night City,Afternoon,Night,one,1,,6.17,6.17,6.17,0.0
+6E 904,Springfield>Gotham,Morning,Morning,zero,8,0.028284271247461894,0.92,1.0,1.0,0.07999999999999996
+6E 904,Springfield>Metropolis,Morning,Afternoon,one,9,0.04499999999999983,5.08,5.17,5.08,0.08999999999999986
+6E 904,Springfield>Night City,Morning,Evening,one,1,,5.92,5.92,5.92,0.0
+6E 905,Los Santos>Gotham,Morning,Afternoon,one,2,0.05656854249492385,4.0,4.08,4.04,0.08000000000000007
+6E 905,Los Santos>Hill Valley,Morning,Evening,one,1,,5.33,5.33,5.33,0.0
+6E 907,Metropolis>Gotham,Morning,Afternoon,one,1,,5.67,5.67,5.67,0.0
+6E 907,Metropolis>Los Santos,Morning,Afternoon,one,1,,4.83,4.83,4.83,0.0
+6E 910,Metropolis>Hill Valley,Afternoon,Evening,zero,19,0.0,2.33,2.33,2.33,0.0
+6E 911,Night City>Metropolis,Late_Night,Early_Morning,one,0,,,,,
+6E 917,Hill Valley>Metropolis,Night,Night,zero,6,0.0,2.42,2.42,2.42,0.0
+6E 923,Gotham>Hill Valley,Night,Night,zero,6,0.0,2.33,2.33,2.33,0.0
+6E 930,Metropolis>Hill Valley,Late_Night,Early_Morning,zero,6,0.0,2.25,2.25,2.25,0.0
+6E 931,Metropolis>Los Santos,Evening,Late_Night,one,0,,,,,
+6E 931,Metropolis>Night City,Evening,Late_Night,one,6,0.041311822359545794,4.92,5.0,5.0,0.08000000000000007
+6E 933,Metropolis>Gotham,Late_Night,Early_Morning,zero,3,0.0,2.83,2.83,2.83,0.0
+6E 933,Metropolis>Springfield,Late_Night,Morning,one,6,0.0,5.17,5.17,5.17,0.0
+6E 937,Gotham>Metropolis,Early_Morning,Morning,zero,10,0.0,2.92,2.92,2.92,0.0
+6E 939,Gotham>Metropolis,Afternoon,Afternoon,zero,11,0.0,2.92,2.92,2.92,0.0
+6E 940,Metropolis>Gotham,Morning,Afternoon,zero,6,0.0,2.83,2.83,2.83,0.0
+6E 944,Los Santos>Hill Valley,Night,Night,zero,10,0.0,2.17,2.17,2.17,0.0
+6E 947,Metropolis>Gotham,Evening,Evening,zero,5,0.0,2.83,2.83,2.83,0.0
+6E 948,Gotham>Metropolis,Afternoon,Evening,zero,7,0.0,3.0,3.0,3.0,0.0
+6E 950,Metropolis>Gotham,Evening,Night,zero,5,0.0715541752799933,2.67,2.83,2.67,0.16000000000000014
+6E 950,Metropolis>Springfield,Evening,Night,one,5,0.0,4.75,4.75,4.75,0.0
+6E 951,Gotham>Metropolis,Night,Late_Night,zero,9,0.0,2.75,2.75,2.75,0.0
+6E 952,Springfield>Hill Valley,Night,Late_Night,zero,6,0.0,2.67,2.67,2.67,0.0
+6E 953,Gotham>Metropolis,Late_Night,Early_Morning,zero,5,0.0,2.92,2.92,2.92,0.0
+6E 958,Hill Valley>Springfield,Afternoon,Evening,zero,2,0.0,2.67,2.67,2.67,0.0
+6E 967,Hill Valley>Springfield,Afternoon,Night,one,1,,6.92,6.92,6.92,0.0
+6E 975,Springfield>Hill Valley,Night,Night,zero,6,0.0,2.67,2.67,2.67,0.0
+6E 976,Metropolis>Gotham,Early_Morning,Morning,zero,1,,2.83,2.83,2.83,0.0
+6E 976,Metropolis>Springfield,Early_Morning,Morning,one,2,0.0,4.92,4.92,4.92,0.0
+6E 984,Los Santos>Night City,Evening,Late_Night,one,0,,,,,
+6E 986,Gotham>Hill Valley,Afternoon,Evening,zero,3,0.0,2.42,2.42,2.42,0.0
+6E 987,Gotham>Hill Valley,Early_Morning,Early_Morning,zero,8,0.0,2.33,2.33,2.33,0.0
+6E 991,Gotham>Metropolis,Morning,Afternoon,one,2,0.0,5.42,5.42,5.42,0.0
+6E 994,Hill Valley>Metropolis,Afternoon,Evening,one,2,0.0,5.08,5.08,5.08,0.0
+6E 994,Hill Valley>Springfield,Afternoon,Evening,one,3,0.0,5.42,5.42,5.42,0.0
+6E 997,Los Santos>Metropolis,Morning,Afternoon,one,1,,5.08,5.08,5.08,0.0
+9I 517,Springfield>Los Santos,Night,Night,zero,0,,,,,
+9I 894,Gotham>Los Santos,Afternoon,Afternoon,zero,1,,1.75,1.75,1.75,0.0
+AI 1706,Metropolis>Los Santos,Night,Late_Night,zero,7,0.0,2.33,2.33,2.33,0.0
+AI 1706,Metropolis>Springfield,Night,Morning,one,1,,10.42,10.42,10.42,0.0
+AI 1708,Metropolis>Los Santos,Evening,Night,zero,10,0.0,2.33,2.33,2.33,0.0
+AI 1714,Metropolis>Hill Valley,Night,Night,zero,26,0.0,2.33,2.33,2.33,0.0
+AI 1719,Metropolis>Night City,Morning,Night,one,1,,9.67,9.67,9.67,0.0
+AI 1733,Metropolis>Hill Valley,Evening,Evening,zero,29,0.0,2.33,2.33,2.33,0.0
+AI 1745,Metropolis>Night City,Early_Morning,Early_Morning,zero,49,0.04538103982402999,2.33,2.42,2.33,0.08999999999999986
+AI 1777,Metropolis>Night City,Evening,Evening,zero,61,0.0,2.42,2.42,2.42,0.0
+AI 1780,Metropolis>Night City,Afternoon,Evening,one,4,0.0,3.83,3.83,3.83,0.0
+AI 1785,Metropolis>Night City,Afternoon,Afternoon,zero,59,0.0,2.42,2.42,2.42,0.0
+AI 1791,Metropolis>Hill Valley,Morning,Afternoon,zero,29,0.0,2.33,2.33,2.33,0.0
+AI 1793,Metropolis>Los Santos,Early_Morning,Morning,zero,10,0.0,2.33,2.33,2.33,0.0
+AI 1793,Metropolis>Springfield,Early_Morning,Evening,one,1,,12.33,12.33,12.33,0.0
+AI 1793,Metropolis>Springfield,Early_Morning,Night,one,2,0.0,16.42,16.42,16.42,0.0
+AI 1806,Los Santos>Gotham,Late_Night,Morning,one,1,,7.33,7.33,7.33,0.0
+AI 1806,Los Santos>Hill Valley,Late_Night,Afternoon,one,1,,9.25,9.25,9.25,0.0
+AI 1806,Los Santos>Metropolis,Early_Morning,Early_Morning,zero,7,0.0,2.42,2.42,2.42,0.0
+AI 1806,Los Santos>Metropolis,Late_Night,Early_Morning,zero,8,0.0,2.42,2.42,2.42,0.0
+AI 1806,Los Santos>Springfield,Early_Morning,Afternoon,one,2,0.0,6.92,6.92,6.92,0.0
+AI 1806,Los Santos>Springfield,Late_Night,Morning,one,0,,,,,
+AI 1832,Hill Valley>Gotham,Late_Night,Morning,one,4,0.0,8.17,8.17,8.17,0.0
+AI 1832,Hill Valley>Los Santos,Late_Night,Afternoon,one,1,,11.5,11.5,11.5,0.0
+AI 1832,Hill Valley>Los Santos,Late_Night,Morning,one,1,,8.83,8.83,8.83,0.0
+AI 1832,Hill Valley>Metropolis,Late_Night,Late_Night,zero,12,0.0,2.58,2.58,2.58,0.0
+AI 1832,Hill Valley>Springfield,Late_Night,Morning,one,1,,8.42,8.42,8.42,0.0
+AI 1851,Night City>Metropolis,Afternoon,Evening,zero,10,0.0,2.33,2.33,2.33,0.0
+AI 1863,Hill Valley>Metropolis,Evening,Night,zero,18,0.0,2.42,2.42,2.42,0.0
+AI 1866,Los Santos>Hill Valley,Morning,Evening,one,0,,,,,
+AI 1866,Los Santos>Metropolis,Morning,Afternoon,zero,11,0.0,2.5,2.5,2.5,0.0
+AI 1874,Hill Valley>Gotham,Afternoon,Night,one,1,,8.0,8.0,8.0,0.0
+AI 1874,Hill Valley>Los Santos,Afternoon,Night,one,1,,8.92,8.92,8.92,0.0
+AI 1874,Hill Valley>Metropolis,Afternoon,Afternoon,zero,13,0.0,2.58,2.58,2.58,0.0
+AI 1874,Hill Valley>Night City,Afternoon,Late_Night,two_or_more,1,,13.25,13.25,13.25,0.0
+AI 1874,Hill Valley>Springfield,Afternoon,Late_Night,two_or_more,8,0.0,13.42,13.42,13.42,0.0
+AI 1874,Hill Valley>Springfield,Afternoon,Night,one,1,,9.0,9.0,9.0,0.0
+AI 1880,Los Santos>Hill Valley,Night,Afternoon,one,1,,13.75,13.75,13.75,0.0
+AI 1880,Los Santos>Hill Valley,Night,Early_Morning,one,1,,6.33,6.33,6.33,0.0
+AI 1880,Los Santos>Metropolis,Night,Late_Night,zero,9,0.0,2.5,2.5,2.5,0.0
+AI 1882,Night City>Metropolis,Night,Late_Night,zero,12,0.0,2.33,2.33,2.33,0.0
+AI 1891,Night City>Metropolis,Morning,Morning,one,1,,3.58,3.58,3.58,0.0
+AI 1895,Night City>Metropolis,Night,Night,zero,12,0.0,2.25,2.25,2.25,0.0
+AI 2401,Night City>Springfield,Night,Night,zero,27,0.0,2.0,2.0,2.0,0.0
+AI 2402,Springfield>Gotham,Early_Morning,Evening,one,3,0.0,9.58,9.58,9.58,0.0
+AI 2402,Springfield>Gotham,Early_Morning,Late_Night,one,4,0.0,18.5,18.5,18.5,0.0
+AI 2402,Springfield>Hill Valley,Early_Morning,Late_Night,one,0,,,,,
+AI 2402,Springfield>Los Santos,Early_Morning,Afternoon,one,1,,5.83,5.83,5.83,0.0
+AI 2402,Springfield>Los Santos,Early_Morning,Night,one,2,0.0,14.5,14.5,14.5,0.0
+AI 2402,Springfield>Night City,Early_Morning,Morning,zero,13,0.0,2.0,2.0,2.0,0.0
+AI 2406,Springfield>Gotham,Morning,Evening,one,1,,7.67,7.67,7.67,0.0
+AI 2406,Springfield>Los Santos,Morning,Evening,one,1,,6.92,6.92,6.92,0.0
+AI 2406,Springfield>Metropolis,Morning,Afternoon,zero,18,0.04006938426723772,3.0,3.17,3.0,0.16999999999999993
+AI 2408,Night City>Metropolis,Evening,Night,zero,16,0.0,2.25,2.25,2.25,0.0
+AI 2409,Metropolis>Springfield,Early_Morning,Morning,zero,24,0.0,2.92,2.92,2.92,0.0
+AI 2410,Hill Valley>Metropolis,Night,Morning,one,1,,9.67,9.67,9.67,0.0
+AI 2410,Hill Valley>Night City,Night,Late_Night,zero,1,,2.92,2.92,2.92,0.0
+AI 2410,Night City>Springfield,Early_Morning,Early_Morning,zero,7,0.0,2.08,2.08,2.08,0.0
+AI 2411,Night City>Hill Valley,Evening,Night,zero,1,,2.83,2.83,2.83,0.0
+AI 2411,Springfield>Hill Valley,Morning,Afternoon,one,3,0.0,6.08,6.08,6.08,0.0
+AI 2411,Springfield>Los Santos,Morning,Night,one,2,0.0,12.75,12.75,12.75,0.0
+AI 2411,Springfield>Night City,Morning,Morning,zero,3,0.0,2.0,2.0,2.0,0.0
+AI 2412,Metropolis>Springfield,Night,Late_Night,zero,29,0.02479472373556829,2.92,3.0,2.92,0.08000000000000007
+AI 2414,Springfield>Los Santos,Early_Morning,Afternoon,one,1,,6.5,6.5,6.5,0.0
+AI 2414,Springfield>Metropolis,Early_Morning,Morning,zero,17,0.0,2.92,2.92,2.92,0.0
+AI 2415,Metropolis>Springfield,Morning,Afternoon,zero,25,0.0,2.92,2.92,2.92,0.0
+AI 2417,Metropolis>Springfield,Afternoon,Afternoon,zero,24,0.0,2.92,2.92,2.92,0.0
+AI 2418,Springfield>Los Santos,Evening,Night,one,2,0.0,6.33,6.33,6.33,0.0
+AI 2418,Springfield>Metropolis,Evening,Evening,zero,15,0.0,2.92,2.92,2.92,0.0
+AI 2419,Night City>Metropolis,Afternoon,Afternoon,zero,11,0.0,2.33,2.33,2.33,0.0
+AI 2422,Night City>Metropolis,Late_Night,Late_Night,zero,15,0.0,2.33,2.33,2.33,0.0
+AI 2424,Night City>Metropolis,Early_Morning,Morning,zero,13,0.0,2.25,2.25,2.25,0.0
+AI 2425,Metropolis>Night City,Morning,Afternoon,zero,55,0.0655204494255747,2.33,2.58,2.33,0.25
+AI 2428,Night City>Metropolis,Morning,Morning,zero,13,0.0,2.33,2.33,2.33,0.0
+AI 2429,Metropolis>Night City,Early_Morning,Morning,zero,56,0.056801945732175736,2.17,2.42,2.42,0.25
+AI 2430,Night City>Metropolis,Morning,Afternoon,zero,12,0.0,2.33,2.33,2.33,0.0
+AI 2432,Night City>Metropolis,Morning,Morning,zero,14,0.0,2.33,2.33,2.33,0.0
+AI 2433,Metropolis>Night City,Night,Night,zero,57,0.0,2.42,2.42,2.42,0.0
+AI 2437,Metropolis>Night City,Night,Late_Night,zero,4,0.0,2.42,2.42,2.42,0.0
+AI 2439,Metropolis>Night City,Night,Late_Night,zero,62,0.0,2.42,2.42,2.42,0.0
+AI 2440,Night City>Metropolis,Evening,Night,zero,10,0.03794733192202051,2.33,2.42,2.33,0.08999999999999986
+AI 2441,Metropolis>Night City,Afternoon,Evening,zero,38,0.02459486814597844,2.33,2.42,2.42,0.08999999999999986
+AI 2442,Night City>Metropolis,Afternoon,Evening,zero,14,0.0,2.33,2.33,2.33,0.0
+AI 2444,Night City>Los Santos,Morning,Afternoon,zero,16,0.0,1.58,1.58,1.58,0.0
+AI 2445,Los Santos>Gotham,Afternoon,Late_Night,one,3,0.0,10.67,10.67,10.67,0.0
+AI 2445,Los Santos>Gotham,Afternoon,Night,one,1,,6.08,6.08,6.08,0.0
+AI 2445,Los Santos>Night City,Afternoon,Evening,zero,17,0.06063390625908324,1.75,2.0,2.0,0.25
+AI 2445,Los Santos>Springfield,Afternoon,Evening,one,1,,5.17,5.17,5.17,0.0
+AI 2445,Los Santos>Springfield,Afternoon,Night,one,5,0.9354784871925168,6.17,8.33,6.17,2.16
+AI 2447,Los Santos>Gotham,Evening,Late_Night,one,1,,7.67,7.67,7.67,0.0
+AI 2447,Los Santos>Gotham,Evening,Night,one,3,0.0,5.17,5.17,5.17,0.0
+AI 2447,Los Santos>Hill Valley,Evening,Late_Night,one,1,,6.75,6.75,6.75,0.0
+AI 2447,Los Santos>Night City,Evening,Evening,zero,19,0.018353258709644965,1.92,2.0,2.0,0.08000000000000007
+AI 2447,Los Santos>Springfield,Evening,Night,one,4,0.0,5.33,5.33,5.33,0.0
+AI 2449,Metropolis>Los Santos,Night,Late_Night,zero,9,0.0,2.33,2.33,2.33,0.0
+AI 2449,Metropolis>Springfield,Night,Evening,one,1,,20.33,20.33,20.33,0.0
+AI 2449,Metropolis>Springfield,Night,Morning,one,2,0.0,11.42,11.42,11.42,0.0
+AI 2452,Night City>Metropolis,Late_Night,Early_Morning,zero,3,0.0,2.33,2.33,2.33,0.0
+AI 2465,Metropolis>Los Santos,Afternoon,Evening,zero,11,0.0,2.17,2.17,2.17,0.0
+AI 2466,Los Santos>Gotham,Morning,Afternoon,one,1,,6.58,6.58,6.58,0.0
+AI 2466,Los Santos>Hill Valley,Morning,Afternoon,one,2,0.0,6.75,6.75,6.75,0.0
+AI 2466,Los Santos>Metropolis,Morning,Morning,zero,8,0.0,2.33,2.33,2.33,0.0
+AI 2467,Metropolis>Gotham,Morning,Afternoon,zero,11,0.0,2.75,2.75,2.75,0.0
+AI 2468,Gotham>Hill Valley,Afternoon,Night,one,1,,6.33,6.33,6.33,0.0
+AI 2468,Gotham>Metropolis,Afternoon,Evening,zero,11,0.0,2.92,2.92,2.92,0.0
+AI 2471,Night City>Hill Valley,Morning,Afternoon,zero,30,0.0,2.92,2.92,2.92,0.0
+AI 2472,Hill Valley>Gotham,Afternoon,Late_Night,one,2,0.0,9.92,9.92,9.92,0.0
+AI 2472,Hill Valley>Gotham,Afternoon,Night,one,2,0.0,7.42,7.42,7.42,0.0
+AI 2472,Hill Valley>Los Santos,Afternoon,Early_Morning,one,0,,,,,
+AI 2472,Hill Valley>Los Santos,Afternoon,Night,one,2,0.0,5.92,5.92,5.92,0.0
+AI 2472,Hill Valley>Night City,Afternoon,Evening,zero,13,0.0,3.08,3.08,3.08,0.0
+AI 2481,Night City>Hill Valley,Evening,Evening,zero,29,0.031568207490098844,2.83,3.0,2.83,0.16999999999999993
+AI 2482,Hill Valley>Los Santos,Night,Early_Morning,one,1,,11.0,11.0,11.0,0.0
+AI 2482,Hill Valley>Night City,Night,Night,zero,16,0.0,3.17,3.17,3.17,0.0
+AI 2483,Metropolis>Gotham,Afternoon,Afternoon,zero,13,0.0,2.83,2.83,2.83,0.0
+AI 2484,Gotham>Hill Valley,Evening,Night,one,1,,7.0,7.0,7.0,0.0
+AI 2484,Gotham>Metropolis,Evening,Evening,zero,14,0.0,3.0,3.0,3.0,0.0
+AI 2485,Metropolis>Springfield,Morning,Afternoon,zero,30,0.0,2.83,2.83,2.83,0.0
+AI 2486,Springfield>Los Santos,Afternoon,Night,one,1,,6.33,6.33,6.33,0.0
+AI 2486,Springfield>Metropolis,Afternoon,Afternoon,zero,0,,,,,
+AI 2486,Springfield>Metropolis,Afternoon,Evening,zero,18,0.0,2.75,2.75,2.75,0.0
+AI 2487,Metropolis>Springfield,Evening,Night,zero,28,0.028347335475691997,2.83,2.92,2.92,0.08999999999999986
+AI 2488,Springfield>Metropolis,Night,Late_Night,zero,19,0.0,2.92,2.92,2.92,0.0
+AI 2507,Metropolis>Gotham,Afternoon,Afternoon,zero,1,,2.92,2.92,2.92,0.0
+AI 2511,Springfield>Los Santos,Afternoon,Night,one,1,,6.83,6.83,6.83,0.0
+AI 2511,Springfield>Metropolis,Afternoon,Evening,zero,22,0.0,3.0,3.0,3.0,0.0
+AI 2512,Metropolis>Springfield,Evening,Night,zero,25,0.0,2.92,2.92,2.92,0.0
+AI 2513,Metropolis>Hill Valley,Afternoon,Afternoon,zero,3,0.0,2.25,2.25,2.25,0.0
+AI 2513,Metropolis>Springfield,Afternoon,Afternoon,zero,3,0.0,2.83,2.83,2.83,0.0
+AI 2514,Hill Valley>Metropolis,Afternoon,Evening,zero,6,0.0,2.5,2.5,2.5,0.0
+AI 2514,Springfield>Gotham,Evening,Late_Night,one,1,,6.5,6.5,6.5,0.0
+AI 2514,Springfield>Metropolis,Evening,Night,zero,1,,2.92,2.92,2.92,0.0
+AI 2515,Metropolis>Springfield,Night,Late_Night,zero,4,0.0,2.92,2.92,2.92,0.0
+AI 2516,Springfield>Gotham,Early_Morning,Morning,one,1,,6.67,6.67,6.67,0.0
+AI 2516,Springfield>Metropolis,Early_Morning,Early_Morning,zero,1,,2.92,2.92,2.92,0.0
+AI 2517,Night City>Hill Valley,Early_Morning,Early_Morning,zero,2,0.0,2.67,2.67,2.67,0.0
+AI 2518,Hill Valley>Night City,Morning,Morning,zero,0,,,,,
+AI 2519,Metropolis>Los Santos,Afternoon,Evening,zero,9,0.0,2.42,2.42,2.42,0.0
+AI 2520,Los Santos>Metropolis,Evening,Night,zero,9,0.0,2.42,2.42,2.42,0.0
+AI 2523,Metropolis>Gotham,Morning,Morning,zero,2,0.0,2.92,2.92,2.92,0.0
+AI 2525,Metropolis>Gotham,Early_Morning,Morning,zero,8,0.07406560798180417,2.67,2.83,2.67,0.16000000000000014
+AI 2526,Gotham>Hill Valley,Morning,Afternoon,one,3,0.0,6.0,6.0,6.0,0.0
+AI 2526,Gotham>Metropolis,Morning,Afternoon,zero,10,0.0,2.92,2.92,2.92,0.0
+AI 2527,Night City>Hill Valley,Evening,Evening,zero,1,,2.67,2.67,2.67,0.0
+AI 2528,Hill Valley>Night City,Night,Night,zero,1,,3.17,3.17,3.17,0.0
+AI 2531,Night City>Los Santos,Afternoon,Evening,zero,19,0.0,1.5,1.5,1.5,0.0
+AI 2535,Metropolis>Hill Valley,Early_Morning,Morning,zero,29,0.0,2.17,2.17,2.17,0.0
+AI 2536,Hill Valley>Metropolis,Morning,Afternoon,zero,12,0.0,2.67,2.67,2.67,0.0
+AI 2541,Los Santos>Gotham,Afternoon,Night,one,0,,,,,
+AI 2541,Los Santos>Hill Valley,Afternoon,Night,one,2,1.0606601717798212,8.33,9.83,9.08,1.5
+AI 2541,Los Santos>Metropolis,Afternoon,Evening,zero,13,0.0,2.58,2.58,2.58,0.0
+AI 2542,Metropolis>Los Santos,Morning,Afternoon,zero,9,0.0,2.33,2.33,2.33,0.0
+AI 2542,Metropolis>Springfield,Morning,Evening,one,2,0.0,8.5,8.5,8.5,0.0
+AI 2543,Los Santos>Gotham,Morning,Evening,one,1,,8.08,8.08,8.08,0.0
+AI 2543,Los Santos>Metropolis,Morning,Afternoon,zero,5,0.0,2.5,2.5,2.5,0.0
+AI 2555,Metropolis>Night City,Evening,Evening,zero,7,0.0,2.42,2.42,2.42,0.0
+AI 2559,Los Santos>Gotham,Afternoon,Night,one,1,,8.17,8.17,8.17,0.0
+AI 2559,Los Santos>Metropolis,Afternoon,Afternoon,zero,10,0.0,2.5,2.5,2.5,0.0
+AI 2559,Los Santos>Springfield,Afternoon,Evening,one,2,0.0,6.5,6.5,6.5,0.0
+AI 2560,Metropolis>Los Santos,Early_Morning,Morning,zero,1,,2.33,2.33,2.33,0.0
+AI 2573,Metropolis>Night City,Early_Morning,Early_Morning,zero,5,0.0,2.42,2.42,2.42,0.0
+AI 2577,Metropolis>Los Santos,Late_Night,Early_Morning,zero,10,0.0,2.33,2.33,2.33,0.0
+AI 2587,Metropolis>Night City,Afternoon,Afternoon,zero,6,0.0,2.42,2.42,2.42,0.0
+AI 2603,Night City>Springfield,Early_Morning,Morning,zero,26,0.0,2.0,2.0,2.0,0.0
+AI 2604,Springfield>Hill Valley,Morning,Evening,one,0,,,,,
+AI 2604,Springfield>Hill Valley,Morning,Late_Night,one,1,,14.92,14.92,14.92,0.0
+AI 2604,Springfield>Los Santos,Morning,Evening,one,2,0.0,10.33,10.33,10.33,0.0
+AI 2604,Springfield>Night City,Morning,Morning,zero,7,0.0,2.0,2.0,2.0,0.0
+AI 2610,Springfield>Gotham,Evening,Late_Night,one,3,0.0,6.08,6.08,6.08,0.0
+AI 2610,Springfield>Night City,Evening,Night,zero,10,0.0,2.08,2.08,2.08,0.0
+AI 2618,Los Santos>Night City,Afternoon,Afternoon,zero,1,,1.83,1.83,1.83,0.0
+AI 2619,Night City>Los Santos,Evening,Evening,zero,21,0.0,1.58,1.58,1.58,0.0
+AI 2625,Night City>Los Santos,Early_Morning,Early_Morning,zero,19,0.0,1.58,1.58,1.58,0.0
+AI 2626,Los Santos>Gotham,Early_Morning,Evening,one,1,,8.75,8.75,8.75,0.0
+AI 2626,Los Santos>Hill Valley,Early_Morning,Afternoon,one,0,,,,,
+AI 2626,Los Santos>Night City,Early_Morning,Morning,zero,11,0.024120907566221126,1.75,1.83,1.83,0.08000000000000007
+AI 2626,Los Santos>Springfield,Early_Morning,Afternoon,one,8,0.8762745818846641,4.67,6.67,4.92,2.0
+AI 2630,Springfield>Gotham,Afternoon,Night,one,5,0.9611815645339856,8.33,10.5,8.33,2.17
+AI 2630,Springfield>Hill Valley,Afternoon,Late_Night,one,1,,12.08,12.08,12.08,0.0
+AI 2630,Springfield>Los Santos,Afternoon,Evening,one,4,1.7320508075688772,4.5,7.5,6.0,3.0
+AI 2630,Springfield>Los Santos,Afternoon,Night,one,0,,,,,
+AI 2630,Springfield>Night City,Afternoon,Afternoon,zero,12,0.0,2.0,2.0,2.0,0.0
+AI 2632,Night City>Springfield,Afternoon,Afternoon,zero,27,0.0,2.08,2.08,2.08,0.0
+AI 2641,Night City>Springfield,Evening,Night,zero,30,0.0,2.08,2.08,2.08,0.0
+AI 2642,Springfield>Night City,Night,Night,zero,8,0.0,2.08,2.08,2.08,0.0
+AI 2643,Night City>Hill Valley,Night,Late_Night,zero,25,0.03999999999999999,3.0,3.08,3.08,0.08000000000000007
+AI 2644,Hill Valley>Gotham,Early_Morning,Evening,one,1,,9.25,9.25,9.25,0.0
+AI 2644,Hill Valley>Gotham,Early_Morning,Late_Night,one,1,,18.17,18.17,18.17,0.0
+AI 2644,Hill Valley>Los Santos,Early_Morning,Afternoon,one,5,0.0,5.5,5.5,5.5,0.0
+AI 2644,Hill Valley>Los Santos,Early_Morning,Evening,one,0,,,,,
+AI 2644,Hill Valley>Los Santos,Early_Morning,Night,one,1,,14.17,14.17,14.17,0.0
+AI 2644,Hill Valley>Night City,Early_Morning,Morning,zero,11,0.0,3.0,3.0,3.0,0.0
+AI 2653,Metropolis>Springfield,Early_Morning,Early_Morning,zero,23,0.0,2.83,2.83,2.83,0.0
+AI 2654,Springfield>Metropolis,Early_Morning,Morning,zero,19,0.018353258709644896,2.92,3.0,3.0,0.08000000000000007
+AI 2664,Metropolis>Springfield,Afternoon,Evening,zero,23,0.0,2.92,2.92,2.92,0.0
+AI 2665,Springfield>Metropolis,Evening,Night,zero,20,0.0,3.0,3.0,3.0,0.0
+AI 2677,Night City>Metropolis,Afternoon,Afternoon,zero,18,0.0,2.25,2.25,2.25,0.0
+AI 2678,Metropolis>Night City,Morning,Morning,zero,64,0.0,2.25,2.25,2.25,0.0
+AI 2687,Night City>Metropolis,Evening,Evening,zero,12,0.04807664335582966,2.33,2.5,2.42,0.16999999999999993
+AI 2687,Night City>Metropolis,Morning,Afternoon,zero,2,0.0,2.58,2.58,2.58,0.0
+AI 2699,Los Santos>Gotham,Night,Morning,one,2,1.590990257669732,10.58,12.83,11.705,2.25
+AI 2699,Los Santos>Metropolis,Night,Late_Night,one,1,,5.0,5.0,5.0,0.0
+AI 2699,Los Santos>Night City,Night,Late_Night,zero,14,0.032682286764115255,1.83,1.92,1.92,0.08999999999999986
+AI 2699,Los Santos>Springfield,Night,Early_Morning,one,3,0.0,5.83,5.83,5.83,0.0
+AI 2699,Los Santos>Springfield,Night,Late_Night,one,1,,5.5,5.5,5.5,0.0
+AI 2702,Metropolis>Hill Valley,Late_Night,Early_Morning,zero,28,0.0,2.33,2.33,2.33,0.0
+AI 2704,Hill Valley>Gotham,Morning,Evening,one,1,,8.17,8.17,8.17,0.0
+AI 2704,Hill Valley>Los Santos,Morning,Evening,one,0,,,,,
+AI 2704,Hill Valley>Metropolis,Morning,Afternoon,zero,16,0.0,2.58,2.58,2.58,0.0
+AI 2704,Hill Valley>Springfield,Morning,Evening,one,3,0.47920072342738934,7.42,8.25,8.25,0.8300000000000001
+AI 2705,Metropolis>Hill Valley,Early_Morning,Morning,zero,21,0.0,2.33,2.33,2.33,0.0
+AI 2707,Metropolis>Hill Valley,Evening,Night,zero,24,0.0,2.33,2.33,2.33,0.0
+AI 2708,Hill Valley>Los Santos,Night,Early_Morning,one,1,,7.33,7.33,7.33,0.0
+AI 2708,Hill Valley>Los Santos,Night,Morning,one,0,,,,,
+AI 2708,Hill Valley>Metropolis,Night,Night,zero,20,0.0,2.58,2.58,2.58,0.0
+AI 2708,Hill Valley>Springfield,Night,Early_Morning,one,1,,10.33,10.33,10.33,0.0
+AI 2709,Metropolis>Hill Valley,Evening,Night,zero,28,0.0,2.17,2.17,2.17,0.0
+AI 2710,Hill Valley>Gotham,Night,Afternoon,two_or_more,16,0.03577708763999568,16.42,16.5,16.42,0.0799999999999983
+AI 2710,Hill Valley>Los Santos,Night,Afternoon,two_or_more,7,9.071147352221452,14.08,38.08,14.08,24.0
+AI 2710,Hill Valley>Los Santos,Night,Evening,two_or_more,1,,21.33,21.33,21.33,0.0
+AI 2710,Hill Valley>Los Santos,Night,Morning,two_or_more,3,0.0,34.83,34.83,34.83,0.0
+AI 2710,Hill Valley>Metropolis,Night,Late_Night,zero,16,0.0,2.58,2.58,2.58,0.0
+AI 2710,Hill Valley>Springfield,Night,Early_Morning,one,1,,8.83,8.83,8.83,0.0
+AI 2710,Hill Valley>Springfield,Night,Late_Night,two_or_more,0,,,,,
+AI 2710,Hill Valley>Springfield,Night,Night,two_or_more,1,,21.83,21.83,21.83,0.0
+AI 2720,Hill Valley>Gotham,Early_Morning,Afternoon,one,1,,8.17,8.17,8.17,0.0
+AI 2720,Hill Valley>Metropolis,Early_Morning,Morning,zero,9,0.0,2.58,2.58,2.58,0.0
+AI 2720,Hill Valley>Springfield,Early_Morning,Afternoon,one,1,,6.33,6.33,6.33,0.0
+AI 2739,Night City>Gotham,Morning,Morning,zero,15,0.0,2.17,2.17,2.17,0.0
+AI 2740,Gotham>Hill Valley,Evening,Afternoon,one,0,,,,,
+AI 2740,Gotham>Hill Valley,Evening,Late_Night,one,2,0.0,8.17,8.17,8.17,0.0
+AI 2740,Gotham>Los Santos,Evening,Night,one,2,0.0,5.08,5.08,5.08,0.0
+AI 2740,Gotham>Night City,Evening,Evening,zero,17,0.0,2.33,2.33,2.33,0.0
+AI 2740,Gotham>Springfield,Evening,Night,one,3,0.5311622476544556,5.83,6.75,5.83,0.9199999999999999
+AI 2757,Metropolis>Springfield,Late_Night,Late_Night,zero,26,0.029323133424757886,2.83,2.92,2.92,0.08999999999999986
+AI 2758,Springfield>Metropolis,Late_Night,Late_Night,zero,16,0.0,2.92,2.92,2.92,0.0
+AI 2761,Metropolis>Night City,Evening,Morning,one,8,0.0,15.58,15.58,15.58,0.0
+AI 2761,Metropolis>Night City,Evening,Night,one,4,0.0,5.17,5.17,5.17,0.0
+AI 2767,Metropolis>Hill Valley,Afternoon,Afternoon,zero,18,0.0,2.33,2.33,2.33,0.0
+AI 2768,Hill Valley>Gotham,Evening,Late_Night,one,2,0.05656854249492448,8.5,8.58,8.54,0.08000000000000007
+AI 2768,Hill Valley>Gotham,Evening,Night,one,4,0.0,6.17,6.17,6.17,0.0
+AI 2768,Hill Valley>Metropolis,Evening,Evening,zero,17,0.019402850002906643,2.5,2.58,2.5,0.08000000000000007
+AI 2768,Hill Valley>Springfield,Evening,Late_Night,one,0,,,,,
+AI 2768,Hill Valley>Springfield,Evening,Night,one,1,,6.17,6.17,6.17,0.0
+AI 2771,Night City>Hill Valley,Early_Morning,Morning,zero,28,0.023603873774083205,2.83,2.92,2.83,0.08999999999999986
+AI 2772,Hill Valley>Los Santos,Morning,Evening,one,2,0.0,6.08,6.08,6.08,0.0
+AI 2772,Hill Valley>Night City,Morning,Afternoon,zero,14,0.02905092156810257,3.0,3.08,3.08,0.08000000000000007
+AI 2773,Night City>Hill Valley,Afternoon,Evening,zero,14,0.08924900344196908,2.67,3.0,2.83,0.33000000000000007
+AI 2774,Hill Valley>Gotham,Evening,Late_Night,one,2,0.0,7.42,7.42,7.42,0.0
+AI 2774,Hill Valley>Los Santos,Evening,Morning,one,1,,16.92,16.92,16.92,0.0
+AI 2774,Hill Valley>Night City,Evening,Night,zero,6,0.03674234614174764,3.08,3.17,3.08,0.08999999999999986
+AI 2776,Los Santos>Hill Valley,Night,Morning,one,1,,9.33,9.33,9.33,0.0
+AI 2776,Los Santos>Metropolis,Night,Late_Night,zero,9,0.0,2.5,2.5,2.5,0.0
+AI 2779,Gotham>Hill Valley,Early_Morning,Afternoon,one,3,0.33486315612998296,7.42,8.0,7.42,0.5800000000000001
+AI 2779,Gotham>Los Santos,Early_Morning,Afternoon,one,1,,6.0,6.0,6.0,0.0
+AI 2779,Gotham>Los Santos,Early_Morning,Evening,one,1,,10.17,10.17,10.17,0.0
+AI 2779,Gotham>Night City,Early_Morning,Morning,zero,12,0.09731236802019039,2.17,2.42,2.17,0.25
+AI 2779,Gotham>Springfield,Early_Morning,Afternoon,one,4,1.0,5.08,7.08,5.08,2.0
+AI 2780,Night City>Gotham,Afternoon,Evening,zero,22,0.0,2.17,2.17,2.17,0.0
+AI 2802,Springfield>Gotham,Evening,Late_Night,one,0,,,,,
+AI 2802,Springfield>Metropolis,Evening,Night,zero,16,0.08499999999999995,2.83,3.17,2.83,0.33999999999999986
+AI 2803,Metropolis>Springfield,Early_Morning,Morning,zero,23,0.025929365896802652,2.83,2.92,2.92,0.08999999999999986
+AI 2804,Springfield>Metropolis,Morning,Afternoon,zero,23,0.0,3.0,3.0,3.0,0.0
+AI 2805,Metropolis>Night City,Night,Night,zero,38,0.0,2.42,2.42,2.42,0.0
+AI 2809,Metropolis>Springfield,Evening,Night,zero,25,0.029849623113198522,2.83,2.92,2.83,0.08999999999999986
+AI 2810,Springfield>Los Santos,Early_Morning,Afternoon,one,0,,,,,
+AI 2810,Springfield>Metropolis,Early_Morning,Morning,zero,15,0.043893811257017364,2.75,2.92,2.75,0.16999999999999993
+AI 2811,Springfield>Gotham,Night,Late_Night,one,1,,1.33,1.33,1.33,0.0
+AI 2811,Springfield>Gotham,Night,Morning,one,7,1.0978875820671,9.25,11.5,9.25,2.25
+AI 2811,Springfield>Hill Valley,Night,Morning,one,0,,,,,
+AI 2811,Springfield>Los Santos,Night,Early_Morning,one,3,0.0,7.92,7.92,7.92,0.0
+AI 2811,Springfield>Los Santos,Night,Night,one,1,,21.42,21.42,21.42,0.0
+AI 2811,Springfield>Night City,Night,Late_Night,zero,7,0.0,2.08,2.08,2.08,0.0
+AI 2812,Night City>Springfield,Late_Night,Early_Morning,zero,21,0.0,2.08,2.08,2.08,0.0
+AI 2813,Metropolis>Springfield,Evening,Night,zero,9,0.0,2.92,2.92,2.92,0.0
+AI 2814,Springfield>Metropolis,Night,Late_Night,zero,7,0.0,2.92,2.92,2.92,0.0
+AI 2815,Metropolis>Springfield,Early_Morning,Morning,zero,25,0.0,2.92,2.92,2.92,0.0
+AI 2817,Metropolis>Springfield,Evening,Evening,zero,22,0.0,2.75,2.75,2.75,0.0
+AI 2818,Springfield>Metropolis,Night,Night,zero,14,0.0,2.75,2.75,2.75,0.0
+AI 2819,Metropolis>Springfield,Afternoon,Evening,zero,29,0.043839721512185896,2.75,2.92,2.92,0.16999999999999993
+AI 2820,Springfield>Metropolis,Evening,Night,zero,17,0.040583972495671417,3.0,3.08,3.08,0.08000000000000007
+AI 2821,Night City>Gotham,Early_Morning,Morning,zero,17,0.0,2.25,2.25,2.25,0.0
+AI 2822,Gotham>Hill Valley,Morning,Evening,one,2,0.0,10.33,10.33,10.33,0.0
+AI 2822,Gotham>Los Santos,Morning,Evening,one,3,0.0,7.0,7.0,7.0,0.0
+AI 2822,Gotham>Los Santos,Morning,Night,one,1,,11.5,11.5,11.5,0.0
+AI 2822,Gotham>Night City,Morning,Morning,zero,13,0.0,2.33,2.33,2.33,0.0
+AI 2822,Gotham>Springfield,Morning,Evening,one,3,1.1547005383792515,8.0,10.0,10.0,2.0
+AI 2822,Gotham>Springfield,Morning,Night,one,4,0.0,11.0,11.0,11.0,0.0
+AI 2827,Night City>Gotham,Night,Night,zero,18,0.0,2.08,2.08,2.08,0.0
+AI 2828,Gotham>Hill Valley,Early_Morning,Afternoon,one,2,0.0,8.5,8.5,8.5,0.0
+AI 2828,Gotham>Los Santos,Early_Morning,Evening,one,1,,10.67,10.67,10.67,0.0
+AI 2828,Gotham>Night City,Early_Morning,Morning,zero,14,0.0,2.33,2.33,2.33,0.0
+AI 2828,Gotham>Springfield,Early_Morning,Afternoon,one,3,1.1547005383792515,6.17,8.17,6.17,2.0
+AI 2832,Gotham>Metropolis,Early_Morning,Morning,zero,4,0.0,2.83,2.83,2.83,0.0
+AI 2833,Metropolis>Gotham,Early_Morning,Morning,zero,13,0.0,2.83,2.83,2.83,0.0
+AI 2835,Metropolis>Gotham,Evening,Night,zero,6,0.1862256695517564,2.83,3.17,3.0,0.33999999999999986
+AI 2836,Gotham>Metropolis,Morning,Afternoon,zero,12,0.0,3.0,3.0,3.0,0.0
+AI 2836,Gotham>Springfield,Morning,Evening,one,1,,7.75,7.75,7.75,0.0
+AI 2837,Metropolis>Gotham,Evening,Night,zero,11,0.0,2.92,2.92,2.92,0.0
+AI 2838,Gotham>Metropolis,Night,Late_Night,zero,12,0.0,3.0,3.0,3.0,0.0
+AI 2840,Springfield>Gotham,Night,Late_Night,one,1,,26.58,26.58,26.58,0.0
+AI 2840,Springfield>Night City,Night,Late_Night,zero,11,0.0,2.08,2.08,2.08,0.0
+AI 2845,Night City>Springfield,Early_Morning,Early_Morning,zero,8,0.0,2.08,2.08,2.08,0.0
+AI 2846,Springfield>Gotham,Morning,Late_Night,one,1,,16.75,16.75,16.75,0.0
+AI 2846,Springfield>Los Santos,Morning,Evening,one,1,,8.25,8.25,8.25,0.0
+AI 2846,Springfield>Night City,Morning,Morning,zero,4,0.0,2.0,2.0,2.0,0.0
+AI 2849,Night City>Springfield,Evening,Evening,zero,27,0.0,2.08,2.08,2.08,0.0
+AI 2850,Springfield>Night City,Night,Night,zero,11,0.0,2.17,2.17,2.17,0.0
+AI 2851,Night City>Springfield,Early_Morning,Morning,zero,20,0.0,2.17,2.17,2.17,0.0
+AI 2852,Springfield>Gotham,Morning,Afternoon,one,1,,4.75,4.75,4.75,0.0
+AI 2852,Springfield>Gotham,Morning,Evening,one,5,0.0,5.67,5.67,5.67,0.0
+AI 2852,Springfield>Gotham,Morning,Night,one,3,0.0,9.92,9.92,9.92,0.0
+AI 2852,Springfield>Hill Valley,Morning,Evening,one,1,,9.42,9.42,9.42,0.0
+AI 2852,Springfield>Los Santos,Morning,Evening,one,4,1.5,6.08,9.08,9.08,3.0
+AI 2852,Springfield>Night City,Morning,Afternoon,zero,9,0.0,2.08,2.08,2.08,0.0
+AI 2853,Night City>Springfield,Afternoon,Evening,zero,21,0.0,2.17,2.17,2.17,0.0
+AI 2854,Springfield>Gotham,Evening,Late_Night,one,3,0.0,7.0,7.0,7.0,0.0
+AI 2854,Springfield>Hill Valley,Evening,Late_Night,one,2,0.0,6.08,6.08,6.08,0.0
+AI 2854,Springfield>Los Santos,Evening,Night,one,1,,5.0,5.0,5.0,0.0
+AI 2854,Springfield>Night City,Evening,Night,zero,9,0.0,2.0,2.0,2.0,0.0
+AI 2857,Night City>Springfield,Night,Late_Night,zero,27,0.0,2.08,2.08,2.08,0.0
+AI 2858,Springfield>Gotham,Late_Night,Morning,one,8,1.1644856313902228,6.58,8.83,6.58,2.25
+AI 2858,Springfield>Hill Valley,Late_Night,Late_Night,one,1,,21.83,21.83,21.83,0.0
+AI 2858,Springfield>Hill Valley,Late_Night,Morning,one,3,0.0,7.42,7.42,7.42,0.0
+AI 2858,Springfield>Los Santos,Late_Night,Early_Morning,one,3,0.0,5.25,5.25,5.25,0.0
+AI 2858,Springfield>Los Santos,Late_Night,Morning,one,2,0.0,8.25,8.25,8.25,0.0
+AI 2858,Springfield>Night City,Late_Night,Early_Morning,zero,9,0.0,1.83,1.83,1.83,0.0
+AI 2859,Metropolis>Los Santos,Morning,Afternoon,zero,11,0.0,2.33,2.33,2.33,0.0
+AI 2859,Metropolis>Springfield,Morning,Night,one,0,,,,,
+AI 2860,Los Santos>Metropolis,Early_Morning,Morning,zero,10,0.0,2.5,2.5,2.5,0.0
+AI 2863,Night City>Springfield,Morning,Afternoon,zero,24,0.0,2.08,2.08,2.08,0.0
+AI 2865,Night City>Springfield,Evening,Night,zero,23,0.0,2.08,2.08,2.08,0.0
+AI 2868,Springfield>Metropolis,Morning,Afternoon,zero,18,0.0,3.0,3.0,3.0,0.0
+AI 2869,Night City>Los Santos,Night,Night,zero,23,0.0,1.67,1.67,1.67,0.0
+AI 2870,Los Santos>Metropolis,Night,Night,zero,7,0.0,2.42,2.42,2.42,0.0
+AI 2871,Metropolis>Los Santos,Night,Night,zero,9,0.0,2.33,2.33,2.33,0.0
+AI 2872,Los Santos>Gotham,Early_Morning,Morning,one,3,0.0,5.33,5.33,5.33,0.0
+AI 2872,Los Santos>Night City,Early_Morning,Early_Morning,zero,15,0.0,1.92,1.92,1.92,0.0
+AI 2872,Los Santos>Springfield,Early_Morning,Afternoon,one,0,,,,,
+AI 2872,Los Santos>Springfield,Early_Morning,Morning,one,2,0.0,5.75,5.75,5.75,0.0
+AI 2875,Night City>Los Santos,Evening,Night,zero,21,0.0,1.5,1.5,1.5,0.0
+AI 2876,Los Santos>Night City,Night,Night,zero,15,0.0,1.92,1.92,1.92,0.0
+AI 2876,Los Santos>Springfield,Night,Late_Night,one,4,0.0,5.0,5.0,5.0,0.0
+AI 2879,Metropolis>Los Santos,Evening,Night,zero,5,0.0,2.33,2.33,2.33,0.0
+AI 2880,Los Santos>Gotham,Evening,Late_Night,one,1,,6.33,6.33,6.33,0.0
+AI 2880,Los Santos>Metropolis,Evening,Night,zero,9,0.0,2.58,2.58,2.58,0.0
+AI 2886,Gotham>Hill Valley,Morning,Afternoon,one,1,,6.33,6.33,6.33,0.0
+AI 2886,Gotham>Metropolis,Early_Morning,Morning,zero,10,0.0,2.92,2.92,2.92,0.0
+AI 2886,Gotham>Metropolis,Morning,Morning,zero,5,0.0,3.0,3.0,3.0,0.0
+AI 2890,Los Santos>Metropolis,Evening,Night,zero,9,0.0,2.5,2.5,2.5,0.0
+AI 2890,Los Santos>Springfield,Evening,Late_Night,one,1,,6.92,6.92,6.92,0.0
+AI 2895,Metropolis>Gotham,Night,Late_Night,zero,11,0.10441177223770406,2.75,3.0,2.83,0.25
+AI 2899,Metropolis>Los Santos,Afternoon,Afternoon,zero,12,0.0,2.25,2.25,2.25,0.0
+AI 2899,Metropolis>Springfield,Afternoon,Night,one,0,,,,,
+AI 2910,Night City>Metropolis,Evening,Evening,zero,2,0.0,2.33,2.33,2.33,0.0
+AI 2927,Metropolis>Night City,Morning,Afternoon,zero,68,0.0,2.5,2.5,2.5,0.0
+AI 2928,Night City>Metropolis,Early_Morning,Morning,zero,12,0.0,2.17,2.17,2.17,0.0
+AI 2930,Night City>Metropolis,Early_Morning,Morning,zero,8,0.0,2.25,2.25,2.25,0.0
+AI 2933,Metropolis>Night City,Afternoon,Evening,zero,66,0.04087390354096349,2.25,2.42,2.42,0.16999999999999993
+AI 2940,Night City>Metropolis,Night,Night,zero,9,0.0,2.33,2.33,2.33,0.0
+AI 2941,Metropolis>Night City,Evening,Evening,zero,31,0.05793210709320058,2.33,2.5,2.33,0.16999999999999993
+AI 2943,Metropolis>Night City,Early_Morning,Morning,zero,72,0.047315244841025624,2.25,2.42,2.42,0.16999999999999993
+AI 2944,Night City>Metropolis,Afternoon,Evening,zero,9,0.0,2.33,2.33,2.33,0.0
+AI 2945,Metropolis>Night City,Morning,Afternoon,zero,67,0.02365131906920313,2.33,2.5,2.42,0.16999999999999993
+AI 2951,Metropolis>Night City,Afternoon,Afternoon,zero,56,0.025896271606485752,2.33,2.42,2.33,0.08999999999999986
+AI 2952,Night City>Metropolis,Morning,Afternoon,zero,14,0.0,2.33,2.33,2.33,0.0
+AI 2955,Metropolis>Night City,Evening,Night,zero,62,0.02682571991717207,2.33,2.42,2.42,0.08999999999999986
+AI 2957,Metropolis>Night City,Night,Night,zero,71,0.053201715528836756,2.42,2.58,2.5,0.16000000000000014
+AI 2960,Night City>Metropolis,Afternoon,Evening,zero,6,0.0,2.33,2.33,2.33,0.0
+AI 2963,Metropolis>Night City,Morning,Morning,zero,65,0.019374844912530702,2.25,2.33,2.25,0.08000000000000007
+AI 2970,Night City>Metropolis,Morning,Morning,zero,11,0.0,2.33,2.33,2.33,0.0
+AI 2975,Metropolis>Night City,Early_Morning,Morning,zero,67,0.0,2.33,2.33,2.33,0.0
+AI 2977,Metropolis>Night City,Evening,Night,zero,53,0.02360782630802433,2.42,2.5,2.42,0.08000000000000007
+AI 2981,Metropolis>Night City,Night,Night,zero,66,0.0,2.33,2.33,2.33,0.0
+AI 2985,Metropolis>Night City,Evening,Night,zero,59,0.024387290094975783,2.42,2.5,2.42,0.08000000000000007
+AI 2986,Night City>Metropolis,Night,Late_Night,zero,12,0.04070403151799808,2.33,2.42,2.33,0.08999999999999986
+AI 2987,Metropolis>Night City,Afternoon,Afternoon,zero,3,0.0,2.42,2.42,2.42,0.0
+AI 2988,Night City>Metropolis,Night,Night,zero,10,0.0,2.33,2.33,2.33,0.0
+AI 2995,Metropolis>Night City,Morning,Afternoon,zero,65,0.0,2.42,2.42,2.42,0.0
+AI 2996,Night City>Metropolis,Evening,Night,zero,2,0.0,2.33,2.33,2.33,0.0
+AI 2999,Metropolis>Night City,Night,Late_Night,zero,23,0.0,2.42,2.42,2.42,0.0
+AI 3305,Night City>Springfield,Night,Late_Night,zero,3,0.0,2.0,2.0,2.0,0.0
+AI 3306,Springfield>Hill Valley,Late_Night,Late_Night,one,1,,21.75,21.75,21.75,0.0
+AI 3306,Springfield>Hill Valley,Late_Night,Morning,one,1,,7.33,7.33,7.33,0.0
+AI 3306,Springfield>Night City,Late_Night,Early_Morning,zero,3,0.0,2.0,2.0,2.0,0.0
+AI 417,Night City>Los Santos,Morning,Morning,zero,16,0.0,1.67,1.67,1.67,0.0
+AI 418,Los Santos>Gotham,Morning,Night,one,1,,9.0,9.0,9.0,0.0
+AI 418,Los Santos>Hill Valley,Morning,Evening,one,1,,8.42,8.42,8.42,0.0
+AI 418,Los Santos>Metropolis,Morning,Evening,one,2,0.0,5.42,5.42,5.42,0.0
+AI 418,Los Santos>Night City,Morning,Afternoon,zero,18,0.021213203435596396,1.83,1.92,1.92,0.08999999999999986
+AI 418,Los Santos>Springfield,Morning,Evening,one,5,0.1369306393762916,5.83,6.08,6.08,0.25
+AI 427,Metropolis>Springfield,Morning,Morning,zero,29,0.028074496253743884,2.75,2.83,2.83,0.08000000000000007
+AI 428,Springfield>Hill Valley,Afternoon,Night,one,1,,5.83,5.83,5.83,0.0
+AI 428,Springfield>Metropolis,Afternoon,Evening,zero,13,0.0,2.75,2.75,2.75,0.0
+AI 435,Night City>Gotham,Evening,Night,zero,19,0.04103913408340607,2.25,2.33,2.33,0.08000000000000007
+AI 436,Gotham>Hill Valley,Night,Morning,one,1,,12.58,12.58,12.58,0.0
+AI 436,Gotham>Los Santos,Night,Early_Morning,one,1,,10.5,10.5,10.5,0.0
+AI 436,Gotham>Night City,Night,Night,zero,15,0.04647580015448899,2.33,2.42,2.33,0.08999999999999986
+AI 436,Gotham>Springfield,Night,Early_Morning,one,2,0.0,7.0,7.0,7.0,0.0
+AI 441,Metropolis>Night City,Evening,Evening,zero,67,0.02301553955609887,2.42,2.5,2.42,0.08000000000000007
+AI 491,Metropolis>Night City,Morning,Evening,one,1,,4.83,4.83,4.83,0.0
+AI 537,Metropolis>Gotham,Afternoon,Evening,zero,13,0.06384074737689892,2.75,2.92,2.92,0.16999999999999993
+AI 538,Gotham>Hill Valley,Night,Early_Morning,one,1,,8.67,8.67,8.67,0.0
+AI 538,Gotham>Metropolis,Night,Night,zero,14,0.041084207281047634,2.75,2.83,2.83,0.08000000000000007
+AI 538,Gotham>Springfield,Night,Late_Night,one,1,,7.0,7.0,7.0,0.0
+AI 544,Metropolis>Los Santos,Afternoon,Evening,zero,1,,2.33,2.33,2.33,0.0
+AI 639,Night City>Gotham,Night,Late_Night,zero,18,0.0,2.17,2.17,2.17,0.0
+AI 640,Gotham>Hill Valley,Evening,Late_Night,one,4,0.0,7.17,7.17,7.17,0.0
+AI 640,Gotham>Night City,Evening,Evening,zero,18,0.08180959881038624,2.17,2.33,2.33,0.16000000000000014
+AI 640,Gotham>Springfield,Evening,Night,one,4,0.0,5.75,5.75,5.75,0.0
+AI 816,Night City>Metropolis,Night,Night,zero,13,0.0,2.25,2.25,2.25,0.0
+AI 840,Los Santos>Metropolis,Evening,Night,zero,1,,2.42,2.42,2.42,0.0
+AI 865,Metropolis>Night City,Morning,Morning,zero,2,0.0,2.25,2.25,2.25,0.0
+AI 887,Metropolis>Night City,Afternoon,Afternoon,zero,2,0.0,2.25,2.25,2.25,0.0
+AI 887,Metropolis>Night City,Night,Night,zero,4,0.05196152422706624,2.33,2.42,2.375,0.08999999999999986
+EK 505,Night City>Hill Valley,Morning,Evening,one,12,0.22576469380684164,8.42,9.0,9.0,0.5800000000000001
+EK 505,Night City>Los Santos,Morning,Night,one,0,,,,,
+EK 505,Night City>Springfield,Morning,Evening,one,1,,9.08,9.08,9.08,0.0
+EK 509,Night City>Gotham,Night,Morning,one,1,,9.67,9.67,9.67,0.0
+EK 509,Night City>Hill Valley,Night,Morning,one,1,,9.75,9.75,9.75,0.0
+EK 511,Metropolis>Gotham,Morning,Night,one,7,0.030237157840738344,9.5,9.58,9.5,0.08000000000000007
+EK 511,Metropolis>Los Santos,Morning,Night,one,1,,9.17,9.17,9.17,0.0
+EK 515,Metropolis>Hill Valley,Night,Morning,one,5,0.0,10.08,10.08,10.08,0.0
+EK 517,Metropolis>Springfield,Evening,Late_Night,one,1,,10.42,10.42,10.42,0.0
+EK 525,Los Santos>Gotham,Early_Morning,Night,one,2,0.0,15.83,15.83,15.83,0.0
+EK 525,Los Santos>Hill Valley,Early_Morning,Evening,one,3,0.0,14.58,14.58,14.58,0.0
+EK 525,Los Santos>Night City,Early_Morning,Afternoon,one,2,0.0,9.58,9.58,9.58,0.0
+EK 525,Los Santos>Springfield,Early_Morning,Evening,one,2,0.0,14.67,14.67,14.67,0.0
+EK 527,Los Santos>Gotham,Morning,Night,one,12,0.0,10.25,10.25,10.25,0.0
+EK 527,Los Santos>Hill Valley,Morning,Late_Night,one,1,,14.25,14.25,14.25,0.0
+EK 527,Los Santos>Hill Valley,Morning,Morning,one,2,0.0,21.92,21.92,21.92,0.0
+EK 527,Los Santos>Springfield,Morning,Evening,one,19,0.11470786693528082,8.58,9.08,9.08,0.5
+EK 527,Los Santos>Springfield,Morning,Late_Night,one,1,,16.58,16.58,16.58,0.0
+EK 529,Los Santos>Gotham,Night,Morning,one,19,0.0,10.08,10.08,10.08,0.0
+EK 529,Los Santos>Hill Valley,Night,Morning,one,22,0.0,10.17,10.17,10.17,0.0
+EK 529,Los Santos>Night City,Night,Morning,one,0,,,,,
+EK 529,Los Santos>Springfield,Night,Evening,one,1,,21.33,21.33,21.33,0.0
+EK 529,Los Santos>Springfield,Night,Morning,one,11,0.0,10.83,10.83,10.83,0.0
+EK 545,Gotham>Hill Valley,Morning,Morning,one,1,,22.33,22.33,22.33,0.0
+EK 545,Gotham>Los Santos,Morning,Night,one,14,0.0,10.33,10.33,10.33,0.0
+EK 545,Gotham>Springfield,Morning,Evening,one,18,0.0,9.5,9.5,9.5,0.0
+EK 545,Gotham>Springfield,Morning,Late_Night,one,3,0.0,17.0,17.0,17.0,0.0
+EK 547,Gotham>Hill Valley,Night,Morning,one,19,0.0,10.08,10.08,10.08,0.0
+EK 547,Gotham>Los Santos,Night,Morning,one,13,0.0,10.33,10.33,10.33,0.0
+EK 547,Gotham>Springfield,Night,Morning,one,9,0.0,10.75,10.75,10.75,0.0
+EK 565,Springfield>Gotham,Morning,Night,one,15,0.0645497224367904,9.75,10.0,10.0,0.25
+EK 565,Springfield>Los Santos,Morning,Late_Night,one,7,0.3779644730092266,15.58,16.58,15.58,0.9999999999999982
+EK 565,Springfield>Los Santos,Morning,Night,one,18,0.0,9.67,9.67,9.67,0.0
+EK 565,Springfield>Metropolis,Morning,Evening,one,1,,9.5,9.5,9.5,0.0
+EK 567,Springfield>Gotham,Night,Morning,one,5,0.0,11.08,11.08,11.08,0.0
+EK 567,Springfield>Hill Valley,Night,Morning,one,10,0.0,11.17,11.17,11.17,0.0
+EK 567,Springfield>Los Santos,Night,Morning,one,17,0.0,11.42,11.42,11.42,0.0
+EK 569,Springfield>Hill Valley,Early_Morning,Evening,one,1,,14.5,14.5,14.5,0.0
+EK 569,Springfield>Los Santos,Early_Morning,Night,one,3,0.0,15.42,15.42,15.42,0.0
+EK 569,Springfield>Metropolis,Early_Morning,Afternoon,one,1,,10.0,10.0,10.0,0.0
+EK 571,Hill Valley>Gotham,Morning,Night,one,21,0.0,10.67,10.67,10.67,0.0
+EK 571,Hill Valley>Los Santos,Morning,Late_Night,one,1,,16.25,16.25,16.25,0.0
+EK 571,Hill Valley>Los Santos,Morning,Night,one,26,0.0,10.33,10.33,10.33,0.0
+EK 571,Hill Valley>Metropolis,Morning,Evening,one,0,,,,,
+EK 571,Hill Valley>Night City,Morning,Night,one,4,0.0,10.92,10.92,10.92,0.0
+EK 571,Hill Valley>Springfield,Morning,Late_Night,one,6,0.0,17.0,17.0,17.0,0.0
+EK 573,Hill Valley>Gotham,Night,Morning,one,3,0.0,11.17,11.17,11.17,0.0
+EK 573,Hill Valley>Los Santos,Night,Morning,one,11,0.0,11.5,11.5,11.5,0.0
+EK 573,Hill Valley>Springfield,Night,Morning,one,12,0.0,11.92,11.92,11.92,0.0
+EY 201,Night City>Gotham,Morning,Night,one,3,0.0,8.92,8.92,8.92,0.0
+EY 201,Night City>Hill Valley,Morning,Night,one,4,0.0,9.25,9.25,9.25,0.0
+EY 201,Night City>Los Santos,Morning,Evening,one,15,0.06454972243679026,8.42,8.67,8.42,0.25
+EY 201,Night City>Springfield,Morning,Evening,one,2,0.0,8.67,8.67,8.67,0.0
+EY 203,Night City>Hill Valley,Evening,Late_Night,one,1,,10.0,10.0,10.0,0.0
+EY 205,Night City>Gotham,Night,Morning,one,2,0.0,9.25,9.25,9.25,0.0
+EY 205,Night City>Los Santos,Night,Evening,one,1,,20.5,20.5,20.5,0.0
+EY 207,Night City>Hill Valley,Early_Morning,Late_Night,one,0,,,,,
+EY 217,Metropolis>Gotham,Night,Morning,one,0,,,,,
+EY 219,Metropolis>Hill Valley,Early_Morning,Late_Night,one,1,,22.08,22.08,22.08,0.0
+EY 219,Metropolis>Hill Valley,Early_Morning,Night,one,2,0.0,15.67,15.67,15.67,0.0
+EY 219,Metropolis>Springfield,Early_Morning,Afternoon,one,3,0.0,9.42,9.42,9.42,0.0
+EY 221,Hill Valley>Gotham,Late_Night,Afternoon,one,10,0.20287927444665227,10.83,11.25,11.25,0.41999999999999993
+EY 221,Hill Valley>Gotham,Late_Night,Night,one,2,0.0,16.33,16.33,16.33,0.0
+EY 221,Hill Valley>Los Santos,Late_Night,Evening,one,10,0.0,15.83,15.83,15.83,0.0
+EY 221,Hill Valley>Los Santos,Late_Night,Late_Night,one,7,0.0,22.92,22.92,22.92,0.0
+EY 221,Hill Valley>Metropolis,Late_Night,Afternoon,one,3,0.0,10.33,10.33,10.33,0.0
+EY 221,Hill Valley>Metropolis,Late_Night,Evening,one,1,,15.5,15.5,15.5,0.0
+EY 221,Hill Valley>Metropolis,Late_Night,Late_Night,one,1,,23.33,23.33,23.33,0.0
+EY 221,Hill Valley>Night City,Late_Night,Afternoon,one,4,0.0,9.33,9.33,9.33,0.0
+EY 221,Hill Valley>Night City,Late_Night,Evening,one,0,,,,,
+EY 221,Hill Valley>Springfield,Late_Night,Afternoon,one,4,0.044999999999999686,10.33,10.42,10.42,0.08999999999999986
+EY 221,Hill Valley>Springfield,Late_Night,Evening,one,4,0.0,16.08,16.08,16.08,0.0
+EY 221,Hill Valley>Springfield,Late_Night,Night,one,1,,16.5,16.5,16.5,0.0
+EY 223,Hill Valley>Gotham,Night,Afternoon,one,1,,17.17,17.17,17.17,0.0
+EY 223,Hill Valley>Gotham,Night,Morning,one,6,0.0,10.92,10.92,10.92,0.0
+EY 223,Hill Valley>Gotham,Night,Night,one,1,,22.67,22.67,22.67,0.0
+EY 223,Hill Valley>Los Santos,Night,Evening,one,5,0.0,22.17,22.17,22.17,0.0
+EY 223,Hill Valley>Metropolis,Night,Early_Morning,one,1,,10.42,10.42,10.42,0.0
+EY 223,Hill Valley>Metropolis,Night,Late_Night,one,1,,29.67,29.67,29.67,0.0
+EY 223,Hill Valley>Night City,Night,Early_Morning,one,2,0.23334523779156136,9.67,10.0,9.835,0.33000000000000007
+EY 223,Hill Valley>Night City,Night,Evening,one,1,,21.5,21.5,21.5,0.0
+EY 223,Hill Valley>Springfield,Night,Afternoon,one,3,0.0,16.75,16.75,16.75,0.0
+EY 223,Hill Valley>Springfield,Night,Evening,one,2,0.0,22.42,22.42,22.42,0.0
+EY 223,Hill Valley>Springfield,Night,Morning,one,9,0.1317615691736824,11.25,11.5,11.25,0.25
+EY 233,Springfield>Gotham,Early_Morning,Afternoon,one,1,,10.08,10.08,10.08,0.0
+EY 233,Springfield>Gotham,Early_Morning,Late_Night,one,2,0.0,22.25,22.25,22.25,0.0
+EY 233,Springfield>Gotham,Early_Morning,Night,one,2,0.0,15.58,15.58,15.58,0.0
+EY 233,Springfield>Hill Valley,Early_Morning,Late_Night,one,1,,22.33,22.33,22.33,0.0
+EY 233,Springfield>Hill Valley,Early_Morning,Night,one,4,0.0,15.92,15.92,15.92,0.0
+EY 233,Springfield>Los Santos,Early_Morning,Evening,one,8,0.08838834764831871,15.08,15.33,15.08,0.25
+EY 233,Springfield>Los Santos,Early_Morning,Late_Night,one,1,,22.17,22.17,22.17,0.0
+EY 233,Springfield>Metropolis,Early_Morning,Afternoon,one,1,,9.58,9.58,9.58,0.0
+EY 237,Springfield>Gotham,Evening,Late_Night,one,5,0.0,9.92,9.92,9.92,0.0
+EY 237,Springfield>Gotham,Evening,Morning,one,3,0.0,15.5,15.5,15.5,0.0
+EY 237,Springfield>Hill Valley,Evening,Late_Night,one,3,0.0,10.0,10.0,10.0,0.0
+EY 237,Springfield>Los Santos,Evening,Late_Night,one,12,0.0,9.83,9.83,9.83,0.0
+EY 237,Springfield>Night City,Evening,Early_Morning,one,0,,,,,
+EY 237,Springfield>Night City,Evening,Late_Night,one,1,,9.17,9.17,9.17,0.0
+EY 239,Springfield>Gotham,Night,Morning,one,3,0.0,10.17,10.17,10.17,0.0
+EY 239,Springfield>Los Santos,Night,Evening,one,2,0.0,21.42,21.42,21.42,0.0
+EY 239,Springfield>Metropolis,Night,Early_Morning,one,2,0.0,9.67,9.67,9.67,0.0
+EY 239,Springfield>Night City,Night,Early_Morning,one,2,0.0,8.92,8.92,8.92,0.0
+EY 341,Gotham>Hill Valley,Early_Morning,Night,one,5,0.07602631123499401,16.25,16.42,16.42,0.1700000000000017
+EY 341,Gotham>Los Santos,Early_Morning,Evening,one,1,,15.58,15.58,15.58,0.0
+EY 341,Gotham>Los Santos,Early_Morning,Late_Night,one,2,0.12020815280171429,22.5,22.67,22.585,0.1700000000000017
+EY 341,Gotham>Night City,Early_Morning,Afternoon,one,1,,8.92,8.92,8.92,0.0
+EY 341,Gotham>Night City,Early_Morning,Evening,one,0,,,,,
+EY 341,Gotham>Night City,Early_Morning,Late_Night,one,1,,21.83,21.83,21.83,0.0
+EY 341,Gotham>Springfield,Early_Morning,Afternoon,one,3,0.0981495457622366,10.0,10.17,10.17,0.16999999999999993
+EY 341,Gotham>Springfield,Early_Morning,Evening,one,3,0.0,15.83,15.83,15.83,0.0
+EY 341,Gotham>Springfield,Early_Morning,Late_Night,one,1,,23.17,23.17,23.17,0.0
+EY 341,Gotham>Springfield,Early_Morning,Night,one,1,,16.17,16.17,16.17,0.0
+EY 343,Gotham>Hill Valley,Morning,Late_Night,one,2,0.056568542494922595,16.67,16.75,16.71,0.0799999999999983
+EY 343,Gotham>Hill Valley,Morning,Night,one,2,0.0,10.25,10.25,10.25,0.0
+EY 343,Gotham>Los Santos,Morning,Evening,one,15,0.07411059946040786,9.42,9.67,9.42,0.25
+EY 343,Gotham>Los Santos,Morning,Late_Night,one,4,0.0,16.5,16.5,16.5,0.0
+EY 343,Gotham>Night City,Morning,Evening,one,1,,8.75,8.75,8.75,0.0
+EY 343,Gotham>Springfield,Morning,Evening,one,16,0.0,9.67,9.67,9.67,0.0
+EY 343,Gotham>Springfield,Morning,Late_Night,one,8,0.0,17.0,17.0,17.0,0.0
+EY 347,Gotham>Hill Valley,Night,Night,one,5,0.0,22.58,22.58,22.58,0.0
+EY 347,Gotham>Los Santos,Night,Evening,one,3,0.046188021535168565,21.67,21.75,21.67,0.0799999999999983
+EY 347,Gotham>Springfield,Night,Morning,one,5,0.0,11.08,11.08,11.08,0.0
+EY 353,Los Santos>Gotham,Early_Morning,Afternoon,one,0,,,,,
+EY 353,Los Santos>Gotham,Early_Morning,Late_Night,one,1,,22.33,22.33,22.33,0.0
+EY 353,Los Santos>Gotham,Early_Morning,Night,one,5,0.0,15.67,15.67,15.67,0.0
+EY 353,Los Santos>Hill Valley,Early_Morning,Late_Night,one,8,0.02828427124746142,22.42,22.5,22.42,0.0799999999999983
+EY 353,Los Santos>Hill Valley,Early_Morning,Night,one,11,0.0,16.0,16.0,16.0,0.0
+EY 353,Los Santos>Night City,Early_Morning,Afternoon,one,7,0.0,8.67,8.67,8.67,0.0
+EY 353,Los Santos>Night City,Early_Morning,Evening,one,2,0.5303300858899106,14.5,15.25,14.875,0.75
+EY 353,Los Santos>Springfield,Early_Morning,Afternoon,one,6,0.0,9.75,9.75,9.75,0.0
+EY 353,Los Santos>Springfield,Early_Morning,Evening,one,10,0.07905694150420953,15.42,15.67,15.42,0.25
+EY 359,Los Santos>Gotham,Night,Morning,one,18,0.0,11.08,11.08,11.08,0.0
+EY 359,Los Santos>Gotham,Night,Night,one,1,,22.83,22.83,22.83,0.0
+EY 359,Los Santos>Hill Valley,Night,Night,one,8,0.0,23.17,23.17,23.17,0.0
+EY 359,Los Santos>Night City,Night,Early_Morning,one,0,,,,,
+EY 359,Los Santos>Night City,Night,Evening,one,1,,21.67,21.67,21.67,0.0
+EY 359,Los Santos>Springfield,Night,Afternoon,one,4,0.09814954576223736,16.75,16.92,16.835,0.1700000000000017
+FZ 436,Los Santos>Gotham,Late_Night,Night,one,1,,17.42,17.42,17.42,0.0
+FZ 436,Los Santos>Springfield,Late_Night,Evening,one,5,0.0,16.25,16.25,16.25,0.0
+FZ 446,Night City>Hill Valley,Early_Morning,Late_Night,one,1,,19.17,19.17,19.17,0.0
+FZ 446,Night City>Los Santos,Early_Morning,Late_Night,one,0,,,,,
+GF 275,Los Santos>Gotham,Early_Morning,Night,one,3,0.0,14.75,14.75,14.75,0.0
+GF 275,Los Santos>Springfield,Early_Morning,Night,one,7,0.0,15.5,15.5,15.5,0.0
+GF 281,Springfield>Los Santos,Night,Night,one,0,,,,,
+GF 283,Springfield>Gotham,Early_Morning,Night,one,1,,15.08,15.08,15.08,0.0
+GF 283,Springfield>Los Santos,Early_Morning,Night,one,9,0.0,15.58,15.58,15.58,0.0
+GF 69,Gotham>Los Santos,Early_Morning,Night,one,1,,15.17,15.17,15.17,0.0
+GF 69,Gotham>Springfield,Early_Morning,Night,one,3,0.0,15.42,15.42,15.42,0.0
+IX 1040,Springfield>Metropolis,Afternoon,Evening,zero,1,,2.83,2.83,2.83,0.0
+IX 1040,Springfield>Metropolis,Evening,Night,zero,5,0.0,2.83,2.83,2.83,0.0
+IX 1050,Night City>Metropolis,Afternoon,Evening,zero,4,0.0,2.25,2.25,2.25,0.0
+IX 1050,Night City>Metropolis,Morning,Morning,zero,7,0.0,2.25,2.25,2.25,0.0
+IX 1056,Metropolis>Night City,Early_Morning,Morning,zero,15,0.0,2.5,2.5,2.5,0.0
+IX 1056,Metropolis>Night City,Evening,Night,zero,17,0.0,2.33,2.33,2.33,0.0
+IX 1056,Metropolis>Night City,Morning,Morning,zero,4,0.0,2.5,2.5,2.5,0.0
+IX 1070,Metropolis>Springfield,Evening,Night,zero,13,0.0,2.92,2.92,2.92,0.0
+IX 1070,Metropolis>Springfield,Night,Late_Night,zero,1,,2.92,2.92,2.92,0.0
+IX 1071,Metropolis>Springfield,Night,Night,zero,2,0.0,2.92,2.92,2.92,0.0
+IX 1081,Metropolis>Hill Valley,Afternoon,Night,one,1,,6.08,6.08,6.08,0.0
+IX 1127,Metropolis>Night City,Night,Night,zero,0,,,,,
+IX 1131,Springfield>Hill Valley,Early_Morning,Morning,zero,7,0.08295150620062529,2.5,2.67,2.67,0.16999999999999993
+IX 1165,Metropolis>Night City,Early_Morning,Morning,one,3,0.0,5.08,5.08,5.08,0.0
+IX 1165,Metropolis>Springfield,Early_Morning,Afternoon,one,0,,,,,
+IX 1168,Springfield>Gotham,Evening,Night,zero,9,0.0,1.17,1.17,1.17,0.0
+IX 1235,Metropolis>Night City,Night,Late_Night,zero,32,0.0,2.42,2.42,2.42,0.0
+IX 1235,Metropolis>Night City,Night,Night,zero,2,0.0,2.5,2.5,2.5,0.0
+IX 1248,Hill Valley>Metropolis,Early_Morning,Night,one,0,,,,,
+IX 1250,Springfield>Los Santos,Evening,Night,zero,6,0.0,1.17,1.17,1.17,0.0
+IX 1250,Springfield>Night City,Evening,Late_Night,one,1,,5.0,5.0,5.0,0.0
+IX 1254,Hill Valley>Gotham,Early_Morning,Morning,zero,6,0.0,2.58,2.58,2.58,0.0
+IX 1254,Hill Valley>Springfield,Early_Morning,Morning,one,1,,5.42,5.42,5.42,0.0
+IX 1256,Gotham>Hill Valley,Morning,Afternoon,zero,6,0.0,2.5,2.5,2.5,0.0
+IX 1259,Hill Valley>Gotham,Evening,Evening,zero,4,0.0,2.42,2.42,2.42,0.0
+IX 1259,Hill Valley>Springfield,Evening,Night,one,1,,6.0,6.0,6.0,0.0
+IX 1261,Metropolis>Springfield,Early_Morning,Morning,zero,2,0.0,2.92,2.92,2.92,0.0
+IX 1263,Metropolis>Springfield,Early_Morning,Evening,one,2,0.0,10.0,10.0,10.0,0.0
+IX 1273,Metropolis>Hill Valley,Afternoon,Evening,one,2,0.0,6.25,6.25,6.25,0.0
+IX 1273,Metropolis>Hill Valley,Afternoon,Night,one,1,,9.42,9.42,9.42,0.0
+IX 1345,Los Santos>Gotham,Evening,Night,one,1,,4.0,4.0,4.0,0.0
+IX 1345,Los Santos>Springfield,Evening,Evening,zero,4,0.0,1.5,1.5,1.5,0.0
+IX 1370,Springfield>Hill Valley,Night,Late_Night,zero,6,0.0,2.58,2.58,2.58,0.0
+IX 1371,Hill Valley>Springfield,Evening,Night,zero,9,0.04499999999999998,2.58,2.67,2.58,0.08999999999999986
+IX 1378,Los Santos>Gotham,Night,Afternoon,one,0,,,,,
+IX 1378,Los Santos>Gotham,Night,Morning,one,0,,,,,
+IX 1378,Los Santos>Springfield,Night,Night,zero,8,0.048107023544236314,1.33,1.42,1.375,0.08999999999999986
+IX 1385,Gotham>Springfield,Morning,Morning,zero,7,0.048107023544236294,1.08,1.17,1.17,0.08999999999999986
+IX 1472,Springfield>Gotham,Early_Morning,Morning,zero,7,0.0,1.08,1.08,1.08,0.0
+IX 1472,Springfield>Hill Valley,Early_Morning,Afternoon,one,1,,5.08,5.08,5.08,0.0
+IX 1496,Hill Valley>Springfield,Morning,Afternoon,zero,8,0.08798335881615016,2.5,2.67,2.5,0.16999999999999993
+IX 1524,Metropolis>Hill Valley,Evening,Evening,zero,6,0.0,2.58,2.58,2.58,0.0
+IX 1525,Hill Valley>Metropolis,Evening,Night,zero,2,0.0,2.58,2.58,2.58,0.0
+IX 1525,Metropolis>Springfield,Morning,Morning,zero,1,,2.92,2.92,2.92,0.0
+IX 1537,Springfield>Hill Valley,Afternoon,Afternoon,zero,7,0.0,2.67,2.67,2.67,0.0
+IX 1543,Hill Valley>Los Santos,Afternoon,Night,one,1,,5.17,5.17,5.17,0.0
+IX 1543,Hill Valley>Springfield,Afternoon,Evening,zero,8,0.04140393356054124,2.67,2.75,2.67,0.08000000000000007
+IX 1577,Gotham>Hill Valley,Evening,Night,zero,4,0.0,2.5,2.5,2.5,0.0
+IX 1581,Springfield>Metropolis,Evening,Late_Night,one,6,0.0,5.42,5.42,5.42,0.0
+IX 1671,Metropolis>Hill Valley,Evening,Morning,one,3,0.0,14.75,14.75,14.75,0.0
+IX 1671,Night City>Metropolis,Evening,Evening,zero,11,0.0,2.33,2.33,2.33,0.0
+IX 1683,Metropolis>Night City,Morning,Evening,one,0,,,,,
+IX 1723,Springfield>Los Santos,Night,Night,zero,2,0.0,1.17,1.17,1.17,0.0
+IX 1723,Springfield>Metropolis,Night,Early_Morning,one,3,0.0,6.75,6.75,6.75,0.0
+IX 1787,Night City>Metropolis,Afternoon,Night,one,3,0.0,8.42,8.42,8.42,0.0
+IX 1831,Los Santos>Gotham,Morning,Morning,zero,7,0.0,1.58,1.58,1.58,0.0
+IX 1832,Gotham>Los Santos,Afternoon,Afternoon,zero,2,0.0,1.42,1.42,1.42,0.0
+IX 1832,Gotham>Metropolis,Afternoon,Late_Night,one,2,0.7071067811865476,11.25,12.25,11.75,1.0
+IX 1832,Gotham>Springfield,Afternoon,Evening,one,0,,,,,
+IX 2018,Springfield>Los Santos,Early_Morning,Early_Morning,zero,5,0.0,1.33,1.33,1.33,0.0
+IX 2018,Springfield>Metropolis,Early_Morning,Afternoon,one,1,,6.08,6.08,6.08,0.0
+IX 2018,Springfield>Metropolis,Early_Morning,Morning,one,1,,4.83,4.83,4.83,0.0
+IX 2019,Los Santos>Springfield,Morning,Morning,zero,7,0.0,1.33,1.33,1.33,0.0
+IX 2051,Springfield>Los Santos,Afternoon,Evening,zero,2,0.0,1.17,1.17,1.17,0.0
+IX 2505,Springfield>Gotham,Afternoon,Afternoon,zero,7,0.0,1.17,1.17,1.17,0.0
+IX 2505,Springfield>Hill Valley,Afternoon,Night,one,2,0.0,7.58,7.58,7.58,0.0
+IX 2506,Springfield>Los Santos,Evening,Evening,zero,9,0.0,1.42,1.42,1.42,0.0
+IX 2507,Gotham>Springfield,Evening,Evening,zero,8,0.08798335881615015,1.08,1.25,1.08,0.16999999999999993
+IX 2542,Springfield>Metropolis,Early_Morning,Morning,zero,7,0.0,2.75,2.75,2.75,0.0
+IX 2661,Gotham>Metropolis,Night,Morning,one,0,,,,,
+IX 2662,Gotham>Night City,Night,Late_Night,one,1,,4.33,4.33,4.33,0.0
+IX 2662,Gotham>Springfield,Night,Night,zero,8,0.0,1.17,1.17,1.17,0.0
+IX 2749,Metropolis>Springfield,Morning,Afternoon,zero,1,,2.92,2.92,2.92,0.0
+IX 2786,Gotham>Los Santos,Early_Morning,Afternoon,one,1,,6.42,6.42,6.42,0.0
+IX 2786,Gotham>Springfield,Early_Morning,Morning,zero,4,0.0,1.17,1.17,1.17,0.0
+IX 2787,Springfield>Gotham,Night,Night,zero,5,0.0,1.17,1.17,1.17,0.0
+IX 2787,Springfield>Hill Valley,Night,Afternoon,one,1,,14.0,14.0,14.0,0.0
+IX 2819,Springfield>Los Santos,Afternoon,Afternoon,zero,9,0.04216370213557842,1.25,1.33,1.33,0.08000000000000007
+IX 2873,Springfield>Metropolis,Early_Morning,Morning,one,1,,6.0,6.0,6.0,0.0
+IX 2875,Springfield>Los Santos,Early_Morning,Morning,one,1,,3.33,3.33,3.33,0.0
+IX 2875,Springfield>Night City,Early_Morning,Night,one,1,,14.0,14.0,14.0,0.0
+IX 2926,Springfield>Gotham,Morning,Morning,zero,6,0.0,1.17,1.17,1.17,0.0
+IX 2926,Springfield>Los Santos,Morning,Afternoon,one,0,,,,,
+IX 2934,Los Santos>Gotham,Early_Morning,Morning,one,1,,3.5,3.5,3.5,0.0
+IX 2934,Los Santos>Gotham,Morning,Afternoon,one,2,1.470782104868019,3.67,5.75,4.71,2.08
+IX 2934,Los Santos>Springfield,Early_Morning,Early_Morning,zero,7,0.0,1.58,1.58,1.58,0.0
+IX 2934,Los Santos>Springfield,Morning,Morning,zero,1,,1.42,1.42,1.42,0.0
+IX 2942,Springfield>Gotham,Afternoon,Afternoon,zero,6,0.0,1.17,1.17,1.17,0.0
+IX 2971,Gotham>Springfield,Morning,Morning,zero,5,0.0,1.17,1.17,1.17,0.0
+IX 2975,Gotham>Springfield,Early_Morning,Early_Morning,zero,5,0.0,1.33,1.33,1.33,0.0
+IX 2983,Los Santos>Springfield,Evening,Night,zero,7,0.039036002917941334,1.42,1.5,1.42,0.08000000000000007
+IX 5937,Springfield>Night City,Night,Late_Night,zero,1,,1.83,1.83,1.83,0.0
+IX 5975,Metropolis>Springfield,Night,Night,zero,11,0.051256928578219806,2.75,2.92,2.92,0.16999999999999993
+IX 5976,Springfield>Metropolis,Late_Night,Early_Morning,zero,5,0.0,2.92,2.92,2.92,0.0
+IX 5985,Night City>Springfield,Afternoon,Evening,zero,1,,1.92,1.92,1.92,0.0
+IX 5985,Springfield>Night City,Night,Late_Night,zero,1,,1.92,1.92,1.92,0.0
+KU 304,Night City>Los Santos,Morning,Late_Night,one,5,0.0,17.33,17.33,17.33,0.0
+KU 304,Night City>Springfield,Morning,Late_Night,one,1,,17.33,17.33,17.33,0.0
+MH 105,Springfield>Gotham,Morning,Night,one,3,0.0,10.92,10.92,10.92,0.0
+MH 105,Springfield>Hill Valley,Morning,Night,one,2,0.0,11.5,11.5,11.5,0.0
+MH 105,Springfield>Los Santos,Morning,Night,one,7,0.0,11.42,11.42,11.42,0.0
+MH 181,Gotham>Springfield,Night,Morning,one,4,0.0,10.92,10.92,10.92,0.0
+MH 183,Gotham>Hill Valley,Morning,Night,one,9,0.0,11.67,11.67,11.67,0.0
+MH 183,Gotham>Los Santos,Morning,Night,one,10,0.0,11.58,11.58,11.58,0.0
+MH 183,Gotham>Springfield,Morning,Night,one,9,0.0,12.0,12.0,12.0,0.0
+MH 185,Hill Valley>Gotham,Late_Night,Morning,one,5,0.0,10.08,10.08,10.08,0.0
+MH 185,Hill Valley>Metropolis,Late_Night,Night,one,1,,21.17,21.17,21.17,0.0
+MH 185,Hill Valley>Springfield,Late_Night,Morning,one,4,0.0,10.17,10.17,10.17,0.0
+MH 193,Springfield>Gotham,Late_Night,Morning,one,8,0.0,10.08,10.08,10.08,0.0
+MH 199,Los Santos>Gotham,Late_Night,Morning,one,12,0.0,10.33,10.33,10.33,0.0
+MH 199,Los Santos>Hill Valley,Late_Night,Night,one,1,,23.0,23.0,23.0,0.0
+MH 199,Los Santos>Night City,Late_Night,Afternoon,one,1,,11.83,11.83,11.83,0.0
+MH 199,Los Santos>Springfield,Late_Night,Morning,one,4,0.0,10.42,10.42,10.42,0.0
+QP 1107,Night City>Hill Valley,Night,Night,zero,3,0.0,2.92,2.92,2.92,0.0
+QP 1108,Hill Valley>Night City,Evening,Evening,zero,2,0.0,2.67,2.67,2.67,0.0
+QP 1109,Night City>Metropolis,Early_Morning,Morning,zero,11,0.0,2.33,2.33,2.33,0.0
+QP 1110,Metropolis>Night City,Morning,Afternoon,zero,34,0.040531231768391955,2.25,2.33,2.33,0.08000000000000007
+QP 1111,Night City>Metropolis,Early_Morning,Early_Morning,zero,10,0.0,2.25,2.25,2.25,0.0
+QP 1112,Metropolis>Night City,Morning,Afternoon,zero,2,0.0,2.33,2.33,2.33,0.0
+QP 1112,Metropolis>Night City,Morning,Morning,zero,16,0.0,2.33,2.33,2.33,0.0
+QP 1114,Metropolis>Night City,Evening,Evening,zero,4,0.0,2.33,2.33,2.33,0.0
+QP 1116,Metropolis>Night City,Night,Late_Night,zero,1,,2.25,2.25,2.25,0.0
+QP 1118,Metropolis>Night City,Evening,Evening,zero,1,,2.33,2.33,2.33,0.0
+QP 1119,Metropolis>Night City,Morning,Morning,zero,29,0.08004001462322882,2.25,2.42,2.42,0.16999999999999993
+QP 1120,Night City>Metropolis,Evening,Night,zero,12,0.11306675421666139,2.25,2.5,2.5,0.25
+QP 1125,Night City>Hill Valley,Evening,Night,zero,10,0.12909944487358058,2.92,3.17,3.17,0.25
+QP 1126,Hill Valley>Night City,Night,Late_Night,zero,5,0.0,2.67,2.67,2.67,0.0
+QP 1127,Night City>Metropolis,Afternoon,Afternoon,zero,8,0.0318198051533945,2.33,2.42,2.33,0.08999999999999986
+QP 1128,Metropolis>Night City,Evening,Evening,zero,29,0.0,2.33,2.33,2.33,0.0
+QP 1129,Night City>Springfield,Morning,Morning,zero,2,0.0,1.92,1.92,1.92,0.0
+QP 1131,Night City>Springfield,Morning,Afternoon,zero,2,0.0,1.92,1.92,1.92,0.0
+QP 1132,Springfield>Night City,Afternoon,Evening,zero,1,,2.0,2.0,2.0,0.0
+QP 1133,Night City>Springfield,Evening,Night,zero,2,0.0,2.08,2.08,2.08,0.0
+QP 1133,Night City>Springfield,Night,Night,zero,4,0.0,1.67,1.67,1.67,0.0
+QP 1134,Springfield>Night City,Night,Late_Night,zero,3,0.0,1.83,1.83,1.83,0.0
+QP 1135,Night City>Hill Valley,Late_Night,Late_Night,zero,11,0.040361998328760994,2.75,2.83,2.75,0.08000000000000007
+QP 1136,Hill Valley>Night City,Early_Morning,Early_Morning,zero,4,0.0,2.58,2.58,2.58,0.0
+QP 1145,Night City>Gotham,Early_Morning,Early_Morning,zero,1,,2.0,2.0,2.0,0.0
+QP 1146,Gotham>Night City,Afternoon,Afternoon,zero,6,0.0,2.08,2.08,2.08,0.0
+QP 1146,Gotham>Night City,Afternoon,Evening,zero,1,,2.08,2.08,2.08,0.0
+QP 1149,Night City>Springfield,Early_Morning,Early_Morning,zero,3,0.0519615242270662,1.83,1.92,1.92,0.08999999999999986
+QP 1153,Night City>Springfield,Morning,Morning,zero,3,0.0,1.92,1.92,1.92,0.0
+QP 1183,Night City>Hill Valley,Evening,Night,zero,7,0.0,2.75,2.75,2.75,0.0
+QP 1184,Hill Valley>Night City,Night,Night,zero,1,,3.0,3.0,3.0,0.0
+QP 1251,Hill Valley>Night City,Early_Morning,Morning,zero,1,,2.75,2.75,2.75,0.0
+QP 1252,Night City>Hill Valley,Early_Morning,Morning,zero,3,0.0,2.67,2.67,2.67,0.0
+QP 1253,Hill Valley>Night City,Evening,Night,zero,1,,2.92,2.92,2.92,0.0
+QP 1254,Night City>Hill Valley,Night,Night,zero,5,0.0,2.67,2.67,2.67,0.0
+QP 1261,Hill Valley>Springfield,Early_Morning,Early_Morning,zero,3,0.0,2.67,2.67,2.67,0.0
+QP 1262,Springfield>Hill Valley,Evening,Night,zero,2,0.0,2.75,2.75,2.75,0.0
+QP 1263,Hill Valley>Springfield,Early_Morning,Morning,zero,4,0.0,2.83,2.83,2.83,0.0
+QP 1264,Springfield>Hill Valley,Night,Night,zero,3,0.0,2.42,2.42,2.42,0.0
+QP 1302,Metropolis>Springfield,Morning,Morning,zero,2,0.0,3.0,3.0,3.0,0.0
+QP 1307,Springfield>Metropolis,Evening,Night,zero,2,0.0,2.92,2.92,2.92,0.0
+QP 1308,Metropolis>Springfield,Night,Night,zero,19,0.0,2.92,2.92,2.92,0.0
+QP 1336,Springfield>Metropolis,Evening,Night,zero,2,0.0,2.92,2.92,2.92,0.0
+QP 1350,Metropolis>Springfield,Night,Late_Night,zero,12,0.02598076211353309,2.83,2.92,2.92,0.08999999999999986
+QP 1359,Springfield>Metropolis,Early_Morning,Early_Morning,zero,13,0.0,2.83,2.83,2.83,0.0
+QP 1381,Springfield>Night City,Early_Morning,Early_Morning,zero,3,0.0,1.92,1.92,1.92,0.0
+QP 1382,Night City>Springfield,Evening,Night,zero,6,0.0,2.0,2.0,2.0,0.0
+QP 1383,Springfield>Night City,Early_Morning,Early_Morning,zero,0,,,,,
+QP 1384,Night City>Springfield,Night,Late_Night,zero,4,0.0,1.92,1.92,1.92,0.0
+QP 1405,Los Santos>Metropolis,Early_Morning,Morning,zero,4,0.0,2.25,2.25,2.25,0.0
+QP 1406,Metropolis>Los Santos,Afternoon,Evening,zero,6,0.10206207261596578,2.33,2.58,2.58,0.25
+QP 1407,Los Santos>Metropolis,Evening,Night,zero,5,0.0,2.5,2.5,2.5,0.0
+QP 1409,Metropolis>Los Santos,Night,Night,zero,5,0.0,2.5,2.5,2.5,0.0
+QP 1515,Springfield>Night City,Early_Morning,Early_Morning,zero,2,0.0,1.58,1.58,1.58,0.0
+QP 1515,Springfield>Night City,Early_Morning,Morning,zero,1,,1.67,1.67,1.67,0.0
+QP 1516,Night City>Springfield,Late_Night,Late_Night,zero,12,0.0,1.92,1.92,1.92,0.0
+QP 1517,Springfield>Night City,Early_Morning,Early_Morning,zero,3,0.0,1.83,1.83,1.83,0.0
+QP 1517,Springfield>Night City,Early_Morning,Morning,zero,1,,1.75,1.75,1.75,0.0
+QP 1518,Night City>Springfield,Night,Night,zero,9,0.08959786703810405,1.83,2.0,2.0,0.16999999999999993
+QP 1527,Night City>Springfield,Early_Morning,Morning,zero,6,0.0,2.0,2.0,2.0,0.0
+QP 1528,Springfield>Night City,Morning,Afternoon,zero,0,,,,,
+QP 1561,Springfield>Hill Valley,Early_Morning,Morning,zero,5,0.0,2.58,2.58,2.58,0.0
+QP 1564,Hill Valley>Springfield,Night,Night,zero,9,0.03527668414752795,2.67,2.75,2.67,0.08000000000000007
+QP 1571,Springfield>Metropolis,Early_Morning,Morning,zero,4,0.0,2.92,2.92,2.92,0.0
+QP 1801,Metropolis>Hill Valley,Early_Morning,Morning,zero,22,0.0,2.33,2.33,2.33,0.0
+QP 1802,Hill Valley>Metropolis,Morning,Morning,zero,7,0.0,2.33,2.33,2.33,0.0
+QP 1803,Metropolis>Hill Valley,Evening,Evening,zero,26,0.039691115068546744,2.25,2.33,2.33,0.08000000000000007
+QP 1804,Hill Valley>Metropolis,Evening,Night,zero,4,0.0,2.5,2.5,2.5,0.0
+QP 1804,Hill Valley>Metropolis,Night,Night,zero,1,,2.33,2.33,2.33,0.0
+QP 1807,Metropolis>Night City,Afternoon,Afternoon,zero,5,0.0,2.25,2.25,2.25,0.0
+QP 1807,Metropolis>Night City,Afternoon,Evening,zero,1,,2.33,2.33,2.33,0.0
+QP 1808,Night City>Metropolis,Evening,Evening,zero,1,,2.5,2.5,2.5,0.0
+QP 1811,Springfield>Metropolis,Early_Morning,Early_Morning,zero,1,,2.83,2.83,2.83,0.0
+QP 1811,Springfield>Metropolis,Late_Night,Early_Morning,zero,4,0.0,3.08,3.08,3.08,0.0
+QP 1812,Metropolis>Springfield,Night,Late_Night,zero,13,0.09388345202485132,2.83,3.08,2.83,0.25
+QP 1819,Night City>Metropolis,Afternoon,Evening,zero,7,0.0,2.33,2.33,2.33,0.0
+QP 1820,Metropolis>Night City,Evening,Evening,zero,33,0.04060153751380422,2.25,2.33,2.33,0.08000000000000007
+QP 1821,Springfield>Metropolis,Afternoon,Evening,zero,10,0.03794733192202048,2.83,2.92,2.92,0.08999999999999986
+QP 1822,Metropolis>Springfield,Evening,Evening,zero,14,0.0,3.0,3.0,3.0,0.0
+QP 1823,Springfield>Metropolis,Early_Morning,Morning,zero,10,0.0,2.75,2.75,2.75,0.0
+QP 1824,Metropolis>Springfield,Evening,Night,zero,0,,,,,
+QP 1824,Metropolis>Springfield,Night,Night,zero,12,0.0,3.0,3.0,3.0,0.0
+QP 1825,Night City>Metropolis,Evening,Evening,zero,9,0.08499999999999998,2.25,2.42,2.42,0.16999999999999993
+QP 1826,Metropolis>Night City,Evening,Night,zero,29,0.0,2.42,2.42,2.42,0.0
+QP 1827,Metropolis>Springfield,Evening,Night,zero,0,,,,,
+QP 1833,Metropolis>Night City,Early_Morning,Morning,zero,32,0.0,2.33,2.33,2.33,0.0
+QP 1834,Night City>Metropolis,Morning,Afternoon,zero,9,0.04499999999999999,2.33,2.42,2.42,0.08999999999999986
+QP 1835,Night City>Metropolis,Morning,Afternoon,zero,7,0.0,2.5,2.5,2.5,0.0
+QP 1836,Metropolis>Night City,Afternoon,Afternoon,zero,14,0.0,2.42,2.42,2.42,0.0
+QP 1912,Metropolis>Springfield,Afternoon,Evening,zero,3,0.0,3.0,3.0,3.0,0.0
+QP 1985,Night City>Springfield,Night,Late_Night,zero,1,,1.83,1.83,1.83,0.0
+QP 584,Night City>Springfield,Night,Afternoon,one,0,,,,,
+QP 588,Gotham>Hill Valley,Afternoon,Late_Night,one,9,0.0,11.25,11.25,11.25,0.0
+QP 588,Gotham>Hill Valley,Evening,Late_Night,one,7,0.366196668472011,10.08,10.83,10.17,0.75
+QP 588,Gotham>Los Santos,Afternoon,Late_Night,one,0,,,,,
+QP 588,Gotham>Springfield,Evening,Late_Night,one,1,,10.5,10.5,10.5,0.0
+QP 590,Springfield>Gotham,Morning,Late_Night,one,2,0.06363961030679169,16.83,16.92,16.875,0.09000000000000341
+QP 590,Springfield>Gotham,Morning,Night,one,3,0.14433756729740657,9.92,10.17,9.92,0.25
+QP 590,Springfield>Hill Valley,Morning,Late_Night,one,1,,16.92,16.92,16.92,0.0
+QP 590,Springfield>Hill Valley,Morning,Night,one,4,0.12500000000000014,10.25,10.5,10.25,0.25
+QP 590,Springfield>Los Santos,Morning,Evening,one,1,,9.67,9.67,9.67,0.0
+QP 6520,Metropolis>Night City,Late_Night,Early_Morning,zero,1,,2.25,2.25,2.25,0.0
+QR 501,Los Santos>Gotham,Late_Night,Late_Night,one,1,,23.33,23.33,23.33,0.0
+QR 529,Gotham>Hill Valley,Early_Morning,Late_Night,one,5,0.1862256695517585,21.83,22.17,22.17,0.3400000000000034
+QR 529,Gotham>Los Santos,Early_Morning,Afternoon,one,6,0.0,10.33,10.33,10.33,0.0
+QR 529,Gotham>Springfield,Early_Morning,Late_Night,one,2,0.0,22.17,22.17,22.17,0.0
+QR 541,Hill Valley>Gotham,Early_Morning,Late_Night,one,3,0.09237604307033867,22.67,22.83,22.67,0.1599999999999966
+QR 541,Hill Valley>Gotham,Late_Night,Late_Night,one,2,0.0,23.17,23.17,23.17,0.0
+QR 541,Hill Valley>Los Santos,Early_Morning,Afternoon,one,9,0.0,10.67,10.67,10.67,0.0
+QR 541,Hill Valley>Los Santos,Late_Night,Afternoon,one,5,0.0,11.0,11.0,11.0,0.0
+QR 541,Hill Valley>Los Santos,Late_Night,Late_Night,one,1,,22.33,22.33,22.33,0.0
+QR 541,Hill Valley>Springfield,Early_Morning,Late_Night,one,2,0.0,22.5,22.5,22.5,0.0
+QR 573,Springfield>Gotham,Early_Morning,Late_Night,one,2,0.0,22.83,22.83,22.83,0.0
+QR 573,Springfield>Hill Valley,Early_Morning,Late_Night,one,2,0.0,22.5,22.5,22.5,0.0
+QR 573,Springfield>Los Santos,Early_Morning,Afternoon,one,8,0.0,10.67,10.67,10.67,0.0
+QR 573,Springfield>Los Santos,Early_Morning,Late_Night,one,1,,22.0,22.0,22.0,0.0
+RA 226,Springfield>Metropolis,Evening,Afternoon,one,3,0.28867513459481237,21.33,21.83,21.33,0.5
+S5 151,Springfield>Los Santos,Early_Morning,Morning,zero,1,,1.17,1.17,1.17,0.0
+S5 152,Los Santos>Springfield,Night,Night,zero,1,,1.25,1.25,1.25,0.0
+SG 130,Metropolis>Hill Valley,Early_Morning,Early_Morning,zero,1,,2.42,2.42,2.42,0.0
+SG 131,Hill Valley>Metropolis,Morning,Morning,zero,1,,2.42,2.42,2.42,0.0
+SG 134,Night City>Hill Valley,Early_Morning,Morning,zero,3,0.0,2.83,2.83,2.83,0.0
+SG 135,Hill Valley>Night City,Afternoon,Evening,zero,1,,2.83,2.83,2.83,0.0
+SG 136,Night City>Hill Valley,Evening,Night,zero,3,0.0,2.83,2.83,2.83,0.0
+SG 137,Hill Valley>Night City,Night,Late_Night,zero,1,,2.83,2.83,2.83,0.0
+SG 142,Metropolis>Springfield,Night,Night,zero,2,0.0,2.83,2.83,2.83,0.0
+SG 162,Metropolis>Night City,Evening,Night,zero,24,0.07519539763899756,2.58,2.75,2.58,0.16999999999999993
+SG 164,Night City>Hill Valley,Night,Night,one,1,,23.08,23.08,23.08,0.0
+SG 164,Night City>Metropolis,Night,Late_Night,zero,7,0.04810702354423633,2.33,2.42,2.33,0.08999999999999986
+SG 2802,Metropolis>Night City,Night,Late_Night,zero,11,0.0,2.67,2.67,2.67,0.0
+SG 2803,Night City>Metropolis,Late_Night,Early_Morning,zero,4,0.0,2.67,2.67,2.67,0.0
+SG 475,Metropolis>Night City,Evening,Evening,zero,2,0.0,2.25,2.25,2.25,0.0
+SG 476,Metropolis>Night City,Morning,Morning,zero,1,,2.33,2.33,2.33,0.0
+SG 510,Metropolis>Night City,Early_Morning,Morning,zero,3,0.0,2.25,2.25,2.25,0.0
+SG 603,Metropolis>Night City,Early_Morning,Morning,zero,4,0.0,2.33,2.33,2.33,0.0
+SG 612,Metropolis>Night City,Evening,Night,zero,2,0.0,2.17,2.17,2.17,0.0
+SG 614,Metropolis>Springfield,Early_Morning,Morning,zero,1,,2.92,2.92,2.92,0.0
+SG 633,Springfield>Night City,Night,Late_Night,zero,1,,2.0,2.0,2.0,0.0
+SG 648,Hill Valley>Springfield,Morning,Morning,zero,1,,1.92,1.92,1.92,0.0
+SG 723,Metropolis>Springfield,Afternoon,Evening,zero,1,,2.0,2.0,2.0,0.0
+SG 754,Hill Valley>Springfield,Night,Late_Night,zero,1,,2.5,2.5,2.5,0.0
+SG 802,Metropolis>Night City,Night,Late_Night,zero,15,0.0,2.33,2.33,2.33,0.0
+SG 803,Night City>Metropolis,Late_Night,Early_Morning,zero,4,0.0,2.33,2.33,2.33,0.0
+SG 815,Metropolis>Night City,Morning,Afternoon,zero,3,0.04618802153517014,2.5,2.58,2.58,0.08000000000000007
+SG 905,Metropolis>Hill Valley,Night,Night,zero,14,0.0,2.33,2.33,2.33,0.0
+SG 906,Hill Valley>Metropolis,Night,Late_Night,zero,4,0.0,2.25,2.25,2.25,0.0
+SG 9090,Night City>Metropolis,Evening,Night,zero,1,,2.5,2.5,2.5,0.0
+SG 9091,Metropolis>Night City,Early_Morning,Early_Morning,zero,8,0.0,2.33,2.33,2.33,0.0
+SG 9125,Night City>Metropolis,Early_Morning,Morning,zero,1,,2.5,2.5,2.5,0.0
+SG 9401,Night City>Metropolis,Morning,Afternoon,zero,1,,2.33,2.33,2.33,0.0
+SG 9803,Night City>Metropolis,Late_Night,Early_Morning,zero,1,,2.5,2.5,2.5,0.0
+SQ 509,Springfield>Gotham,Morning,Night,one,1,,10.42,10.42,10.42,0.0
+SQ 509,Springfield>Hill Valley,Morning,Night,one,1,,11.0,11.0,11.0,0.0
+SQ 511,Springfield>Gotham,Night,Morning,one,4,0.12500000000000014,10.0,10.25,10.0,0.25
+SQ 519,Los Santos>Gotham,Morning,Night,one,1,,10.5,10.5,10.5,0.0
+SQ 529,Gotham>Springfield,Night,Morning,one,1,,11.17,11.17,11.17,0.0
+TG 314,Hill Valley>Gotham,Late_Night,Night,one,16,0.0,21.75,21.75,21.75,0.0
+TG 314,Hill Valley>Los Santos,Late_Night,Night,one,20,0.0,21.83,21.83,21.83,0.0
+TG 314,Hill Valley>Metropolis,Late_Night,Morning,one,9,0.19333333333333347,8.0,8.58,8.58,0.5800000000000001
+TG 314,Hill Valley>Metropolis,Late_Night,Night,one,1,,19.83,19.83,19.83,0.0
+TG 314,Hill Valley>Night City,Late_Night,Night,one,4,0.07999999999999859,19.92,20.08,19.92,0.1599999999999966
+TG 314,Hill Valley>Springfield,Late_Night,Night,one,17,0.0,21.92,21.92,21.92,0.0
+TG 324,Metropolis>Hill Valley,Morning,Late_Night,one,1,,13.08,13.08,13.08,0.0
+TG 324,Metropolis>Los Santos,Morning,Night,one,0,,,,,
+TG 324,Metropolis>Night City,Morning,Night,one,2,0.0,10.25,10.25,10.25,0.0
+TG 324,Metropolis>Springfield,Morning,Night,one,1,,12.25,12.25,12.25,0.0
+TG 326,Springfield>Gotham,Late_Night,Night,one,8,0.0,22.83,22.83,22.83,0.0
+TG 326,Springfield>Hill Valley,Late_Night,Late_Night,one,7,0.0,23.83,23.83,23.83,0.0
+TG 326,Springfield>Metropolis,Late_Night,Morning,one,1,,9.67,9.67,9.67,0.0
+TG 330,Los Santos>Gotham,Late_Night,Night,one,15,0.0,22.58,22.58,22.58,0.0
+TG 330,Los Santos>Hill Valley,Late_Night,Late_Night,one,18,0.0,23.58,23.58,23.58,0.0
+TG 330,Los Santos>Metropolis,Late_Night,Morning,one,4,0.0,9.42,9.42,9.42,0.0
+TG 330,Los Santos>Night City,Late_Night,Late_Night,one,1,,24.33,24.33,24.33,0.0
+TG 330,Los Santos>Springfield,Late_Night,Night,one,1,,22.75,22.75,22.75,0.0
+TG 338,Gotham>Hill Valley,Late_Night,Late_Night,one,10,0.0,23.58,23.58,23.58,0.0
+TG 338,Gotham>Los Santos,Late_Night,Night,one,13,0.0,22.67,22.67,22.67,0.0
+TG 338,Gotham>Night City,Late_Night,Night,one,0,,,,,
+TG 338,Gotham>Springfield,Late_Night,Night,one,20,0.0,22.75,22.75,22.75,0.0
+TG 352,Night City>Gotham,Late_Night,Night,one,2,0.0,21.08,21.08,21.08,0.0
+TG 352,Night City>Hill Valley,Late_Night,Late_Night,one,11,0.0,22.08,22.08,22.08,0.0
+UL 1174,Springfield>Gotham,Morning,Afternoon,one,9,0.035276684147527895,4.92,5.0,4.92,0.08000000000000007
+UL 1174,Springfield>Hill Valley,Morning,Night,two_or_more,4,0.0,13.33,13.33,13.33,0.0
+UL 1174,Springfield>Los Santos,Morning,Evening,one,3,0.0,9.83,9.83,9.83,0.0
+UL 1174,Springfield>Metropolis,Morning,Evening,one,3,0.0,7.75,7.75,7.75,0.0
+UL 1174,Springfield>Night City,Morning,Evening,one,1,,9.83,9.83,9.83,0.0
+UL 1174,Springfield>Night City,Morning,Late_Night,one,1,,16.17,16.17,16.17,0.0
+UL 122,Gotham>Hill Valley,Morning,Night,two_or_more,11,0.0,13.42,13.42,13.42,0.0
+UL 122,Gotham>Los Santos,Morning,Evening,one,5,0.0,9.92,9.92,9.92,0.0
+UL 122,Gotham>Metropolis,Morning,Evening,one,2,0.0,7.83,7.83,7.83,0.0
+UL 122,Gotham>Night City,Morning,Evening,one,0,,,,,
+UL 122,Gotham>Springfield,Morning,Morning,one,4,0.0,23.08,23.08,23.08,0.0
+UL 124,Gotham>Hill Valley,Night,Night,two_or_more,1,,26.08,26.08,26.08,0.0
+UL 124,Gotham>Los Santos,Night,Afternoon,one,7,0.0,15.33,15.33,15.33,0.0
+UL 124,Gotham>Los Santos,Night,Evening,one,6,0.13880441875771454,22.58,22.92,22.58,0.3400000000000034
+UL 124,Gotham>Los Santos,Night,Morning,one,1,,12.08,12.08,12.08,0.0
+UL 124,Gotham>Metropolis,Night,Early_Morning,one,12,0.0,7.0,7.0,7.0,0.0
+UL 124,Gotham>Night City,Night,Late_Night,one,7,0.0,4.92,4.92,4.92,0.0
+UL 124,Gotham>Springfield,Night,Late_Night,one,11,0.0,5.08,5.08,5.08,0.0
+UL 124,Gotham>Springfield,Night,Morning,one,4,0.0,11.75,11.75,11.75,0.0
+UL 124,Gotham>Springfield,Night,Night,one,7,0.0,23.08,23.08,23.08,0.0
+UL 128,Gotham>Los Santos,Afternoon,Evening,one,1,,27.92,27.92,27.92,0.0
+UL 128,Gotham>Metropolis,Afternoon,Early_Morning,one,1,,12.33,12.33,12.33,0.0
+UL 128,Gotham>Metropolis,Afternoon,Evening,one,1,,25.83,25.83,25.83,0.0
+UL 128,Gotham>Metropolis,Evening,Early_Morning,one,2,0.0,12.25,12.25,12.25,0.0
+UL 128,Gotham>Springfield,Afternoon,Night,one,8,0.0,4.42,4.42,4.42,0.0
+UL 142,Night City>Gotham,Late_Night,Morning,one,14,0.0,5.67,5.67,5.67,0.0
+UL 142,Night City>Los Santos,Late_Night,Afternoon,one,3,0.0,9.42,9.42,9.42,0.0
+UL 142,Night City>Los Santos,Late_Night,Evening,one,1,,16.67,16.67,16.67,0.0
+UL 142,Night City>Los Santos,Late_Night,Morning,one,3,0.0,6.17,6.17,6.17,0.0
+UL 142,Night City>Metropolis,Late_Night,Evening,one,1,,14.58,14.58,14.58,0.0
+UL 142,Night City>Springfield,Late_Night,Late_Night,one,1,,23.17,23.17,23.17,0.0
+UL 142,Night City>Springfield,Late_Night,Morning,one,3,0.0,5.83,5.83,5.83,0.0
+UL 142,Night City>Springfield,Late_Night,Night,one,0,,,,,
+UL 144,Night City>Los Santos,Night,Afternoon,one,4,0.0,15.92,15.92,15.92,0.0
+UL 144,Night City>Los Santos,Night,Morning,one,3,0.0,12.67,12.67,12.67,0.0
+UL 144,Night City>Metropolis,Night,Early_Morning,one,1,,7.58,7.58,7.58,0.0
+UL 144,Night City>Metropolis,Night,Evening,one,1,,21.08,21.08,21.08,0.0
+UL 144,Night City>Springfield,Night,Late_Night,one,10,0.0,5.67,5.67,5.67,0.0
+UL 144,Night City>Springfield,Night,Night,one,1,,23.67,23.67,23.67,0.0
+UL 172,Springfield>Gotham,Night,Afternoon,one,2,0.06363961030679169,17.58,17.67,17.625,0.09000000000000341
+UL 172,Springfield>Gotham,Night,Morning,one,4,0.0,11.5,11.5,11.5,0.0
+UL 172,Springfield>Hill Valley,Night,Night,two_or_more,1,,26.0,26.0,26.0,0.0
+UL 172,Springfield>Los Santos,Night,Evening,one,2,0.0,22.5,22.5,22.5,0.0
+UL 172,Springfield>Los Santos,Night,Morning,one,1,,36.0,36.0,36.0,0.0
+UL 172,Springfield>Metropolis,Night,Early_Morning,one,4,0.0,6.92,6.92,6.92,0.0
+UL 172,Springfield>Night City,Night,Late_Night,one,5,0.0,4.83,4.83,4.83,0.0
+UL 174,Springfield>Gotham,Late_Night,Afternoon,one,1,,11.5,11.5,11.5,0.0
+UL 174,Springfield>Gotham,Late_Night,Morning,one,13,0.06933752452815364,5.17,5.42,5.42,0.25
+UL 174,Springfield>Los Santos,Late_Night,Evening,one,1,,16.42,16.42,16.42,0.0
+UL 174,Springfield>Los Santos,Late_Night,Morning,one,9,8.0,5.92,29.92,5.92,24.0
+UL 174,Springfield>Metropolis,Late_Night,Evening,one,0,,,,,
+UL 174,Springfield>Night City,Late_Night,Evening,one,1,,16.42,16.42,16.42,0.0
+UL 176,Los Santos>Gotham,Night,Morning,one,8,0.0,12.08,12.08,12.08,0.0
+UL 176,Los Santos>Night City,Night,Evening,one,0,,,,,
+UL 176,Los Santos>Night City,Night,Late_Night,one,7,0.0,5.42,5.42,5.42,0.0
+UL 176,Los Santos>Springfield,Night,Late_Night,one,1,,5.58,5.58,5.58,0.0
+UL 176,Los Santos>Springfield,Night,Morning,one,6,0.0,12.25,12.25,12.25,0.0
+UL 176,Los Santos>Springfield,Night,Night,one,1,,23.58,23.58,23.58,0.0
+UL 178,Los Santos>Gotham,Afternoon,Morning,one,1,,19.33,19.33,19.33,0.0
+UL 178,Los Santos>Gotham,Afternoon,Night,one,1,,6.67,6.67,6.67,0.0
+UL 178,Los Santos>Gotham,Morning,Afternoon,one,3,0.0,4.67,4.67,4.67,0.0
+UL 178,Los Santos>Gotham,Morning,Night,one,0,,,,,
+UL 178,Los Santos>Hill Valley,Morning,Night,two_or_more,2,0.0,13.08,13.08,13.08,0.0
+UL 178,Los Santos>Metropolis,Morning,Early_Morning,one,1,,18.0,18.0,18.0,0.0
+UL 178,Los Santos>Metropolis,Morning,Evening,one,1,,7.5,7.5,7.5,0.0
+UL 178,Los Santos>Night City,Afternoon,Evening,one,4,0.0,6.33,6.33,6.33,0.0
+UL 178,Los Santos>Night City,Afternoon,Late_Night,one,1,,12.67,12.67,12.67,0.0
+UL 178,Los Santos>Night City,Morning,Evening,one,2,0.0,9.58,9.58,9.58,0.0
+UL 178,Los Santos>Springfield,Afternoon,Late_Night,one,1,,36.83,36.83,36.83,0.0
+UL 178,Los Santos>Springfield,Afternoon,Morning,one,1,,19.5,19.5,19.5,0.0
+UL 178,Los Santos>Springfield,Afternoon,Night,one,5,10.733126291998989,6.83,30.83,6.83,24.0
+UL 178,Los Santos>Springfield,Morning,Late_Night,one,2,0.0,16.08,16.08,16.08,0.0
+UL 192,Metropolis>Gotham,Early_Morning,Afternoon,one,7,0.048107023544236294,9.58,9.67,9.67,0.08999999999999986
+UL 192,Metropolis>Los Santos,Early_Morning,Afternoon,one,1,,7.33,7.33,7.33,0.0
+UL 192,Metropolis>Los Santos,Early_Morning,Evening,one,1,,14.58,14.58,14.58,0.0
+UL 192,Metropolis>Night City,Early_Morning,Evening,one,11,0.0,14.58,14.58,14.58,0.0
+UL 192,Metropolis>Night City,Early_Morning,Late_Night,one,3,0.0,20.92,20.92,20.92,0.0
+UL 192,Metropolis>Springfield,Early_Morning,Late_Night,one,3,0.09814954576223685,21.08,21.25,21.25,0.1700000000000017
+UL 192,Metropolis>Springfield,Early_Morning,Night,one,2,0.0,15.08,15.08,15.08,0.0
+UL 196,Metropolis>Gotham,Evening,Afternoon,one,0,,,,,
+UL 196,Metropolis>Gotham,Evening,Morning,one,1,,14.08,14.08,14.08,0.0
+UL 196,Metropolis>Gotham,Evening,Night,one,2,0.0,25.42,25.42,25.42,0.0
+UL 196,Metropolis>Los Santos,Evening,Afternoon,one,1,,17.83,17.83,17.83,0.0
+UL 196,Metropolis>Los Santos,Evening,Morning,one,1,,14.58,14.58,14.58,0.0
+UL 196,Metropolis>Night City,Evening,Late_Night,one,41,0.02403249832226675,7.42,7.5,7.42,0.08000000000000007
+UL 196,Metropolis>Springfield,Evening,Late_Night,one,8,0.08838834764831843,7.58,7.83,7.58,0.25
+UL 196,Metropolis>Springfield,Evening,Morning,one,1,,14.25,14.25,14.25,0.0
+WY 202,Night City>Gotham,Morning,Early_Morning,one,0,,,,,
+WY 202,Night City>Springfield,Morning,Afternoon,one,1,,28.08,28.08,28.08,0.0
+WY 204,Night City>Gotham,Afternoon,Early_Morning,one,5,0.0,16.92,16.92,16.92,0.0
+WY 204,Night City>Metropolis,Afternoon,Morning,one,0,,,,,
+WY 204,Night City>Springfield,Afternoon,Morning,one,1,,18.67,18.67,18.67,0.0
+WY 246,Metropolis>Gotham,Evening,Early_Morning,one,2,0.0,14.42,14.42,14.42,0.0
+WY 246,Metropolis>Night City,Evening,Morning,one,0,,,,,
+WY 246,Metropolis>Springfield,Evening,Morning,one,0,,,,,
+WY 252,Gotham>Springfield,Morning,Morning,one,1,,24.92,24.92,24.92,0.0
+WY 254,Gotham>Metropolis,Afternoon,Morning,one,1,,16.58,16.58,16.58,0.0
+WY 254,Gotham>Springfield,Afternoon,Afternoon,one,1,,22.83,22.83,22.83,0.0
+WY 254,Gotham>Springfield,Afternoon,Morning,one,0,,,,,
+WY 282,Springfield>Gotham,Morning,Early_Morning,one,3,0.0,21.5,21.5,21.5,0.0
+WY 284,Springfield>Gotham,Afternoon,Early_Morning,one,1,,16.42,16.42,16.42,0.0

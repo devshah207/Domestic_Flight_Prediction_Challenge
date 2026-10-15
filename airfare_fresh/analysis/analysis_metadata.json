@@ -1,0 +1,75 @@
+{
+  "training_sha256": "6b0c9793817dc3e1b229ecea9ebbef14eef34452abf05a6f708d197cf6d8cc07",
+  "training_rows": 15589,
+  "results": "/workspace/airfare_fresh/results",
+  "status": {
+    "xgb": {
+      "status": "complete",
+      "outer_folds_completed": 5,
+      "exploratory_after_original_diagnostics": false
+    },
+    "lgb": {
+      "status": "complete",
+      "outer_folds_completed": 5,
+      "exploratory_after_original_diagnostics": false
+    },
+    "cat": {
+      "status": "complete",
+      "outer_folds_completed": 5,
+      "exploratory_after_original_diagnostics": false
+    },
+    "cat_onehot64": {
+      "status": "complete",
+      "outer_folds_completed": 5,
+      "exploratory_after_original_diagnostics": true
+    },
+    "equal_blend": {
+      "status": "complete",
+      "weights": {
+        "xgb": 0.3333333333333333,
+        "lgb": 0.3333333333333333,
+        "cat": 0.3333333333333333
+      },
+      "weight_search": false
+    },
+    "equal_blend_onehot64": {
+      "status": "complete",
+      "weights": {
+        "xgb": 0.3333333333333333,
+        "lgb": 0.3333333333333333,
+        "cat_onehot64": 0.3333333333333333
+      },
+      "weight_search": false,
+      "exploratory_after_original_diagnostics": true
+    }
+  },
+  "kaggle_test_sample_or_submission_opened": false,
+  "models_fitted": 0,
+  "trials_archived": 216,
+  "selections_archived": 24,
+  "bootstrap_draws": 500,
+  "bootstrap_seed": 20261021,
+  "interpretation": "Original outer folds evaluate the whole family tuning procedure; selected hyperparameters may differ across folds. Optional onehot64 is exploratory after original diagnostics, on reused outer observations. Final dictionaries do not have separate untouched performance estimates.",
+  "exploratory_candidates": [
+    "cat_onehot64",
+    "equal_blend_onehot64"
+  ],
+  "optional_additional_optuna_trials": 0,
+  "optional_planned_additional_fits": 18,
+  "completed_oof_models": [
+    "xgb",
+    "lgb",
+    "cat",
+    "equal_blend",
+    "cat_onehot64",
+    "equal_blend_onehot64"
+  ],
+  "unique_itinerary_groups": 14905,
+  "all_component_folds_identical": true,
+  "final_model_configurations_available": [
+    "xgb",
+    "lgb",
+    "cat",
+    "cat_onehot64"
+  ]
+}

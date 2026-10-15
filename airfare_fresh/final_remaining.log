@@ -1,0 +1,26 @@
+lgb_full trial 0 MSE 126048375.23 rounds 475
+lgb_full trial 1 MSE 123420974.4 rounds 448
+lgb_full trial 2 MSE 127094722.2 rounds 357
+lgb_full trial 3 MSE 125756776.61 rounds 410
+lgb_full trial 4 MSE 125600075.5 rounds 522
+lgb_full trial 5 MSE 130282130.59 rounds 1175
+lgb_full trial 6 MSE 121761466.15 rounds 764
+lgb_full trial 7 MSE 124026490.39 rounds 723
+lgb_full trial 8 MSE 126125332.65 rounds 798
+lgb_full trial 9 MSE 123749002.59 rounds 965
+lgb_full trial 10 MSE 132834292.36 rounds 1198
+lgb_full trial 11 MSE 123968955.69 rounds 535
+FINAL_FROZEN lgb 764 context
+cat_full trial 0 MSE 144775196.93 rounds 741
+cat_full trial 1 MSE 136025429.97 rounds 727
+cat_full trial 2 MSE 143569943.53 rounds 895
+cat_full trial 3 MSE 145205936.83 rounds 931
+cat_full trial 4 MSE 152915353.65 rounds 1134
+cat_full trial 5 MSE 140992422.68 rounds 934
+cat_full trial 6 MSE 132622825.47 rounds 344
+cat_full trial 7 MSE 133138947.71 rounds 267
+cat_full trial 8 MSE 134849860.61 rounds 408
+cat_full trial 9 MSE 145835539.5 rounds 952
+cat_full trial 10 MSE 146858899.02 rounds 538
+cat_full trial 11 MSE 134406079.76 rounds 293
+FINAL_FROZEN cat 344 context

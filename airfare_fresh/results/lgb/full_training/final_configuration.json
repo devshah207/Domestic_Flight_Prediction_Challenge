@@ -1,0 +1,128 @@
+{
+  "family": "lgb",
+  "selection": {
+    "study": "lgb_full",
+    "best_trial": 6,
+    "tuning_mse": 121761466.14737251,
+    "mode": "context",
+    "configuration": {
+      "depth": 7,
+      "learning_rate": 0.03223998705567161,
+      "leaves": 32,
+      "row_sample": 0.7670846312505795,
+      "column_sample": 0.7034053893013102,
+      "l2": 5.291717380221829,
+      "l1": 0.35365556756291894,
+      "split_gain": 0.08181745287639212,
+      "min_child": 56
+    },
+    "rounds": 764,
+    "inner_splits": [
+      {
+        "split": 0,
+        "rounds": 975,
+        "n_fit": 12471,
+        "n_tune": 3118,
+        "r2": 0.9329862587873441,
+        "rmse": 10168.563576686065,
+        "mae": 3708.2046181784717,
+        "bias": -248.49905218445568
+      },
+      {
+        "split": 1,
+        "rounds": 553,
+        "n_fit": 12471,
+        "n_tune": 3118,
+        "r2": 0.9138276940943909,
+        "rmse": 11837.366560246352,
+        "mae": 4161.639299270097,
+        "bias": 53.47383203026044
+      }
+    ],
+    "trial_count": 12,
+    "raw_optuna_parameters": {
+      "feature_mode": "context",
+      "depth": 7,
+      "learning_rate": 0.03223998705567161,
+      "leaves": 32,
+      "row_sample": 0.7670846312505795,
+      "column_sample": 0.7034053893013102,
+      "l2": 5.291717380221829,
+      "l1": 0.35365556756291894,
+      "split_gain": 0.08181745287639212,
+      "min_child": 56
+    },
+    "round_policy": "fresh median of two inner80/20 stops; floor100 ceiling1200; refit100%",
+    "signature": {
+      "code": {
+        "study.py": "577774ae3227d9c1c2540d1a3a8deb1f3634a474e23bb84f10e10cb86d054134",
+        "features.py": "71f5b7d1c96d76d6fef81fb4692c636bc553c31ec5bee123fee64437d23ab62e"
+      },
+      "row_hash": "f7fa78494abee12004b24a89237b6e58f1cac30e5673b0ecd25b80e778c5da42",
+      "target_hash": "4b8c38fbfe78ef290a95fdf0ad9acc3f65010f3429e3b3e750bf91c18fd08542",
+      "seed": 20263120,
+      "family": "lgb",
+      "trials": 12,
+      "cap": 1200,
+      "patience": 70
+    }
+  },
+  "estimator_parameters": {
+    "boosting_type": "gbdt",
+    "class_weight": null,
+    "colsample_bytree": 0.7034053893013102,
+    "importance_type": "split",
+    "learning_rate": 0.03223998705567161,
+    "max_depth": 7,
+    "min_child_samples": 56,
+    "min_child_weight": 0.001,
+    "min_split_gain": 0.08181745287639212,
+    "n_estimators": 764,
+    "n_jobs": 4,
+    "num_leaves": 32,
+    "objective": "regression",
+    "random_state": 42,
+    "reg_alpha": 0.35365556756291894,
+    "reg_lambda": 5.291717380221829,
+    "subsample": 0.7670846312505795,
+    "subsample_for_bin": 200000,
+    "subsample_freq": 1,
+    "max_bin": 191,
+    "max_cat_threshold": 32,
+    "max_cat_to_onehot": 4,
+    "cat_smooth": 20.0,
+    "cat_l2": 10.0,
+    "min_data_per_group": 10,
+    "verbosity": -1,
+    "deterministic": true,
+    "force_col_wise": true
+  },
+  "features": [
+    "airline",
+    "flight",
+    "source_city",
+    "departure_time",
+    "stops",
+    "arrival_time",
+    "destination_city",
+    "flight_class",
+    "duration",
+    "days_left",
+    "flight_prefix",
+    "airline_missing",
+    "duration_missing",
+    "route",
+    "prefix_class",
+    "stops_numeric",
+    "duration_raw"
+  ],
+  "training_rows": 15589,
+  "training_sha256": "6b0c9793817dc3e1b229ecea9ebbef14eef34452abf05a6f708d197cf6d8cc07",
+  "model_sha256": "dcf0c97eda1e52b75d6b38e897e203aa4897f9b97eb90902d010e036cc4ebf53",
+  "source_hashes": {
+    "study.py": "577774ae3227d9c1c2540d1a3a8deb1f3634a474e23bb84f10e10cb86d054134",
+    "features.py": "71f5b7d1c96d76d6fef81fb4692c636bc553c31ec5bee123fee64437d23ab62e"
+  },
+  "full_train_r2": 0.9596970968375629,
+  "test_accessed": false
+}

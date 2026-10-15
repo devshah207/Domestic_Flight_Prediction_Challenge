@@ -1,0 +1,13 @@
+xgb_full trial 0 MSE 113480322.14 rounds 360
+xgb_full trial 1 MSE 109714452.11 rounds 454
+xgb_full trial 2 MSE 112339552.41 rounds 668
+xgb_full trial 3 MSE 115277340.09 rounds 967
+xgb_full trial 4 MSE 111316544.7 rounds 536
+xgb_full trial 5 MSE 114196643.26 rounds 475
+xgb_full trial 6 MSE 116074160.23 rounds 409
+xgb_full trial 7 MSE 112108539.18 rounds 623
+xgb_full trial 8 MSE 114999434.54 rounds 840
+xgb_full trial 9 MSE 110096029.82 rounds 516
+xgb_full trial 10 MSE 113961387.92 rounds 960
+xgb_full trial 11 MSE 110085379.36 rounds 527
+FINAL_FROZEN xgb 454 context

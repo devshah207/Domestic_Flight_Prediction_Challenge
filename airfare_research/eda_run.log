@@ -1,0 +1,165 @@
+{
+  "summary": {
+    "data_sha256": "6b0c9793817dc3e1b229ecea9ebbef14eef34452abf05a6f708d197cf6d8cc07",
+    "n_rows": 15589,
+    "n_columns_original": 12,
+    "missing": {
+      "airline": 3089,
+      "flight": 0,
+      "source_city": 0,
+      "departure_time": 0,
+      "stops": 0,
+      "arrival_time": 0,
+      "destination_city": 0,
+      "flight_class": 0,
+      "duration": 3095,
+      "days_left": 0
+    },
+    "price_quantiles": {
+      "0.0": 3801.0,
+      "0.01": 4293.0,
+      "0.05": 6150.0,
+      "0.25": 7210.0,
+      "0.5": 10183.0,
+      "0.75": 35968.0,
+      "0.9": 71716.0,
+      "0.95": 128712.59999999899,
+      "0.99": 185836.72,
+      "1.0": 323177.0
+    },
+    "price_mean": 29816.6955545577,
+    "price_sd": 39127.89092506582,
+    "price_skew": 2.7040881851710883,
+    "duration_quantiles": {
+      "0.0": 0.92,
+      "0.001": 1.0,
+      "0.01": 1.17,
+      "0.25": 2.25,
+      "0.5": 2.5,
+      "0.75": 4.92,
+      "0.99": 22.675599999999978,
+      "1.0": 38.08
+    },
+    "days_left_range": [
+      1,
+      57
+    ],
+    "raw_duplicates": {
+      "groups": 15275,
+      "repeated_groups": 310,
+      "repeated_rows": 624,
+      "redundant_rows": 314,
+      "conflicting_groups": 35,
+      "conflicting_rows": 71,
+      "observed_within_key_sse": 450764660.5,
+      "observed_within_key_sse_fraction_total_variation": 1.8888026571273782e-05
+    },
+    "prefix_airline_max_distinct": 1,
+    "airline_canonical_duplicates": {
+      "groups": 15119,
+      "repeated_groups": 454,
+      "repeated_rows": 924,
+      "redundant_rows": 470,
+      "conflicting_groups": 48,
+      "conflicting_rows": 99,
+      "observed_within_key_sse": 688957273.6666667,
+      "observed_within_key_sse_fraction_total_variation": 2.8868818769097683e-05
+    },
+    "structural_keys_ignoring_duration_airline": {
+      "groups": 14905,
+      "repeated_groups": 655,
+      "repeated_rows": 1339,
+      "redundant_rows": 684,
+      "conflicting_groups": 91,
+      "conflicting_rows": 188,
+      "observed_within_key_sse": 3016457197.8333335,
+      "observed_within_key_sse_fraction_total_variation": 0.00012639616344499585
+    },
+    "flight_sparsity": {
+      "n_flights": 1070,
+      "lt12_flights": 589,
+      "rows_in_lt12_flights": 2838,
+      "singletons": 134,
+      "singleton_rows": 134
+    },
+    "flight_route_class_sparsity": {
+      "n_keys": 2173,
+      "lt5_keys": 1114,
+      "rows_in_lt5_keys": 2225
+    },
+    "top_1pct": {
+      "threshold": 185836.72,
+      "n": 156,
+      "classes": {
+        "Business": 156
+      },
+      "prefixes": {
+        "EY": 102,
+        "EK": 18,
+        "QR": 18,
+        "SQ": 7,
+        "GF": 6,
+        "UL": 3,
+        "AI": 2
+      },
+      "duration_missing_fraction": 0.17307692307692307
+    },
+    "duration_masking_design": "5 GroupKFold, raw identical feature groups blocked, no prices used; all observed durations masked only in their validation fold",
+    "invalid": {
+      "nonpositive_prices": 0,
+      "nonpositive_observed_duration": 0,
+      "negative_days": 0,
+      "duplicate_ids": 0
+    }
+  },
+  "masked_duration": [
+    {
+      "method": "baseline",
+      "flight_class": "Business",
+      "n": 5087,
+      "mae": 0.6342451346569687,
+      "rmse": 2.2806121843323863,
+      "bias": -0.340423628857873
+    },
+    {
+      "method": "baseline",
+      "flight_class": "Economy",
+      "n": 7407,
+      "mae": 0.15228567571216417,
+      "rmse": 1.0343642409790015,
+      "bias": -0.036435803969218306
+    },
+    {
+      "method": "departure_arrival",
+      "flight_class": "Business",
+      "n": 5087,
+      "mae": 0.473894240220169,
+      "rmse": 1.9805496613012956,
+      "bias": -0.30040102221348536
+    },
+    {
+      "method": "departure_arrival",
+      "flight_class": "Economy",
+      "n": 7407,
+      "mae": 0.1364499797488862,
+      "rmse": 0.980516575498097,
+      "bias": -0.03354597002835156
+    },
+    {
+      "method": "time_prefix_fallback",
+      "flight_class": "Business",
+      "n": 5087,
+      "mae": 0.4707882838608217,
+      "rmse": 1.9775800023306875,
+      "bias": -0.29885197562413995
+    },
+    {
+      "method": "time_prefix_fallback",
+      "flight_class": "Economy",
+      "n": 7407,
+      "mae": 0.12976441204266234,
+      "rmse": 0.9581854887983338,
+      "bias": -0.03913797758876738
+    }
+  ]
+}

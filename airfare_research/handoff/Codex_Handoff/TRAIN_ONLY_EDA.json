@@ -1,0 +1,32 @@
+{
+  "n": 15589,
+  "feature_duplicates": 314,
+  "99th_price_percentile": 185836.72,
+  "top1_class_counts": {
+    "Business": 156
+  },
+  "top1_prefix_counts": {
+    "EY": 102,
+    "EK": 18,
+    "QR": 18,
+    "SQ": 7,
+    "GF": 6,
+    "UL": 3,
+    "AI": 2
+  },
+  "missing": {
+    "id": 0,
+    "airline": 3089,
+    "flight": 0,
+    "source_city": 0,
+    "departure_time": 0,
+    "stops": 0,
+    "arrival_time": 0,
+    "destination_city": 0,
+    "flight_class": 0,
+    "duration": 3095,
+    "days_left": 0,
+    "price": 0
+  },
+  "scope": "training file only"
+}

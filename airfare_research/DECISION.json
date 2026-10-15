@@ -1,0 +1,17 @@
+{
+  "selected": "baseline_fixed850",
+  "new_candidate_promoted": false,
+  "primary_folds": "raw duplicate blocked SGKF5 seed20261015",
+  "criterion": "deltaR2>=.001; >=4/5 positive folds; paired raw-group95%CI lower>0; then unchanged repeatconfirmation",
+  "all_six_candidates_fail": true,
+  "repeat_confirmation_performed": false,
+  "test_features_used_for_model_selection": false,
+  "fallback": "submissions/PRESERVED_BEST_XGB850_0.95797.csv",
+  "control_refit": "final/xgb850_control_refit.csv",
+  "control_public_score": "unmeasured; historic explicit procedure reproduced with unpinned-history version limitation",
+  "history_public_score": {
+    "value": 0.95797,
+    "evidence": "user reported, preserved file"
+  },
+  "top5_or_private_score": "unknown"
+}

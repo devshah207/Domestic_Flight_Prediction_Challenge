@@ -1,0 +1,41 @@
+id,airline,flight,source_city,departure_time,stops,arrival_time,destination_city,flight_class,duration,days_left,price,flight_prefix,route,airline_missing,duration_missing,days_bin,price_cell_demeaned
+4997,Nakatomi Airlines,EY 233,Springfield,Early_Morning,one,Afternoon,Metropolis,Business,9.58,4,323177,EY,Springfield -> Metropolis,False,False,"(3.0, 7.0]",109237.79999999999
+2542,Nakatomi Airlines,EY 239,Springfield,Night,one,Early_Morning,Night City,Business,8.92,39,317854,EY,Springfield -> Night City,False,False,"(30.0, 40.0]",117122.5
+8832,Nakatomi Airlines,EY 353,Los Santos,Early_Morning,one,Afternoon,Night City,Business,8.67,1,313132,EY,Los Santos -> Night City,False,False,"(-0.001, 3.0]",121480.33333333334
+15037,Nakatomi Airlines,EY 353,Los Santos,Early_Morning,one,Afternoon,Night City,Business,8.67,4,313132,EY,Los Santos -> Night City,False,False,"(3.0, 7.0]",121480.33333333334
+4050,Nakatomi Airlines,EY 353,Los Santos,Early_Morning,one,Evening,Springfield,Business,15.42,11,308302,EY,Los Santos -> Springfield,False,False,"(7.0, 14.0]",125735.79999999999
+3385,Nakatomi Airlines,EY 237,Springfield,Evening,one,Late_Night,Los Santos,Business,9.83,18,300148,EY,Springfield -> Los Santos,False,False,"(14.0, 21.0]",100229.6
+2859,Stark Aviation,EK 573,Hill Valley,Night,one,Morning,Springfield,Business,11.92,26,289045,EK,Hill Valley -> Springfield,False,False,"(21.0, 30.0]",138786.33333333334
+3138,,EK 567,Springfield,Night,one,Morning,Los Santos,Business,11.42,31,288886,EK,Springfield -> Los Santos,True,False,"(30.0, 40.0]",149815.11764705883
+6454,,EY 343,Gotham,Morning,one,Evening,Springfield,Business,9.67,11,278762,EY,Gotham -> Springfield,True,False,"(7.0, 14.0]",124598.45000000001
+3660,Nakatomi Airlines,EY 233,Springfield,Early_Morning,one,Evening,Los Santos,Business,15.33,3,277593,EY,Springfield -> Los Santos,False,False,"(-0.001, 3.0]",77674.6
+13303,Nakatomi Airlines,EY 233,Springfield,Early_Morning,one,Evening,Los Santos,Business,15.08,6,277593,EY,Springfield -> Los Santos,False,False,"(3.0, 7.0]",77674.6
+1152,Nakatomi Airlines,EY 343,Gotham,Morning,one,Evening,Springfield,Business,9.67,15,276686,EY,Gotham -> Springfield,False,False,"(14.0, 21.0]",122522.45000000001
+13721,Stark Aviation,EK 529,Los Santos,Night,one,Morning,Springfield,Business,10.83,5,275823,EK,Los Santos -> Springfield,False,False,"(3.0, 7.0]",130938.07692307694
+15000,Stark Aviation,EK 529,Los Santos,Night,one,Morning,Springfield,Business,10.83,11,275823,EK,Los Santos -> Springfield,False,False,"(7.0, 14.0]",130938.07692307694
+13315,Stark Aviation,EK 573,Hill Valley,Night,one,Morning,Springfield,Business,11.92,25,271552,EK,Hill Valley -> Springfield,False,False,"(21.0, 30.0]",121293.33333333334
+12497,Nakatomi Airlines,EY 359,Los Santos,Night,one,Morning,Gotham,Business,11.08,4,271113,EY,Los Santos -> Gotham,False,False,"(3.0, 7.0]",115034.62962962964
+5161,Weyland Air,SQ 511,Springfield,Night,one,Morning,Gotham,Business,10.25,7,269912,SQ,Springfield -> Gotham,False,False,"(3.0, 7.0]",44168.399999999994
+11250,Nakatomi Airlines,EY 353,Los Santos,Early_Morning,one,Afternoon,Springfield,Business,,4,266471,EY,Los Santos -> Springfield,False,True,"(3.0, 7.0]",83904.79999999999
+10882,Nakatomi Airlines,EY 353,Los Santos,Early_Morning,one,Afternoon,Springfield,Business,9.75,28,266383,EY,Los Santos -> Springfield,False,False,"(21.0, 30.0]",83816.79999999999
+13665,Nakatomi Airlines,EY 341,Gotham,Early_Morning,one,Afternoon,Springfield,Business,10.17,21,265452,EY,Gotham -> Springfield,False,False,"(14.0, 21.0]",111288.45000000001
+2824,,EY 233,Springfield,Early_Morning,one,Afternoon,Metropolis,Business,,15,262890,EY,Springfield -> Metropolis,True,True,"(14.0, 21.0]",48950.79999999999
+5086,,EY 237,Springfield,Evening,one,Late_Night,Hill Valley,Business,,25,249344,EY,Springfield -> Hill Valley,True,True,"(21.0, 30.0]",120705.8
+8133,Nakatomi Airlines,EY 233,Springfield,Early_Morning,one,Night,Gotham,Business,15.58,21,249249,EY,Springfield -> Gotham,False,False,"(14.0, 21.0]",93435.70833333334
+8240,Nakatomi Airlines,EY 239,Springfield,Night,one,Morning,Gotham,Business,10.17,33,249249,EY,Springfield -> Gotham,False,False,"(30.0, 40.0]",93435.70833333334
+3543,Nakatomi Airlines,EY 343,Gotham,Morning,one,Night,Hill Valley,Business,,15,248434,EY,Gotham -> Hill Valley,False,True,"(14.0, 21.0]",104553.93333333332
+13580,Nakatomi Airlines,EY 239,Springfield,Night,one,Evening,Los Santos,Business,21.42,5,246996,EY,Springfield -> Los Santos,False,False,"(3.0, 7.0]",47077.600000000006
+6708,Vault-Tec Air,QR 529,Gotham,Early_Morning,one,Late_Night,Springfield,Business,22.17,4,245180,QR,Gotham -> Springfield,False,False,"(3.0, 7.0]",32314.5
+3904,,EY 353,Los Santos,Early_Morning,one,Evening,Springfield,Business,,24,245101,EY,Los Santos -> Springfield,True,True,"(21.0, 30.0]",62534.79999999999
+15134,Vault-Tec Air,QR 501,Los Santos,Late_Night,one,Late_Night,Gotham,Business,23.33,32,242718,QR,Los Santos -> Gotham,False,False,"(30.0, 40.0]",0.0
+4673,Weyland Air,SQ 509,Springfield,Morning,one,Night,Gotham,Business,10.42,23,242236,SQ,Springfield -> Gotham,False,False,"(21.0, 30.0]",16492.399999999994
+433,Stark Aviation,EK 505,Night City,Morning,one,Evening,Hill Valley,Business,9.0,3,242180,EK,Night City -> Hill Valley,False,False,"(-0.001, 3.0]",95818.75
+1126,Nakatomi Airlines,EY 353,Los Santos,Early_Morning,one,Night,Hill Valley,Business,,12,241666,EY,Los Santos -> Hill Valley,False,True,"(7.0, 14.0]",79410.73076923078
+5583,,EK 515,Metropolis,Night,one,Morning,Hill Valley,Business,10.08,12,241543,EK,Metropolis -> Hill Valley,True,False,"(7.0, 14.0]",85783.0
+11061,Vault-Tec Air,QR 573,Springfield,Early_Morning,one,Late_Night,Los Santos,Business,22.0,10,241139,QR,Springfield -> Los Santos,False,False,"(7.0, 14.0]",64851.272727272735
+3374,Vault-Tec Air,QR 573,Springfield,Early_Morning,one,Late_Night,Gotham,Business,22.83,7,240620,QR,Springfield -> Gotham,False,False,"(3.0, 7.0]",0.0
+7349,Vault-Tec Air,QR 573,Springfield,Early_Morning,one,Late_Night,Gotham,Business,22.83,14,240620,QR,Springfield -> Gotham,False,False,"(7.0, 14.0]",0.0
+3727,,EY 353,Los Santos,Early_Morning,one,Afternoon,Springfield,Business,,16,239484,EY,Los Santos -> Springfield,True,True,"(14.0, 21.0]",56917.79999999999
+4852,,EY 353,Los Santos,Early_Morning,one,Afternoon,Springfield,Business,9.75,2,239484,EY,Los Santos -> Springfield,True,False,"(-0.001, 3.0]",56917.79999999999
+15186,Nakatomi Airlines,EY 343,Gotham,Morning,one,Evening,Los Santos,Business,,3,238393,EY,Gotham -> Los Santos,False,True,"(-0.001, 3.0]",86875.90476190476
+12707,Nakatomi Airlines,EY 359,Los Santos,Night,one,Morning,Gotham,Business,11.08,16,234810,EY,Los Santos -> Gotham,False,False,"(14.0, 21.0]",78731.62962962964

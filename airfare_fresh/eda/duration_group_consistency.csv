@@ -1,0 +1,5 @@
+grouping,n_groups,groups_n_ge_3,median_std_hours,p90_std_hours,groups_range_gt_1hr,groups_range_about_24hr,max_range_hours
+flight,1070,820,0.041175478221475936,2.305620089321023,321,0,35.5
+flight+route,1763,1076,0.0,0.22790408397950568,97,2,30.0
+flight+route+schedule,1937,1089,0.0,0.048737004551033164,21,3,24.0
+prefix+route+schedule,1311,873,0.0,0.3835351691346622,81,3,24.0

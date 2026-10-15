@@ -1,0 +1,7 @@
+keys,n_groups,median_group_n,singleton_groups,rows_in_groups_n_le_2,rows_in_groups_n_le_5,rows_in_groups_n_le_10
+flight,1070,10.0,134,284,830,2453
+flight+route,1763,5.0,383,791,2129,4876
+flight+route+flight_class,2173,4.0,501,1051,2825,6609
+prefix+route+flight_class,350,13.0,48,100,269,565
+prefix+route+flight_class+stops,411,12.0,57,117,320,706
+prefix+route+flight_class+departure_time+arrival_time,1557,6.0,307,627,1823,4558

@@ -1,0 +1,78 @@
+{
+  "fold": 3,
+  "selected": {
+    "study": "xgb_outer3",
+    "best_trial": 1,
+    "tuning_mse": 101642897.18869437,
+    "mode": "context",
+    "configuration": {
+      "depth": 6,
+      "learning_rate": 0.045,
+      "leaves": 32,
+      "row_sample": 0.85,
+      "column_sample": 0.85,
+      "l2": 12.0,
+      "l1": 0.2,
+      "split_gain": 0.04,
+      "min_child": 20
+    },
+    "rounds": 418,
+    "inner_splits": [
+      {
+        "split": 0,
+        "rounds": 551,
+        "n_fit": 9977,
+        "n_tune": 2495,
+        "r2": 0.9327413087779054,
+        "rmse": 10207.614573753528,
+        "mae": 3794.5378281421317,
+        "bias": -12.755337987108556
+      },
+      {
+        "split": 1,
+        "rounds": 286,
+        "n_fit": 9977,
+        "n_tune": 2495,
+        "r2": 0.9348965635174908,
+        "rmse": 9954.41605977384,
+        "mae": 3943.761087022181,
+        "bias": 66.88704535172793
+      }
+    ],
+    "trial_count": 12,
+    "raw_optuna_parameters": {
+      "feature_mode": "context",
+      "depth": 6,
+      "learning_rate": 0.045,
+      "leaves": 32,
+      "row_sample": 0.85,
+      "column_sample": 0.85,
+      "l2": 12.0,
+      "l1": 0.2,
+      "split_gain": 0.04,
+      "min_child": 20
+    },
+    "round_policy": "fresh median of two inner80/20 stops; floor100 ceiling1200; refit100%",
+    "signature": {
+      "code": {
+        "study.py": "577774ae3227d9c1c2540d1a3a8deb1f3634a474e23bb84f10e10cb86d054134",
+        "features.py": "71f5b7d1c96d76d6fef81fb4692c636bc553c31ec5bee123fee64437d23ab62e"
+      },
+      "row_hash": "ebc29d3c779fea661505bc294126565af75f26231a1196c85f6fca7938814696",
+      "target_hash": "d20ed660c6d7cc5fd72f4636530a910840efed14955999d7dbf45df709724b5f",
+      "seed": 20262023,
+      "family": "xgb",
+      "trials": 12,
+      "cap": 1200,
+      "patience": 70
+    }
+  },
+  "train_r2": 0.9671639930294108,
+  "n_fit": 12472,
+  "n_validation": 3117,
+  "refit_seconds": 2.048024044000158,
+  "r2": 0.9300889556718119,
+  "rmse": 10315.546954696025,
+  "mae": 3789.948719195766,
+  "bias": 5.2500430921120715
+}

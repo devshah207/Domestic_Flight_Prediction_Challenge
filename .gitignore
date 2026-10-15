@@ -1,0 +1,17 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.DS_Store
+.env
+.env.*
+.kaggle/
+kaggle.json
+train.csv
+test.csv
+sample_submission.csv
+*-journal
+*-wal
+*-shm

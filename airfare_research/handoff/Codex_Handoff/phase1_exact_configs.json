@@ -1,0 +1,160 @@
+{
+  "seed": 42,
+  "target_scale": 10000.0,
+  "scores_computed": false,
+  "training_only_features": [
+    "airline_fixed",
+    "flight",
+    "flight_prefix",
+    "source_city",
+    "destination_city",
+    "departure_time",
+    "arrival_time",
+    "stops",
+    "flight_class",
+    "route",
+    "route_stops",
+    "route_class",
+    "prefix_class",
+    "dep_arr",
+    "duration_filled",
+    "duration_missing",
+    "days_left",
+    "flight_number",
+    "airline_missing",
+    "stops_numeric",
+    "flight_rare"
+  ],
+  "models": {
+    "catboost_depth5": {
+      "family": "CatBoost",
+      "iterations": 360,
+      "depth": 5,
+      "learning_rate": 0.055,
+      "l2_leaf_reg": 10.0,
+      "random_strength": 1.0,
+      "rsm": 0.9,
+      "bootstrap_type": "Bayesian",
+      "bagging_temperature": 0.55
+    },
+    "catboost_depth4": {
+      "family": "CatBoost",
+      "iterations": 440,
+      "depth": 4,
+      "learning_rate": 0.048,
+      "l2_leaf_reg": 12.0,
+      "random_strength": 1.3,
+      "rsm": 0.9,
+      "bootstrap_type": "Bayesian",
+      "bagging_temperature": 0.7
+    },
+    "catboost_depth6": {
+      "family": "CatBoost",
+      "iterations": 380,
+      "depth": 6,
+      "learning_rate": 0.047,
+      "l2_leaf_reg": 15.0,
+      "random_strength": 1.6,
+      "rsm": 0.85,
+      "bootstrap_type": "Bernoulli",
+      "subsample": 0.82
+    },
+    "xgboost_depth3": {
+      "family": "XGBoost",
+      "n_estimators": 340,
+      "max_depth": 3,
+      "learning_rate": 0.065,
+      "min_child_weight": 10,
+      "subsample": 0.83,
+      "colsample_bytree": 0.8,
+      "reg_lambda": 15.0,
+      "reg_alpha": 0.3,
+      "gamma": 0.025,
+      "max_bin": 192
+    },
+    "xgboost_depth4": {
+      "family": "XGBoost",
+      "n_estimators": 410,
+      "max_depth": 4,
+      "learning_rate": 0.047,
+      "min_child_weight": 18,
+      "subsample": 0.8,
+      "colsample_bytree": 0.85,
+      "reg_lambda": 22.0,
+      "reg_alpha": 0.6,
+      "gamma": 0.05,
+      "max_bin": 192
+    },
+    "lightgbm_leaves15": {
+      "family": "LightGBM",
+      "n_estimators": 360,
+      "max_depth": 5,
+      "num_leaves": 15,
+      "learning_rate": 0.055,
+      "min_child_samples": 65,
+      "min_split_gain": 0.04,
+      "reg_lambda": 20.0,
+      "reg_alpha": 0.4,
+      "subsample": 0.8,
+      "subsample_freq": 1,
+      "colsample_bytree": 0.8,
+      "max_bin": 127
+    },
+    "lightgbm_leaves9": {
+      "family": "LightGBM",
+      "n_estimators": 400,
+      "max_depth": 4,
+      "num_leaves": 9,
+      "learning_rate": 0.05,
+      "min_child_samples": 90,
+      "min_split_gain": 0.035,
+      "reg_lambda": 18.0,
+      "reg_alpha": 0.4,
+      "subsample": 0.85,
+      "subsample_freq": 1,
+      "colsample_bytree": 0.85,
+      "max_bin": 127
+    },
+    "random_forest": {
+      "family": "RandomForest",
+      "n_estimators": 280,
+      "max_depth": 13,
+      "min_samples_leaf": 5,
+      "min_samples_split": 12,
+      "max_features": 0.8,
+      "bootstrap": true,
+      "max_samples": 0.82,
+      "max_leaf_nodes": 700
+    },
+    "extra_trees": {
+      "family": "ExtraTrees",
+      "n_estimators": 320,
+      "max_depth": 14,
+      "min_samples_leaf": 5,
+      "min_samples_split": 12,
+      "max_features": 0.75,
+      "bootstrap": false,
+      "max_leaf_nodes": 800
+    },
+    "ridge_ohe": {
+      "family": "Ridge",
+      "alpha": 35.0,
+      "max_iter": 10000,
+      "solver": "lsqr",
+      "tol": 1e-05
+    }
+  },
+  "blends": {
+    "blend_boosting_diverse": {
+      "catboost_depth5": 0.45,
+      "lightgbm_leaves15": 0.35,
+      "xgboost_depth3": 0.2
+    },
+    "blend_shallow_regularized": {
+      "catboost_depth4": 0.5,
+      "catboost_depth5": 0.25,
+      "lightgbm_leaves9": 0.25
+    }
+  },
+  "metric": "R2 (maximize; use squared-error objectives for fitting)"
+}

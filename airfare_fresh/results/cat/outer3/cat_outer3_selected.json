@@ -1,0 +1,65 @@
+{
+  "study": "cat_outer3",
+  "best_trial": 6,
+  "tuning_mse": 113874498.50722818,
+  "mode": "context",
+  "configuration": {
+    "depth": 7,
+    "learning_rate": 0.031067939197774324,
+    "leaves": 32,
+    "row_sample": 0.9093538471878423,
+    "column_sample": 0.9286123651206196,
+    "l2": 6.002111061065496,
+    "min_child": 12,
+    "random_strength": 0.30711093076752977
+  },
+  "rounds": 699,
+  "inner_splits": [
+    {
+      "split": 0,
+      "rounds": 996,
+      "n_fit": 9978,
+      "n_tune": 2494,
+      "r2": 0.9265523371652228,
+      "rmse": 10274.082773962271,
+      "mae": 4221.861750221207,
+      "bias": 698.8470720492494
+    },
+    {
+      "split": 1,
+      "rounds": 403,
+      "n_fit": 9977,
+      "n_tune": 2495,
+      "r2": 0.9203404321459334,
+      "rmse": 11053.908196291995,
+      "mae": 4510.1001109984245,
+      "bias": -136.87229233027384
+    }
+  ],
+  "trial_count": 12,
+  "raw_optuna_parameters": {
+    "feature_mode": "context",
+    "depth": 7,
+    "learning_rate": 0.031067939197774324,
+    "leaves": 32,
+    "row_sample": 0.9093538471878423,
+    "column_sample": 0.9286123651206196,
+    "l2": 6.002111061065496,
+    "min_child": 12,
+    "random_strength": 0.30711093076752977
+  },
+  "round_policy": "fresh median of two inner80/20 stops; floor100 ceiling1200; refit100%",
+  "signature": {
+    "code": {
+      "study.py": "577774ae3227d9c1c2540d1a3a8deb1f3634a474e23bb84f10e10cb86d054134",
+      "features.py": "71f5b7d1c96d76d6fef81fb4692c636bc553c31ec5bee123fee64437d23ab62e"
+    },
+    "row_hash": "ebc29d3c779fea661505bc294126565af75f26231a1196c85f6fca7938814696",
+    "target_hash": "d20ed660c6d7cc5fd72f4636530a910840efed14955999d7dbf45df709724b5f",
+    "seed": 20262223,
+    "family": "cat",
+    "trials": 12,
+    "cap": 1200,
+    "patience": 70
+  }
+}

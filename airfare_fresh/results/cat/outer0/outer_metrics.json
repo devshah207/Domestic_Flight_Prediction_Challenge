@@ -1,0 +1,76 @@
+{
+  "fold": 0,
+  "selected": {
+    "study": "cat_outer0",
+    "best_trial": 1,
+    "tuning_mse": 120288449.00685762,
+    "mode": "context",
+    "configuration": {
+      "depth": 6,
+      "learning_rate": 0.045,
+      "leaves": 32,
+      "row_sample": 0.85,
+      "column_sample": 0.85,
+      "l2": 12.0,
+      "min_child": 35,
+      "random_strength": 0.7
+    },
+    "rounds": 1048,
+    "inner_splits": [
+      {
+        "split": 0,
+        "rounds": 1064,
+        "n_fit": 9976,
+        "n_tune": 2495,
+        "r2": 0.9236085599477457,
+        "rmse": 10807.929283478878,
+        "mae": 4223.5186670142175,
+        "bias": 480.6964561494241
+      },
+      {
+        "split": 1,
+        "rounds": 1032,
+        "n_fit": 9977,
+        "n_tune": 2494,
+        "r2": 0.9168098690199983,
+        "rmse": 11125.059856402513,
+        "mae": 4438.290295708587,
+        "bias": 15.788672430155849
+      }
+    ],
+    "trial_count": 12,
+    "raw_optuna_parameters": {
+      "feature_mode": "context",
+      "depth": 6,
+      "learning_rate": 0.045,
+      "leaves": 32,
+      "row_sample": 0.85,
+      "column_sample": 0.85,
+      "l2": 12.0,
+      "min_child": 35,
+      "random_strength": 0.7
+    },
+    "round_policy": "fresh median of two inner80/20 stops; floor100 ceiling1200; refit100%",
+    "signature": {
+      "code": {
+        "study.py": "577774ae3227d9c1c2540d1a3a8deb1f3634a474e23bb84f10e10cb86d054134",
+        "features.py": "71f5b7d1c96d76d6fef81fb4692c636bc553c31ec5bee123fee64437d23ab62e"
+      },
+      "row_hash": "d2796b9f596d0a6e48c1ed304e751065bc2501ed2ba4952fb9840f3c99a056e2",
+      "target_hash": "b2ee757eda4a42f45475f84ddf0202f2fe2c20947e6b9d1e832441134e652c38",
+      "seed": 20262220,
+      "family": "cat",
+      "trials": 12,
+      "cap": 1200,
+      "patience": 70
+    }
+  },
+  "train_r2": 0.9499417611239744,
+  "n_fit": 12471,
+  "n_validation": 3118,
+  "refit_seconds": 9.073531916999855,
+  "r2": 0.9131773282233742,
+  "rmse": 11534.208693216146,
+  "mae": 4578.461832683575,
+  "bias": 316.1833907403863
+}

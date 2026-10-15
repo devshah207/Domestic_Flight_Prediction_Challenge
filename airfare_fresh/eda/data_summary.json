@@ -1,0 +1,98 @@
+{
+  "input": "/workspace/attachments/085aeb37-413d-42c9-bb16-baafd968488d/train.csv",
+  "sha256": "6b0c9793817dc3e1b229ecea9ebbef14eef34452abf05a6f708d197cf6d8cc07",
+  "rows": 15589,
+  "raw_columns": [
+    "arrival_time",
+    "destination_city",
+    "source_city",
+    "stops",
+    "flight_class",
+    "flight",
+    "days_left",
+    "duration",
+    "price",
+    "departure_time",
+    "airline",
+    "id"
+  ],
+  "categorical_counts": {
+    "airline": 18,
+    "flight": 1070,
+    "source_city": 6,
+    "departure_time": 6,
+    "stops": 3,
+    "arrival_time": 6,
+    "destination_city": 6,
+    "flight_class": 2
+  },
+  "missing_counts": {
+    "airline": 3089,
+    "flight": 0,
+    "source_city": 0,
+    "departure_time": 0,
+    "stops": 0,
+    "arrival_time": 0,
+    "destination_city": 0,
+    "flight_class": 0,
+    "duration": 3095,
+    "days_left": 0
+  },
+  "price_quantiles": {
+    "0": 3801.0,
+    "0.01": 4293.0,
+    "0.25": 7210.0,
+    "0.5": 10183.0,
+    "0.75": 35968.0,
+    "0.95": 128712.59999999899,
+    "0.99": 185836.72,
+    "1": 323177.0
+  },
+  "duration_quantiles": {
+    "0": 0.92,
+    "0.01": 1.17,
+    "0.25": 2.25,
+    "0.5": 2.5,
+    "0.75": 4.92,
+    "0.95": 12.08,
+    "0.99": 22.675599999999978,
+    "1": 38.08
+  },
+  "days_range": [
+    1,
+    57
+  ],
+  "class_counts": {
+    "Economy": 9209,
+    "Business": 6380
+  },
+  "raw_negative_or_zero_duration": 0,
+  "raw_nonpositive_price": 0,
+  "self_routes": 0,
+  "id_used_as_feature": false,
+  "kaggle_test_read": false,
+  "scope": "Descriptive training-only EDA; no model fitted and no feature selected from validation scores.",
+  "prefix_airline_max_labels": 1,
+  "missing_airline_prefixes_without_observed_label": [],
+  "joint_missingness_counts": {
+    "False": {
+      "false": 10007,
+      "true": 2487
+    },
+    "True": {
+      "false": 2493,
+      "true": 602
+    }
+  },
+  "duplicates": {
+    "raw_feature_duplicate_excess_rows": 314,
+    "exact_rows_including_target_excess": 279,
+    "raw_groups_with_multiple_prices": 35,
+    "rows_in_conflicting_groups": 71,
+    "max_within_identical_features_price_range": 18540.0,
+    "within_duplicate_group_sse_over_total_target_sst": 1.8888026571273782e-05,
+    "interpretation": "An in-sample ambiguity diagnostic, not a validated ceiling on model performance; no observations removed."
+  },
+  "one_stop_duration_under_3h": 1,
+  "top_1pct_target_sst_share": 0.25187002322901286
+}

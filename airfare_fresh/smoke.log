@@ -1,0 +1,3 @@
+SMOKE xgb 100tree ceiling 0.43 seconds; APIs and prediction shape verified
+SMOKE lgb 100tree ceiling 0.81 seconds; APIs and prediction shape verified
+SMOKE cat 100tree ceiling 0.6 seconds; APIs and prediction shape verified

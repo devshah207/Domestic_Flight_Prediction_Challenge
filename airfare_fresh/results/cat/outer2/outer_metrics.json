@@ -1,0 +1,76 @@
+{
+  "fold": 2,
+  "selected": {
+    "study": "cat_outer2",
+    "best_trial": 11,
+    "tuning_mse": 121313212.40845469,
+    "mode": "context",
+    "configuration": {
+      "depth": 7,
+      "learning_rate": 0.02623889666308575,
+      "leaves": 48,
+      "row_sample": 0.7269868174355267,
+      "column_sample": 0.9456726613953326,
+      "l2": 4.192343943178049,
+      "min_child": 10,
+      "random_strength": 0.22194877058285753
+    },
+    "rounds": 557,
+    "inner_splits": [
+      {
+        "split": 0,
+        "rounds": 737,
+        "n_fit": 9976,
+        "n_tune": 2494,
+        "r2": 0.9164121630244392,
+        "rmse": 11285.644942043265,
+        "mae": 4356.0681021082755,
+        "bias": -80.77164732840774
+      },
+      {
+        "split": 1,
+        "rounds": 377,
+        "n_fit": 9976,
+        "n_tune": 2494,
+        "r2": 0.9241050039255879,
+        "rmse": 10735.950962026727,
+        "mae": 4323.24757788588,
+        "bias": 107.54071538228385
+      }
+    ],
+    "trial_count": 12,
+    "raw_optuna_parameters": {
+      "feature_mode": "context",
+      "depth": 7,
+      "learning_rate": 0.02623889666308575,
+      "leaves": 48,
+      "row_sample": 0.7269868174355267,
+      "column_sample": 0.9456726613953326,
+      "l2": 4.192343943178049,
+      "min_child": 10,
+      "random_strength": 0.22194877058285753
+    },
+    "round_policy": "fresh median of two inner80/20 stops; floor100 ceiling1200; refit100%",
+    "signature": {
+      "code": {
+        "study.py": "577774ae3227d9c1c2540d1a3a8deb1f3634a474e23bb84f10e10cb86d054134",
+        "features.py": "71f5b7d1c96d76d6fef81fb4692c636bc553c31ec5bee123fee64437d23ab62e"
+      },
+      "row_hash": "60a27a8390cc639f720fd490389592b0e941af4576f49ee9ed394fc0408609d4",
+      "target_hash": "2a994f6ab2942435ee3e7d699f7524badb621fcc17cd379124b9c81c8a004de4",
+      "seed": 20262222,
+      "family": "cat",
+      "trials": 12,
+      "cap": 1200,
+      "patience": 70
+    }
+  },
+  "train_r2": 0.9488293247677853,
+  "n_fit": 12470,
+  "n_validation": 3119,
+  "refit_seconds": 5.49925982700006,
+  "r2": 0.9192003545797631,
+  "rmse": 11067.10733803798,
+  "mae": 4402.275286971885,
+  "bias": 53.33397602863407
+}

@@ -1,0 +1,5 @@
+{
+  "started_at_utc": "2026-10-15T08:23:44.478745+00:00",
+  "manifest_sha256": "72b4572fb22aac99f0c2d1eed582a098b363467b46e18294b8c33adcec080022",
+  "policy": "one attempt in this output directory; do not remove this marker to retry"
+}

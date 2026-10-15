@@ -1,0 +1,59 @@
+{
+  "mandatory": [
+    "Exclude id.",
+    "Keep original-price R2 as metric.",
+    "Keep exact raw feature duplicate groups together in all splits.",
+    "Learn imputers/encodings inside each training partition; descriptive EDA tables are not feature lookup tables.",
+    "No neural networks, unlimited-depth trees, external labels, or Kaggle-test inspection."
+  ],
+  "variant_1_raw_minimal": {
+    "categorical": [
+      "flight",
+      "prefix",
+      "source_city",
+      "destination_city",
+      "departure_time",
+      "arrival_time",
+      "stops",
+      "flight_class"
+    ],
+    "numeric": [
+      "duration",
+      "days_left"
+    ],
+    "missing": "Native duration NaN when supported; stable categorical missing marker. Airline is redundant with prefix in observed training rows.",
+    "hypothesis": "Preserve raw signal while avoiding a large bundle of redundant sparse interactions and arbitrary flight-number ordering."
+  },
+  "variant_2_parsimonious_interactions": {
+    "add_to_minimal": [
+      "route",
+      "prefix_class"
+    ],
+    "hypothesis": "Route has only 30 levels and cabin/prefix price regimes are large; these compact features expose important decision structure.",
+    "avoid_by_default": [
+      "flight_route_class_time",
+      "dense target histories",
+      "rare-group price encodings"
+    ]
+  },
+  "variant_3_duration_fill_ablation": {
+    "scope": "Only if native missing performs poorly; retain raw duration and duration_missing.",
+    "fold_local_hierarchy": [
+      "flight+route+departure+arrival+stops",
+      "flight+route",
+      "prefix+route+stops",
+      "route+stops",
+      "stops",
+      "global"
+    ],
+    "regularization": "Require minimum observed support and fall back for uncertain groups; same schedules can differ by 24 hours.",
+    "hypothesis": "Recovered duration may be useful in large AI/6E business groups; imputation is not an automatic improvement."
+  },
+  "not_supported": [
+    "Global monotone price decrease with days_left.",
+    "Dropping high prices as erroneous labels.",
+    "Treating numeric flight suffix as an intrinsically ordered economic quantity.",
+    "Removing all conflicting duplicate rows or assuming all duplicate conflicts are annotation mistakes.",
+    "Using every possible sparse category interaction."
+  ]
+}

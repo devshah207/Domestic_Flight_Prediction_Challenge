@@ -1,0 +1,113 @@
+{
+  "seed": 42,
+  "target_scale": 10000.0,
+  "metric": "Kaggle R2",
+  "train_only_features": [
+    "airline_fixed",
+    "flight",
+    "flight_prefix",
+    "source_city",
+    "destination_city",
+    "departure_time",
+    "arrival_time",
+    "stops",
+    "flight_class",
+    "route",
+    "route_stops",
+    "route_class",
+    "prefix_class",
+    "dep_arr",
+    "duration_filled",
+    "duration_missing",
+    "days_left",
+    "flight_number",
+    "airline_missing",
+    "stops_numeric"
+  ],
+  "configs": {
+    "extra_trees_A_450": {
+      "family": "ExtraTrees",
+      "n_estimators": 450,
+      "max_depth": 14,
+      "min_samples_leaf": 5,
+      "min_samples_split": 12,
+      "max_features": 0.75,
+      "max_leaf_nodes": 800,
+      "bootstrap": false
+    },
+    "extra_trees_B_550": {
+      "family": "ExtraTrees",
+      "n_estimators": 550,
+      "max_depth": 14,
+      "min_samples_leaf": 5,
+      "min_samples_split": 12,
+      "max_features": 0.75,
+      "max_leaf_nodes": 800,
+      "bootstrap": false
+    },
+    "extra_trees_C_conservative_500": {
+      "family": "ExtraTrees",
+      "n_estimators": 500,
+      "max_depth": 12,
+      "min_samples_leaf": 8,
+      "min_samples_split": 18,
+      "max_features": 0.7,
+      "max_leaf_nodes": 600,
+      "bootstrap": false
+    },
+    "random_forest_A_450": {
+      "family": "RandomForest",
+      "n_estimators": 450,
+      "max_depth": 13,
+      "min_samples_leaf": 5,
+      "min_samples_split": 12,
+      "max_features": 0.8,
+      "max_samples": 0.82,
+      "max_leaf_nodes": 700,
+      "bootstrap": true
+    },
+    "random_forest_B_550": {
+      "family": "RandomForest",
+      "n_estimators": 550,
+      "max_depth": 13,
+      "min_samples_leaf": 5,
+      "min_samples_split": 12,
+      "max_features": 0.8,
+      "max_samples": 0.82,
+      "max_leaf_nodes": 700,
+      "bootstrap": true
+    },
+    "lightgbm_A_450_lr055": {
+      "family": "LightGBM",
+      "n_estimators": 450,
+      "max_depth": 5,
+      "num_leaves": 15,
+      "learning_rate": 0.055,
+      "min_child_samples": 65,
+      "min_split_gain": 0.04,
+      "reg_lambda": 20.0,
+      "reg_alpha": 0.4,
+      "subsample": 0.8,
+      "subsample_freq": 1,
+      "colsample_bytree": 0.8,
+      "max_bin": 127
+    },
+    "lightgbm_B_550_lr035": {
+      "family": "LightGBM",
+      "n_estimators": 550,
+      "max_depth": 5,
+      "num_leaves": 15,
+      "learning_rate": 0.035,
+      "min_child_samples": 65,
+      "min_split_gain": 0.04,
+      "reg_lambda": 20.0,
+      "reg_alpha": 0.4,
+      "subsample": 0.8,
+      "subsample_freq": 1,
+      "colsample_bytree": 0.8,
+      "max_bin": 127
+    }
+  },
+  "quality_evaluation_performed": false,
+  "notes": "All 7 models refit on full supplied training data. No train/validation/test R2, CV, or residual analysis. Test opened only for final inference. The full training-feature mappings were reused from generate_submissions.py."
+}

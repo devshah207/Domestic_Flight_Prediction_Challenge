@@ -1,0 +1,49 @@
+{
+  "folds": [
+    {
+      "fold": 0,
+      "n_fit": 12471,
+      "n_validation": 3118,
+      "group_overlap": 0
+    },
+    {
+      "fold": 1,
+      "n_fit": 12472,
+      "n_validation": 3117,
+      "group_overlap": 0
+    },
+    {
+      "fold": 2,
+      "n_fit": 12470,
+      "n_validation": 3119,
+      "group_overlap": 0
+    },
+    {
+      "fold": 3,
+      "n_fit": 12472,
+      "n_validation": 3117,
+      "group_overlap": 0
+    },
+    {
+      "fold": 4,
+      "n_fit": 12471,
+      "n_validation": 3118,
+      "group_overlap": 0
+    }
+  ],
+  "inner": "first2of5groupsplits;80/20 each",
+  "code_hashes": {
+    "study.py": "577774ae3227d9c1c2540d1a3a8deb1f3634a474e23bb84f10e10cb86d054134",
+    "features.py": "71f5b7d1c96d76d6fef81fb4692c636bc553c31ec5bee123fee64437d23ab62e"
+  },
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "scikit-learn": "1.8.0",
+    "xgboost-cpu": "3.1.1",
+    "lightgbm": "4.6.0",
+    "catboost": "1.2.8",
+    "optuna": "4.6.0"
+  }
+}

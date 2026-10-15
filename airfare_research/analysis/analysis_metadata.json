@@ -1,0 +1,29 @@
+{
+  "train_path": "/workspace/attachments/085aeb37-413d-42c9-bb16-baafd968488d/train.csv",
+  "results_path": "/workspace/airfare_research/results",
+  "completed_runs": [
+    "flight_20261015_baseline",
+    "iid_20261015_baseline",
+    "raw_20261015_baseline",
+    "raw_20261015_baseline_nestedstop",
+    "raw_20261015_blend_equal850",
+    "raw_20261015_duration_schedule",
+    "raw_20261015_native",
+    "raw_20261015_native_nestedstop",
+    "raw_20261015_prefix_duration",
+    "raw_42_baseline",
+    "semantic_20261015_baseline"
+  ],
+  "skipped_incomplete": [],
+  "bootstrap_draws": 2000,
+  "bootstrap_seed": 731,
+  "multiplicity_hypotheses": 3,
+  "exploratory_multiplicity_sensitivity": [
+    4,
+    5,
+    6
+  ],
+  "bonferroni_interval_coverage": 0.9833333333333333,
+  "limitations": "Cluster bootstrap conditions on saved OOF fits; no retraining, selection, or independent-population uncertainty guarantee.",
+  "early_round_metadata": "Actual fold rounds override any summary.parameters.n_estimators=850 default in early-stopped runs."
+}

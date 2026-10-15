@@ -1,0 +1,662 @@
+[
+  {
+    "number": 0,
+    "state": "TrialState.COMPLETE",
+    "value": 129230792.76609254,
+    "parameters": {
+      "feature_mode": "minimal",
+      "depth": 6,
+      "learning_rate": 0.045,
+      "leaves": 32,
+      "row_sample": 0.85,
+      "column_sample": 0.85,
+      "l2": 12.0,
+      "l1": 0.2,
+      "split_gain": 0.04,
+      "min_child": 35
+    },
+    "attributes": {
+      "configuration": {
+        "depth": 6,
+        "learning_rate": 0.045,
+        "leaves": 32,
+        "row_sample": 0.85,
+        "column_sample": 0.85,
+        "l2": 12.0,
+        "l1": 0.2,
+        "split_gain": 0.04,
+        "min_child": 35
+      },
+      "inner_splits": [
+        {
+          "split": 0,
+          "rounds": 734,
+          "n_fit": 9977,
+          "n_tune": 2495,
+          "r2": 0.9183339389143557,
+          "rmse": 11164.614078102823,
+          "mae": 4126.891058959575,
+          "bias": 34.609614089173206
+        },
+        {
+          "split": 1,
+          "rounds": 168,
+          "n_fit": 9977,
+          "n_tune": 2495,
+          "r2": 0.9104717735671425,
+          "rmse": 11567.755962986656,
+          "mae": 4646.075961636142,
+          "bias": 298.43212146529703
+        }
+      ],
+      "mode": "minimal",
+      "seconds": 13.244335471999875,
+      "selected_rounds": 451
+    }
+  },
+  {
+    "number": 1,
+    "state": "TrialState.COMPLETE",
+    "value": 121375447.30414014,
+    "parameters": {
+      "feature_mode": "context",
+      "depth": 6,
+      "learning_rate": 0.045,
+      "leaves": 32,
+      "row_sample": 0.85,
+      "column_sample": 0.85,
+      "l2": 12.0,
+      "l1": 0.2,
+      "split_gain": 0.04,
+      "min_child": 35
+    },
+    "attributes": {
+      "configuration": {
+        "depth": 6,
+        "learning_rate": 0.045,
+        "leaves": 32,
+        "row_sample": 0.85,
+        "column_sample": 0.85,
+        "l2": 12.0,
+        "l1": 0.2,
+        "split_gain": 0.04,
+        "min_child": 35
+      },
+      "inner_splits": [
+        {
+          "split": 0,
+          "rounds": 875,
+          "n_fit": 9977,
+          "n_tune": 2495,
+          "r2": 0.9211254158411475,
+          "rmse": 10972.142827310867,
+          "mae": 3880.831717397969,
+          "bias": -35.817238852255834
+        },
+        {
+          "split": 1,
+          "rounds": 126,
+          "n_fit": 9977,
+          "n_tune": 2495,
+          "r2": 0.9181324530774965,
+          "rmse": 11061.779982686827,
+          "mae": 4378.808134707484,
+          "bias": 167.89490870735855
+        }
+      ],
+      "mode": "context",
+      "seconds": 17.62765017500078,
+      "selected_rounds": 500
+    }
+  },
+  {
+    "number": 2,
+    "state": "TrialState.COMPLETE",
+    "value": 125559875.57071932,
+    "parameters": {
+      "feature_mode": "context",
+      "depth": 5,
+      "learning_rate": 0.03652142969431143,
+      "leaves": 32,
+      "row_sample": 0.7384863410442729,
+      "column_sample": 0.8498387415372989,
+      "l2": 5.143154593074672,
+      "l1": 0.0357550163433851,
+      "split_gain": 0.14323647356708305,
+      "min_child": 41
+    },
+    "attributes": {
+      "configuration": {
+        "depth": 5,
+        "learning_rate": 0.03652142969431143,
+        "leaves": 32,
+        "row_sample": 0.7384863410442729,
+        "column_sample": 0.8498387415372989,
+        "l2": 5.143154593074672,
+        "l1": 0.0357550163433851,
+        "split_gain": 0.14323647356708305,
+        "min_child": 41
+      },
+      "inner_splits": [
+        {
+          "split": 0,
+          "rounds": 1149,
+          "n_fit": 9977,
+          "n_tune": 2495,
+          "r2": 0.9198211098805503,
+          "rmse": 11062.491018632278,
+          "mae": 4003.9370561112437,
+          "bias": -44.65721392837486
+        },
+        {
+          "split": 1,
+          "rounds": 277,
+          "n_fit": 9977,
+          "n_tune": 2495,
+          "r2": 0.913865176056862,
+          "rmse": 11346.411045089051,
+          "mae": 4395.812239228209,
+          "bias": 198.07987777240655
+        }
+      ],
+      "mode": "context",
+      "seconds": 14.638072500999442,
+      "selected_rounds": 713
+    }
+  },
+  {
+    "number": 3,
+    "state": "TrialState.COMPLETE",
+    "value": 124535923.69943377,
+    "parameters": {
+      "feature_mode": "context",
+      "depth": 7,
+      "learning_rate": 0.026430291992279815,
+      "leaves": 24,
+      "row_sample": 0.7366790274928224,
+      "column_sample": 0.9231772497446602,
+      "l2": 12.538551613420001,
+      "l1": 1.430356824079047,
+      "split_gain": 0.18911178760922967,
+      "min_child": 53
+    },
+    "attributes": {
+      "configuration": {
+        "depth": 7,
+        "learning_rate": 0.026430291992279815,
+        "leaves": 24,
+        "row_sample": 0.7366790274928224,
+        "column_sample": 0.9231772497446602,
+        "l2": 12.538551613420001,
+        "l1": 1.430356824079047,
+        "split_gain": 0.18911178760922967,
+        "min_child": 53
+      },
+      "inner_splits": [
+        {
+          "split": 0,
+          "rounds": 1151,
+          "n_fit": 9977,
+          "n_tune": 2495,
+          "r2": 0.9193482073151733,
+          "rmse": 11095.066856860683,
+          "mae": 3930.0829344124804,
+          "bias": -80.91914621918264
+        },
+        {
+          "split": 1,
+          "rounds": 282,
+          "n_fit": 9977,
+          "n_tune": 2495,
+          "r2": 0.9157182605549858,
+          "rmse": 11223.695418206038,
+          "mae": 4364.22153096475,
+          "bias": 255.29626734266483
+        }
+      ],
+      "mode": "context",
+      "seconds": 19.67954323199956,
+      "selected_rounds": 716
+    }
+  },
+  {
+    "number": 4,
+    "state": "TrialState.COMPLETE",
+    "value": 122842461.49554653,
+    "parameters": {
+      "feature_mode": "context",
+      "depth": 5,
+      "learning_rate": 0.04927750827174626,
+      "leaves": 48,
+      "row_sample": 0.7322106690453473,
+      "column_sample": 0.9436712832229761,
+      "l2": 3.17222966929056,
+      "l1": 0.13885351091794723,
+      "split_gain": 0.09047141967507658,
+      "min_child": 17
+    },
+    "attributes": {
+      "configuration": {
+        "depth": 5,
+        "learning_rate": 0.04927750827174626,
+        "leaves": 32,
+        "row_sample": 0.7322106690453473,
+        "column_sample": 0.9436712832229761,
+        "l2": 3.17222966929056,
+        "l1": 0.13885351091794723,
+        "split_gain": 0.09047141967507658,
+        "min_child": 17
+      },
+      "inner_splits": [
+        {
+          "split": 0,
+          "rounds": 612,
+          "n_fit": 9977,
+          "n_tune": 2495,
+          "r2": 0.9190761330563996,
+          "rmse": 11113.765390628532,
+          "mae": 4033.9845393596765,
+          "bias": -16.407166272211242
+        },
+        {
+          "split": 1,
+          "rounds": 557,
+          "n_fit": 9977,
+          "n_tune": 2495,
+          "r2": 0.9182621390312633,
+          "rmse": 11053.015056226084,
+          "mae": 4097.074447978253,
+          "bias": 94.94168575092131
+        }
+      ],
+      "mode": "context",
+      "seconds": 17.794055293999918,
+      "selected_rounds": 584
+    }
+  },
+  {
+    "number": 5,
+    "state": "TrialState.COMPLETE",
+    "value": 132203680.66846679,
+    "parameters": {
+      "feature_mode": "minimal",
+      "depth": 4,
+      "learning_rate": 0.05798616865322991,
+      "leaves": 16,
+      "row_sample": 0.9444216209806365,
+      "column_sample": 0.7291203454268032,
+      "l2": 27.485297200081867,
+      "l1": 0.3331431723170945,
+      "split_gain": 0.006523684776532251,
+      "min_child": 77
+    },
+    "attributes": {
+      "configuration": {
+        "depth": 4,
+        "learning_rate": 0.05798616865322991,
+        "leaves": 16,
+        "row_sample": 0.9444216209806365,
+        "column_sample": 0.7291203454268032,
+        "l2": 27.485297200081867,
+        "l1": 0.3331431723170945,
+        "split_gain": 0.006523684776532251,
+        "min_child": 77
+      },
+      "inner_splits": [
+        {
+          "split": 0,
+          "rounds": 1198,
+          "n_fit": 9977,
+          "n_tune": 2495,
+          "r2": 0.9163387389526061,
+          "rmse": 11300.173569925666,
+          "mae": 4369.445166393598,
+          "bias": 39.429624275103265
+        },
+        {
+          "split": 1,
+          "rounds": 179,
+          "n_fit": 9977,
+          "n_tune": 2495,
+          "r2": 0.9085312062331558,
+          "rmse": 11692.452207577631,
+          "mae": 4969.585802463127,
+          "bias": 326.78072402765275
+        }
+      ],
+      "mode": "minimal",
+      "seconds": 7.807739293999475,
+      "selected_rounds": 688
+    }
+  },
+  {
+    "number": 6,
+    "state": "TrialState.COMPLETE",
+    "value": 122375722.48532057,
+    "parameters": {
+      "feature_mode": "context",
+      "depth": 7,
+      "learning_rate": 0.06829840595603635,
+      "leaves": 32,
+      "row_sample": 0.851400695635326,
+      "column_sample": 0.7767489222122211,
+      "l2": 31.703499627011116,
+      "l1": 0.026214430593288474,
+      "split_gain": 0.013757494538526878,
+      "min_child": 16
+    },
+    "attributes": {
+      "configuration": {
+        "depth": 7,
+        "learning_rate": 0.06829840595603635,
+        "leaves": 32,
+        "row_sample": 0.851400695635326,
+        "column_sample": 0.7767489222122211,
+        "l2": 31.703499627011116,
+        "l1": 0.026214430593288474,
+        "split_gain": 0.013757494538526878,
+        "min_child": 16
+      },
+      "inner_splits": [
+        {
+          "split": 0,
+          "rounds": 562,
+          "n_fit": 9977,
+          "n_tune": 2495,
+          "r2": 0.9182321899810261,
+          "rmse": 11171.566990627187,
+          "mae": 3930.2240945928665,
+          "bias": -15.294829251484913
+        },
+        {
+          "split": 1,
+          "rounds": 98,
+          "n_fit": 9977,
+          "n_tune": 2495,
+          "r2": 0.91974851530046,
+          "rmse": 10952.056242759629,
+          "mae": 4252.075925053651,
+          "bias": 145.86305888994497
+        }
+      ],
+      "mode": "context",
+      "seconds": 12.635503952000363,
+      "selected_rounds": 330
+    }
+  },
+  {
+    "number": 7,
+    "state": "TrialState.COMPLETE",
+    "value": 122659375.38648011,
+    "parameters": {
+      "feature_mode": "context",
+      "depth": 6,
+      "learning_rate": 0.034135667942393304,
+      "leaves": 16,
+      "row_sample": 0.9151485250855405,
+      "column_sample": 0.8038200956846878,
+      "l2": 7.4425796055798985,
+      "l1": 0.7452220599306698,
+      "split_gain": 0.0397938574847453,
+      "min_child": 56
+    },
+    "attributes": {
+      "configuration": {
+        "depth": 6,
+        "learning_rate": 0.034135667942393304,
+        "leaves": 16,
+        "row_sample": 0.9151485250855405,
+        "column_sample": 0.8038200956846878,
+        "l2": 7.4425796055798985,
+        "l1": 0.7452220599306698,
+        "split_gain": 0.0397938574847453,
+        "min_child": 56
+      },
+      "inner_splits": [
+        {
+          "split": 0,
+          "rounds": 1194,
+          "n_fit": 9977,
+          "n_tune": 2495,
+          "r2": 0.9185696218406939,
+          "rmse": 11148.492264015125,
+          "mae": 3994.04122160756,
+          "bias": -70.62658916632493
+        },
+        {
+          "split": 1,
+          "rounds": 169,
+          "n_fit": 9977,
+          "n_tune": 2495,
+          "r2": 0.9190243737378003,
+          "rmse": 11001.35768949247,
+          "mae": 4389.892143117832,
+          "bias": 258.7990060501024
+        }
+      ],
+      "mode": "context",
+      "seconds": 10.465664356000161,
+      "selected_rounds": 681
+    }
+  },
+  {
+    "number": 8,
+    "state": "TrialState.COMPLETE",
+    "value": 136788477.01317424,
+    "parameters": {
+      "feature_mode": "minimal",
+      "depth": 4,
+      "learning_rate": 0.02940762299464944,
+      "leaves": 48,
+      "row_sample": 0.8010185426265375,
+      "column_sample": 0.890783622177373,
+      "l2": 17.857969770863328,
+      "l1": 0.08541500366937649,
+      "split_gain": 0.018647911593308968,
+      "min_child": 30
+    },
+    "attributes": {
+      "configuration": {
+        "depth": 4,
+        "learning_rate": 0.02940762299464944,
+        "leaves": 16,
+        "row_sample": 0.8010185426265375,
+        "column_sample": 0.890783622177373,
+        "l2": 17.857969770863328,
+        "l1": 0.08541500366937649,
+        "split_gain": 0.018647911593308968,
+        "min_child": 30
+      },
+      "inner_splits": [
+        {
+          "split": 0,
+          "rounds": 1199,
+          "n_fit": 9977,
+          "n_tune": 2495,
+          "r2": 0.9154020702177357,
+          "rmse": 11363.255681413179,
+          "mae": 4436.942234851397,
+          "bias": 44.444990611618934
+        },
+        {
+          "split": 1,
+          "rounds": 499,
+          "n_fit": 9977,
+          "n_tune": 2495,
+          "r2": 0.9033527644418118,
+          "rmse": 12018.875752131711,
+          "mae": 5016.385550516577,
+          "bias": 297.59363838866716
+        }
+      ],
+      "mode": "minimal",
+      "seconds": 8.414701880000393,
+      "selected_rounds": 849
+    }
+  },
+  {
+    "number": 9,
+    "state": "TrialState.COMPLETE",
+    "value": 125848144.41298261,
+    "parameters": {
+      "feature_mode": "context",
+      "depth": 6,
+      "learning_rate": 0.05361305190784021,
+      "leaves": 24,
+      "row_sample": 0.8013387523592311,
+      "column_sample": 0.7074380356867374,
+      "l2": 5.9323272638723745,
+      "l1": 0.4068510680021621,
+      "split_gain": 0.05732779054359353,
+      "min_child": 71
+    },
+    "attributes": {
+      "configuration": {
+        "depth": 6,
+        "learning_rate": 0.05361305190784021,
+        "leaves": 24,
+        "row_sample": 0.8013387523592311,
+        "column_sample": 0.7074380356867374,
+        "l2": 5.9323272638723745,
+        "l1": 0.4068510680021621,
+        "split_gain": 0.05732779054359353,
+        "min_child": 71
+      },
+      "inner_splits": [
+        {
+          "split": 0,
+          "rounds": 983,
+          "n_fit": 9977,
+          "n_tune": 2495,
+          "r2": 0.9194202859708749,
+          "rmse": 11090.107907812726,
+          "mae": 3929.2991927117932,
+          "bias": -74.61800484123374
+        },
+        {
+          "split": 1,
+          "rounds": 170,
+          "n_fit": 9977,
+          "n_tune": 2495,
+          "r2": 0.9138887590272305,
+          "rmse": 11344.857664115265,
+          "mae": 4471.372872899524,
+          "bias": 285.03293422245304
+        }
+      ],
+      "mode": "context",
+      "seconds": 11.787317375999919,
+      "selected_rounds": 576
+    }
+  },
+  {
+    "number": 10,
+    "state": "TrialState.COMPLETE",
+    "value": 126480121.83613095,
+    "parameters": {
+      "feature_mode": "minimal",
+      "depth": 7,
+      "learning_rate": 0.03923416963300556,
+      "leaves": 32,
+      "row_sample": 0.874204443586787,
+      "column_sample": 0.7667166924438635,
+      "l2": 19.842219236658014,
+      "l1": 0.06593321644485943,
+      "split_gain": 0.0165457459184646,
+      "min_child": 28
+    },
+    "attributes": {
+      "configuration": {
+        "depth": 7,
+        "learning_rate": 0.03923416963300556,
+        "leaves": 32,
+        "row_sample": 0.874204443586787,
+        "column_sample": 0.7667166924438635,
+        "l2": 19.842219236658014,
+        "l1": 0.06593321644485943,
+        "split_gain": 0.0165457459184646,
+        "min_child": 28
+      },
+      "inner_splits": [
+        {
+          "split": 0,
+          "rounds": 728,
+          "n_fit": 9977,
+          "n_tune": 2495,
+          "r2": 0.9190871126631295,
+          "rmse": 11113.011417065512,
+          "mae": 4083.6284533026715,
+          "bias": 50.06505810589218
+        },
+        {
+          "split": 1,
+          "rounds": 184,
+          "n_fit": 9977,
+          "n_tune": 2495,
+          "r2": 0.9133833379089997,
+          "rmse": 11378.102694053763,
+          "mae": 4552.10197023969,
+          "bias": 309.47269294889634
+        }
+      ],
+      "mode": "minimal",
+      "seconds": 12.794155580999359,
+      "selected_rounds": 456
+    }
+  },
+  {
+    "number": 11,
+    "state": "TrialState.COMPLETE",
+    "value": 120168174.00426942,
+    "parameters": {
+      "feature_mode": "context",
+      "depth": 7,
+      "learning_rate": 0.06939511091337464,
+      "leaves": 32,
+      "row_sample": 0.8785055406582079,
+      "column_sample": 0.7951579086535853,
+      "l2": 34.8846198953133,
+      "l1": 0.032174145214147104,
+      "split_gain": 0.010207182941568855,
+      "min_child": 15
+    },
+    "attributes": {
+      "configuration": {
+        "depth": 7,
+        "learning_rate": 0.06939511091337464,
+        "leaves": 32,
+        "row_sample": 0.8785055406582079,
+        "column_sample": 0.7951579086535853,
+        "l2": 34.8846198953133,
+        "l1": 0.032174145214147104,
+        "split_gain": 0.010207182941568855,
+        "min_child": 15
+      },
+      "inner_splits": [
+        {
+          "split": 0,
+          "rounds": 560,
+          "n_fit": 9977,
+          "n_tune": 2495,
+          "r2": 0.920898020848719,
+          "rmse": 10987.947757847158,
+          "mae": 3845.3877736471654,
+          "bias": -26.64810569129751
+        },
+        {
+          "split": 1,
+          "rounds": 89,
+          "n_fit": 9977,
+          "n_tune": 2495,
+          "r2": 0.9199801313061021,
+          "rmse": 10936.240308230268,
+          "mae": 4227.168535639819,
+          "bias": 148.0130176395442
+        }
+      ],
+      "mode": "context",
+      "seconds": 6.491017307999755,
+      "selected_rounds": 324
+    }
+  }
+]

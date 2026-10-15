@@ -1,0 +1,78 @@
+{
+  "fold": 1,
+  "selected": {
+    "study": "xgb_outer1",
+    "best_trial": 7,
+    "tuning_mse": 105647360.98318323,
+    "mode": "minimal",
+    "configuration": {
+      "depth": 5,
+      "learning_rate": 0.03666571386972559,
+      "leaves": 32,
+      "row_sample": 0.7999072474906403,
+      "column_sample": 0.8752968895913407,
+      "l2": 4.7801788689614195,
+      "l1": 0.100370104525798,
+      "split_gain": 0.015505718329993094,
+      "min_child": 11
+    },
+    "rounds": 812,
+    "inner_splits": [
+      {
+        "split": 0,
+        "rounds": 439,
+        "n_fit": 9977,
+        "n_tune": 2495,
+        "r2": 0.9397949114710944,
+        "rmse": 9495.720062742823,
+        "mae": 3986.40014965367,
+        "bias": -59.181688736244766
+      },
+      {
+        "split": 1,
+        "rounds": 1185,
+        "n_fit": 9977,
+        "n_tune": 2495,
+        "r2": 0.9233893595575329,
+        "rmse": 11005.726802732745,
+        "mae": 4050.750150384406,
+        "bias": -34.6813181432789
+      }
+    ],
+    "trial_count": 12,
+    "raw_optuna_parameters": {
+      "feature_mode": "minimal",
+      "depth": 5,
+      "learning_rate": 0.03666571386972559,
+      "leaves": 32,
+      "row_sample": 0.7999072474906403,
+      "column_sample": 0.8752968895913407,
+      "l2": 4.7801788689614195,
+      "l1": 0.100370104525798,
+      "split_gain": 0.015505718329993094,
+      "min_child": 11
+    },
+    "round_policy": "fresh median of two inner80/20 stops; floor100 ceiling1200; refit100%",
+    "signature": {
+      "code": {
+        "study.py": "577774ae3227d9c1c2540d1a3a8deb1f3634a474e23bb84f10e10cb86d054134",
+        "features.py": "71f5b7d1c96d76d6fef81fb4692c636bc553c31ec5bee123fee64437d23ab62e"
+      },
+      "row_hash": "56b46a72b80d0988c522fdac7d7cc18e46ebb13274c42c0b11c898d81873efdc",
+      "target_hash": "360d96ea53d18e46ebef294c51d1dd41e12ecfe4376243dbe9b7ff84f5e4952c",
+      "seed": 20262021,
+      "family": "xgb",
+      "trials": 12,
+      "cap": 1200,
+      "patience": 70
+    }
+  },
+  "train_r2": 0.9766781963317498,
+  "n_fit": 12472,
+  "n_validation": 3117,
+  "refit_seconds": 3.256257559000005,
+  "r2": 0.9167173525114334,
+  "rmse": 11337.375692057025,
+  "mae": 4070.435097305829,
+  "bias": -31.6616087167891
+}

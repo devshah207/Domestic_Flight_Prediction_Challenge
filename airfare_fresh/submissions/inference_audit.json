@@ -1,0 +1,26 @@
+{
+  "completed_at_utc": "2026-10-15T08:23:45.082665+00:00",
+  "manifest_sha256": "72b4572fb22aac99f0c2d1eed582a098b363467b46e18294b8c33adcec080022",
+  "test_sha256": "fa76192bf0d6c4186011cb594a300dd40c3418655c16a9844840977043907861",
+  "sample_sha256": "4aab67b24e1a4a56327f54084280fad29d33986c0c3ee1387c5b4f8d6588a75b",
+  "test_content_reads": 1,
+  "rows_per_submission": 3898,
+  "checks": [
+    "exact id,price schema",
+    "unique nonmissing ids",
+    "exact sample id order",
+    "3,898 rows",
+    "finite nonnegative prices",
+    "frozen artifact/config/source hashes"
+  ],
+  "submission_sha256": {
+    "submission_xgboost.csv": "778044b25426146c7636cb1e9d377317b2f946c1366516f26c312d487a6a65da",
+    "submission_lightgbm.csv": "0a91366f9929e9ba520853d27af62033fd022d52970514356aec7bf437dab00f",
+    "submission_catboost.csv": "0f46b2f9efc99af5344922ba753d8aea82ad8c344cb5b1e2dde8ad9f3de4029c",
+    "submission_catboost_onehot64.csv": "3c4ef1579da8de8bbef34ec92ed75d4a2d2758875a7682a3e583642dfd46ab9c",
+    "submission_equal_blend.csv": "b0faf8b5e57487e0912b4e165c214d48fdf0a6116576cd3cb33acd6f5b18fe31",
+    "submission_equal_blend_onehot64.csv": "8d6a3dd0a58ab3a3c8103923a557b1d40b497ff384ca0e5119adda82140e91e7"
+  },
+  "model_training_performed": false,
+  "model_changes_after_test_access": false
+}

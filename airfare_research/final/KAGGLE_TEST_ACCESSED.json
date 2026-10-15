@@ -1,0 +1,14 @@
+{
+  "finite_nonnegative_predictions": true,
+  "frozen_manifest_sha256": "c52aee25e651f21496dac62445ad8e33fe7008bf0bacfd636b2ff295c98ce109",
+  "id_alignment_valid": true,
+  "output_sha256": {
+    "xgb850_control_refit.csv": "ce378429319bd3ee3077a584b57ec772f50e29fceb63fb0ef94de20ab9ddcc25"
+  },
+  "rows": 3898,
+  "sample_sha256": "4aab67b24e1a4a56327f54084280fad29d33986c0c3ee1387c5b4f8d6588a75b",
+  "schema_valid": true,
+  "status": "inference_complete",
+  "test_sha256": "fa76192bf0d6c4186011cb594a300dd40c3418655c16a9844840977043907861",
+  "utc": "2026-10-15T06:58:24.423367+00:00"
+}

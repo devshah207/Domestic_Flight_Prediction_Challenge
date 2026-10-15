@@ -1,0 +1,71 @@
+{
+  "family": "cat_onehot64",
+  "base_family": "cat",
+  "interpretation": "Exploratory hybrid procedure: original 12-trial CatBoost configurations are reused; one_hot_max_size alone changes to 64 and rounds are reselected. Earlier outer-fold diagnostics motivated this follow-up, so these reused outer folds are sensitivity evidence, not a pristine independent test.",
+  "training_sha256": "6b0c9793817dc3e1b229ecea9ebbef14eef34452abf05a6f708d197cf6d8cc07",
+  "source_hashes": {
+    "study.py": "577774ae3227d9c1c2540d1a3a8deb1f3634a474e23bb84f10e10cb86d054134",
+    "features.py": "71f5b7d1c96d76d6fef81fb4692c636bc553c31ec5bee123fee64437d23ab62e",
+    "cat_representation.py": "3a2494c7f256b375cf486bf80feba8bc43609f93b36518442a32f3d43628f7ee"
+  },
+  "addendum_sha256": "a283b7253364a55357e0a7948643597b104ada41b79e0841cc462bddb6d6f7c1",
+  "fold_plan_sha256": "e4a911d135df6eb54df4aed391dd968c67c9e54043163559e7fa6f46fd1026c4",
+  "original_final_configuration_sha256": "39b5955f3b29f5d269c2877f5053a6ab642c54f54e8453078481ef9189add808",
+  "original_selected_configurations": {
+    "outer0": {
+      "file": "cat/outer0/cat_outer0_selected.json",
+      "sha256": "5a43bdfa69172f18d7dc041637db8fb5431e9f7aa37e6d9d256baffc30a15455"
+    },
+    "outer1": {
+      "file": "cat/outer1/cat_outer1_selected.json",
+      "sha256": "749e868ee14214157815ca20c3e2a8c84646ae40793e62af1f02bd66b4112374"
+    },
+    "outer2": {
+      "file": "cat/outer2/cat_outer2_selected.json",
+      "sha256": "5531c853951d7e701ef9e4f75a5e4205545a3188a043fae051a74c14ba72e999"
+    },
+    "outer3": {
+      "file": "cat/outer3/cat_outer3_selected.json",
+      "sha256": "b0256b4154e1ca69d08d6bc211eac8a45d624ad676770758ecfc60f5ee3ad091"
+    },
+    "outer4": {
+      "file": "cat/outer4/cat_outer4_selected.json",
+      "sha256": "d87701c92fdc84809fc2398f8701eaeb0da8b6ec01db72cf3acddae0cc5a7746"
+    },
+    "full": {
+      "file": "cat/full_training/cat_full_selected.json",
+      "sha256": "ea6e4c611d316092ebb1fe059cf8623abaaee1b7b70da5d352416e36a8df11bc"
+    }
+  },
+  "original_ctr_metadata": {
+    "one_hot_max_size": 2,
+    "ctr_target_border_count": 1,
+    "max_ctr_complexity": 1,
+    "ctr_leaf_count_limit": 512,
+    "boosting_type": "Plain",
+    "simple_ctr": [
+      "Borders:CtrBorderCount=15:CtrBorderType=Uniform:TargetBorderCount=1:TargetBorderType=MinEntropy:Prior=0/1:Prior=0.5/1:Prior=1/1",
+      "Counter:CtrBorderCount=15:CtrBorderType=Uniform:Prior=0/1"
+    ],
+    "combinations_ctr": [
+      "Borders:CtrBorderCount=15:CtrBorderType=Uniform:TargetBorderCount=1:TargetBorderType=MinEntropy:Prior=0/1:Prior=0.5/1:Prior=1/1",
+      "Counter:CtrBorderCount=15:CtrBorderType=Uniform:Prior=0/1"
+    ]
+  },
+  "one_change": {
+    "one_hot_max_size": {
+      "original": 2,
+      "variant": 64
+    }
+  },
+  "fit_budget": {
+    "outer": 15,
+    "final": 3,
+    "total": 18
+  },
+  "fixed_alternative_blend": {
+    "xgb": 0.3333333333333333,
+    "lgb": 0.3333333333333333,
+    "cat_onehot64": 0.3333333333333333
+  }
+}

@@ -1,0 +1,72 @@
+id,airline,flight,source_city,departure_time,stops,arrival_time,destination_city,flight_class,duration,days_left,price,flight_prefix,route,airline_missing,duration_missing,group_id
+194,Nakatomi Airlines,EY 207,Night City,Early_Morning,one,Late_Night,Hill Valley,Business,,39,81624,EY,Night City -> Hill Valley,False,True,14435275711320258086
+810,Nakatomi Airlines,EY 233,Springfield,Early_Morning,one,Night,Hill Valley,Business,15.92,33,66209,EY,Springfield -> Hill Valley,False,False,5446431129263589304
+821,Nakatomi Airlines,EY 201,Night City,Morning,one,Evening,Los Santos,Economy,8.42,10,40683,EY,Night City -> Los Santos,False,False,13649933027898431246
+1018,Sandpiper Air,QP 1126,Hill Valley,Night,zero,Late_Night,Night City,Economy,2.67,1,9347,QP,Hill Valley -> Night City,False,False,8109284920722607297
+1103,Oceanic Airlines,6E 5386,Night City,Afternoon,zero,Evening,Los Santos,Economy,1.58,10,6220,6E,Night City -> Los Santos,False,False,561020441559857191
+1312,Sandpiper Air,QP 1801,Metropolis,Early_Morning,zero,Morning,Hill Valley,Economy,2.33,21,8543,QP,Metropolis -> Hill Valley,False,False,10462726466108703391
+1574,Stark Aviation,EK 505,Night City,Morning,one,Evening,Hill Valley,Business,9.0,39,153764,EK,Night City -> Hill Valley,False,False,17137189196394861288
+1737,Oceanic Airlines,6E 115,Hill Valley,Night,zero,Late_Night,Night City,Economy,2.75,1,9318,6E,Hill Valley -> Night City,False,False,16168227168226486670
+1740,,AI 427,Metropolis,Morning,zero,Morning,Springfield,Economy,2.83,19,10516,AI,Metropolis -> Springfield,True,False,15473527767058179771
+1771,Oceanic Airlines,6E 5296,Night City,Early_Morning,one,Afternoon,Hill Valley,Business,6.08,20,31770,6E,Night City -> Hill Valley,False,False,6511332241230803194
+1776,Oceanic Airlines,6E 820,Metropolis,Late_Night,zero,Early_Morning,Springfield,Economy,2.92,19,8724,6E,Metropolis -> Springfield,False,False,4466690050840384477
+1777,Wayfarer Aviation,AI 2804,Springfield,Morning,zero,Afternoon,Metropolis,Economy,3.0,34,10788,AI,Springfield -> Metropolis,False,False,8355668979655831196
+2412,Wayfarer Aviation,AI 2472,Hill Valley,Afternoon,zero,Evening,Night City,Economy,3.08,1,16237,AI,Hill Valley -> Night City,False,False,15829517359537776635
+2572,Nakatomi Airlines,EY 233,Springfield,Early_Morning,one,Night,Hill Valley,Business,15.92,33,66193,EY,Springfield -> Hill Valley,False,False,5446431129263589304
+3326,Sandpiper Air,QP 1801,Metropolis,Early_Morning,zero,Morning,Hill Valley,Economy,2.33,22,8406,QP,Metropolis -> Hill Valley,False,False,9899046228351246045
+3351,,6E 5047,Night City,Evening,one,Night,Gotham,Business,4.42,19,23094,6E,Night City -> Gotham,True,False,1367006340291955091
+3558,Oceanic Airlines,6E 5048,Night City,Evening,one,Night,Hill Valley,Business,,39,34318,6E,Night City -> Hill Valley,False,True,17746509013343505173
+3788,Wayfarer Aviation,AI 2768,Hill Valley,Evening,one,Night,Gotham,Business,6.17,30,76282,AI,Hill Valley -> Gotham,False,False,16723420907271634503
+4099,Sandpiper Air,QP 1136,Hill Valley,Early_Morning,zero,Early_Morning,Night City,Economy,2.58,1,10702,QP,Hill Valley -> Night City,False,False,14724018513182027373
+4162,Oceanic Airlines,6E 871,Metropolis,Night,zero,Late_Night,Springfield,Economy,2.92,19,9181,6E,Metropolis -> Springfield,False,False,13409470499532409747
+4516,Sandpiper Air,QP 588,Gotham,Afternoon,one,Late_Night,Hill Valley,Business,11.25,9,75058,QP,Gotham -> Hill Valley,False,False,8918859060875822451
+4631,Oceanic Airlines,6E 6287,Night City,Evening,zero,Night,Hill Valley,Economy,2.92,38,15568,6E,Night City -> Hill Valley,False,False,14625375834312300261
+4650,Wayfarer Aviation,AI 2802,Springfield,Evening,zero,Night,Metropolis,Business,2.83,7,64110,AI,Springfield -> Metropolis,False,False,9675146814976530864
+4718,Nakatomi Airlines,EY 223,Hill Valley,Night,one,Morning,Springfield,Business,11.5,10,92498,EY,Hill Valley -> Springfield,False,False,2365051653336621864
+5255,Sandpiper Air,QP 1126,Hill Valley,Night,zero,Late_Night,Night City,Economy,2.67,1,9667,QP,Hill Valley -> Night City,False,False,8109284920722607297
+5402,,UL 122,Gotham,Morning,two_or_more,Night,Hill Valley,Business,13.42,23,125611,UL,Gotham -> Hill Valley,True,False,16538867924127328859
+5411,Stark Aviation,EK 505,Night City,Morning,one,Evening,Hill Valley,Business,9.0,39,135224,EK,Night City -> Hill Valley,False,False,17137189196394861288
+5421,,6E 5047,Night City,Evening,one,Night,Gotham,Business,4.42,19,23433,6E,Night City -> Gotham,True,False,1367006340291955091
+5841,Wayfarer Aviation,AI 2768,Hill Valley,Evening,one,Night,Gotham,Business,6.17,30,66597,AI,Hill Valley -> Gotham,False,False,16723420907271634503
+6186,Nakatomi Airlines,EY 221,Hill Valley,Late_Night,one,Evening,Los Santos,Economy,15.83,31,33214,EY,Hill Valley -> Los Santos,False,False,15999384868251526112
+6333,Oceanic Airlines,6E 820,Metropolis,Late_Night,zero,Early_Morning,Springfield,Economy,2.92,19,9181,6E,Metropolis -> Springfield,False,False,4466690050840384477
+6443,Nakatomi Airlines,EY 207,Night City,Early_Morning,one,Late_Night,Hill Valley,Business,,39,79560,EY,Night City -> Hill Valley,False,True,14435275711320258086
+6631,,6E 5354,Night City,Afternoon,zero,Evening,Hill Valley,Economy,2.75,38,20923,6E,Night City -> Hill Valley,True,False,3721026235344309333
+6741,Oceanic Airlines,6E 5318,Night City,Morning,zero,Morning,Los Santos,Economy,1.42,10,7375,6E,Night City -> Los Santos,False,False,7505991366402069673
+6820,Oceanic Airlines,6E 5345,Night City,Afternoon,one,Night,Hill Valley,Economy,6.0,38,14204,6E,Night City -> Hill Valley,False,False,16978081252040153793
+7223,Oceanic Airlines,6E 6367,Night City,Early_Morning,zero,Morning,Hill Valley,Economy,,38,20923,6E,Night City -> Hill Valley,False,True,11676260722376189322
+7653,Oceanic Airlines,6E 5386,Night City,Afternoon,zero,Evening,Los Santos,Economy,1.58,10,6535,6E,Night City -> Los Santos,False,False,561020441559857191
+7999,Oceanic Airlines,6E 5239,Night City,Afternoon,zero,Afternoon,Hill Valley,Economy,2.75,38,20923,6E,Night City -> Hill Valley,False,False,8128334389950120933
+8154,Sandpiper Air,QP 1801,Metropolis,Early_Morning,zero,Morning,Hill Valley,Economy,2.33,22,8543,QP,Metropolis -> Hill Valley,False,False,9899046228351246045
+8220,Oceanic Airlines,6E 5071,Night City,Afternoon,one,Night,Gotham,Business,5.83,19,23433,6E,Night City -> Gotham,False,False,5696340506348393308
+8516,,6E 5354,Night City,Afternoon,zero,Evening,Hill Valley,Economy,2.75,38,24178,6E,Night City -> Hill Valley,True,False,3721026235344309333
+8524,Wayfarer Aviation,AI 2804,Springfield,Morning,zero,Afternoon,Metropolis,Economy,3.0,34,9659,AI,Springfield -> Metropolis,False,False,8355668979655831196
+8612,Wayne Enterprises Air,TG 338,Gotham,Late_Night,one,Late_Night,Hill Valley,Business,,23,136895,TG,Gotham -> Hill Valley,False,True,8204842759118621853
+9098,Oceanic Airlines,6E 5329,Night City,Early_Morning,zero,Morning,Hill Valley,Economy,2.75,38,20923,6E,Night City -> Hill Valley,False,False,11736581616125049645
+9198,Oceanic Airlines,6E 5296,Night City,Early_Morning,one,Afternoon,Hill Valley,Business,6.08,20,32124,6E,Night City -> Hill Valley,False,False,6511332241230803194
+9237,Sandpiper Air,QP 1136,Hill Valley,Early_Morning,zero,Early_Morning,Night City,Economy,2.58,1,9832,QP,Hill Valley -> Night City,False,False,14724018513182027373
+9296,Wayfarer Aviation,AI 2472,Hill Valley,Afternoon,zero,Evening,Night City,Economy,3.08,1,13429,AI,Hill Valley -> Night City,False,False,15829517359537776635
+9378,Oceanic Airlines,6E 6287,Night City,Evening,zero,Night,Hill Valley,Economy,2.92,38,22498,6E,Night City -> Hill Valley,False,False,14625375834312300261
+9584,Oceanic Airlines,6E 5214,Gotham,Morning,one,Evening,Hill Valley,Business,7.0,23,40903,6E,Gotham -> Hill Valley,False,False,17804903173064746346
+9687,Oceanic Airlines,6E 5329,Night City,Early_Morning,zero,Morning,Hill Valley,Economy,2.75,38,25858,6E,Night City -> Hill Valley,False,False,11736581616125049645
+9691,Oceanic Airlines,6E 115,Hill Valley,Night,zero,Late_Night,Night City,Economy,2.75,1,8850,6E,Hill Valley -> Night City,False,False,16168227168226486670
+9730,Oceanic Airlines,6E 5048,Night City,Evening,one,Night,Hill Valley,Business,,39,35616,6E,Night City -> Hill Valley,False,True,17746509013343505173
+10203,Oceanic Airlines,6E 6367,Night City,Early_Morning,zero,Morning,Hill Valley,Economy,,38,22498,6E,Night City -> Hill Valley,False,True,11676260722376189322
+10262,Nakatomi Airlines,EY 223,Hill Valley,Night,one,Morning,Springfield,Business,11.5,10,92516,EY,Hill Valley -> Springfield,False,False,2365051653336621864
+10880,Wayfarer Aviation,AI 2802,Springfield,Evening,zero,Night,Metropolis,Business,2.83,7,53892,AI,Springfield -> Metropolis,False,False,9675146814976530864
+11064,Oceanic Airlines,6E 880,Metropolis,Afternoon,zero,Evening,Springfield,Economy,2.92,19,11309,6E,Metropolis -> Springfield,False,False,12666424083096178116
+11287,Nakatomi Airlines,EY 221,Hill Valley,Late_Night,one,Evening,Los Santos,Economy,15.83,31,29915,EY,Hill Valley -> Los Santos,False,False,15999384868251526112
+11838,Oceanic Airlines,6E 5071,Night City,Afternoon,one,Night,Gotham,Business,5.83,19,24215,6E,Night City -> Gotham,False,False,5696340506348393308
+12970,Wayne Enterprises Air,TG 338,Gotham,Late_Night,one,Late_Night,Hill Valley,Business,,23,134819,TG,Gotham -> Hill Valley,False,True,8204842759118621853
+13191,Oceanic Airlines,6E 5345,Night City,Afternoon,one,Night,Hill Valley,Economy,6.0,38,16729,6E,Night City -> Hill Valley,False,False,16978081252040153793
+13270,Oceanic Airlines,6E 5214,Gotham,Morning,one,Evening,Hill Valley,Business,7.0,23,36992,6E,Gotham -> Hill Valley,False,False,17804903173064746346
+13309,,AI 427,Metropolis,Morning,zero,Morning,Springfield,Economy,2.83,19,9497,AI,Metropolis -> Springfield,True,False,15473527767058179771
+13310,Sandpiper Air,QP 1801,Metropolis,Early_Morning,zero,Morning,Hill Valley,Economy,2.33,21,8406,QP,Metropolis -> Hill Valley,False,False,10462726466108703391
+13631,Oceanic Airlines,6E 5318,Night City,Morning,zero,Morning,Los Santos,Economy,1.42,10,6955,6E,Night City -> Los Santos,False,False,7505991366402069673
+13676,Sandpiper Air,QP 588,Gotham,Afternoon,one,Late_Night,Hill Valley,Business,11.25,9,68558,QP,Gotham -> Hill Valley,False,False,8918859060875822451
+13789,Nakatomi Airlines,EY 201,Night City,Morning,one,Evening,Los Santos,Economy,8.42,10,41009,EY,Night City -> Los Santos,False,False,13649933027898431246
+13924,Oceanic Airlines,6E 5239,Night City,Afternoon,zero,Afternoon,Hill Valley,Economy,2.75,38,13468,6E,Night City -> Hill Valley,False,False,8128334389950120933
+13981,Oceanic Airlines,6E 871,Metropolis,Night,zero,Late_Night,Springfield,Economy,2.92,19,9666,6E,Metropolis -> Springfield,False,False,13409470499532409747
+14075,,UL 122,Gotham,Morning,two_or_more,Night,Hill Valley,Business,13.42,23,123535,UL,Gotham -> Hill Valley,True,False,16538867924127328859
+14727,Oceanic Airlines,6E 880,Metropolis,Afternoon,zero,Evening,Springfield,Economy,2.92,19,12582,6E,Metropolis -> Springfield,False,False,12666424083096178116
+14822,Stark Aviation,EK 505,Night City,Morning,one,Evening,Hill Valley,Business,9.0,39,135224,EK,Night City -> Hill Valley,False,False,17137189196394861288

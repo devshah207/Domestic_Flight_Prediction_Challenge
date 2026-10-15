@@ -1,0 +1,5 @@
+keys,groups_ge3,rows,weighted_sd,weighted_range,multiple_durations_groups
+flight+route+stops,1076,11682,1.0123924378065594,0.5958868344461565,280
+flight+route+stops+departure_time,1083,11650,0.9981889443756528,0.5668008583690988,268
+flight+route+stops+arrival_time,1084,11540,0.44691373232627124,0.11762738301559793,219
+flight+route+stops+departure_time+arrival_time,1089,11522,0.40092803073421773,0.10730602325985071,208

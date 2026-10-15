@@ -1,0 +1,41 @@
+id,airline,flight,source_city,departure_time,stops,arrival_time,destination_city,flight_class,duration,days_left,price,flight_prefix,route,airline_missing,duration_missing,days_bin,price_cell_demeaned
+463,Wayfarer Aviation,AI 2710,Hill Valley,Night,two_or_more,Afternoon,Los Santos,Business,38.08,17,125127,AI,Hill Valley -> Los Santos,False,False,"(14.0, 21.0]",-1632.3333333333285
+8097,,UL 178,Los Santos,Afternoon,one,Late_Night,Springfield,Economy,36.83,12,24234,UL,Los Santos -> Springfield,True,False,"(7.0, 14.0]",-640.6666666666679
+12290,Ajira Airways,UL 172,Springfield,Night,one,Morning,Los Santos,Business,36.0,13,70418,UL,Springfield -> Los Santos,False,False,"(7.0, 14.0]",-1255.4666666666599
+5743,Wayfarer Aviation,AI 2710,Hill Valley,Night,two_or_more,Morning,Los Santos,Business,34.83,27,125127,AI,Hill Valley -> Los Santos,False,False,"(21.0, 30.0]",-1632.3333333333285
+8298,Wayfarer Aviation,AI 2710,Hill Valley,Night,two_or_more,Morning,Los Santos,Economy,34.83,27,37996,AI,Hill Valley -> Los Santos,False,False,"(21.0, 30.0]",0.0
+9080,Wayfarer Aviation,AI 2710,Hill Valley,Night,two_or_more,Morning,Los Santos,Economy,34.83,27,37996,AI,Hill Valley -> Los Santos,False,False,"(21.0, 30.0]",0.0
+2966,Ajira Airways,UL 178,Los Santos,Afternoon,one,Night,Springfield,Business,30.83,26,70441,UL,Los Santos -> Springfield,False,False,"(21.0, 30.0]",-5691.5
+4913,,UL 174,Springfield,Late_Night,one,Morning,Los Santos,Business,29.92,14,70418,UL,Springfield -> Los Santos,True,False,"(7.0, 14.0]",-1255.4666666666599
+7332,Nakatomi Airlines,EY 223,Hill Valley,Night,one,Late_Night,Metropolis,Business,29.67,15,131136,EY,Hill Valley -> Metropolis,False,False,"(14.0, 21.0]",-9634.0
+12924,Omni Consumer Flights,WY 202,Night City,Morning,one,Afternoon,Springfield,Business,28.08,36,84913,WY,Night City -> Springfield,False,False,"(30.0, 40.0]",0.0
+5596,Ajira Airways,UL 128,Gotham,Afternoon,one,Evening,Los Santos,Economy,27.92,1,42332,UL,Gotham -> Los Santos,False,False,"(-0.001, 3.0]",14570.0
+286,Wayfarer Aviation,AI 2840,Springfield,Night,one,Late_Night,Gotham,Business,26.58,15,57673,AI,Springfield -> Gotham,False,False,"(14.0, 21.0]",-5772.333333333336
+14863,,UL 124,Gotham,Night,two_or_more,Night,Hill Valley,Business,26.08,27,125611,UL,Gotham -> Hill Valley,True,False,"(21.0, 30.0]",-8657.92857142858
+13367,,UL 172,Springfield,Night,two_or_more,Night,Hill Valley,Business,26.0,19,118698,UL,Springfield -> Hill Valley,True,False,"(14.0, 21.0]",-22715.79999999999
+14369,Ajira Airways,UL 128,Gotham,Afternoon,one,Evening,Metropolis,Economy,25.83,22,27837,UL,Gotham -> Metropolis,False,False,"(21.0, 30.0]",-5851.0
+1296,Ajira Airways,UL 196,Metropolis,Evening,one,Night,Gotham,Economy,25.42,44,28644,UL,Metropolis -> Gotham,False,False,"(40.0, 50.0]",-10217.199999999997
+15002,Ajira Airways,UL 196,Metropolis,Evening,one,Night,Gotham,Economy,25.42,44,28644,UL,Metropolis -> Gotham,False,False,"(40.0, 50.0]",-10217.199999999997
+7637,Omni Consumer Flights,WY 252,Gotham,Morning,one,Morning,Springfield,Business,24.92,39,97788,WY,Gotham -> Springfield,False,False,"(30.0, 40.0]",731.3333333333285
+533,,TG 330,Los Santos,Late_Night,one,Late_Night,Night City,Business,24.33,4,113429,TG,Los Santos -> Night City,True,False,"(3.0, 7.0]",0.0
+564,Wayne Enterprises Air,TG 326,Springfield,Late_Night,one,Late_Night,Hill Valley,Business,23.83,19,93867,TG,Springfield -> Hill Valley,False,False,"(14.0, 21.0]",-15458.199999999997
+2305,Wayne Enterprises Air,TG 326,Springfield,Late_Night,one,Late_Night,Hill Valley,Business,23.83,31,121592,TG,Springfield -> Hill Valley,False,False,"(30.0, 40.0]",12266.800000000003
+7114,Wayne Enterprises Air,TG 326,Springfield,Late_Night,one,Late_Night,Hill Valley,Business,23.83,15,91353,TG,Springfield -> Hill Valley,False,False,"(14.0, 21.0]",-17972.199999999997
+10468,Wayne Enterprises Air,TG 326,Springfield,Late_Night,one,Late_Night,Hill Valley,Business,23.83,16,111048,TG,Springfield -> Hill Valley,False,False,"(14.0, 21.0]",1722.800000000003
+12254,Wayne Enterprises Air,TG 326,Springfield,Late_Night,one,Late_Night,Hill Valley,Business,23.83,1,111048,TG,Springfield -> Hill Valley,False,False,"(-0.001, 3.0]",1722.800000000003
+13543,,TG 326,Springfield,Late_Night,one,Late_Night,Hill Valley,Business,23.83,39,137333,TG,Springfield -> Hill Valley,True,False,"(30.0, 40.0]",28007.800000000003
+14407,Wayne Enterprises Air,TG 326,Springfield,Late_Night,one,Late_Night,Hill Valley,Business,23.83,30,111048,TG,Springfield -> Hill Valley,False,False,"(21.0, 30.0]",1722.800000000003
+3325,Ajira Airways,UL 144,Night City,Night,one,Night,Springfield,Business,23.67,5,74064,UL,Night City -> Springfield,False,False,"(3.0, 7.0]",9075.900000000001
+76,Wayne Enterprises Air,TG 330,Los Santos,Late_Night,one,Late_Night,Hill Valley,Business,23.58,13,93906,TG,Los Santos -> Hill Valley,False,False,"(7.0, 14.0]",-19043.5294117647
+206,Wayne Enterprises Air,TG 338,Gotham,Late_Night,one,Late_Night,Hill Valley,Business,23.58,4,100079,TG,Gotham -> Hill Valley,False,False,"(3.0, 7.0]",-20022.53333333334
+2132,Wayne Enterprises Air,TG 330,Los Santos,Late_Night,one,Late_Night,Hill Valley,Business,23.58,2,121631,TG,Los Santos -> Hill Valley,False,False,"(-0.001, 3.0]",8681.470588235301
+2991,Wayne Enterprises Air,TG 330,Los Santos,Late_Night,one,Late_Night,Hill Valley,Business,23.58,12,111087,TG,Los Santos -> Hill Valley,False,False,"(7.0, 14.0]",-1862.529411764699
+3177,Wayne Enterprises Air,TG 330,Los Santos,Late_Night,one,Late_Night,Hill Valley,Economy,23.58,30,32562,TG,Los Santos -> Hill Valley,False,False,"(21.0, 30.0]",-615.0
+3744,Wayne Enterprises Air,TG 338,Gotham,Late_Night,one,Late_Night,Hill Valley,Business,23.58,35,93429,TG,Gotham -> Hill Valley,False,False,"(30.0, 40.0]",-26672.53333333334
+4742,Wayne Enterprises Air,TG 338,Gotham,Late_Night,one,Late_Night,Hill Valley,Business,23.58,33,121154,TG,Gotham -> Hill Valley,False,False,"(30.0, 40.0]",1052.4666666666599
+4973,Wayne Enterprises Air,TG 338,Gotham,Late_Night,one,Late_Night,Hill Valley,Business,23.58,39,136895,TG,Gotham -> Hill Valley,False,False,"(30.0, 40.0]",16793.46666666666
+5113,Wayne Enterprises Air,TG 330,Los Santos,Late_Night,one,Late_Night,Hill Valley,Business,23.58,5,121631,TG,Los Santos -> Hill Valley,False,False,"(3.0, 7.0]",8681.470588235301
+5646,,TG 338,Gotham,Late_Night,one,Late_Night,Hill Valley,Business,23.58,32,136895,TG,Gotham -> Hill Valley,True,False,"(30.0, 40.0]",16793.46666666666
+5852,,TG 330,Los Santos,Late_Night,one,Late_Night,Hill Valley,Business,23.58,21,108534,TG,Los Santos -> Hill Valley,True,False,"(14.0, 21.0]",-4415.529411764699
+6144,Wayne Enterprises Air,TG 330,Los Santos,Late_Night,one,Late_Night,Hill Valley,Business,23.58,27,111087,TG,Los Santos -> Hill Valley,False,False,"(21.0, 30.0]",-1862.529411764699
+7918,Wayne Enterprises Air,TG 338,Gotham,Late_Night,one,Late_Night,Hill Valley,Business,23.58,30,93429,TG,Gotham -> Hill Valley,False,False,"(21.0, 30.0]",-26672.53333333334
