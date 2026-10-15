@@ -1,0 +1,30 @@
+{
+  "started_at_utc": "2026-10-15T11:38:02.868045+00:00",
+  "scheduling_only": true,
+  "changed_model_choices": false,
+  "extra_model_fits": 0,
+  "jobs": [],
+  "sequential_runners_resumed": false,
+  "classic_gradient": {
+    "pid": 18802,
+    "reserved_sequential_prefix_through": "outer0",
+    "parallel_future_scopes": [
+      "outer1",
+      "outer2",
+      "outer3",
+      "outer4",
+      "full_training"
+    ]
+  },
+  "adaboost": {
+    "pid": 18804,
+    "reserved_sequential_prefix_through": "outer0",
+    "parallel_future_scopes": [
+      "outer1",
+      "outer2",
+      "outer3",
+      "outer4",
+      "full_training"
+    ]
+  }
+}

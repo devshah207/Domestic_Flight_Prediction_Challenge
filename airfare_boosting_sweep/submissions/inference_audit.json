@@ -1,0 +1,31 @@
+{
+  "completed_at_utc": "2026-10-15T13:26:59.851048+00:00",
+  "manifest_sha256": "2e9106f4774ecfbb38f3f6999e29141175769aef7e4caae6c33d1814c8ba1d7a",
+  "test_content_reads": 1,
+  "test_sha256": "fa76192bf0d6c4186011cb594a300dd40c3418655c16a9844840977043907861",
+  "sample_sha256": "4aab67b24e1a4a56327f54084280fad29d33986c0c3ee1387c5b4f8d6588a75b",
+  "rows": 3898,
+  "files": {
+    "submission_highround_optuna_xgb.csv": "12f4be31534aca460cc12b40e867865b9edf19f5c9aab3ca6f6bd089d6e0d95b",
+    "submission_highround_optuna_lgb_gbdt.csv": "be32e73fb06591914a3a79005b1db13646ca12873b02e9f9c1aca6aefa9475b2",
+    "submission_highround_optuna_lgb_dart.csv": "cbab4076d081550e7128aa5b7291d6cfda0058795e26bc1890d6c08794e5184c",
+    "submission_highround_optuna_cat_symmetric.csv": "527be08827ec909b8ee0f81c9fb36192adca7420112938dc79422400e2b317ce",
+    "submission_highround_optuna_cat_leafwise.csv": "0530e2e04bffbb9c8086845540eaa12c73dc0e2a77190f0b7367a6dcf4b2f630",
+    "submission_highround_optuna_hist_gradient.csv": "ee992fe1c5779103d878f445087d9547c705fd8886bf277ba1bf6443dc734934",
+    "submission_highround_optuna_classic_gradient.csv": "8b09b831225004e1a750fe9f44013c462bd3986ead2c7f37bc06dc7de1ee54b4",
+    "submission_highround_optuna_adaboost.csv": "1b399e9bea806d1baa3b5ee24ceba893c4a07e02ae38e84638f7a49a699018f4",
+    "submission_highround_optuna_equal_main3.csv": "d760dc717ce581bc146ca8045c643c05a1b259a5d5828573a8fe2b49b4a30e6a",
+    "submission_highround_optuna_equal_dart3.csv": "258b834c89d0607ec3943ef4581eaec9a9ea1163f37c9e91bf01722a5548c451"
+  },
+  "output_count": 10,
+  "checks": [
+    "frozen sources,models,versions,configs,weights",
+    "id,price schema",
+    "exact sample ID order",
+    "unique IDs",
+    "3898 rows",
+    "finite nonnegative prices"
+  ],
+  "model_training_performed": false,
+  "model_changes_after_test_access": false
+}

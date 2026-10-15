@@ -1,0 +1,17 @@
+{
+  "research_optuna_trials": 336,
+  "research_model_fit_attempts": 385,
+  "canonical_registered_research_fits": 384,
+  "duplicate_scheduling_fit_attempts": 1,
+  "scheduling_recovery": "One overlapping LightGBM outer0 trial was recovered at its exact registered parameters and inner rows. See SCHEDULING_RECOVERY.json; no new parameter proposal or outer/test-based model choice.",
+  "outer_refits": 40,
+  "full_refits": 8,
+  "successful_final_api_smoke_fits": 8,
+  "earlier_smoke_fits_before_assertion_repair": 7,
+  "smoke_repair": "Sparse matrix row-count assertion changed from len() to shape[0] before registration; no model-choice change.",
+  "all_trial_seconds": 20300.73958958201,
+  "test_accessed": false,
+  "timing_note": "Trial durations are elapsed wall time, include deliberately suspended runners and CPU contention, overlap across workers, and are not CPU time or additive study wall time.",
+  "user_authorized_aggressive_exploratory_delivery": true,
+  "public_scores_used_for_tuning": false
+}

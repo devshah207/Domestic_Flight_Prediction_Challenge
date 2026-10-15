@@ -1,0 +1,7 @@
+TRIAL hist_gradient full_training 0 R2 0.897426 requested 800 actual 800 seconds 7.11
+TRIAL hist_gradient full_training 1 R2 0.898407 requested 1400 actual 1400 seconds 67.65
+TRIAL hist_gradient full_training 2 R2 0.89878 requested 800 actual 800 seconds 18.19
+TRIAL hist_gradient full_training 3 R2 0.895256 requested 1100 actual 1100 seconds 10.3
+TRIAL hist_gradient full_training 4 R2 0.897476 requested 800 actual 800 seconds 5.12
+TRIAL hist_gradient full_training 5 R2 0.895331 requested 800 actual 800 seconds 8.3
+REGISTERED_SCOPE_COMPLETE hist_gradient full_training

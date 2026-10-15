@@ -1,0 +1,82 @@
+TRIAL xgb outer0 0 R2 0.927938 requested 800 actual 800 seconds 4.79
+TRIAL xgb outer0 1 R2 0.92645 requested 1400 actual 1400 seconds 10.09
+TRIAL xgb outer0 2 R2 0.923491 requested 1400 actual 1400 seconds 13.09
+TRIAL xgb outer0 3 R2 0.926097 requested 800 actual 800 seconds 6.41
+TRIAL xgb outer0 4 R2 0.915078 requested 1100 actual 1100 seconds 3.82
+TRIAL xgb outer0 5 R2 0.927856 requested 800 actual 800 seconds 4.28
+TRIAL xgb outer0 6 R2 0.919547 requested 800 actual 800 seconds 3.55
+TRIAL xgb outer0 7 R2 0.929807 requested 1100 actual 1100 seconds 7.07
+OUTER xgb 0 R2 0.92549 train 0.9892261 actual 1100
+TRIAL xgb outer1 0 R2 0.9375 requested 800 actual 800 seconds 5.22
+TRIAL xgb outer1 1 R2 0.937016 requested 1400 actual 1400 seconds 19.15
+TRIAL xgb outer1 2 R2 0.935227 requested 1400 actual 1400 seconds 6.26
+TRIAL xgb outer1 3 R2 0.935723 requested 1100 actual 1100 seconds 4.95
+TRIAL xgb outer1 4 R2 0.932231 requested 800 actual 800 seconds 2.94
+TRIAL xgb outer1 5 R2 0.935421 requested 800 actual 800 seconds 5.83
+TRIAL xgb outer1 6 R2 0.935608 requested 800 actual 800 seconds 4.98
+TRIAL xgb outer1 7 R2 0.934435 requested 1100 actual 1100 seconds 4.68
+OUTER xgb 1 R2 0.9169715 train 0.9820385 actual 800
+TRIAL xgb outer2 0 R2 0.915587 requested 800 actual 800 seconds 5.52
+TRIAL xgb outer2 1 R2 0.915023 requested 1400 actual 1400 seconds 9.91
+TRIAL xgb outer2 2 R2 0.914064 requested 1400 actual 1400 seconds 22.37
+TRIAL xgb outer2 3 R2 0.911429 requested 800 actual 800 seconds 6.2
+TRIAL xgb outer2 4 R2 0.915119 requested 1100 actual 1100 seconds 8.64
+TRIAL xgb outer2 5 R2 0.926586 requested 800 actual 800 seconds 3.84
+TRIAL xgb outer2 6 R2 0.926134 requested 800 actual 800 seconds 3.03
+TRIAL xgb outer2 7 R2 0.925659 requested 1100 actual 1100 seconds 4.9
+OUTER xgb 2 R2 0.9309937 train 0.9464735 actual 800
+TRIAL xgb outer3 0 R2 0.898019 requested 800 actual 800 seconds 4.89
+TRIAL xgb outer3 1 R2 0.896682 requested 1400 actual 1400 seconds 10.36
+TRIAL xgb outer3 2 R2 0.899482 requested 800 actual 800 seconds 5.73
+TRIAL xgb outer3 3 R2 0.899165 requested 1100 actual 1100 seconds 11.21
+TRIAL xgb outer3 4 R2 0.894666 requested 800 actual 800 seconds 2.78
+TRIAL xgb outer3 5 R2 0.895219 requested 800 actual 800 seconds 5.38
+TRIAL xgb outer3 6 R2 0.893079 requested 1100 actual 1100 seconds 4.03
+TRIAL xgb outer3 7 R2 0.889075 requested 1400 actual 1400 seconds 8.19
+OUTER xgb 3 R2 0.929313 train 0.977501 actual 800
+TRIAL xgb outer4 0 R2 0.906005 requested 800 actual 800 seconds 6.06
+TRIAL xgb outer4 1 R2 0.905414 requested 1400 actual 1400 seconds 11.41
+TRIAL xgb outer4 2 R2 0.904062 requested 1400 actual 1400 seconds 8.8
+TRIAL xgb outer4 3 R2 0.906472 requested 800 actual 800 seconds 3.57
+TRIAL xgb outer4 4 R2 0.912316 requested 1100 actual 1100 seconds 4.78
+TRIAL xgb outer4 5 R2 0.912631 requested 1100 actual 1100 seconds 6.41
+TRIAL xgb outer4 6 R2 0.906275 requested 1100 actual 1100 seconds 4.36
+TRIAL xgb outer4 7 R2 0.90955 requested 1100 actual 1100 seconds 6.7
+OUTER xgb 4 R2 0.9207254 train 0.964466 actual 1100
+TRIAL xgb full_training 0 R2 0.909863 requested 800 actual 800 seconds 6.34
+TRIAL xgb full_training 1 R2 0.910454 requested 1400 actual 1400 seconds 13.59
+TRIAL xgb full_training 2 R2 0.90539 requested 800 actual 800 seconds 4.35
+TRIAL xgb full_training 3 R2 0.898964 requested 1100 actual 1100 seconds 4.67
+TRIAL xgb full_training 4 R2 0.912906 requested 1400 actual 1400 seconds 15.25
+TRIAL xgb full_training 5 R2 0.914426 requested 1400 actual 1400 seconds 8.2
+TRIAL xgb full_training 6 R2 0.914531 requested 1400 actual 1400 seconds 7.96
+TRIAL xgb full_training 7 R2 0.907246 requested 1100 actual 1100 seconds 5.64
+FINAL xgb OOF_R2 0.9246647232078963 rounds 1400
+TRIAL lgb_gbdt outer0 0 R2 0.935511 requested 800 actual 800 seconds 10.98
+TRIAL lgb_gbdt outer0 1 R2 0.935211 requested 1400 actual 1400 seconds 18.1
+Traceback (most recent call last):
+  File "/workspace/Domestic_Flight_Prediction_Challenge/airfare_boosting_sweep/study.py", line 215, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/Domestic_Flight_Prediction_Challenge/airfare_boosting_sweep/study.py", line 212, in main
+    for family in m.FAMILIES if args.family=='all' else [args.family]:run_family(args.train,family)
+                                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/Domestic_Flight_Prediction_Challenge/airfare_boosting_sweep/study.py", line 140, in run_family
+    selected=tune(local,y[tr],family,folder/'tuning',INNER_SEED+i)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/Domestic_Flight_Prediction_Challenge/airfare_boosting_sweep/study.py", line 110, in tune
+    if remaining>0: study.optimize(objective,n_trials=remaining,gc_after_trial=True)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/airfare_research/.venv/lib/python3.12/site-packages/optuna/study/study.py", line 490, in optimize
+    _optimize(
+  File "/workspace/airfare_research/.venv/lib/python3.12/site-packages/optuna/study/_optimize.py", line 67, in _optimize
+    _optimize_sequential(
+  File "/workspace/airfare_research/.venv/lib/python3.12/site-packages/optuna/study/_optimize.py", line 164, in _optimize_sequential
+    frozen_trial_id = _run_trial(study, func, catch)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/airfare_research/.venv/lib/python3.12/site-packages/optuna/study/_optimize.py", line 217, in _run_trial
+    updated_state, values, warning_message = _tell_with_warning(
+                                             ^^^^^^^^^^^^^^^^^^^
+  File "/workspace/airfare_research/.venv/lib/python3.12/site-packages/optuna/study/_tell.py", line 115, in _tell_with_warning
+    raise ValueError(f"Cannot tell a {frozen_trial.state.name} trial.")
+ValueError: Cannot tell a COMPLETE trial.

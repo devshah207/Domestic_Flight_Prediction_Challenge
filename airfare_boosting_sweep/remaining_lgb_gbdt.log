@@ -1,0 +1,46 @@
+OUTER lgb_gbdt 0 R2 0.9237227 train 0.978426 actual 1400
+TRIAL lgb_gbdt outer1 0 R2 0.934358 requested 800 actual 800 seconds 5.89
+TRIAL lgb_gbdt outer1 1 R2 0.93485 requested 1400 actual 1400 seconds 12.48
+TRIAL lgb_gbdt outer1 2 R2 0.93165 requested 1400 actual 1400 seconds 6.27
+TRIAL lgb_gbdt outer1 3 R2 0.933187 requested 1400 actual 1400 seconds 11.69
+TRIAL lgb_gbdt outer1 4 R2 0.925745 requested 1100 actual 1092 seconds 6.23
+TRIAL lgb_gbdt outer1 5 R2 0.931706 requested 1400 actual 1400 seconds 12.34
+TRIAL lgb_gbdt outer1 6 R2 0.93359 requested 1100 actual 1100 seconds 8.47
+TRIAL lgb_gbdt outer1 7 R2 0.930303 requested 800 actual 800 seconds 3.52
+OUTER lgb_gbdt 1 R2 0.9220431 train 0.9799613 actual 1400
+TRIAL lgb_gbdt outer2 0 R2 0.913745 requested 800 actual 800 seconds 6.71
+TRIAL lgb_gbdt outer2 1 R2 0.913919 requested 1400 actual 1400 seconds 12.08
+TRIAL lgb_gbdt outer2 2 R2 0.920892 requested 800 actual 800 seconds 5.89
+TRIAL lgb_gbdt outer2 3 R2 0.915229 requested 1400 actual 1400 seconds 8.92
+TRIAL lgb_gbdt outer2 4 R2 0.921499 requested 1100 actual 1100 seconds 4.29
+TRIAL lgb_gbdt outer2 5 R2 0.913673 requested 1100 actual 1100 seconds 3.77
+TRIAL lgb_gbdt outer2 6 R2 0.921853 requested 1100 actual 1100 seconds 3.65
+TRIAL lgb_gbdt outer2 7 R2 0.916488 requested 1100 actual 1100 seconds 4.61
+OUTER lgb_gbdt 2 R2 0.9291728 train 0.9525452 actual 1100
+TRIAL lgb_gbdt outer3 0 R2 0.906052 requested 800 actual 800 seconds 4.93
+TRIAL lgb_gbdt outer3 1 R2 0.907922 requested 1400 actual 1400 seconds 11.39
+TRIAL lgb_gbdt outer3 2 R2 0.900189 requested 800 actual 800 seconds 5.22
+TRIAL lgb_gbdt outer3 3 R2 0.903241 requested 1100 actual 1100 seconds 11.34
+TRIAL lgb_gbdt outer3 4 R2 0.905276 requested 1400 actual 1400 seconds 11.97
+TRIAL lgb_gbdt outer3 5 R2 0.907736 requested 1400 actual 1400 seconds 6.46
+TRIAL lgb_gbdt outer3 6 R2 0.906996 requested 1400 actual 1400 seconds 10.69
+TRIAL lgb_gbdt outer3 7 R2 0.906989 requested 1100 actual 1100 seconds 20.59
+OUTER lgb_gbdt 3 R2 0.9302696 train 0.9786837 actual 1400
+TRIAL lgb_gbdt outer4 0 R2 0.90889 requested 800 actual 800 seconds 7.41
+TRIAL lgb_gbdt outer4 1 R2 0.908118 requested 1400 actual 1400 seconds 14.22
+TRIAL lgb_gbdt outer4 2 R2 0.909172 requested 1100 actual 1100 seconds 7.68
+TRIAL lgb_gbdt outer4 3 R2 0.910371 requested 1100 actual 1100 seconds 7.47
+TRIAL lgb_gbdt outer4 4 R2 0.911568 requested 1100 actual 1100 seconds 7.21
+TRIAL lgb_gbdt outer4 5 R2 0.911975 requested 1100 actual 1100 seconds 9.27
+TRIAL lgb_gbdt outer4 6 R2 0.908044 requested 800 actual 800 seconds 6.15
+TRIAL lgb_gbdt outer4 7 R2 0.909044 requested 1400 actual 1400 seconds 10.55
+OUTER lgb_gbdt 4 R2 0.9121676 train 0.9496827 actual 1100
+TRIAL lgb_gbdt full_training 0 R2 0.902178 requested 800 actual 800 seconds 10.58
+TRIAL lgb_gbdt full_training 1 R2 0.904177 requested 1400 actual 1400 seconds 21.02
+TRIAL lgb_gbdt full_training 2 R2 0.901786 requested 800 actual 800 seconds 6.64
+TRIAL lgb_gbdt full_training 3 R2 0.893455 requested 1100 actual 1100 seconds 7.2
+TRIAL lgb_gbdt full_training 4 R2 0.904432 requested 1400 actual 1400 seconds 6.12
+TRIAL lgb_gbdt full_training 5 R2 0.903368 requested 1400 actual 1400 seconds 5.84
+TRIAL lgb_gbdt full_training 6 R2 0.901243 requested 1400 actual 1400 seconds 7.36
+TRIAL lgb_gbdt full_training 7 R2 0.899993 requested 1100 actual 1100 seconds 7.05
+FINAL lgb_gbdt OOF_R2 0.923439938453257 rounds 1400

@@ -4,9 +4,23 @@ Executed airfare regression research, Python implementations, exact model config
 
 **Best user-reported public Kaggle R²: 0.95881**, from `submission_business_augmented_xgb.csv`. See [public submission feedback](PUBLIC_RESULTS.md) for all reported scores and their limitations.
 
-## One exploratory 800-tree candidate
+## Ten new high-round Optuna candidates
 
-The latest experiment supplies exactly one new, more aggressive Business-augmented XGBoost candidate. It keeps the original global branch and fixed 50/50 Business mixture, while replacing the specialist with a fixed 800-tree profile. Validation improved on both reused split seeds, with larger training–validation gaps. The user subsequently reported public Kaggle R² **0.95736**, below the previous best **0.95881** by **0.00145**. The local gain did not transfer to this public split; this candidate does not replace the best public submission. Frozen experiment reports and archives retain the information available when they were created.
+Eight boosting procedures completed 336 Optuna trials with requested budgets of 800, 1,100 or 1,400 rounds, followed by nested training-only validation and full-data refits. Two fixed equal-weight blends bring the delivery to ten CSVs. All requested candidates are supplied, including weaker comparisons; no new public Kaggle scores are known.
+
+- **[Download all ten new CSVs, code, configurations and diagnostics](https://github.com/devshah207/Domestic_Flight_Prediction_Challenge/raw/refs/heads/main/downloads/Airfare_HighRound_Submissions_and_Configs.zip)**
+- [Measured scores, actual tree counts and individual CSV links](airfare_boosting_sweep/README.md)
+- [Exact tuned configurations for every model](airfare_boosting_sweep/MODEL_CONFIGURATIONS.json)
+- [Validation results and error diagnostics](airfare_boosting_sweep/analysis/FINDINGS.md)
+- [Complete experiment including fitted models and trial databases](https://github.com/devshah207/Domestic_Flight_Prediction_Challenge/raw/refs/heads/main/downloads/Airfare_HighRound_Complete.zip)
+
+The new study includes XGBoost, LightGBM GBDT and DART, CatBoost symmetric and Lossguide trees, histogram and classic gradient boosting, and AdaBoost.R2. Its five outer folds evaluate tuning performed solely within each training partition. These folds have informed earlier research, so their scores are comparative evidence rather than a fresh untouched test. High tree counts do not establish a leaderboard gain. The best user-reported public submission remains available above.
+
+The strongest new candidate locally is `equal_dart3` (outer R² **0.927333**), followed by `equal_main3` (**0.927105**). The previous equal-blend64 control scored **0.928594** on the same rows and folds. The new DART blend's gain over the Business control is small and its paired uncertainty interval includes zero. These results do not establish improved generalization. Every new CSV passed the 3,898-row, exact sample-ID order, `id,price` schema and finite nonnegative price checks.
+
+## Previous exploratory 800-tree candidate
+
+The preceding experiment supplies exactly one more aggressive Business-augmented XGBoost candidate. It keeps the original global branch and fixed 50/50 Business mixture, while replacing the specialist with a fixed 800-tree profile. Validation improved on both reused split seeds, with larger training–validation gaps. The user subsequently reported public Kaggle R² **0.95736**, below the previous best **0.95881** by **0.00145**. The local gain did not transfer to this public split; this candidate does not replace the best public submission. Frozen experiment reports and archives retain the information available when they were created.
 
 - **[Download the one new CSV](https://github.com/devshah207/Domestic_Flight_Prediction_Challenge/raw/refs/heads/main/submissions/submission_aggressive_business_xgb800.csv)**
 - [Read validation results and exact settings](airfare_aggressive800/README.md)
@@ -60,7 +74,7 @@ The independent study completed 468 research fits plus three API smoke fits. Fou
 
 ## Complete archives
 
-- [Latest complete code, fitted models and research results](https://github.com/devshah207/Domestic_Flight_Prediction_Challenge/raw/refs/heads/main/downloads/Airfare_Fresh_Optuna_Results.zip)
+- [Original independent study: complete code, fitted models and research results](https://github.com/devshah207/Domestic_Flight_Prediction_Challenge/raw/refs/heads/main/downloads/Airfare_Fresh_Optuna_Results.zip)
 - [Six submissions and configurations](https://github.com/devshah207/Domestic_Flight_Prediction_Challenge/raw/refs/heads/main/downloads/Airfare_Submissions_and_Configs.zip)
 - [Earlier baseline audit and historical research](https://github.com/devshah207/Domestic_Flight_Prediction_Challenge/raw/refs/heads/main/downloads/Airfare_Research_Results.zip)
 

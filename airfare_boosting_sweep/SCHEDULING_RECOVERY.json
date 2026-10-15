@@ -1,0 +1,29 @@
+{
+  "started_at_utc": "2026-10-15T11:34:59.924830+00:00",
+  "cause": "Scheduling race: original all-family runner already entered LGB outer0 before suspension; a worker opened the same scope.",
+  "family": "lgb_gbdt",
+  "scope": "outer0",
+  "trial": 2,
+  "exact_registered_configuration": {
+    "rounds": 1100,
+    "depth": 8,
+    "learning_rate": 0.014107501762884478,
+    "leaves": 64,
+    "l2": 6.249367764316672,
+    "row_sample": 0.7892677017811585,
+    "column_sample": 0.9059532710658817,
+    "min_child": 56,
+    "l1": 0.0011186255741179405,
+    "split_gain": 0.01045638282145014,
+    "cat_smooth": 2.358043066067875
+  },
+  "recovery_changes_no_hyperparameters": true,
+  "outer_validation_or_test_used": false,
+  "duplicate_fit_attempts": 1,
+  "canonical_registered_completed_research_fits": 384,
+  "actual_total_research_fit_attempts": 385,
+  "reproducibility_note": "Trials3 onward in this one scope can reflect asynchronous TPE ordering/restarted sampler; saved trial parameters are the exact record. Other scopes retain their registered seeded procedure.",
+  "completed_at_utc": "2026-10-15T11:35:16.360922+00:00",
+  "recovered_trial_complete": true,
+  "tuning_mse": 103983884.35206053
+}

@@ -1,0 +1,200 @@
+[
+  {
+    "number": 0,
+    "state": "COMPLETE",
+    "value": 183801008.16900468,
+    "parameters": {
+      "rounds": 800,
+      "depth": 6,
+      "leaves": 48,
+      "min_child": 5,
+      "learning_rate": 0.01,
+      "loss": "square",
+      "column_sample": 0.9
+    },
+    "attributes": {
+      "actual_rounds": 800,
+      "configuration": {
+        "rounds": 800,
+        "depth": 6,
+        "leaves": 48,
+        "min_child": 5,
+        "learning_rate": 0.01,
+        "loss": "square",
+        "column_sample": 0.9
+      },
+      "seconds": 66.72460018600032,
+      "tuning_metrics": {
+        "r2": 0.885589292855808,
+        "rmse": 13557.323045830422,
+        "mae": 6082.332916598243,
+        "bias": 796.5919312810114
+      }
+    }
+  },
+  {
+    "number": 1,
+    "state": "COMPLETE",
+    "value": 142504690.2540864,
+    "parameters": {
+      "rounds": 1400,
+      "depth": 8,
+      "leaves": 96,
+      "min_child": 5,
+      "learning_rate": 0.005,
+      "loss": "linear",
+      "column_sample": 0.9
+    },
+    "attributes": {
+      "actual_rounds": 1400,
+      "configuration": {
+        "rounds": 1400,
+        "depth": 8,
+        "leaves": 96,
+        "min_child": 5,
+        "learning_rate": 0.005,
+        "loss": "linear",
+        "column_sample": 0.9
+      },
+      "seconds": 203.71956804900037,
+      "tuning_metrics": {
+        "r2": 0.9112950328958886,
+        "rmse": 11937.532837822328,
+        "mae": 4932.211831392644,
+        "bias": 447.2949459659765
+      }
+    }
+  },
+  {
+    "number": 2,
+    "state": "COMPLETE",
+    "value": 193403111.96937957,
+    "parameters": {
+      "rounds": 800,
+      "depth": 5,
+      "leaves": 64,
+      "min_child": 2,
+      "learning_rate": 0.005096102518126751,
+      "loss": "linear",
+      "column_sample": 0.8382513554494865
+    },
+    "attributes": {
+      "actual_rounds": 800,
+      "configuration": {
+        "rounds": 800,
+        "depth": 5,
+        "leaves": 64,
+        "min_child": 2,
+        "learning_rate": 0.005096102518126751,
+        "loss": "linear",
+        "column_sample": 0.8382513554494865
+      },
+      "seconds": 70.92304737799896,
+      "tuning_metrics": {
+        "r2": 0.8796122664139145,
+        "rmse": 13906.94473884827,
+        "mae": 6302.186458419949,
+        "bias": 796.251199724403
+      }
+    }
+  },
+  {
+    "number": 3,
+    "state": "COMPLETE",
+    "value": 197004613.75378084,
+    "parameters": {
+      "rounds": 1400,
+      "depth": 8,
+      "leaves": 96,
+      "min_child": 14,
+      "learning_rate": 0.05387672618106237,
+      "loss": "linear",
+      "column_sample": 0.979653883212301
+    },
+    "attributes": {
+      "actual_rounds": 1400,
+      "configuration": {
+        "rounds": 1400,
+        "depth": 8,
+        "leaves": 96,
+        "min_child": 14,
+        "learning_rate": 0.05387672618106237,
+        "loss": "linear",
+        "column_sample": 0.979653883212301
+      },
+      "seconds": 249.93893541100078,
+      "tuning_metrics": {
+        "r2": 0.8773704377643375,
+        "rmse": 14035.83320482902,
+        "mae": 7955.544266909135,
+        "bias": 4290.17490898329
+      }
+    }
+  },
+  {
+    "number": 4,
+    "state": "COMPLETE",
+    "value": 142070331.13365284,
+    "parameters": {
+      "rounds": 1100,
+      "depth": 8,
+      "leaves": 96,
+      "min_child": 9,
+      "learning_rate": 0.003111729417761291,
+      "loss": "linear",
+      "column_sample": 0.9267138036508901
+    },
+    "attributes": {
+      "actual_rounds": 1100,
+      "configuration": {
+        "rounds": 1100,
+        "depth": 8,
+        "leaves": 96,
+        "min_child": 9,
+        "learning_rate": 0.003111729417761291,
+        "loss": "linear",
+        "column_sample": 0.9267138036508901
+      },
+      "seconds": 266.56378520900034,
+      "tuning_metrics": {
+        "r2": 0.9115654086387553,
+        "rmse": 11919.325951313389,
+        "mae": 4796.258982769388,
+        "bias": 291.0534121574117
+      }
+    }
+  },
+  {
+    "number": 5,
+    "state": "COMPLETE",
+    "value": 162082891.53282636,
+    "parameters": {
+      "rounds": 1100,
+      "depth": 7,
+      "leaves": 24,
+      "min_child": 12,
+      "learning_rate": 0.0030202253406786997,
+      "loss": "square",
+      "column_sample": 0.7549537887478599
+    },
+    "attributes": {
+      "actual_rounds": 1100,
+      "configuration": {
+        "rounds": 1100,
+        "depth": 7,
+        "leaves": 24,
+        "min_child": 12,
+        "learning_rate": 0.0030202253406786997,
+        "loss": "square",
+        "column_sample": 0.7549537887478599
+      },
+      "seconds": 71.29255317000025,
+      "tuning_metrics": {
+        "r2": 0.89910817997693,
+        "rmse": 12731.177931865785,
+        "mae": 5787.378261638557,
+        "bias": 298.32418955430177
+      }
+    }
+  }
+]

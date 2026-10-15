@@ -1,0 +1,54 @@
+{
+  "family": "adaboost",
+  "fold": 1,
+  "source_hashes": {
+    "airfare_boosting_sweep/models.py": "828367097b2475c62126fe6f94c577e701a4dee86fb287ef2b59fe8fdf3bbac1",
+    "airfare_boosting_sweep/study.py": "f6c194ec756c6463a605d48454669540716cad4cd1abfa6ce3d2dffea914008f",
+    "airfare_boosting_sweep/PROTOCOL.md": "0ecd08ef074433da1d6ff7781b5c1af35f0ef1c38ebb5fb9da7e4bab07c19769",
+    "airfare_fresh/study.py": "577774ae3227d9c1c2540d1a3a8deb1f3634a474e23bb84f10e10cb86d054134",
+    "airfare_fresh/features.py": "71f5b7d1c96d76d6fef81fb4692c636bc553c31ec5bee123fee64437d23ab62e"
+  },
+  "selection": {
+    "signature": {
+      "source_hashes": {
+        "airfare_boosting_sweep/models.py": "828367097b2475c62126fe6f94c577e701a4dee86fb287ef2b59fe8fdf3bbac1",
+        "airfare_boosting_sweep/study.py": "f6c194ec756c6463a605d48454669540716cad4cd1abfa6ce3d2dffea914008f",
+        "airfare_boosting_sweep/PROTOCOL.md": "0ecd08ef074433da1d6ff7781b5c1af35f0ef1c38ebb5fb9da7e4bab07c19769",
+        "airfare_fresh/study.py": "577774ae3227d9c1c2540d1a3a8deb1f3634a474e23bb84f10e10cb86d054134",
+        "airfare_fresh/features.py": "71f5b7d1c96d76d6fef81fb4692c636bc553c31ec5bee123fee64437d23ab62e"
+      },
+      "row_hash": "56b46a72b80d0988c522fdac7d7cc18e46ebb13274c42c0b11c898d81873efdc",
+      "target_hash": "360d96ea53d18e46ebef294c51d1dd41e12ecfe4376243dbe9b7ff84f5e4952c",
+      "family": "adaboost",
+      "seed": 20264521,
+      "trials": 6
+    },
+    "best_trial": 3,
+    "configuration": {
+      "rounds": 1100,
+      "depth": 8,
+      "leaves": 96,
+      "min_child": 15,
+      "learning_rate": 0.003279439053914554,
+      "loss": "linear",
+      "column_sample": 0.9903788339102175
+    },
+    "tuning_mse": 130255463.76903129,
+    "tuning_actual_rounds": 1100,
+    "trial_count": 6,
+    "n_inner_fit": 9976,
+    "n_inner_validation": 2496,
+    "selection_policy": "lowest single inner80/20 original-price MSE; fixed high round count; fresh outer/full refit"
+  },
+  "r2": 0.9119580303320676,
+  "rmse": 11656.821655512413,
+  "mae": 4755.810505525443,
+  "bias": 172.20597401616413,
+  "train_r2": 0.9433882676974485,
+  "n_fit": 12472,
+  "n_validation": 3117,
+  "group_overlap": 0,
+  "actual_rounds": 1100,
+  "refit_seconds": 346.7465343669992,
+  "execution_helper_sha256": "aaae1da9ef4f873eec28b970ef1e85ba708bf1528b8ec316a10754d177c2db0e"
+}

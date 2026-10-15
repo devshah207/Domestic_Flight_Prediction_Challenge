@@ -1,0 +1,17 @@
+{
+  "all_training_processes_finished_before_test_access": true,
+  "original_all_family_runner_exit_code": 1,
+  "original_runner_terminal_error": "ValueError: Cannot tell a COMPLETE trial.",
+  "explanation": "The suspended original LightGBM trial finished after its exact configuration had already been recovered and marked COMPLETE. Its second completion update was rejected. No further trial suggestions occurred.",
+  "initial_parallel_coordinator_exit_code": 1,
+  "initial_coordinator_explanation": "Detected the already-documented RUNNING-trial collision; all canonical artifacts were recovered and independently audited.",
+  "recovery_wrapper_exit_code": 1,
+  "recovery_wrapper_explanation": "Exact recovery fit and trial completion succeeded; subsequent attempt to signal an already-exited worker raised ProcessLookupError.",
+  "later_scope_scheduler_exit_code": 0,
+  "hist_scheduler_exit_code": 0,
+  "native_scheduler_exit_code": 0,
+  "remaining_family_chain_exit_code": 0,
+  "research_fit_attempts": 385,
+  "canonical_research_fits": 384,
+  "details": "SCHEDULING_RECOVERY.json and saved execution logs"
+}

@@ -1,0 +1,7 @@
+TRIAL hist_gradient outer0 0 R2 0.933077 requested 800 actual 800 seconds 247.2
+TRIAL hist_gradient outer0 1 R2 0.93253 requested 1400 actual 1400 seconds 247.26
+TRIAL hist_gradient outer0 2 R2 0.930052 requested 800 actual 800 seconds 79.7
+TRIAL hist_gradient outer0 3 R2 0.927744 requested 1100 actual 1100 seconds 35.88
+TRIAL hist_gradient outer0 4 R2 0.928852 requested 800 actual 800 seconds 746.17
+TRIAL hist_gradient outer0 5 R2 0.930825 requested 800 actual 800 seconds 16.15
+OUTER hist_gradient 0 R2 0.9312068 train 0.9719408 actual 800

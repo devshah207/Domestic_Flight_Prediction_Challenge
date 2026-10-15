@@ -1,0 +1,56 @@
+{
+  "family": "cat_leafwise",
+  "fold": 2,
+  "source_hashes": {
+    "airfare_boosting_sweep/models.py": "828367097b2475c62126fe6f94c577e701a4dee86fb287ef2b59fe8fdf3bbac1",
+    "airfare_boosting_sweep/study.py": "f6c194ec756c6463a605d48454669540716cad4cd1abfa6ce3d2dffea914008f",
+    "airfare_boosting_sweep/PROTOCOL.md": "0ecd08ef074433da1d6ff7781b5c1af35f0ef1c38ebb5fb9da7e4bab07c19769",
+    "airfare_fresh/study.py": "577774ae3227d9c1c2540d1a3a8deb1f3634a474e23bb84f10e10cb86d054134",
+    "airfare_fresh/features.py": "71f5b7d1c96d76d6fef81fb4692c636bc553c31ec5bee123fee64437d23ab62e"
+  },
+  "selection": {
+    "signature": {
+      "source_hashes": {
+        "airfare_boosting_sweep/models.py": "828367097b2475c62126fe6f94c577e701a4dee86fb287ef2b59fe8fdf3bbac1",
+        "airfare_boosting_sweep/study.py": "f6c194ec756c6463a605d48454669540716cad4cd1abfa6ce3d2dffea914008f",
+        "airfare_boosting_sweep/PROTOCOL.md": "0ecd08ef074433da1d6ff7781b5c1af35f0ef1c38ebb5fb9da7e4bab07c19769",
+        "airfare_fresh/study.py": "577774ae3227d9c1c2540d1a3a8deb1f3634a474e23bb84f10e10cb86d054134",
+        "airfare_fresh/features.py": "71f5b7d1c96d76d6fef81fb4692c636bc553c31ec5bee123fee64437d23ab62e"
+      },
+      "row_hash": "60a27a8390cc639f720fd490389592b0e941af4576f49ee9ed394fc0408609d4",
+      "target_hash": "2a994f6ab2942435ee3e7d699f7524badb621fcc17cd379124b9c81c8a004de4",
+      "family": "cat_leafwise",
+      "seed": 20264522,
+      "trials": 8
+    },
+    "best_trial": 7,
+    "configuration": {
+      "rounds": 1100,
+      "depth": 5,
+      "learning_rate": 0.031932051017275434,
+      "leaves": 32,
+      "l2": 24.75947791931224,
+      "row_sample": 0.995951001365191,
+      "column_sample": 0.7511971814920869,
+      "random_strength": 1.2053366589686116,
+      "one_hot": 64,
+      "min_child": 12
+    },
+    "tuning_mse": 119359596.8010691,
+    "tuning_actual_rounds": 1100,
+    "trial_count": 8,
+    "n_inner_fit": 9976,
+    "n_inner_validation": 2494,
+    "selection_policy": "lowest single inner80/20 original-price MSE; fixed high round count; fresh outer/full refit"
+  },
+  "r2": 0.9248537490335228,
+  "rmse": 10672.915080215715,
+  "mae": 4311.759855318309,
+  "bias": 59.65632040968961,
+  "train_r2": 0.9445435411418405,
+  "n_fit": 12470,
+  "n_validation": 3119,
+  "group_overlap": 0,
+  "actual_rounds": 1100,
+  "refit_seconds": 23.205016634999993
+}

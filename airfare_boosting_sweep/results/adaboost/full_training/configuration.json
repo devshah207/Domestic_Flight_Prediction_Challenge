@@ -1,0 +1,127 @@
+{
+  "family": "adaboost",
+  "selection": {
+    "signature": {
+      "source_hashes": {
+        "airfare_boosting_sweep/models.py": "828367097b2475c62126fe6f94c577e701a4dee86fb287ef2b59fe8fdf3bbac1",
+        "airfare_boosting_sweep/study.py": "f6c194ec756c6463a605d48454669540716cad4cd1abfa6ce3d2dffea914008f",
+        "airfare_boosting_sweep/PROTOCOL.md": "0ecd08ef074433da1d6ff7781b5c1af35f0ef1c38ebb5fb9da7e4bab07c19769",
+        "airfare_fresh/study.py": "577774ae3227d9c1c2540d1a3a8deb1f3634a474e23bb84f10e10cb86d054134",
+        "airfare_fresh/features.py": "71f5b7d1c96d76d6fef81fb4692c636bc553c31ec5bee123fee64437d23ab62e"
+      },
+      "row_hash": "f7fa78494abee12004b24a89237b6e58f1cac30e5673b0ecd25b80e778c5da42",
+      "target_hash": "4b8c38fbfe78ef290a95fdf0ad9acc3f65010f3429e3b3e750bf91c18fd08542",
+      "family": "adaboost",
+      "seed": 20265520,
+      "trials": 6
+    },
+    "best_trial": 3,
+    "configuration": {
+      "rounds": 1100,
+      "depth": 8,
+      "leaves": 96,
+      "min_child": 2,
+      "learning_rate": 0.0034399696665296606,
+      "loss": "linear",
+      "column_sample": 0.9933410489249135
+    },
+    "tuning_mse": 146502312.4944447,
+    "tuning_actual_rounds": 1100,
+    "trial_count": 6,
+    "n_inner_fit": 12471,
+    "n_inner_validation": 3118,
+    "selection_policy": "lowest single inner80/20 original-price MSE; fixed high round count; fresh outer/full refit"
+  },
+  "constructor_parameters": {
+    "n_estimators": 1100,
+    "learning_rate": 0.0034399696665296606,
+    "loss": "linear",
+    "random_state": 42,
+    "base_estimator": {
+      "ccp_alpha": 0.0,
+      "criterion": "squared_error",
+      "max_depth": 8,
+      "max_features": 0.9933410489249135,
+      "max_leaf_nodes": 96,
+      "min_impurity_decrease": 1e-05,
+      "min_samples_leaf": 2,
+      "min_samples_split": 4,
+      "min_weight_fraction_leaf": 0.0,
+      "monotonic_cst": null,
+      "random_state": 42,
+      "splitter": "best"
+    }
+  },
+  "actual_rounds": 1100,
+  "feature_schema": {
+    "mode": "context",
+    "raw_features": [
+      "airline",
+      "flight",
+      "source_city",
+      "departure_time",
+      "stops",
+      "arrival_time",
+      "destination_city",
+      "flight_class",
+      "duration",
+      "days_left"
+    ],
+    "context_features": [
+      "airline",
+      "flight",
+      "source_city",
+      "departure_time",
+      "stops",
+      "arrival_time",
+      "destination_city",
+      "flight_class",
+      "duration",
+      "days_left",
+      "flight_prefix",
+      "airline_missing",
+      "duration_missing",
+      "route",
+      "prefix_class",
+      "stops_numeric",
+      "duration_raw"
+    ],
+    "categorical_features": [
+      "airline",
+      "flight",
+      "source_city",
+      "departure_time",
+      "stops",
+      "arrival_time",
+      "destination_city",
+      "flight_class",
+      "flight_prefix",
+      "route",
+      "prefix_class"
+    ],
+    "numerical_features": [
+      "duration",
+      "days_left",
+      "airline_missing",
+      "duration_missing",
+      "stops_numeric",
+      "duration_raw"
+    ],
+    "representation": "sparse one-hot plus numeric median",
+    "encoded_columns": 1202
+  },
+  "source_hashes": {
+    "airfare_boosting_sweep/models.py": "828367097b2475c62126fe6f94c577e701a4dee86fb287ef2b59fe8fdf3bbac1",
+    "airfare_boosting_sweep/study.py": "f6c194ec756c6463a605d48454669540716cad4cd1abfa6ce3d2dffea914008f",
+    "airfare_boosting_sweep/PROTOCOL.md": "0ecd08ef074433da1d6ff7781b5c1af35f0ef1c38ebb5fb9da7e4bab07c19769",
+    "airfare_fresh/study.py": "577774ae3227d9c1c2540d1a3a8deb1f3634a474e23bb84f10e10cb86d054134",
+    "airfare_fresh/features.py": "71f5b7d1c96d76d6fef81fb4692c636bc553c31ec5bee123fee64437d23ab62e"
+  },
+  "training_sha256": "6b0c9793817dc3e1b229ecea9ebbef14eef34452abf05a6f708d197cf6d8cc07",
+  "training_rows": 15589,
+  "training_r2": 0.9466368345004125,
+  "model_sha256": "8ea3303f76151a8a0b3cef230ff3658b9d793f30065e8ac812392283f3fe4c1a",
+  "target_policy": "price/10000 squared error; inverse10000; clip below0",
+  "test_accessed": false,
+  "execution_helper_sha256": "aaae1da9ef4f873eec28b970ef1e85ba708bf1528b8ec316a10754d177c2db0e"
+}

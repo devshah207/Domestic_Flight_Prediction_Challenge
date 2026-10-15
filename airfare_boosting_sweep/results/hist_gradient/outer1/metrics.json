@@ -1,0 +1,53 @@
+{
+  "family": "hist_gradient",
+  "fold": 1,
+  "source_hashes": {
+    "airfare_boosting_sweep/models.py": "828367097b2475c62126fe6f94c577e701a4dee86fb287ef2b59fe8fdf3bbac1",
+    "airfare_boosting_sweep/study.py": "f6c194ec756c6463a605d48454669540716cad4cd1abfa6ce3d2dffea914008f",
+    "airfare_boosting_sweep/PROTOCOL.md": "0ecd08ef074433da1d6ff7781b5c1af35f0ef1c38ebb5fb9da7e4bab07c19769",
+    "airfare_fresh/study.py": "577774ae3227d9c1c2540d1a3a8deb1f3634a474e23bb84f10e10cb86d054134",
+    "airfare_fresh/features.py": "71f5b7d1c96d76d6fef81fb4692c636bc553c31ec5bee123fee64437d23ab62e"
+  },
+  "selection": {
+    "signature": {
+      "source_hashes": {
+        "airfare_boosting_sweep/models.py": "828367097b2475c62126fe6f94c577e701a4dee86fb287ef2b59fe8fdf3bbac1",
+        "airfare_boosting_sweep/study.py": "f6c194ec756c6463a605d48454669540716cad4cd1abfa6ce3d2dffea914008f",
+        "airfare_boosting_sweep/PROTOCOL.md": "0ecd08ef074433da1d6ff7781b5c1af35f0ef1c38ebb5fb9da7e4bab07c19769",
+        "airfare_fresh/study.py": "577774ae3227d9c1c2540d1a3a8deb1f3634a474e23bb84f10e10cb86d054134",
+        "airfare_fresh/features.py": "71f5b7d1c96d76d6fef81fb4692c636bc553c31ec5bee123fee64437d23ab62e"
+      },
+      "row_hash": "56b46a72b80d0988c522fdac7d7cc18e46ebb13274c42c0b11c898d81873efdc",
+      "target_hash": "360d96ea53d18e46ebef294c51d1dd41e12ecfe4376243dbe9b7ff84f5e4952c",
+      "family": "hist_gradient",
+      "seed": 20264521,
+      "trials": 6
+    },
+    "best_trial": 5,
+    "configuration": {
+      "rounds": 1400,
+      "depth": 8,
+      "learning_rate": 0.012146275508268268,
+      "leaves": 32,
+      "min_child": 49,
+      "l2": 17.53386625311298
+    },
+    "tuning_mse": 104574052.32379524,
+    "tuning_actual_rounds": 1400,
+    "trial_count": 6,
+    "n_inner_fit": 9976,
+    "n_inner_validation": 2496,
+    "selection_policy": "lowest single inner80/20 original-price MSE; fixed high round count; fresh outer/full refit"
+  },
+  "r2": 0.9192827780893751,
+  "rmse": 11161.392482654395,
+  "mae": 3814.094530945749,
+  "bias": 95.59152014176458,
+  "train_r2": 0.9606744292442202,
+  "n_fit": 12472,
+  "n_validation": 3117,
+  "group_overlap": 0,
+  "actual_rounds": 1400,
+  "refit_seconds": 198.51404479300072,
+  "execution_helper_sha256": "aaae1da9ef4f873eec28b970ef1e85ba708bf1528b8ec316a10754d177c2db0e"
+}

@@ -1,0 +1,54 @@
+TRIAL cat_symmetric outer0 0 R2 0.92502 requested 800 actual 800 seconds 6.9
+TRIAL cat_symmetric outer0 1 R2 0.927045 requested 1400 actual 1400 seconds 14.65
+TRIAL cat_symmetric outer0 2 R2 0.90894 requested 1100 actual 1100 seconds 28.35
+TRIAL cat_symmetric outer0 3 R2 0.916022 requested 800 actual 800 seconds 72.15
+TRIAL cat_symmetric outer0 4 R2 0.928664 requested 1400 actual 1400 seconds 71.28
+TRIAL cat_symmetric outer0 5 R2 0.912639 requested 1400 actual 1400 seconds 39.49
+TRIAL cat_symmetric outer0 6 R2 0.927231 requested 1400 actual 1400 seconds 7.11
+TRIAL cat_symmetric outer0 7 R2 0.925731 requested 1100 actual 1100 seconds 11.29
+OUTER cat_symmetric 0 R2 0.9303532 train 0.9652749 actual 1400
+TRIAL cat_symmetric outer1 0 R2 0.930723 requested 800 actual 800 seconds 11.53
+TRIAL cat_symmetric outer1 1 R2 0.933537 requested 1400 actual 1400 seconds 13.93
+TRIAL cat_symmetric outer1 2 R2 0.89981 requested 1400 actual 1400 seconds 100.05
+TRIAL cat_symmetric outer1 3 R2 0.929366 requested 800 actual 800 seconds 8.29
+TRIAL cat_symmetric outer1 4 R2 0.934036 requested 1100 actual 1100 seconds 11.77
+TRIAL cat_symmetric outer1 5 R2 0.911584 requested 1100 actual 1100 seconds 33.93
+TRIAL cat_symmetric outer1 6 R2 0.936037 requested 1100 actual 1100 seconds 9.64
+TRIAL cat_symmetric outer1 7 R2 0.928594 requested 1100 actual 1100 seconds 7.53
+OUTER cat_symmetric 1 R2 0.9145772 train 0.9826243 actual 1100
+TRIAL cat_symmetric outer2 0 R2 0.919477 requested 800 actual 800 seconds 9.19
+TRIAL cat_symmetric outer2 1 R2 0.91962 requested 1400 actual 1400 seconds 10.72
+TRIAL cat_symmetric outer2 2 R2 0.914898 requested 1400 actual 1400 seconds 6.86
+TRIAL cat_symmetric outer2 3 R2 0.920733 requested 800 actual 800 seconds 2.96
+TRIAL cat_symmetric outer2 4 R2 0.90059 requested 1100 actual 1100 seconds 7.5
+TRIAL cat_symmetric outer2 5 R2 0.886093 requested 800 actual 800 seconds 8.54
+TRIAL cat_symmetric outer2 6 R2 0.917685 requested 800 actual 800 seconds 8.18
+TRIAL cat_symmetric outer2 7 R2 0.917621 requested 1100 actual 1100 seconds 7.2
+OUTER cat_symmetric 2 R2 0.9241587 train 0.9471874 actual 800
+TRIAL cat_symmetric outer3 0 R2 0.904517 requested 800 actual 800 seconds 5.29
+TRIAL cat_symmetric outer3 1 R2 0.906538 requested 1400 actual 1400 seconds 14.32
+TRIAL cat_symmetric outer3 2 R2 0.904466 requested 1100 actual 1100 seconds 10.59
+TRIAL cat_symmetric outer3 3 R2 0.899698 requested 1400 actual 1400 seconds 34.4
+TRIAL cat_symmetric outer3 4 R2 0.9015 requested 1400 actual 1400 seconds 14.94
+TRIAL cat_symmetric outer3 5 R2 0.901007 requested 1400 actual 1400 seconds 30.2
+TRIAL cat_symmetric outer3 6 R2 0.886491 requested 800 actual 800 seconds 2.23
+TRIAL cat_symmetric outer3 7 R2 0.907646 requested 1100 actual 1100 seconds 5.35
+OUTER cat_symmetric 3 R2 0.9309969 train 0.9650772 actual 1100
+TRIAL cat_symmetric outer4 0 R2 0.91427 requested 800 actual 800 seconds 5.25
+TRIAL cat_symmetric outer4 1 R2 0.915033 requested 1400 actual 1400 seconds 12.72
+TRIAL cat_symmetric outer4 2 R2 0.897708 requested 1100 actual 1100 seconds 32.64
+TRIAL cat_symmetric outer4 3 R2 0.910457 requested 1100 actual 1100 seconds 5.41
+TRIAL cat_symmetric outer4 4 R2 0.911709 requested 1400 actual 1400 seconds 13.54
+TRIAL cat_symmetric outer4 5 R2 0.898595 requested 1400 actual 1400 seconds 29.67
+TRIAL cat_symmetric outer4 6 R2 0.912176 requested 1400 actual 1400 seconds 16.82
+TRIAL cat_symmetric outer4 7 R2 0.9079 requested 800 actual 800 seconds 9.9
+OUTER cat_symmetric 4 R2 0.9146047 train 0.9542026 actual 1400
+TRIAL cat_symmetric full_training 0 R2 0.908151 requested 800 actual 800 seconds 13.43
+TRIAL cat_symmetric full_training 1 R2 0.909387 requested 1400 actual 1400 seconds 31.8
+TRIAL cat_symmetric full_training 2 R2 0.894153 requested 800 actual 800 seconds 15.6
+TRIAL cat_symmetric full_training 3 R2 0.890638 requested 1100 actual 1100 seconds 18.73
+TRIAL cat_symmetric full_training 4 R2 0.899634 requested 1400 actual 1400 seconds 46.52
+TRIAL cat_symmetric full_training 5 R2 0.908703 requested 1400 actual 1400 seconds 34.13
+TRIAL cat_symmetric full_training 6 R2 0.906267 requested 1400 actual 1400 seconds 28.85
+TRIAL cat_symmetric full_training 7 R2 0.909024 requested 1100 actual 1100 seconds 10.57
+FINAL cat_symmetric OOF_R2 0.9229041807227489 rounds 1400

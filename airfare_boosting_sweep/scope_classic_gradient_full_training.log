@@ -1,0 +1,7 @@
+TRIAL classic_gradient full_training 0 R2 0.900858 requested 800 actual 800 seconds 37.24
+TRIAL classic_gradient full_training 1 R2 0.902535 requested 1400 actual 1400 seconds 75.33
+TRIAL classic_gradient full_training 2 R2 0.902026 requested 800 actual 800 seconds 44.99
+TRIAL classic_gradient full_training 3 R2 0.893367 requested 1400 actual 1400 seconds 23.59
+TRIAL classic_gradient full_training 4 R2 0.906029 requested 1100 actual 1100 seconds 47.94
+TRIAL classic_gradient full_training 5 R2 0.904786 requested 1100 actual 1100 seconds 75.2
+REGISTERED_SCOPE_COMPLETE classic_gradient full_training

@@ -1,0 +1,15 @@
+{
+  "started_at_utc": "2026-10-15T11:59:05.563722+00:00",
+  "family": "hist_gradient",
+  "configuration_changes": false,
+  "extra_model_fits": 0,
+  "jobs": [],
+  "sequential_prefix_through": "outer0",
+  "parallel_future_scopes": [
+    "outer1",
+    "outer2",
+    "outer3",
+    "outer4",
+    "full_training"
+  ]
+}

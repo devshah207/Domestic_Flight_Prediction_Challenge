@@ -1,0 +1,1902 @@
+{
+  "created_at_utc": "2026-10-15T13:27:15.591555+00:00",
+  "files": {
+    "EXPERIMENT_LEDGER.json": {
+      "sha256": "9bf90b5453287b8289b40049f6bd5dabd511e4dcef2888038d8e99bc9f82e6ab",
+      "bytes": 1007
+    },
+    "HIST_SCHEDULING.json": {
+      "sha256": "3a0a063c83c1950f24366d9b92b67646ef84153952702f789c9435a4df28181f",
+      "bytes": 715
+    },
+    "HIST_SCHEDULING_STARTED.json": {
+      "sha256": "c635aebcbb14de3ac4be82929685a4eebb0ca5a3ef701eedbb99547af07a9159",
+      "bytes": 313
+    },
+    "MODEL_CONFIGURATIONS.json": {
+      "sha256": "d57e7ffa9c156ad903bb3b6b2a23e8e03a9237a87f936d4faf746d027d2c8e97",
+      "bytes": 48568
+    },
+    "NATIVE_SCHEDULING.json": {
+      "sha256": "03b178e9f24893a0b0e7e8ef2cb2b3fbee3a77313b7bb49d81c3c270076d5422",
+      "bytes": 496
+    },
+    "PROTOCOL.md": {
+      "sha256": "0ecd08ef074433da1d6ff7781b5c1af35f0ef1c38ebb5fb9da7e4bab07c19769",
+      "bytes": 6521
+    },
+    "README.md": {
+      "sha256": "16da84f5d3df6eec7685a1308c5bcbe2c71324f00b7762f261a6c75e94011c86",
+      "bytes": 6901
+    },
+    "REGISTRATION.json": {
+      "sha256": "8679786f4efe2fd9b48ecb8710a578dbcb3ce54e91a5d7c48b0f507b0e885ace",
+      "bytes": 1877
+    },
+    "RUN_EXIT_STATUS.json": {
+      "sha256": "23eb280cd2dd4c60dad77ed45cccae01033c65645cca96decc9d36cb24157004",
+      "bytes": 1113
+    },
+    "SCHEDULING.json": {
+      "sha256": "1bb92542e44cccac212421472c952d18f00c630c1ae8f09ab748c0531ff18769",
+      "bytes": 585
+    },
+    "SCHEDULING_RECOVERY.json": {
+      "sha256": "6972d659390be94b4c0bfed04f2620a560bb095045a7f3905c6b6866051229ea",
+      "bytes": 1200
+    },
+    "SCOPE_SCHEDULING.json": {
+      "sha256": "ee0de560cc2e7f044543213e2bc6127962a352aa6336cd60246f6bbd9a4fcf83",
+      "bytes": 1629
+    },
+    "SCOPE_SCHEDULING_STARTED.json": {
+      "sha256": "017d776785ea503b6744da6686be636cb09e6704b12918e93d6cc1fa23a71793",
+      "bytes": 636
+    },
+    "TREE_COMPLEXITY_AUDIT.json": {
+      "sha256": "ba62858cf5c324ee96a42fab3bf1eda37ee5863013253eec06c9789d9fd6f11b",
+      "bytes": 2911
+    },
+    "VALIDATION_AUDIT.json": {
+      "sha256": "19a4eceabe6300b26fb8684bdf6e9f4b1c214f6c0deb57bf7d6caf7161802ee0",
+      "bytes": 15939
+    },
+    "analysis/FINDINGS.md": {
+      "sha256": "add4a2dff209db09ba2f03608e7cbef42300ae6a3fbea4586fc8c4b3ebb86542",
+      "bytes": 5612
+    },
+    "analysis/all_trials.csv": {
+      "sha256": "ace441e09f6b1c24696e1d568d8023dcf2571e43796e3a20fb52076c5142d7ff",
+      "bytes": 60702
+    },
+    "analysis/bootstrap_draws.csv": {
+      "sha256": "1eaf5efc0bb13d2879ccf78425dff91d75eeb219041e180b83925be33e72cb36",
+      "bytes": 122897
+    },
+    "analysis/bootstrap_intervals.json": {
+      "sha256": "74acc66383384f2cb67d64534101f72de0801782389d4fe28fc1c81de82ff0f8",
+      "bytes": 22173
+    },
+    "analysis/completion.json": {
+      "sha256": "8ce8df3f6e5ca9bea2c7158456cfceefbf322df861a844681f70f69e892fd624",
+      "bytes": 764
+    },
+    "analysis/fold_metrics.csv": {
+      "sha256": "560f165f526c1c5f1d9c840fe810bc4f853aacfaa47f35ff3c5258a7f7cf02f0",
+      "bytes": 9844
+    },
+    "analysis/model_metrics.csv": {
+      "sha256": "c714069c7921268667f224c62eda41e759f352efe80174f96d604ce144ea897c",
+      "bytes": 3229
+    },
+    "analysis/oof_residual_correlations.csv": {
+      "sha256": "e33ab137c99485ead9d69e952738ec3e3408d36f2a999925d8a20e33f90bd624",
+      "bytes": 3365
+    },
+    "analysis/outer_scores.png": {
+      "sha256": "ffaf550a587246e73cfeb19dd996f558973ed6cdf0d82734cf0232a954f0c6e5",
+      "bytes": 82065
+    },
+    "analysis/subgroup_metrics.csv": {
+      "sha256": "e049661904e78196d721f5acf1af440f4d75473fac05de64e25fe5dfecbe63ad",
+      "bytes": 47563
+    },
+    "analysis/tail_metrics.csv": {
+      "sha256": "60095f089bc9844e37f3e2e5f66cc9dc1e274f90163bf37563ca75f4472f0c38",
+      "bytes": 1220
+    },
+    "analysis/worst_errors.csv": {
+      "sha256": "4842ec4b4f02250d332b7c9891a40ea3f6f50a18c4cc6230ade6f0e454717c11",
+      "bytes": 39459
+    },
+    "analysis.log": {
+      "sha256": "b5fd9415eff006db28ba7e5e4b00d632db8e2647c444930c5086d3e77e4febb0",
+      "bytes": 938
+    },
+    "analyze.py": {
+      "sha256": "76d6cfdae332cc1b7a22a0f207f70953641ac63cab9b1238fd74d7f0b65ae7cd",
+      "bytes": 18136
+    },
+    "api_smoke.json": {
+      "sha256": "24e1e6e928c8307d342dbd3220cbe7e8ca24c9a0b5b79dfc055a78d7cf528a0e",
+      "bytes": 1541
+    },
+    "check_inference.py": {
+      "sha256": "4edb756aa05c17832b703a718f67bfd2255b2a9ee4fbf7ec64a88bd242d32bec",
+      "bytes": 2329
+    },
+    "hist_scheduling.log": {
+      "sha256": "34d99c8c7534697774c5b79261c138cfba67a091bf52ae4bfd5bd040cf190df3",
+      "bytes": 84
+    },
+    "inference.log": {
+      "sha256": "24ab3150bba6f9e5857383486ae34b4fc97076da7d96f615b8fa46bf6741c526",
+      "bytes": 48
+    },
+    "inference.py": {
+      "sha256": "1dbd2513a7591a73b4643f278abd5918c8858a28e326ba5f95af8d6eb9892354",
+      "bytes": 8414
+    },
+    "inference_smoke.json": {
+      "sha256": "7215c1e23d3d7fab3ece0ba9f35df4112edc08eb4c1c581403ac9be5f5654b8a",
+      "bytes": 332
+    },
+    "inspect_models.py": {
+      "sha256": "1af3d4a41748792b11c18fd05f959b4f6c07d6efc6e4072348fc31a1afd828bc",
+      "bytes": 2222
+    },
+    "models.py": {
+      "sha256": "828367097b2475c62126fe6f94c577e701a4dee86fb287ef2b59fe8fdf3bbac1",
+      "bytes": 12876
+    },
+    "native_scheduling.log": {
+      "sha256": "e5d507c20f16082b2f25a308fc8f9cbff2d72bb0c3d63fdd65e973318d077f75",
+      "bytes": 78
+    },
+    "package_results.py": {
+      "sha256": "ac7464753f67164eb88be286dd2cc695bc15e2a28892c541c32420e03b054e63",
+      "bytes": 9743
+    },
+    "parallel_cat_leafwise.log": {
+      "sha256": "c5da84c3381510a2943082bd8f4a20b899c14746789271d009feca28b8746a6c",
+      "bytes": 4262
+    },
+    "parallel_cat_symmetric.log": {
+      "sha256": "b98fc8257cb166624ddd93bc7e07ce562996fd9a300cb32d2a63ba15a0b5ee02",
+      "bytes": 4301
+    },
+    "parallel_hist.py": {
+      "sha256": "4e30ffca2aeed98ef4ed4d2e29acdaed6a9259ecfd4bae8f6294d76dc375a722",
+      "bytes": 2551
+    },
+    "parallel_hist_gradient.log": {
+      "sha256": "af3f7abf66d0aaf9241913342f556507bacb8bd2bf495a6361e37016f1ed355e",
+      "bytes": 546
+    },
+    "parallel_native.py": {
+      "sha256": "c1bdc43f8134ff9a17d1a464b96a2124356282bee61637644bdf9a4fbcddc4c8",
+      "bytes": 2296
+    },
+    "parallel_remaining.py": {
+      "sha256": "7d9b7b49db95cb23888d743aa387c75e2555bac823282966067ada3c41c00aef",
+      "bytes": 2581
+    },
+    "parallel_scopes.py": {
+      "sha256": "c5e2811059a0a7abd716546237967ea97e2954caa507ac903c6f518fe830f512",
+      "bytes": 2585
+    },
+    "recover_scheduling.py": {
+      "sha256": "43b5ce8657ae047ad835c4557df2abd6976e595b07ce1647a41d4289a8436b59",
+      "bytes": 3443
+    },
+    "recovery.log": {
+      "sha256": "b86e04d84fee104f992ade4d61891fb58373599163c4956786368568f2a10643",
+      "bytes": 429
+    },
+    "remaining_cat_leafwise.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "remaining_cat_symmetric.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "remaining_hist_gradient.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "remaining_lgb_dart.log": {
+      "sha256": "a7b3fa75094c0bd201184bb7c74cfed29976ec9c65292ddb5f1ddf9b08ef27be",
+      "bytes": 3123
+    },
+    "remaining_lgb_gbdt.log": {
+      "sha256": "26611af1fe5d78d831be9077a255afd5549b9d6e77ad370c6760225ea6e51d43",
+      "bytes": 3425
+    },
+    "results/adaboost/full_training/configuration.json": {
+      "sha256": "583375313edc045a136d3cb47adb140bd364840b7f47354d305a20e41851272a",
+      "bytes": 4150
+    },
+    "results/adaboost/full_training/model.joblib": {
+      "sha256": "8ea3303f76151a8a0b3cef230ff3658b9d793f30065e8ac812392283f3fe4c1a",
+      "bytes": 4963712
+    },
+    "results/adaboost/full_training/tuning/inner_indices.json": {
+      "sha256": "3d198d19d5cf1b2ea0f0b286ee3c3e4e9988095ce4e80cd96c9d51bf5cbef531",
+      "bytes": 160498
+    },
+    "results/adaboost/full_training/tuning/optuna.sqlite3": {
+      "sha256": "c55c33d922693bbee3c57279815df78629e6dc845bb4cc55fc1244637b161f84",
+      "bytes": 122880
+    },
+    "results/adaboost/full_training/tuning/selection.json": {
+      "sha256": "a831fb4e04bc4194cba1f9430ebc3bd784898aaafb67c6a8dfc4714f5e18fcd2",
+      "bytes": 1306
+    },
+    "results/adaboost/full_training/tuning/trials.json": {
+      "sha256": "10ae2d75749bad409e7167dd30ee7462ead34e23838dbe4876e2a0a8f830915a",
+      "bytes": 4720
+    },
+    "results/adaboost/oof.csv": {
+      "sha256": "af408571c5ce78d26d5ca40b596488a5ba7e1702dbdaf4052430766f083732ff",
+      "bytes": 912759
+    },
+    "results/adaboost/outer0/metrics.json": {
+      "sha256": "fbb15f659dbc8f67b140ef357da51d2e5f19b825618975390051c0337cf3e81e",
+      "bytes": 2218
+    },
+    "results/adaboost/outer0/outer_indices.json": {
+      "sha256": "da8a730220451b74315fc2f56655e4494a091625d731f7acf66b37ecc69410cd",
+      "bytes": 160431
+    },
+    "results/adaboost/outer0/predictions.csv": {
+      "sha256": "4022330063e44aef118a596bb65c014d46d1a2b6b417107bddb67a0194e778ae",
+      "bytes": 72813
+    },
+    "results/adaboost/outer0/train_predictions.npz": {
+      "sha256": "ba76f17e3344833978f8d0c49251a05f40f4960e61d3457a982195395f196858",
+      "bytes": 61401
+    },
+    "results/adaboost/outer0/tuning/inner_indices.json": {
+      "sha256": "9f475a5613ee09a3d6e6f4c5ec18987225a9fd25c5767f81655fbb2851b46d0d",
+      "bytes": 126200
+    },
+    "results/adaboost/outer0/tuning/optuna.sqlite3": {
+      "sha256": "cb76486d4febde65166adb7bfa3dfdf2952026f77151dc92400c2d16e7ceaa7a",
+      "bytes": 122880
+    },
+    "results/adaboost/outer0/tuning/selection.json": {
+      "sha256": "56998fd7f51d3e33d3bc761caef8d93f97837ce46302634ec1ec894da401026a",
+      "bytes": 1275
+    },
+    "results/adaboost/outer0/tuning/trials.json": {
+      "sha256": "38fe723e53a451b1dab004ea491aa66789968a3fc6658d1f69823db949698dc3",
+      "bytes": 4719
+    },
+    "results/adaboost/outer1/metrics.json": {
+      "sha256": "be6e06d436f411312ff81626e441dba6c1385291ddb3fa21e52371419c0492a9",
+      "bytes": 2347
+    },
+    "results/adaboost/outer1/outer_indices.json": {
+      "sha256": "e2ba5d36b026b1b6a3d05afa6ea42bd4e5b240189596135f1295cb8d93be8f61",
+      "bytes": 160431
+    },
+    "results/adaboost/outer1/predictions.csv": {
+      "sha256": "1592b66a9b2b0f632c159ece43595cd4398a4cfed5bb1246a38be484a22018b0",
+      "bytes": 72503
+    },
+    "results/adaboost/outer1/train_predictions.npz": {
+      "sha256": "dffb7bdb3ca57afee93d8ac94589f0bdfa534cdfe08ea6c64bcc15930912738b",
+      "bytes": 62699
+    },
+    "results/adaboost/outer1/tuning/inner_indices.json": {
+      "sha256": "04b09d1332eb9819cd913983ef1ed025c1b6c6588ccc62e21053c6293cbcc5c8",
+      "bytes": 126211
+    },
+    "results/adaboost/outer1/tuning/optuna.sqlite3": {
+      "sha256": "47753ce9b864c03f4a40f0a048e8a474c4920297e7e81668fe5ce41c537a3111",
+      "bytes": 122880
+    },
+    "results/adaboost/outer1/tuning/selection.json": {
+      "sha256": "a0bfa8a1d1f4ef6a6f9aa84fc52540f73d8c04905bf0fb24bb00fc922208e7ab",
+      "bytes": 1306
+    },
+    "results/adaboost/outer1/tuning/trials.json": {
+      "sha256": "410bb460702e541652cb40e953144a3a8f4e14fcf12055f3d10d479e684dbde4",
+      "bytes": 4733
+    },
+    "results/adaboost/outer2/metrics.json": {
+      "sha256": "7505bd351a01a07d2408268c08d8c0f00bc1cd5a1287f3d2f1984f9149a54e9f",
+      "bytes": 2347
+    },
+    "results/adaboost/outer2/outer_indices.json": {
+      "sha256": "8d68b84dcb8a6e78bb8add809c8f88f99f764f0e6d6872347b06bd6180d06d0e",
+      "bytes": 160431
+    },
+    "results/adaboost/outer2/predictions.csv": {
+      "sha256": "da609889cd4e7b9228df0ea78db8e90638a82a1b6ecaee8af84d9edf0f33eb8a",
+      "bytes": 72828
+    },
+    "results/adaboost/outer2/train_predictions.npz": {
+      "sha256": "420ee404688af4bbc5ab710be3191562939428899f32aea571b35e99c9b92743",
+      "bytes": 53281
+    },
+    "results/adaboost/outer2/tuning/inner_indices.json": {
+      "sha256": "99e054f068e484875b7c88ba29d944eb806cb495be8129c4c1e65e3aae7634e8",
+      "bytes": 126189
+    },
+    "results/adaboost/outer2/tuning/optuna.sqlite3": {
+      "sha256": "4aa8f92d9df61d0a50ecc6de0b9a6f0144b6aa7ad037fcb28d43b121c55cbc3c",
+      "bytes": 122880
+    },
+    "results/adaboost/outer2/tuning/selection.json": {
+      "sha256": "f32c87d83171ed0def6e1e4f54bb7fe13d1b0e62b98cb35df3e04a726b7b13a7",
+      "bytes": 1305
+    },
+    "results/adaboost/outer2/tuning/trials.json": {
+      "sha256": "7cee0800a9ac9ae967a9913f67bdda41316fd1200e978e41712a951127425582",
+      "bytes": 4733
+    },
+    "results/adaboost/outer3/metrics.json": {
+      "sha256": "39cd63f446255ceea6c5bcf909486c6f2bba4f383259010b0040f92f2472a321",
+      "bytes": 2344
+    },
+    "results/adaboost/outer3/outer_indices.json": {
+      "sha256": "9b47f9ed8e38d855da548ed0849cae854e23420454b096209db756e1c6f53f47",
+      "bytes": 160431
+    },
+    "results/adaboost/outer3/predictions.csv": {
+      "sha256": "368b280262e8350c9ae305a89d91f997dd3af4e9f984fb4107c53ed47325bce4",
+      "bytes": 73153
+    },
+    "results/adaboost/outer3/train_predictions.npz": {
+      "sha256": "59e3c9c241f45a57a5a2b4d1df5b27c3bda04784ee2ec80ca90cedc2acb5c957",
+      "bytes": 62496
+    },
+    "results/adaboost/outer3/tuning/inner_indices.json": {
+      "sha256": "0b8e97255edaf20419b2d607267e7d6a63dabd7c6e0953867cdf167682d17f60",
+      "bytes": 126211
+    },
+    "results/adaboost/outer3/tuning/optuna.sqlite3": {
+      "sha256": "e9c06f2816ccae68aca9a9276e1e02ef1f04e35a7ece2716bdc4d4a7c0a812d9",
+      "bytes": 122880
+    },
+    "results/adaboost/outer3/tuning/selection.json": {
+      "sha256": "c76d2895bdbe6718c73110bafb3652b26ecdcd56a0f68d15676cc4dc3c9590d0",
+      "bytes": 1305
+    },
+    "results/adaboost/outer3/tuning/trials.json": {
+      "sha256": "a9e83b5147d2e46ae1b54840ffec5757af9b1f84aaee905e4fcc471d2e959755",
+      "bytes": 4731
+    },
+    "results/adaboost/outer4/metrics.json": {
+      "sha256": "b520c2371c7b7d0326e9732b9366560723b6a0077702779c28d5745a22166fef",
+      "bytes": 2346
+    },
+    "results/adaboost/outer4/outer_indices.json": {
+      "sha256": "9718c3125c3e1bc6b7a20cd9daaebdc8b907b6682e3c6380f0cadc8bd06d7086",
+      "bytes": 160431
+    },
+    "results/adaboost/outer4/predictions.csv": {
+      "sha256": "3e5991c28ef741538485ad1bd080f066cbcace24d7274effc6de894a954386c5",
+      "bytes": 72741
+    },
+    "results/adaboost/outer4/train_predictions.npz": {
+      "sha256": "8843353376389f3cba81550af4c98edd7220adae148e4ce1faecdcc90d539252",
+      "bytes": 61329
+    },
+    "results/adaboost/outer4/tuning/inner_indices.json": {
+      "sha256": "7872f489995ecdcafa82aa2c424790e9ce53badac8e88491b96f0102cca8ca77",
+      "bytes": 126200
+    },
+    "results/adaboost/outer4/tuning/optuna.sqlite3": {
+      "sha256": "670ec9f763ce56d294a635ce125ae01b7284ee23e60b0ea9fab929ff64ed701f",
+      "bytes": 122880
+    },
+    "results/adaboost/outer4/tuning/selection.json": {
+      "sha256": "62523e5096b870e17876c68c6702203cae675b04829b1e63f6628072f0041d58",
+      "bytes": 1305
+    },
+    "results/adaboost/outer4/tuning/trials.json": {
+      "sha256": "8af01f06def2765856b1c2540a33eff11cc61f81070611a6f585bd7707373a3a",
+      "bytes": 4721
+    },
+    "results/adaboost/summary.json": {
+      "sha256": "eb082070ec7da2a5a7bcba3b2a337a8419265a6070a22380e7aa74536eced310",
+      "bytes": 13465
+    },
+    "results/cat_leafwise/full_training/configuration.json": {
+      "sha256": "1b408d6f447020dc25000465fe850e7d89a0ae4bee017550140da435de7e2719",
+      "bytes": 5621
+    },
+    "results/cat_leafwise/full_training/model.joblib": {
+      "sha256": "b17c78434252e51582f05b8ca2a1927a33c317f3f3cb08cdefdef1a1d5bc4d53",
+      "bytes": 839207
+    },
+    "results/cat_leafwise/full_training/tuning/inner_indices.json": {
+      "sha256": "3d198d19d5cf1b2ea0f0b286ee3c3e4e9988095ce4e80cd96c9d51bf5cbef531",
+      "bytes": 160498
+    },
+    "results/cat_leafwise/full_training/tuning/optuna.sqlite3": {
+      "sha256": "2741ae94a9c8ca8d48a8994b9498dfc8afb1be91a78b2eec331ef2014d198870",
+      "bytes": 126976
+    },
+    "results/cat_leafwise/full_training/tuning/selection.json": {
+      "sha256": "6ff99aa7bad9f978f13324a39ccd1eaac2640ac0e2899313befa1618363d323b",
+      "bytes": 1344
+    },
+    "results/cat_leafwise/full_training/tuning/trials.json": {
+      "sha256": "40ccf57832d199a9d9eec3aed0839c4a1b340afb7e82bba46ebba0f61597a417",
+      "bytes": 8024
+    },
+    "results/cat_leafwise/oof.csv": {
+      "sha256": "a45333a770ccbcac68d99ab7b7d282e2b2c43c6a047983ae557f2d38f414c970",
+      "bytes": 914648
+    },
+    "results/cat_leafwise/outer0/metrics.json": {
+      "sha256": "8fb13f968df92027c3d57569c4f83da1c784d38a2b192b69e74abcbcad4e4114",
+      "bytes": 2371
+    },
+    "results/cat_leafwise/outer0/outer_indices.json": {
+      "sha256": "da8a730220451b74315fc2f56655e4494a091625d731f7acf66b37ecc69410cd",
+      "bytes": 160431
+    },
+    "results/cat_leafwise/outer0/predictions.csv": {
+      "sha256": "9607357c6a8d4d5381a51f0c1802efeb6abc56336d65ff6291a7247cdc56b26e",
+      "bytes": 73224
+    },
+    "results/cat_leafwise/outer0/train_predictions.npz": {
+      "sha256": "b8ececdf3559bc87172c1a4f56c605c49b5b9ebe3ea45ecfc002c8da7a86d787",
+      "bytes": 110645
+    },
+    "results/cat_leafwise/outer0/tuning/inner_indices.json": {
+      "sha256": "9f475a5613ee09a3d6e6f4c5ec18987225a9fd25c5767f81655fbb2851b46d0d",
+      "bytes": 126200
+    },
+    "results/cat_leafwise/outer0/tuning/optuna.sqlite3": {
+      "sha256": "93556e2ec8d25af862c6c5994122eee12564b685ac1596702fb7ec150317fc92",
+      "bytes": 126976
+    },
+    "results/cat_leafwise/outer0/tuning/selection.json": {
+      "sha256": "36a48c1c1976d20543f2a51acf5ab767b39d6df55f4694194c7b860d4ea6c179",
+      "bytes": 1417
+    },
+    "results/cat_leafwise/outer0/tuning/trials.json": {
+      "sha256": "81df38dda3d2cf345fdc0123a97e488053c5d1e41994a7ec3d101d99cd553a72",
+      "bytes": 8048
+    },
+    "results/cat_leafwise/outer1/metrics.json": {
+      "sha256": "318ad89253e558a2256ad61ed768b880e6072a895215f140bf5e6f2366967a8d",
+      "bytes": 2370
+    },
+    "results/cat_leafwise/outer1/outer_indices.json": {
+      "sha256": "e2ba5d36b026b1b6a3d05afa6ea42bd4e5b240189596135f1295cb8d93be8f61",
+      "bytes": 160431
+    },
+    "results/cat_leafwise/outer1/predictions.csv": {
+      "sha256": "551bb26a5a4715b15f564650600f3e94e3d1941691cad25821b3b686bddc20db",
+      "bytes": 73097
+    },
+    "results/cat_leafwise/outer1/train_predictions.npz": {
+      "sha256": "64c42e334a6a8dfd59c88b587fc50545085272522d6716b5d4c70b6b8905bb3f",
+      "bytes": 111080
+    },
+    "results/cat_leafwise/outer1/tuning/inner_indices.json": {
+      "sha256": "04b09d1332eb9819cd913983ef1ed025c1b6c6588ccc62e21053c6293cbcc5c8",
+      "bytes": 126211
+    },
+    "results/cat_leafwise/outer1/tuning/optuna.sqlite3": {
+      "sha256": "5e4771b3994b72cb5d2265e48199958ce6e34b45098806c944fc05373f79e6f9",
+      "bytes": 126976
+    },
+    "results/cat_leafwise/outer1/tuning/selection.json": {
+      "sha256": "759335c121d51360cd01f56c14e239004e0c1526bcba76faf0bfcb2abff24c28",
+      "bytes": 1417
+    },
+    "results/cat_leafwise/outer1/tuning/trials.json": {
+      "sha256": "e1bf0081e267582b52e91247b0fb99de166a5494ad6efb0aca397c71a11fce85",
+      "bytes": 8039
+    },
+    "results/cat_leafwise/outer2/metrics.json": {
+      "sha256": "1329337094b2aa2faf40734be37fdeee5dbc3c3d24143cbbdbfd3c3fc5c991f4",
+      "bytes": 2369
+    },
+    "results/cat_leafwise/outer2/outer_indices.json": {
+      "sha256": "8d68b84dcb8a6e78bb8add809c8f88f99f764f0e6d6872347b06bd6180d06d0e",
+      "bytes": 160431
+    },
+    "results/cat_leafwise/outer2/predictions.csv": {
+      "sha256": "edc626da39fd585001f8371b545cea2713a0060d78cef4e620da298ec84e2caf",
+      "bytes": 73281
+    },
+    "results/cat_leafwise/outer2/train_predictions.npz": {
+      "sha256": "c53e0b02fee162f0ccbc67777ed188138cf25e25100395e1dce019777ebee8c3",
+      "bytes": 107406
+    },
+    "results/cat_leafwise/outer2/tuning/inner_indices.json": {
+      "sha256": "99e054f068e484875b7c88ba29d944eb806cb495be8129c4c1e65e3aae7634e8",
+      "bytes": 126189
+    },
+    "results/cat_leafwise/outer2/tuning/optuna.sqlite3": {
+      "sha256": "b84a926ba0c97b251f123e6fdf9f97dad270f537a480c10ea24e96f96f17361e",
+      "bytes": 126976
+    },
+    "results/cat_leafwise/outer2/tuning/selection.json": {
+      "sha256": "45a0943b6beff0e9b559db82440a88ea6fdeb40556e46cf0602e66c30863c2e4",
+      "bytes": 1415
+    },
+    "results/cat_leafwise/outer2/tuning/trials.json": {
+      "sha256": "2ce976e9b971c5d5ce915ffec927f89b07a073e52ebc4cae72937c6145b4d8cf",
+      "bytes": 8021
+    },
+    "results/cat_leafwise/outer3/metrics.json": {
+      "sha256": "824de3478aee94adfb544fc2e51334d22ae222f8e9e1023da35cb798626f41ea",
+      "bytes": 2292
+    },
+    "results/cat_leafwise/outer3/outer_indices.json": {
+      "sha256": "9b47f9ed8e38d855da548ed0849cae854e23420454b096209db756e1c6f53f47",
+      "bytes": 160431
+    },
+    "results/cat_leafwise/outer3/predictions.csv": {
+      "sha256": "0ed30ed245f593aeaa1197b7ef40ddf434ac92b4f425e82c385977120a4d444e",
+      "bytes": 73232
+    },
+    "results/cat_leafwise/outer3/train_predictions.npz": {
+      "sha256": "d2f5bc525acdf78767da6a6d2d96ce18a0cbe189f14420759213c5385dff567b",
+      "bytes": 108410
+    },
+    "results/cat_leafwise/outer3/tuning/inner_indices.json": {
+      "sha256": "0b8e97255edaf20419b2d607267e7d6a63dabd7c6e0953867cdf167682d17f60",
+      "bytes": 126211
+    },
+    "results/cat_leafwise/outer3/tuning/optuna.sqlite3": {
+      "sha256": "9ec02595ba0746ffad60a9585897fe71fc63995a307baba1a5fe1622b9ea8660",
+      "bytes": 126976
+    },
+    "results/cat_leafwise/outer3/tuning/selection.json": {
+      "sha256": "435fed51294eef15fbc1c8fe666620825504c7be4bc18db4765da1ad2577b140",
+      "bytes": 1339
+    },
+    "results/cat_leafwise/outer3/tuning/trials.json": {
+      "sha256": "347aaa39c7894f238006d378e88653ea8351325efca6f46ee7f0c3cd753fedd3",
+      "bytes": 8025
+    },
+    "results/cat_leafwise/outer4/metrics.json": {
+      "sha256": "c065f1d3dc31656735532743048a80657622b66b2ec75697fa2c91de49625e0d",
+      "bytes": 2365
+    },
+    "results/cat_leafwise/outer4/outer_indices.json": {
+      "sha256": "9718c3125c3e1bc6b7a20cd9daaebdc8b907b6682e3c6380f0cadc8bd06d7086",
+      "bytes": 160431
+    },
+    "results/cat_leafwise/outer4/predictions.csv": {
+      "sha256": "42d40e30e7a7e4b4192f4197e7335d644201cbdce3fb001493544c915f9b51a7",
+      "bytes": 73183
+    },
+    "results/cat_leafwise/outer4/train_predictions.npz": {
+      "sha256": "6acfcac031b1eb072d942dc7145eb7cc70ffd8cfd49bf39471c5eecc3c46ce81",
+      "bytes": 111474
+    },
+    "results/cat_leafwise/outer4/tuning/inner_indices.json": {
+      "sha256": "7872f489995ecdcafa82aa2c424790e9ce53badac8e88491b96f0102cca8ca77",
+      "bytes": 126200
+    },
+    "results/cat_leafwise/outer4/tuning/optuna.sqlite3": {
+      "sha256": "3b358ff2a78ce1086d745ab9f21e5d59c5cb25445202de672f9673e9edd11a1e",
+      "bytes": 126976
+    },
+    "results/cat_leafwise/outer4/tuning/selection.json": {
+      "sha256": "7b4a459c29c27360967fe658b825251b12690a265de92440cbdfb76f2e5ca1d5",
+      "bytes": 1414
+    },
+    "results/cat_leafwise/outer4/tuning/trials.json": {
+      "sha256": "3ccd825b9e7fba5e4f143cf167d1124928fd9aa990de215b7796f24b4d255e85",
+      "bytes": 8039
+    },
+    "results/cat_leafwise/summary.json": {
+      "sha256": "e5e19fd9b5b168f8a6a15dd5b4d3588b1e41d8da679f66181d0fdfe54327fe30",
+      "bytes": 13679
+    },
+    "results/cat_symmetric/full_training/configuration.json": {
+      "sha256": "457df66df1368cab50f6c5c1259530323375cb223ffd831c7eb71f8a5535a176",
+      "bytes": 5584
+    },
+    "results/cat_symmetric/full_training/model.joblib": {
+      "sha256": "abbc6e3fac1d3f43c204f1b8dd2a401b33b1e065423c02e822e8e52c94ea9ac3",
+      "bytes": 698309
+    },
+    "results/cat_symmetric/full_training/tuning/inner_indices.json": {
+      "sha256": "3d198d19d5cf1b2ea0f0b286ee3c3e4e9988095ce4e80cd96c9d51bf5cbef531",
+      "bytes": 160498
+    },
+    "results/cat_symmetric/full_training/tuning/optuna.sqlite3": {
+      "sha256": "806e3ace497ce165cd45fda74b0c8442bedd33f88fd8f0afe67e3cc481dbdd34",
+      "bytes": 122880
+    },
+    "results/cat_symmetric/full_training/tuning/selection.json": {
+      "sha256": "b94af972f195887e0a354ff613cda74bc842394cc9c3f5d1f02d5f721d0c2950",
+      "bytes": 1306
+    },
+    "results/cat_symmetric/full_training/tuning/trials.json": {
+      "sha256": "d82db566123e4c8d182529ea82859c4a269327a2384891a7cfa7cbef72dd7e3e",
+      "bytes": 7322
+    },
+    "results/cat_symmetric/oof.csv": {
+      "sha256": "41048c633c46762f2c9ea3f2f10b2af2c51f397015d62b44faef17f21f45c396",
+      "bytes": 914866
+    },
+    "results/cat_symmetric/outer0/metrics.json": {
+      "sha256": "7d788b2b10d3613ba1d29a0d8537b2baa2dbdd6776605a4db57f6c4e769bb6b8",
+      "bytes": 2331
+    },
+    "results/cat_symmetric/outer0/outer_indices.json": {
+      "sha256": "da8a730220451b74315fc2f56655e4494a091625d731f7acf66b37ecc69410cd",
+      "bytes": 160431
+    },
+    "results/cat_symmetric/outer0/predictions.csv": {
+      "sha256": "c5c7e471c329986d16d23c3de1433935ddbf0a8b222cfb10fa0755fe5a939c6f",
+      "bytes": 73202
+    },
+    "results/cat_symmetric/outer0/train_predictions.npz": {
+      "sha256": "e8b841752b90a63f1c44231bf90fa37dc0cfbdd4677f12e17f12538e9fba71d5",
+      "bytes": 111791
+    },
+    "results/cat_symmetric/outer0/tuning/inner_indices.json": {
+      "sha256": "9f475a5613ee09a3d6e6f4c5ec18987225a9fd25c5767f81655fbb2851b46d0d",
+      "bytes": 126200
+    },
+    "results/cat_symmetric/outer0/tuning/optuna.sqlite3": {
+      "sha256": "dcec37acf427c6ea250ef7b3044b88fe3703f57e8ec82374f35a9b5d36ea4b43",
+      "bytes": 122880
+    },
+    "results/cat_symmetric/outer0/tuning/selection.json": {
+      "sha256": "6ff8d595e897c7583e13ebe2a110a96bb374ca19893595a313e92895714b85e3",
+      "bytes": 1381
+    },
+    "results/cat_symmetric/outer0/tuning/trials.json": {
+      "sha256": "c58cc718e2050fe8d5164fb31982fdddc884098373a0caf6855d1db86de226dc",
+      "bytes": 7330
+    },
+    "results/cat_symmetric/outer1/metrics.json": {
+      "sha256": "3bf4fc4591358a8e4f32b8b0efb575166c84568946c0ab95e80cc36800b1b5e7",
+      "bytes": 2330
+    },
+    "results/cat_symmetric/outer1/outer_indices.json": {
+      "sha256": "e2ba5d36b026b1b6a3d05afa6ea42bd4e5b240189596135f1295cb8d93be8f61",
+      "bytes": 160431
+    },
+    "results/cat_symmetric/outer1/predictions.csv": {
+      "sha256": "03e6c635a87437375083001564f0a3ebba38c23fe3a45e3bcb344648bb317768",
+      "bytes": 73190
+    },
+    "results/cat_symmetric/outer1/train_predictions.npz": {
+      "sha256": "e9394084f487aec10334207eaae88597ccacda15d7daf749ffe680e7666cdd6c",
+      "bytes": 112824
+    },
+    "results/cat_symmetric/outer1/tuning/inner_indices.json": {
+      "sha256": "04b09d1332eb9819cd913983ef1ed025c1b6c6588ccc62e21053c6293cbcc5c8",
+      "bytes": 126211
+    },
+    "results/cat_symmetric/outer1/tuning/optuna.sqlite3": {
+      "sha256": "fc206081a8fa9604f7b9af0774236aa8004584a975338e7d9e3aebf327605864",
+      "bytes": 122880
+    },
+    "results/cat_symmetric/outer1/tuning/selection.json": {
+      "sha256": "ddc88f7f6705cc369018aea10fbb306cc75f3bc85f37736f3b7a4611a74cb21f",
+      "bytes": 1379
+    },
+    "results/cat_symmetric/outer1/tuning/trials.json": {
+      "sha256": "551b6c74f30571a82fd836fe8dab13ef8f3967620cac839b28dc4015d8d65667",
+      "bytes": 7314
+    },
+    "results/cat_symmetric/outer2/metrics.json": {
+      "sha256": "52eb41c12c1103da5f801948f8c0e4cca2a0e7bf0da363fee991e1e5014c1d7a",
+      "bytes": 2327
+    },
+    "results/cat_symmetric/outer2/outer_indices.json": {
+      "sha256": "8d68b84dcb8a6e78bb8add809c8f88f99f764f0e6d6872347b06bd6180d06d0e",
+      "bytes": 160431
+    },
+    "results/cat_symmetric/outer2/predictions.csv": {
+      "sha256": "76f03d1f22f88a33eaad843d3e37b74594fa28ef573165cfed831425d55ad24e",
+      "bytes": 73319
+    },
+    "results/cat_symmetric/outer2/train_predictions.npz": {
+      "sha256": "a65c4b8878510e5ae8f9b0568925b75cfc6803e75286ca132176d42be2a5d5bc",
+      "bytes": 109972
+    },
+    "results/cat_symmetric/outer2/tuning/inner_indices.json": {
+      "sha256": "99e054f068e484875b7c88ba29d944eb806cb495be8129c4c1e65e3aae7634e8",
+      "bytes": 126189
+    },
+    "results/cat_symmetric/outer2/tuning/optuna.sqlite3": {
+      "sha256": "d1061f6daf211393711117d35b3a7bce04f151a6a3fbb2abddce6fc46e3885b1",
+      "bytes": 122880
+    },
+    "results/cat_symmetric/outer2/tuning/selection.json": {
+      "sha256": "8ff5dbcc9cdca2693b69b245f264cb89cde4a9c7642c6c86e8b24ee086594a06",
+      "bytes": 1376
+    },
+    "results/cat_symmetric/outer2/tuning/trials.json": {
+      "sha256": "9267bd31d6decdf85ebef8c3c57b6d9dbbfc5c42b34d3eddbff3e232111e0a83",
+      "bytes": 7307
+    },
+    "results/cat_symmetric/outer3/metrics.json": {
+      "sha256": "17fba75327004cc0006e736415fb6d79d726ea10c2339a6b02ac0d99bf0ce57d",
+      "bytes": 2329
+    },
+    "results/cat_symmetric/outer3/outer_indices.json": {
+      "sha256": "9b47f9ed8e38d855da548ed0849cae854e23420454b096209db756e1c6f53f47",
+      "bytes": 160431
+    },
+    "results/cat_symmetric/outer3/predictions.csv": {
+      "sha256": "d2b24fc26c27d9a420e0699629625694ee773a26d12e5aedf09f4c3a7faa10a0",
+      "bytes": 73297
+    },
+    "results/cat_symmetric/outer3/train_predictions.npz": {
+      "sha256": "691b3fc7dfc0d082c0de8344b66127e89ea9ea3751448de8decd9392961dee17",
+      "bytes": 112144
+    },
+    "results/cat_symmetric/outer3/tuning/inner_indices.json": {
+      "sha256": "0b8e97255edaf20419b2d607267e7d6a63dabd7c6e0953867cdf167682d17f60",
+      "bytes": 126211
+    },
+    "results/cat_symmetric/outer3/tuning/optuna.sqlite3": {
+      "sha256": "364538b869acf4aa1f9b57fb59087e617e58b99f355f632e3e41db04dcf1a52f",
+      "bytes": 122880
+    },
+    "results/cat_symmetric/outer3/tuning/selection.json": {
+      "sha256": "1865f550d327e171002325f86e8e328f10f07695e6b8534c5d41259b64ecfc5e",
+      "bytes": 1379
+    },
+    "results/cat_symmetric/outer3/tuning/trials.json": {
+      "sha256": "32c18066b56820b07d075a0c3d393eba500abded205c712ff824cbea646d4c93",
+      "bytes": 7318
+    },
+    "results/cat_symmetric/outer4/metrics.json": {
+      "sha256": "991e5442c459b8e64b40bd9e2e51b8782250b2f8525821fc07e33d02ebaf8106",
+      "bytes": 2256
+    },
+    "results/cat_symmetric/outer4/outer_indices.json": {
+      "sha256": "9718c3125c3e1bc6b7a20cd9daaebdc8b907b6682e3c6380f0cadc8bd06d7086",
+      "bytes": 160431
+    },
+    "results/cat_symmetric/outer4/predictions.csv": {
+      "sha256": "835363b16513bbdc15fdd1a92c55c21497bc4639405180626f92940c9b612460",
+      "bytes": 73272
+    },
+    "results/cat_symmetric/outer4/train_predictions.npz": {
+      "sha256": "1584b290b4b3900eeb86e0b36ca5ac8353b29538feb716c4c5cb929fad91bac4",
+      "bytes": 112424
+    },
+    "results/cat_symmetric/outer4/tuning/inner_indices.json": {
+      "sha256": "7872f489995ecdcafa82aa2c424790e9ce53badac8e88491b96f0102cca8ca77",
+      "bytes": 126200
+    },
+    "results/cat_symmetric/outer4/tuning/optuna.sqlite3": {
+      "sha256": "58310dea1aed4cbc159db42bc7ea991b86eec7115d231a466e3ef2a5edf8fba3",
+      "bytes": 122880
+    },
+    "results/cat_symmetric/outer4/tuning/selection.json": {
+      "sha256": "a3b32c0ed2b6fd632644c37b0d05d040000f832ff5a7c499df709333606501b2",
+      "bytes": 1305
+    },
+    "results/cat_symmetric/outer4/tuning/trials.json": {
+      "sha256": "ad51b31f86541e375502fb0e8e06d2ab0fbba140db6ee3d5cf2132e4770116c9",
+      "bytes": 7323
+    },
+    "results/cat_symmetric/summary.json": {
+      "sha256": "c034da56163a657ce7365a099d8283b45be1fcbb441bc88531a7a51ff66c319c",
+      "bytes": 13446
+    },
+    "results/classic_gradient/full_training/configuration.json": {
+      "sha256": "b341e4e6c2e66ece5103f8ca2071930cb141960b83ac4c39ef09f61dbe26873a",
+      "bytes": 4313
+    },
+    "results/classic_gradient/full_training/model.joblib": {
+      "sha256": "1496b557b77f413308085a7f4b6fa2c9b9011e7d412dd1769481d6a47956cd3b",
+      "bytes": 1492961
+    },
+    "results/classic_gradient/full_training/tuning/inner_indices.json": {
+      "sha256": "3d198d19d5cf1b2ea0f0b286ee3c3e4e9988095ce4e80cd96c9d51bf5cbef531",
+      "bytes": 160498
+    },
+    "results/classic_gradient/full_training/tuning/optuna.sqlite3": {
+      "sha256": "7bad4550e47cc110b9edd4e782a2f43aaa6adac964010d680f36c6c4a98a8631",
+      "bytes": 122880
+    },
+    "results/classic_gradient/full_training/tuning/selection.json": {
+      "sha256": "583622e493d80baadbf9ca87fbe14631dc6206374b48ab0bd2203487f4ceb87f",
+      "bytes": 1370
+    },
+    "results/classic_gradient/full_training/tuning/trials.json": {
+      "sha256": "ba7a0c90ac6b9caac20675de84603bca00ff76d66f83cc38923ec3b9ad9914f7",
+      "bytes": 5328
+    },
+    "results/classic_gradient/oof.csv": {
+      "sha256": "2c4cac222c97c47c35dee71d1b35aeb288a621a399ed477976581eeadaae82a2",
+      "bytes": 914656
+    },
+    "results/classic_gradient/outer0/metrics.json": {
+      "sha256": "97ed7dfc8fb2e0a424eb9eb0f8aa5d530a009a2e0bacda899a62cb453ec88a10",
+      "bytes": 2324
+    },
+    "results/classic_gradient/outer0/outer_indices.json": {
+      "sha256": "da8a730220451b74315fc2f56655e4494a091625d731f7acf66b37ecc69410cd",
+      "bytes": 160431
+    },
+    "results/classic_gradient/outer0/predictions.csv": {
+      "sha256": "481504aeb9ab9a00d31e17cce711959cb201bc728485a24296c60075c54dfb0f",
+      "bytes": 73174
+    },
+    "results/classic_gradient/outer0/train_predictions.npz": {
+      "sha256": "3ebafbb018bfcab6df88c8f36fc5b280de06488401fa7c29196038ad3a4fbc7d",
+      "bytes": 109534
+    },
+    "results/classic_gradient/outer0/tuning/inner_indices.json": {
+      "sha256": "9f475a5613ee09a3d6e6f4c5ec18987225a9fd25c5767f81655fbb2851b46d0d",
+      "bytes": 126200
+    },
+    "results/classic_gradient/outer0/tuning/optuna.sqlite3": {
+      "sha256": "d3a9e2b0d3f1bb750fdd891b9e2949b4d7ca00af2175ca6b256bfa28cb7cb695",
+      "bytes": 122880
+    },
+    "results/classic_gradient/outer0/tuning/selection.json": {
+      "sha256": "c5f23240deb031f921a2f34df2b733f5fe4751f4058a5cb5a189c8e3a1b18d2a",
+      "bytes": 1370
+    },
+    "results/classic_gradient/outer0/tuning/trials.json": {
+      "sha256": "cc142ad0ddea3dd81e6cc482101aad6cd14f6f7b27a52e8abab9a87d7da72a03",
+      "bytes": 5326
+    },
+    "results/classic_gradient/outer1/metrics.json": {
+      "sha256": "efb1be753d0c5d95cb236cea79ddc723ac8cd07e1ec6faabc302245c1ff662f2",
+      "bytes": 2422
+    },
+    "results/classic_gradient/outer1/outer_indices.json": {
+      "sha256": "e2ba5d36b026b1b6a3d05afa6ea42bd4e5b240189596135f1295cb8d93be8f61",
+      "bytes": 160431
+    },
+    "results/classic_gradient/outer1/predictions.csv": {
+      "sha256": "071a06651d7a19b5d9adf9696ddc73023a46885b1a15aed4522ab6b579c513ea",
+      "bytes": 73077
+    },
+    "results/classic_gradient/outer1/train_predictions.npz": {
+      "sha256": "b3bdadfe4570ef6cd6f96b8ff36cd1b8c1434cd4b531e9c1d26175ea4ad5d48b",
+      "bytes": 99607
+    },
+    "results/classic_gradient/outer1/tuning/inner_indices.json": {
+      "sha256": "04b09d1332eb9819cd913983ef1ed025c1b6c6588ccc62e21053c6293cbcc5c8",
+      "bytes": 126211
+    },
+    "results/classic_gradient/outer1/tuning/optuna.sqlite3": {
+      "sha256": "cb74896ab64bd048f8cdb15ddb0f5cd254965743efada71bc648435eceed1c02",
+      "bytes": 122880
+    },
+    "results/classic_gradient/outer1/tuning/selection.json": {
+      "sha256": "5999abd4144828da1a4c5989b276b968d031eb730b457d9df1ad97574eb5b80b",
+      "bytes": 1370
+    },
+    "results/classic_gradient/outer1/tuning/trials.json": {
+      "sha256": "5b5d575822770ec453e48564d082168e7f53f6550bd739a21a0803d26992db23",
+      "bytes": 5333
+    },
+    "results/classic_gradient/outer2/metrics.json": {
+      "sha256": "2d9fbe50964d9cfea5f5ace6c29e0ff10876048dbadd91787ab8046bdc4dba55",
+      "bytes": 2423
+    },
+    "results/classic_gradient/outer2/outer_indices.json": {
+      "sha256": "8d68b84dcb8a6e78bb8add809c8f88f99f764f0e6d6872347b06bd6180d06d0e",
+      "bytes": 160431
+    },
+    "results/classic_gradient/outer2/predictions.csv": {
+      "sha256": "0291cfda1391df31d70f497fc2f150337953f0c8303c55cec8e31fb0bec529d6",
+      "bytes": 73173
+    },
+    "results/classic_gradient/outer2/train_predictions.npz": {
+      "sha256": "a5cb479dd9da30722759a20b88f52d948f9c3a23541bdfd2c8cc497e872a8303",
+      "bytes": 104844
+    },
+    "results/classic_gradient/outer2/tuning/inner_indices.json": {
+      "sha256": "99e054f068e484875b7c88ba29d944eb806cb495be8129c4c1e65e3aae7634e8",
+      "bytes": 126189
+    },
+    "results/classic_gradient/outer2/tuning/optuna.sqlite3": {
+      "sha256": "9443ad91261a2284bf8cc326f7f193c92a6bda30d13bf572e34a29c53ec7f171",
+      "bytes": 122880
+    },
+    "results/classic_gradient/outer2/tuning/selection.json": {
+      "sha256": "002daa070d4b0e944733ae8199b3abef49007739f65fe45f0bead7a8b9aa7c7e",
+      "bytes": 1372
+    },
+    "results/classic_gradient/outer2/tuning/trials.json": {
+      "sha256": "bc40b5d7c97cc75cf33dc819ceacb378a136d8b3649cb30fbeed880d8974fb7c",
+      "bytes": 5338
+    },
+    "results/classic_gradient/outer3/metrics.json": {
+      "sha256": "f97c8c8bedafcd12008204934b4861b652d980b99fd7a6b459d26779d80970a7",
+      "bytes": 2362
+    },
+    "results/classic_gradient/outer3/outer_indices.json": {
+      "sha256": "9b47f9ed8e38d855da548ed0849cae854e23420454b096209db756e1c6f53f47",
+      "bytes": 160431
+    },
+    "results/classic_gradient/outer3/predictions.csv": {
+      "sha256": "4c0fae7949b6ade594b620be1071b810d27df5f2a85763204add0c5fa7d12a40",
+      "bytes": 73233
+    },
+    "results/classic_gradient/outer3/train_predictions.npz": {
+      "sha256": "a8a24d5660a4c3a10e64f8c53b88ebb1283a8b8a064d9e3264f9f7c2a5f986e0",
+      "bytes": 107122
+    },
+    "results/classic_gradient/outer3/tuning/inner_indices.json": {
+      "sha256": "0b8e97255edaf20419b2d607267e7d6a63dabd7c6e0953867cdf167682d17f60",
+      "bytes": 126211
+    },
+    "results/classic_gradient/outer3/tuning/optuna.sqlite3": {
+      "sha256": "63a07d11ebe14a936d88339257f1314b4c4808910d309f4f0f4439e5f6657983",
+      "bytes": 122880
+    },
+    "results/classic_gradient/outer3/tuning/selection.json": {
+      "sha256": "dd91f8d01aec428d43de0afe1b9dbca2c80e16e4d5d4ee4cabc1fe750e0361ff",
+      "bytes": 1310
+    },
+    "results/classic_gradient/outer3/tuning/trials.json": {
+      "sha256": "cf315241cf0a16d41bcf26d982fbbca7fbd07d110dbe77d9a87d51a72592c8b1",
+      "bytes": 5318
+    },
+    "results/classic_gradient/outer4/metrics.json": {
+      "sha256": "78ed026d50cb6fb421175293279e494a662655fa8730e5f4e74d52bde43ad373",
+      "bytes": 2420
+    },
+    "results/classic_gradient/outer4/outer_indices.json": {
+      "sha256": "9718c3125c3e1bc6b7a20cd9daaebdc8b907b6682e3c6380f0cadc8bd06d7086",
+      "bytes": 160431
+    },
+    "results/classic_gradient/outer4/predictions.csv": {
+      "sha256": "9d38568d19ecedf851a2fcb5f999b42d24153a751b745c6bbcff6a9d236b4dd7",
+      "bytes": 73204
+    },
+    "results/classic_gradient/outer4/train_predictions.npz": {
+      "sha256": "aaba9abe5bacd74500cc61162b3fca55e74b6011b279ceee1d823c0c4fdb104f",
+      "bytes": 105505
+    },
+    "results/classic_gradient/outer4/tuning/inner_indices.json": {
+      "sha256": "7872f489995ecdcafa82aa2c424790e9ce53badac8e88491b96f0102cca8ca77",
+      "bytes": 126200
+    },
+    "results/classic_gradient/outer4/tuning/optuna.sqlite3": {
+      "sha256": "1106b391bdd4c9af0b37d2e6a78183d466a20e7ab110522b56e95a177df712a0",
+      "bytes": 122880
+    },
+    "results/classic_gradient/outer4/tuning/selection.json": {
+      "sha256": "8a4155a60db576fe8b60a874583d1188160d414f70b8a503962c81ba0515e61c",
+      "bytes": 1370
+    },
+    "results/classic_gradient/outer4/tuning/trials.json": {
+      "sha256": "261ed23d8456e7f59b8634dd7befa5ff75b560d1ffde2d511864edfc2d33ebf7",
+      "bytes": 5332
+    },
+    "results/classic_gradient/summary.json": {
+      "sha256": "744b867ec5bf332754744ebd6d0959639f14ce922311a3fcd318386890d5dfd1",
+      "bytes": 13843
+    },
+    "results/hist_gradient/full_training/configuration.json": {
+      "sha256": "c5ee112240f34e8dc16b942a476f8ee93ee70db65d526861670cb661d81e136b",
+      "bytes": 4396
+    },
+    "results/hist_gradient/full_training/model.joblib": {
+      "sha256": "684b45cabe1f5746e54631637f3becab45b1234d5edfc34b4cdd82f43e2864b3",
+      "bytes": 1436907
+    },
+    "results/hist_gradient/full_training/tuning/inner_indices.json": {
+      "sha256": "3d198d19d5cf1b2ea0f0b286ee3c3e4e9988095ce4e80cd96c9d51bf5cbef531",
+      "bytes": 160498
+    },
+    "results/hist_gradient/full_training/tuning/optuna.sqlite3": {
+      "sha256": "61a641cc733ccee53ec7df5afd6f34937a01ff5dc55b347f767dd41465254fce",
+      "bytes": 114688
+    },
+    "results/hist_gradient/full_training/tuning/selection.json": {
+      "sha256": "be62db6734f346d883d0a1e33a4bea3c98a4f07eefefb404ac430ef47b5289ca",
+      "bytes": 1277
+    },
+    "results/hist_gradient/full_training/tuning/trials.json": {
+      "sha256": "75710c260e99362cc79ff737dc729236fcc8c15582efd180b2409377175fbe47",
+      "bytes": 4294
+    },
+    "results/hist_gradient/oof.csv": {
+      "sha256": "75f6fc695379c3beb76c17280419d3b0de27b95b516cf01437f356eb318f7c7a",
+      "bytes": 914683
+    },
+    "results/hist_gradient/outer0/metrics.json": {
+      "sha256": "38b433655df5add75237502216ea820eaffa91e77bff35632ffaae81fb18de5a",
+      "bytes": 2191
+    },
+    "results/hist_gradient/outer0/outer_indices.json": {
+      "sha256": "da8a730220451b74315fc2f56655e4494a091625d731f7acf66b37ecc69410cd",
+      "bytes": 160431
+    },
+    "results/hist_gradient/outer0/predictions.csv": {
+      "sha256": "4488392745a39d443de03b1032d4836837bb5e1e7e184c275449c072f356e387",
+      "bytes": 73248
+    },
+    "results/hist_gradient/outer0/train_predictions.npz": {
+      "sha256": "940a2e7dd135c76dfded78f2c0587f8883df7f857a81a3878414ce28488f4006",
+      "bytes": 110066
+    },
+    "results/hist_gradient/outer0/tuning/inner_indices.json": {
+      "sha256": "9f475a5613ee09a3d6e6f4c5ec18987225a9fd25c5767f81655fbb2851b46d0d",
+      "bytes": 126200
+    },
+    "results/hist_gradient/outer0/tuning/optuna.sqlite3": {
+      "sha256": "f819871d6f02198e510406cc1ef2e3e3e641733e844d120d7d25cccb2319cc57",
+      "bytes": 114688
+    },
+    "results/hist_gradient/outer0/tuning/selection.json": {
+      "sha256": "da35e15076be763ed1fad6a4af7d41bce081ebd8d3b09afec1de7c11fec0a9cd",
+      "bytes": 1245
+    },
+    "results/hist_gradient/outer0/tuning/trials.json": {
+      "sha256": "87040b3efad8878c58db56d980b2d963c408b8d06fde7ed264df8f69c3424ea3",
+      "bytes": 4300
+    },
+    "results/hist_gradient/outer1/metrics.json": {
+      "sha256": "369b7b51785171cb0f5427ce52df3dcdedacea377ef0074b702340ffee1fd7b3",
+      "bytes": 2321
+    },
+    "results/hist_gradient/outer1/outer_indices.json": {
+      "sha256": "e2ba5d36b026b1b6a3d05afa6ea42bd4e5b240189596135f1295cb8d93be8f61",
+      "bytes": 160431
+    },
+    "results/hist_gradient/outer1/predictions.csv": {
+      "sha256": "898a65dfdc5fe7a04591e472dd0d8189e6d5c78261696e4ebafbe7d96beb4f93",
+      "bytes": 73191
+    },
+    "results/hist_gradient/outer1/train_predictions.npz": {
+      "sha256": "38b75edd2b232375a86bb4e4b8e950b493650017629164038ba777f9ec2466f5",
+      "bytes": 107715
+    },
+    "results/hist_gradient/outer1/tuning/inner_indices.json": {
+      "sha256": "04b09d1332eb9819cd913983ef1ed025c1b6c6588ccc62e21053c6293cbcc5c8",
+      "bytes": 126211
+    },
+    "results/hist_gradient/outer1/tuning/optuna.sqlite3": {
+      "sha256": "b0e35574d5930f7fbe50cf06d6a581ae94cb6663011b33e3bb9e55e0c65bcf93",
+      "bytes": 114688
+    },
+    "results/hist_gradient/outer1/tuning/selection.json": {
+      "sha256": "74311958bea685b5fb98191882905433f644bd495427d5b2e9b4dc105662b27c",
+      "bytes": 1277
+    },
+    "results/hist_gradient/outer1/tuning/trials.json": {
+      "sha256": "27d60d89ca5445542bd411469b9a4293acb244d369362e227164a17b434c2de5",
+      "bytes": 4308
+    },
+    "results/hist_gradient/outer2/metrics.json": {
+      "sha256": "258ee55802a527ae92f674399227f8d600595dd318acd2e92b1ad9a36ba9cb44",
+      "bytes": 2322
+    },
+    "results/hist_gradient/outer2/outer_indices.json": {
+      "sha256": "8d68b84dcb8a6e78bb8add809c8f88f99f764f0e6d6872347b06bd6180d06d0e",
+      "bytes": 160431
+    },
+    "results/hist_gradient/outer2/predictions.csv": {
+      "sha256": "f63eddf810591b6738b0dfa5646f126616bd62aeed36058884b4d62e379bff17",
+      "bytes": 73158
+    },
+    "results/hist_gradient/outer2/train_predictions.npz": {
+      "sha256": "5171c64bef6d3e1becefecbc616fa5c21318575f1cf3dd7f55f80de4d33e2cdc",
+      "bytes": 105813
+    },
+    "results/hist_gradient/outer2/tuning/inner_indices.json": {
+      "sha256": "99e054f068e484875b7c88ba29d944eb806cb495be8129c4c1e65e3aae7634e8",
+      "bytes": 126189
+    },
+    "results/hist_gradient/outer2/tuning/optuna.sqlite3": {
+      "sha256": "bed2941c6d1613b50cbf965c678b4c31d9bdddcdfe3a6e909dea07592aab580d",
+      "bytes": 114688
+    },
+    "results/hist_gradient/outer2/tuning/selection.json": {
+      "sha256": "cd262e207dcca1882365de16bd90964775cbddab51291f5811b7f5a091504838",
+      "bytes": 1276
+    },
+    "results/hist_gradient/outer2/tuning/trials.json": {
+      "sha256": "9bd73945f722780542593d7834b85d9f881ad2406805b7b391339af6fa3af7d1",
+      "bytes": 4314
+    },
+    "results/hist_gradient/outer3/metrics.json": {
+      "sha256": "b6cbf7fa630ab32f86c96c8fa1e8947098e6afb45a3eab1c51de31f4ee010fd8",
+      "bytes": 2319
+    },
+    "results/hist_gradient/outer3/outer_indices.json": {
+      "sha256": "9b47f9ed8e38d855da548ed0849cae854e23420454b096209db756e1c6f53f47",
+      "bytes": 160431
+    },
+    "results/hist_gradient/outer3/predictions.csv": {
+      "sha256": "08ba1b8eeb79d95bd390b3edcc677a90bb779f62d028f61d2c67ebeccc07c5dd",
+      "bytes": 73284
+    },
+    "results/hist_gradient/outer3/train_predictions.npz": {
+      "sha256": "2b9ae3977058d1bace133a0a6666688059a500875481cf7e35c8ca189514bc49",
+      "bytes": 109870
+    },
+    "results/hist_gradient/outer3/tuning/inner_indices.json": {
+      "sha256": "0b8e97255edaf20419b2d607267e7d6a63dabd7c6e0953867cdf167682d17f60",
+      "bytes": 126211
+    },
+    "results/hist_gradient/outer3/tuning/optuna.sqlite3": {
+      "sha256": "94fa75de667042d7ba5e649ec15325191aa4bd59b62224dff7985d2c20478fa3",
+      "bytes": 114688
+    },
+    "results/hist_gradient/outer3/tuning/selection.json": {
+      "sha256": "88d9cc51e089162d574dccaab86c36d8ca17da3ee2ce4209f63f6b41f78849cd",
+      "bytes": 1277
+    },
+    "results/hist_gradient/outer3/tuning/trials.json": {
+      "sha256": "697c4e7067e0c017abf5a197d2b9ec512e115d2d0cc5d4e9557d7c5cde49bace",
+      "bytes": 4302
+    },
+    "results/hist_gradient/outer4/metrics.json": {
+      "sha256": "ce4902e5dd3e87d6195303c3e728e9a618d8243ba88ebabd8ee6c4d15de5c105",
+      "bytes": 2324
+    },
+    "results/hist_gradient/outer4/outer_indices.json": {
+      "sha256": "9718c3125c3e1bc6b7a20cd9daaebdc8b907b6682e3c6380f0cadc8bd06d7086",
+      "bytes": 160431
+    },
+    "results/hist_gradient/outer4/predictions.csv": {
+      "sha256": "d39c86708a4013d5596f631e560bb7b2bb0ae9e99dba94eef551fe011a31abfc",
+      "bytes": 73281
+    },
+    "results/hist_gradient/outer4/train_predictions.npz": {
+      "sha256": "263404b8770abd952256c93c43a5ce520aa1e64da9992f2ac3213c97eb7cdae9",
+      "bytes": 107430
+    },
+    "results/hist_gradient/outer4/tuning/inner_indices.json": {
+      "sha256": "7872f489995ecdcafa82aa2c424790e9ce53badac8e88491b96f0102cca8ca77",
+      "bytes": 126200
+    },
+    "results/hist_gradient/outer4/tuning/optuna.sqlite3": {
+      "sha256": "483e5e8474c0a35de44c12ae244b4c9ca03da65008e6467d8afad007d39839fa",
+      "bytes": 114688
+    },
+    "results/hist_gradient/outer4/tuning/selection.json": {
+      "sha256": "c84b65befcf7057f2cd6fa1e1659a0dab088992bddf4d7364931c774297f6fef",
+      "bytes": 1278
+    },
+    "results/hist_gradient/outer4/tuning/trials.json": {
+      "sha256": "d11d2697b81eec2d2fad3b5c3440b9c98c4767c33256546b29e816c439931e52",
+      "bytes": 4313
+    },
+    "results/hist_gradient/summary.json": {
+      "sha256": "e30961a163a0836d63a8770c24ec6a0e1074f2e9d929c5a9fb3865bf8a499620",
+      "bytes": 13327
+    },
+    "results/lgb_dart/full_training/configuration.json": {
+      "sha256": "80125b879d6be19fd38e16109bb00546631e3af2cfd6bdcd24c4b0208eddbf88",
+      "bytes": 4741
+    },
+    "results/lgb_dart/full_training/model.joblib": {
+      "sha256": "6e5765537c797a7f3e188d007f4750fe43b7b67f28960333e0e9f9534207b7a5",
+      "bytes": 3017826
+    },
+    "results/lgb_dart/full_training/tuning/inner_indices.json": {
+      "sha256": "3d198d19d5cf1b2ea0f0b286ee3c3e4e9988095ce4e80cd96c9d51bf5cbef531",
+      "bytes": 160498
+    },
+    "results/lgb_dart/full_training/tuning/optuna.sqlite3": {
+      "sha256": "d955f69897e02e36eeca2a24d9f2ec26c641d236ea82850fdc82c119147b2f2f",
+      "bytes": 126976
+    },
+    "results/lgb_dart/full_training/tuning/selection.json": {
+      "sha256": "7b2394cdae67b08368dd4461165457d0985a7326d0c765a96ff6c79dca1e6ff2",
+      "bytes": 1538
+    },
+    "results/lgb_dart/full_training/tuning/trials.json": {
+      "sha256": "28c8394fbc166773b17ab16508943a128a0a0aa68d5e27e55c949db9406f91e1",
+      "bytes": 7291
+    },
+    "results/lgb_dart/oof.csv": {
+      "sha256": "bdd24dcc8d565c0fe2ea1acbb8403c507b41b80018367addb230b6b9bd076d53",
+      "bytes": 915556
+    },
+    "results/lgb_dart/outer0/metrics.json": {
+      "sha256": "0a6c98bee6652f907eb4de1ffcca44ef3527017761df3c851f390c0744e59baa",
+      "bytes": 2489
+    },
+    "results/lgb_dart/outer0/outer_indices.json": {
+      "sha256": "da8a730220451b74315fc2f56655e4494a091625d731f7acf66b37ecc69410cd",
+      "bytes": 160431
+    },
+    "results/lgb_dart/outer0/predictions.csv": {
+      "sha256": "581cad36a0ebd5f992899db2040132855cace1006510dd6a1942693e99d2f1df",
+      "bytes": 73286
+    },
+    "results/lgb_dart/outer0/train_predictions.npz": {
+      "sha256": "1e23e055f6ce36a714184c5ed575fde9cc6dd80010cd8567c0ca20db3f899f43",
+      "bytes": 107211
+    },
+    "results/lgb_dart/outer0/tuning/inner_indices.json": {
+      "sha256": "9f475a5613ee09a3d6e6f4c5ec18987225a9fd25c5767f81655fbb2851b46d0d",
+      "bytes": 126200
+    },
+    "results/lgb_dart/outer0/tuning/optuna.sqlite3": {
+      "sha256": "28481068abff775f10b010909f47ec650a9df27f91f989e620b3bd1192260ebb",
+      "bytes": 126976
+    },
+    "results/lgb_dart/outer0/tuning/selection.json": {
+      "sha256": "58a4bbe3e547edcfa702d96b9b63547e6d4b688ac9f7feeac329cdb66e0f16d7",
+      "bytes": 1532
+    },
+    "results/lgb_dart/outer0/tuning/trials.json": {
+      "sha256": "0f83d11885311c69cec8af4bb337c2e53b0da14f38b8ed90150bcecb56b1e202",
+      "bytes": 7284
+    },
+    "results/lgb_dart/outer1/metrics.json": {
+      "sha256": "5ea01cd9fc02a058a838c910f8e7713b64bf912604bc556176ddea78af4bcce4",
+      "bytes": 2486
+    },
+    "results/lgb_dart/outer1/outer_indices.json": {
+      "sha256": "e2ba5d36b026b1b6a3d05afa6ea42bd4e5b240189596135f1295cb8d93be8f61",
+      "bytes": 160431
+    },
+    "results/lgb_dart/outer1/predictions.csv": {
+      "sha256": "6ffb6336205c6f43102f9deca53caf3d720939b5baabdfbe3da72200ab3e9424",
+      "bytes": 73082
+    },
+    "results/lgb_dart/outer1/train_predictions.npz": {
+      "sha256": "c8514a30d25c282dcdcc6e29d7e2e605485782539a9b7f2146f0c44c55319480",
+      "bytes": 95365
+    },
+    "results/lgb_dart/outer1/tuning/inner_indices.json": {
+      "sha256": "04b09d1332eb9819cd913983ef1ed025c1b6c6588ccc62e21053c6293cbcc5c8",
+      "bytes": 126211
+    },
+    "results/lgb_dart/outer1/tuning/optuna.sqlite3": {
+      "sha256": "9d542c4a2b459d7fae90d04671253ad48379223460b21a21ab38cd9a650be09f",
+      "bytes": 126976
+    },
+    "results/lgb_dart/outer1/tuning/selection.json": {
+      "sha256": "ff304361b6b9fa5733b7b3bd4c3fb180046ab065d303bf015b44c8cd55d19ac0",
+      "bytes": 1529
+    },
+    "results/lgb_dart/outer1/tuning/trials.json": {
+      "sha256": "3b5617402cc97e73d95f94c36f44acb8ef77fd64d3720b866ccb1151a7511367",
+      "bytes": 7280
+    },
+    "results/lgb_dart/outer2/metrics.json": {
+      "sha256": "7df6e5eaa1ba21daeea1d01dfef0ce9bc15b061effcef2c02b95fca853f856c7",
+      "bytes": 2353
+    },
+    "results/lgb_dart/outer2/outer_indices.json": {
+      "sha256": "8d68b84dcb8a6e78bb8add809c8f88f99f764f0e6d6872347b06bd6180d06d0e",
+      "bytes": 160431
+    },
+    "results/lgb_dart/outer2/predictions.csv": {
+      "sha256": "683e609ca76f734493c297e719df710bdf80bedc03fcb25f743340e6b33ff50b",
+      "bytes": 73096
+    },
+    "results/lgb_dart/outer2/train_predictions.npz": {
+      "sha256": "85bcf744ab91a93bdbbc4d0490ee9e59680a841dd0aeef0992fef0f92d8a69e6",
+      "bytes": 100291
+    },
+    "results/lgb_dart/outer2/tuning/inner_indices.json": {
+      "sha256": "99e054f068e484875b7c88ba29d944eb806cb495be8129c4c1e65e3aae7634e8",
+      "bytes": 126189
+    },
+    "results/lgb_dart/outer2/tuning/optuna.sqlite3": {
+      "sha256": "990ec1c4b3172d200a42165c09a5d40f6432b9017549fb4acf255ba5952694f6",
+      "bytes": 126976
+    },
+    "results/lgb_dart/outer2/tuning/selection.json": {
+      "sha256": "b9733b357fad056b9c1866ec2c20b2d7acbb0c805abc6d1c7d77fb0dce77833a",
+      "bytes": 1396
+    },
+    "results/lgb_dart/outer2/tuning/trials.json": {
+      "sha256": "12f489e114aa82e1ec8d696d5dbfd5c661c47bdb29d63728201d8e7ea1d8a83c",
+      "bytes": 7263
+    },
+    "results/lgb_dart/outer3/metrics.json": {
+      "sha256": "f4a690a4494073a710a813d5e73251eb1abbfb48e58c8b6b144516de6eb1146c",
+      "bytes": 2355
+    },
+    "results/lgb_dart/outer3/outer_indices.json": {
+      "sha256": "9b47f9ed8e38d855da548ed0849cae854e23420454b096209db756e1c6f53f47",
+      "bytes": 160431
+    },
+    "results/lgb_dart/outer3/predictions.csv": {
+      "sha256": "690d62464934fb7ed705c09182bb37046e6e118c77696075cbf9595fb21dc93c",
+      "bytes": 73160
+    },
+    "results/lgb_dart/outer3/train_predictions.npz": {
+      "sha256": "8385b189b4a5098f2fd116451202727723c59172bf106daccdfe7e94242efb91",
+      "bytes": 100615
+    },
+    "results/lgb_dart/outer3/tuning/inner_indices.json": {
+      "sha256": "0b8e97255edaf20419b2d607267e7d6a63dabd7c6e0953867cdf167682d17f60",
+      "bytes": 126211
+    },
+    "results/lgb_dart/outer3/tuning/optuna.sqlite3": {
+      "sha256": "59db84e98d4c2f9c4d11ca54bb944e8026f0d6d55ad3ba23534fd8a296751eab",
+      "bytes": 126976
+    },
+    "results/lgb_dart/outer3/tuning/selection.json": {
+      "sha256": "7a8cef83f77349026ddc8f93a3342c3803c19e61a97f25da1002847983fa03cb",
+      "bytes": 1398
+    },
+    "results/lgb_dart/outer3/tuning/trials.json": {
+      "sha256": "7a6a083bcc1ce4a0931f716e31191a3b124d6cdfbcc81d02ef8b5e5827c8b924",
+      "bytes": 7286
+    },
+    "results/lgb_dart/outer4/metrics.json": {
+      "sha256": "2270780fb0c930ebdc59f931f7c149005130c0554f2b5d166d7e518d5531f535",
+      "bytes": 2484
+    },
+    "results/lgb_dart/outer4/outer_indices.json": {
+      "sha256": "9718c3125c3e1bc6b7a20cd9daaebdc8b907b6682e3c6380f0cadc8bd06d7086",
+      "bytes": 160431
+    },
+    "results/lgb_dart/outer4/predictions.csv": {
+      "sha256": "8f02aaba79d967f97baa7fecd5fef5ec4d0c48c2b858aebeecfa10d0eebc17de",
+      "bytes": 73180
+    },
+    "results/lgb_dart/outer4/train_predictions.npz": {
+      "sha256": "b9da4b88ae8b0466c9bf4c4251ad7957da3f06591ae01ecd58f0907722b1f4e0",
+      "bytes": 108530
+    },
+    "results/lgb_dart/outer4/tuning/inner_indices.json": {
+      "sha256": "7872f489995ecdcafa82aa2c424790e9ce53badac8e88491b96f0102cca8ca77",
+      "bytes": 126200
+    },
+    "results/lgb_dart/outer4/tuning/optuna.sqlite3": {
+      "sha256": "0d196e17c87af34d711f2540dba9c9b99e48cf4b6ffe058428a33ccd384a3ee3",
+      "bytes": 126976
+    },
+    "results/lgb_dart/outer4/tuning/selection.json": {
+      "sha256": "faac97cdecf25a463d701e8439fbde293fc8b7db69c6c91bc4bfce2b1c4aedb3",
+      "bytes": 1528
+    },
+    "results/lgb_dart/outer4/tuning/trials.json": {
+      "sha256": "3a63d8f6bd3b8391ff0bbde74ff70c56544f711cdbf5a71ade2027666ca747f8",
+      "bytes": 7273
+    },
+    "results/lgb_dart/summary.json": {
+      "sha256": "4198b3ac8a7d5755cc204dcd429b9126bda89cd234fefeb53749886bc9fea214",
+      "bytes": 14136
+    },
+    "results/lgb_gbdt/full_training/configuration.json": {
+      "sha256": "12208b80825d7dd097a72ad6ee95b90b6da48c2dd9741a54c54997d0701e91fc",
+      "bytes": 4488
+    },
+    "results/lgb_gbdt/full_training/model.joblib": {
+      "sha256": "e82b2dcc0fbda7a96302bde2f587e6679c18d67439c63c31e89ddb15ee505947",
+      "bytes": 899331
+    },
+    "results/lgb_gbdt/full_training/tuning/inner_indices.json": {
+      "sha256": "3d198d19d5cf1b2ea0f0b286ee3c3e4e9988095ce4e80cd96c9d51bf5cbef531",
+      "bytes": 160498
+    },
+    "results/lgb_gbdt/full_training/tuning/optuna.sqlite3": {
+      "sha256": "0fae489330558bcee3ed9258e0d49e032053b607f42b05a9d597e2e339548b02",
+      "bytes": 126976
+    },
+    "results/lgb_gbdt/full_training/tuning/selection.json": {
+      "sha256": "2e769712a7becd83e6a83a3600f260f2be1fd634881a64255e3c8488411e095b",
+      "bytes": 1463
+    },
+    "results/lgb_gbdt/full_training/tuning/trials.json": {
+      "sha256": "d8dc797b83b7252f28dac0175c637aba81319f09132483fa5234b9a088139999",
+      "bytes": 8733
+    },
+    "results/lgb_gbdt/oof.csv": {
+      "sha256": "f33410c9cc46f48a2e4a70ae44c22ecf6095b01c027bf78b90b2536ece04fbda",
+      "bytes": 915946
+    },
+    "results/lgb_gbdt/outer0/metrics.json": {
+      "sha256": "a859e9616f078663129b8c44214a2c9bd8e60a50de50588aa8a02c99f5223036",
+      "bytes": 2405
+    },
+    "results/lgb_gbdt/outer0/outer_indices.json": {
+      "sha256": "da8a730220451b74315fc2f56655e4494a091625d731f7acf66b37ecc69410cd",
+      "bytes": 160431
+    },
+    "results/lgb_gbdt/outer0/predictions.csv": {
+      "sha256": "ed267d011bcf97fcd661de5e15ff7704ad2744d582ac20318bd84597fa1f5312",
+      "bytes": 73237
+    },
+    "results/lgb_gbdt/outer0/train_predictions.npz": {
+      "sha256": "279d32c011e60cba7229b3c1869f08ce134e1260c5be070a37b7c46a9078e1ae",
+      "bytes": 109601
+    },
+    "results/lgb_gbdt/outer0/tuning/inner_indices.json": {
+      "sha256": "9f475a5613ee09a3d6e6f4c5ec18987225a9fd25c5767f81655fbb2851b46d0d",
+      "bytes": 126200
+    },
+    "results/lgb_gbdt/outer0/tuning/optuna.sqlite3": {
+      "sha256": "d18f229c5af305cdc95d8725bf0392861fa47e6b9111145359d5bcbcc9a82868",
+      "bytes": 126976
+    },
+    "results/lgb_gbdt/outer0/tuning/selection.json": {
+      "sha256": "7d0d139e1f169a3a91f6ecab612a7eec113aa845a4310de59a1da791ffb28b4e",
+      "bytes": 1454
+    },
+    "results/lgb_gbdt/outer0/tuning/trials.json": {
+      "sha256": "0a39d6fbd0a208a68fc13332b21e3839308b6390c187d9e0117e011876d098a4",
+      "bytes": 8738
+    },
+    "results/lgb_gbdt/outer1/metrics.json": {
+      "sha256": "7cdd251157f295a7f160a1f5d1e1c7ec412e72400403b05aefb3468cb75da1dc",
+      "bytes": 2306
+    },
+    "results/lgb_gbdt/outer1/outer_indices.json": {
+      "sha256": "e2ba5d36b026b1b6a3d05afa6ea42bd4e5b240189596135f1295cb8d93be8f61",
+      "bytes": 160431
+    },
+    "results/lgb_gbdt/outer1/predictions.csv": {
+      "sha256": "b59e70e71f73274845ccf9a8b2d91f80d1628761d78acd0cb37a6f507fe72fd0",
+      "bytes": 73179
+    },
+    "results/lgb_gbdt/outer1/train_predictions.npz": {
+      "sha256": "a4354de2a0461f508a1ab6fb82b9364d5cf0bb50d5c37d7a044f09f3e8315c69",
+      "bytes": 112316
+    },
+    "results/lgb_gbdt/outer1/tuning/inner_indices.json": {
+      "sha256": "04b09d1332eb9819cd913983ef1ed025c1b6c6588ccc62e21053c6293cbcc5c8",
+      "bytes": 126211
+    },
+    "results/lgb_gbdt/outer1/tuning/optuna.sqlite3": {
+      "sha256": "c245ae3669cad9a3335a1296bd689e4af9ff073ba14437569195ec63d88124fb",
+      "bytes": 126976
+    },
+    "results/lgb_gbdt/outer1/tuning/selection.json": {
+      "sha256": "d05fb7fbd5140c94699319a90dd0cec32e92729af5087b5361dc50733de45d99",
+      "bytes": 1355
+    },
+    "results/lgb_gbdt/outer1/tuning/trials.json": {
+      "sha256": "5145d615672473fc35fb5fdb2fdfdd265f725c976d1ff6f39f13e9c19e46d115",
+      "bytes": 8727
+    },
+    "results/lgb_gbdt/outer2/metrics.json": {
+      "sha256": "b4189fd02eb9aa494272c7bef2acc9f9255d551b7f18ea6b3c521eb8e165bca0",
+      "bytes": 2408
+    },
+    "results/lgb_gbdt/outer2/outer_indices.json": {
+      "sha256": "8d68b84dcb8a6e78bb8add809c8f88f99f764f0e6d6872347b06bd6180d06d0e",
+      "bytes": 160431
+    },
+    "results/lgb_gbdt/outer2/predictions.csv": {
+      "sha256": "2a231d7a7de1e382e6dcf6db197543f808623fcf1c165273d39cdfcd581ac8f4",
+      "bytes": 73373
+    },
+    "results/lgb_gbdt/outer2/train_predictions.npz": {
+      "sha256": "5757cc33bb9b6d7c111ec0f191636ce61c3beab52c6ee1e457c03ce57672e5eb",
+      "bytes": 93152
+    },
+    "results/lgb_gbdt/outer2/tuning/inner_indices.json": {
+      "sha256": "99e054f068e484875b7c88ba29d944eb806cb495be8129c4c1e65e3aae7634e8",
+      "bytes": 126189
+    },
+    "results/lgb_gbdt/outer2/tuning/optuna.sqlite3": {
+      "sha256": "cf0b6b7beccbece2bae3f441975486a7abb0da549cd225e9b85b363c2d493151",
+      "bytes": 126976
+    },
+    "results/lgb_gbdt/outer2/tuning/selection.json": {
+      "sha256": "db3ee066afb4239c3c5397caf3135a09cfa845efb0852273a075c01fde9acf5d",
+      "bytes": 1458
+    },
+    "results/lgb_gbdt/outer2/tuning/trials.json": {
+      "sha256": "df38ea2b085b3185dc1a245053a7c71178ebee3870416e239e0c62618e1bc521",
+      "bytes": 8738
+    },
+    "results/lgb_gbdt/outer3/metrics.json": {
+      "sha256": "7cec77fb84a2b71e73981759f5ab1ec9488b691fac9948b97ecbbe454b8994af",
+      "bytes": 2309
+    },
+    "results/lgb_gbdt/outer3/outer_indices.json": {
+      "sha256": "9b47f9ed8e38d855da548ed0849cae854e23420454b096209db756e1c6f53f47",
+      "bytes": 160431
+    },
+    "results/lgb_gbdt/outer3/predictions.csv": {
+      "sha256": "eddbddeda1fa63e939d58cd9df17b750c599288c8d5a1f1a053e365d51cd9337",
+      "bytes": 73212
+    },
+    "results/lgb_gbdt/outer3/train_predictions.npz": {
+      "sha256": "b044f3bc64e93e8a9bd30301bbed07bfa895ac73e9fbe9b45eaab39cbb9c325d",
+      "bytes": 112217
+    },
+    "results/lgb_gbdt/outer3/tuning/inner_indices.json": {
+      "sha256": "0b8e97255edaf20419b2d607267e7d6a63dabd7c6e0953867cdf167682d17f60",
+      "bytes": 126211
+    },
+    "results/lgb_gbdt/outer3/tuning/optuna.sqlite3": {
+      "sha256": "404254217566b2b900ac39291b0b86cbf20fe7d66e4c309f4e5f1e8bc9aa44d4",
+      "bytes": 126976
+    },
+    "results/lgb_gbdt/outer3/tuning/selection.json": {
+      "sha256": "9087b9b2c7d7e538c3b4348b5e4b966a63486f090c1154085545d7ab34cc3887",
+      "bytes": 1356
+    },
+    "results/lgb_gbdt/outer3/tuning/trials.json": {
+      "sha256": "38f12f25f329ebcd98f76809ccbafc6afba8f3ee9ca350183d470e050b494642",
+      "bytes": 8717
+    },
+    "results/lgb_gbdt/outer4/metrics.json": {
+      "sha256": "a818e6144edda0230e4d061b8a32b3789d34799d0123c3fd5128a15b03afb91e",
+      "bytes": 2410
+    },
+    "results/lgb_gbdt/outer4/outer_indices.json": {
+      "sha256": "9718c3125c3e1bc6b7a20cd9daaebdc8b907b6682e3c6380f0cadc8bd06d7086",
+      "bytes": 160431
+    },
+    "results/lgb_gbdt/outer4/predictions.csv": {
+      "sha256": "d50928598e7813adf6313e57ec0f2c092fc37b8d18baf800fd296da4e2fb1818",
+      "bytes": 73193
+    },
+    "results/lgb_gbdt/outer4/train_predictions.npz": {
+      "sha256": "1c533ca4b5f83b8e3466d3f965f19e5182885ea0a263c7e17d5b8c7fec0d8998",
+      "bytes": 108822
+    },
+    "results/lgb_gbdt/outer4/tuning/inner_indices.json": {
+      "sha256": "7872f489995ecdcafa82aa2c424790e9ce53badac8e88491b96f0102cca8ca77",
+      "bytes": 126200
+    },
+    "results/lgb_gbdt/outer4/tuning/optuna.sqlite3": {
+      "sha256": "b5cf9815044e380c783019e1bf30a9a1d6ec711bf00f748321e447cf16bc2b1e",
+      "bytes": 126976
+    },
+    "results/lgb_gbdt/outer4/tuning/selection.json": {
+      "sha256": "9b0e4fcc153269482f81e4fc2bee0dcbed3c7471dfc5528e2326ce930c385750",
+      "bytes": 1461
+    },
+    "results/lgb_gbdt/outer4/tuning/trials.json": {
+      "sha256": "cb3b5713b9dfcca18e9967a61a203b291e228290816badaadf3a2507a4054006",
+      "bytes": 8712
+    },
+    "results/lgb_gbdt/summary.json": {
+      "sha256": "bdfac79b5445ce19ea4f4223f90dd46a0dcef9c498af352d7feb52a5cf451842",
+      "bytes": 13765
+    },
+    "results/xgb/full_training/configuration.json": {
+      "sha256": "d9112bf33a5998c2d7a56879a742b5c7bf807e11bb92cf010272f5775bf1d980",
+      "bytes": 4764
+    },
+    "results/xgb/full_training/model.joblib": {
+      "sha256": "f02dca632774c08121226fe19bb2598e3bc2ef14b219cdd236dda60192c3e264",
+      "bytes": 1882479
+    },
+    "results/xgb/full_training/tuning/inner_indices.json": {
+      "sha256": "3d198d19d5cf1b2ea0f0b286ee3c3e4e9988095ce4e80cd96c9d51bf5cbef531",
+      "bytes": 160498
+    },
+    "results/xgb/full_training/tuning/optuna.sqlite3": {
+      "sha256": "27e16529bf5e87248b1ef0a8a59d87b3dd97caa7f8454137067763446fea171a",
+      "bytes": 126976
+    },
+    "results/xgb/full_training/tuning/selection.json": {
+      "sha256": "6303465be44560a4c48da87ffa2c2cbb95e983153d16be230f9ea5e70cd49a87",
+      "bytes": 1416
+    },
+    "results/xgb/full_training/tuning/trials.json": {
+      "sha256": "3e9355b40473eb90a21318ad5ad0a98e542921924fb7ebc78737abec9e148f8e",
+      "bytes": 8124
+    },
+    "results/xgb/oof.csv": {
+      "sha256": "de9cb6c25284565134e232faf0b473897dc8108f0a177e62e60bbf8bdd453090",
+      "bytes": 915906
+    },
+    "results/xgb/outer0/metrics.json": {
+      "sha256": "87974d6eab1e48412ccc73de8f4a2ae9031befeb576dcfef6461b660e439c4dc",
+      "bytes": 2358
+    },
+    "results/xgb/outer0/outer_indices.json": {
+      "sha256": "da8a730220451b74315fc2f56655e4494a091625d731f7acf66b37ecc69410cd",
+      "bytes": 160431
+    },
+    "results/xgb/outer0/predictions.csv": {
+      "sha256": "0f9d2d84865b5c7e3f63d444ea8d15bdca5288a2468c53112668de6f491584c3",
+      "bytes": 73333
+    },
+    "results/xgb/outer0/train_predictions.npz": {
+      "sha256": "c66356ee7a590cb8325cf598a9bfeb74ad6fbdfee3ce896627c797e515217aa4",
+      "bytes": 87421
+    },
+    "results/xgb/outer0/tuning/inner_indices.json": {
+      "sha256": "9f475a5613ee09a3d6e6f4c5ec18987225a9fd25c5767f81655fbb2851b46d0d",
+      "bytes": 126200
+    },
+    "results/xgb/outer0/tuning/optuna.sqlite3": {
+      "sha256": "6c0ecc87bfdca156f6cb3aa333911a3899c15a8af3eebdc9eb44beaa18eee0ea",
+      "bytes": 126976
+    },
+    "results/xgb/outer0/tuning/selection.json": {
+      "sha256": "e4119314b93409f9ebe050b10a67bdb1f83df78a64b2672bfd726430a154735d",
+      "bytes": 1416
+    },
+    "results/xgb/outer0/tuning/trials.json": {
+      "sha256": "f059f218d9b8ccf1154c12d31da4cb82b6aaddf856bfa596e0e87cd04beb7c5b",
+      "bytes": 8110
+    },
+    "results/xgb/outer1/metrics.json": {
+      "sha256": "43ed088d2b205df1bda3ed8ede7eb100496c3219341f3745bad8d4031f5d4dc0",
+      "bytes": 2267
+    },
+    "results/xgb/outer1/outer_indices.json": {
+      "sha256": "e2ba5d36b026b1b6a3d05afa6ea42bd4e5b240189596135f1295cb8d93be8f61",
+      "bytes": 160431
+    },
+    "results/xgb/outer1/predictions.csv": {
+      "sha256": "c146f70f0baa548a4dde7e22bb634ef57db6258776dc3d5614595daef090dcf3",
+      "bytes": 73144
+    },
+    "results/xgb/outer1/train_predictions.npz": {
+      "sha256": "2becf0743a7546635a2747602ae8f59efd1d39ab46dfdd2c1fc367f0ce85b93e",
+      "bytes": 87009
+    },
+    "results/xgb/outer1/tuning/inner_indices.json": {
+      "sha256": "04b09d1332eb9819cd913983ef1ed025c1b6c6588ccc62e21053c6293cbcc5c8",
+      "bytes": 126211
+    },
+    "results/xgb/outer1/tuning/optuna.sqlite3": {
+      "sha256": "b49635e347cd0e94ced646e26c00472fcc50dd38d70f660c191454939624f288",
+      "bytes": 126976
+    },
+    "results/xgb/outer1/tuning/selection.json": {
+      "sha256": "62197b9ac271a7595bb0cdbd3b44ecf5fda2788fcf6ba2c0ca1db8f1f06e48c9",
+      "bytes": 1323
+    },
+    "results/xgb/outer1/tuning/trials.json": {
+      "sha256": "c452ef4285522baf03a7a1887b14ec1cef42964a5910ddc25b1d3a9b481002d9",
+      "bytes": 8098
+    },
+    "results/xgb/outer2/metrics.json": {
+      "sha256": "b19e50ebc7d56974ccbbf65444fb7caaea4adb8301b9727378cec88ddea345ae",
+      "bytes": 2363
+    },
+    "results/xgb/outer2/outer_indices.json": {
+      "sha256": "8d68b84dcb8a6e78bb8add809c8f88f99f764f0e6d6872347b06bd6180d06d0e",
+      "bytes": 160431
+    },
+    "results/xgb/outer2/predictions.csv": {
+      "sha256": "c583ed4b2583af81968b99efd14b54e7ff60fa4741c0d5e7cfb1920e26c1857c",
+      "bytes": 73163
+    },
+    "results/xgb/outer2/train_predictions.npz": {
+      "sha256": "243b752cfb8326110bfdf9a5b51978a8396aa60ca40683006a9327b5055ee103",
+      "bytes": 78989
+    },
+    "results/xgb/outer2/tuning/inner_indices.json": {
+      "sha256": "99e054f068e484875b7c88ba29d944eb806cb495be8129c4c1e65e3aae7634e8",
+      "bytes": 126189
+    },
+    "results/xgb/outer2/tuning/optuna.sqlite3": {
+      "sha256": "6e5801a4ed126d09989da1cd60bc8374fc945439ddd6a25f16c96244ce0db7ba",
+      "bytes": 126976
+    },
+    "results/xgb/outer2/tuning/selection.json": {
+      "sha256": "7adf704c7cc53e0eb1a3e8af778c99f53a03e50d87a7b75553c93924a13c6eb7",
+      "bytes": 1417
+    },
+    "results/xgb/outer2/tuning/trials.json": {
+      "sha256": "a163b7dc4a4efe6ce6a6783c67d9a4c4cb9c5f7318961683f48fc52d9887eb85",
+      "bytes": 8116
+    },
+    "results/xgb/outer3/metrics.json": {
+      "sha256": "2bc9e394041c32e90a9dcd31fb509bdbdb1f7ffdf54dfaa0b5a52e8806e05a41",
+      "bytes": 2354
+    },
+    "results/xgb/outer3/outer_indices.json": {
+      "sha256": "9b47f9ed8e38d855da548ed0849cae854e23420454b096209db756e1c6f53f47",
+      "bytes": 160431
+    },
+    "results/xgb/outer3/predictions.csv": {
+      "sha256": "b702d8245986e5962ec9c5a828a8ffe4bcf5e2fbf3040d85f0234521a8d1d3b6",
+      "bytes": 73237
+    },
+    "results/xgb/outer3/train_predictions.npz": {
+      "sha256": "0cc2eeaf2d536b5df4f498ee5241b4a100f3b1da20fedeb41373aec3384fe5da",
+      "bytes": 87275
+    },
+    "results/xgb/outer3/tuning/inner_indices.json": {
+      "sha256": "0b8e97255edaf20419b2d607267e7d6a63dabd7c6e0953867cdf167682d17f60",
+      "bytes": 126211
+    },
+    "results/xgb/outer3/tuning/optuna.sqlite3": {
+      "sha256": "a87ee1813e038179e85bb8418b905a23c38a8a5c2a52378f1e8c0d611d40869e",
+      "bytes": 126976
+    },
+    "results/xgb/outer3/tuning/selection.json": {
+      "sha256": "1e2fe2f09fcfd0f860df63490407aef905ddfced1ffc90f6570610f575489eac",
+      "bytes": 1410
+    },
+    "results/xgb/outer3/tuning/trials.json": {
+      "sha256": "851f3dff4ad4d701129884952ce447d3e13dd4444319d77ecd3f595ea492304a",
+      "bytes": 8106
+    },
+    "results/xgb/outer4/metrics.json": {
+      "sha256": "25a2963274a4cd5aaf33735ffc9f5cc8eb9ef7a506cbf0d23c6b40ba54a6ceb8",
+      "bytes": 2357
+    },
+    "results/xgb/outer4/outer_indices.json": {
+      "sha256": "9718c3125c3e1bc6b7a20cd9daaebdc8b907b6682e3c6380f0cadc8bd06d7086",
+      "bytes": 160431
+    },
+    "results/xgb/outer4/predictions.csv": {
+      "sha256": "0fcfa0c2cac36593dbe1bfe2e010bd43ff7a64162048d3088f6db88fe33c3475",
+      "bytes": 73277
+    },
+    "results/xgb/outer4/train_predictions.npz": {
+      "sha256": "8306c6828ecdde021f701ebd3f10db7e2c990cfe4dde7481fe3fc4bc390e9b1d",
+      "bytes": 87092
+    },
+    "results/xgb/outer4/tuning/inner_indices.json": {
+      "sha256": "7872f489995ecdcafa82aa2c424790e9ce53badac8e88491b96f0102cca8ca77",
+      "bytes": 126200
+    },
+    "results/xgb/outer4/tuning/optuna.sqlite3": {
+      "sha256": "05c290e9105ab6910283433fe08d5d71da84bea73dc2c5cef8901e9abf368dff",
+      "bytes": 126976
+    },
+    "results/xgb/outer4/tuning/selection.json": {
+      "sha256": "b32804b4620e6885dc73847cba743641eeb1f49eb61d34345b81eaaa50aa8f28",
+      "bytes": 1413
+    },
+    "results/xgb/outer4/tuning/trials.json": {
+      "sha256": "08183129321f8ae8bd277dfdcf8933aa45a712d8903d0a234ab8ffd9d60bc6bf",
+      "bytes": 8123
+    },
+    "results/xgb/summary.json": {
+      "sha256": "480bea98f7c84822e31338ea71922a326a811ac5ea6cb21ef08b020d4940ac03",
+      "bytes": 13601
+    },
+    "scheduling.log": {
+      "sha256": "a392192c4c841a47afded94f18cb027de60d4564cd26433bb7c8b696dbad6044",
+      "bytes": 1018
+    },
+    "scope_adaboost_full_training.log": {
+      "sha256": "3195717c886de4c199d8da336c351e8ab16dd7bb2824118cb5619ee5e32c64db",
+      "bytes": 553
+    },
+    "scope_adaboost_outer1.log": {
+      "sha256": "a14aef6a93836ad216bdb94109154f76eb9d4e956e9faa9413794f4308810130",
+      "bytes": 504
+    },
+    "scope_adaboost_outer2.log": {
+      "sha256": "c14b2e67c6343040a4c540cd6cc6ad4290df19252f1528e3468861a81972108a",
+      "bytes": 506
+    },
+    "scope_adaboost_outer3.log": {
+      "sha256": "54fb2dce732ac8b7a0c4305259a4846039c25bb4956bb728c2d99ca504487674",
+      "bytes": 506
+    },
+    "scope_adaboost_outer4.log": {
+      "sha256": "6f2316458829b56366d45a27594c40bef321cb5ecd4e60cc9d9f72ed882a24df",
+      "bytes": 502
+    },
+    "scope_classic_gradient_full_training.log": {
+      "sha256": "8d512f59f3ea8f43593795cb115f709733f6a8a3743859c8199fd1a135196869",
+      "bytes": 604
+    },
+    "scope_classic_gradient_outer1.log": {
+      "sha256": "fe9f01f128f24e49e188a73564c5e6ef6981518d6e9c98e18a768279fb0c9b7b",
+      "bytes": 558
+    },
+    "scope_classic_gradient_outer2.log": {
+      "sha256": "7791fc34d345911f076527bb36723362ee916438fefbd291a78ba9fe55f0d292",
+      "bytes": 557
+    },
+    "scope_classic_gradient_outer3.log": {
+      "sha256": "5f925ccb4fc101df7a0e2fda52be74a083c2d7317403fc639e36f22d3ace44f1",
+      "bytes": 558
+    },
+    "scope_classic_gradient_outer4.log": {
+      "sha256": "b5d5e64f3ad315b8f8cb4572e7528f02f4dd17a70a15a37c104281d9a08fc930",
+      "bytes": 557
+    },
+    "scope_hist_gradient_full_training.log": {
+      "sha256": "5b7676b0e2c7440d2d3a4d26498009d661d34c34bf8ae7cb21f86e4a583219a3",
+      "bytes": 574
+    },
+    "scope_hist_gradient_outer1.log": {
+      "sha256": "540d7a99394943a0cc18161c28ee904626322720d3f290509cf0ec1537bed182",
+      "bytes": 532
+    },
+    "scope_hist_gradient_outer2.log": {
+      "sha256": "6a29085cbf3edb2bfdcbaddff9d57e239f39efe5ec086b2825fcbeabaf9e90fa",
+      "bytes": 536
+    },
+    "scope_hist_gradient_outer3.log": {
+      "sha256": "8b25ccfc7119f2d63d0223bf1fb870979c400fb2f352442a48b46bc8a77d7ef8",
+      "bytes": 533
+    },
+    "scope_hist_gradient_outer4.log": {
+      "sha256": "0929ffb137ac9138d410b78647d0fce19b6c5c52bb36ac136ac5257287b535eb",
+      "bytes": 534
+    },
+    "scope_scheduling.log": {
+      "sha256": "5452e853a033a914942c63c035e5e5a469658a4fa63098d703a2c7ce489aa50c",
+      "bytes": 85
+    },
+    "scope_worker.py": {
+      "sha256": "aaae1da9ef4f873eec28b970ef1e85ba708bf1528b8ec316a10754d177c2db0e",
+      "bytes": 3619
+    },
+    "status.py": {
+      "sha256": "5b81ce5bc8cab7ee19cf4fc6c7e75fb23180b6bc620fa073caaa123cd370dbba",
+      "bytes": 1427
+    },
+    "study.py": {
+      "sha256": "f6c194ec756c6463a605d48454669540716cad4cd1abfa6ce3d2dffea914008f",
+      "bytes": 11738
+    },
+    "submissions/INFERENCE_STARTED.json": {
+      "sha256": "f504b4bf3215074db80351bdb39da9aec223bc2fb78ece6409a6e50dd68a940d",
+      "bytes": 148
+    },
+    "submissions/frozen_manifest.json": {
+      "sha256": "2e9106f4774ecfbb38f3f6999e29141175769aef7e4caae6c33d1814c8ba1d7a",
+      "bytes": 49462
+    },
+    "submissions/inference_audit.json": {
+      "sha256": "0448855f782d07a69b27d6b42fa5ab3ec0d6887b650e9f98953b407924164968",
+      "bytes": 1860
+    },
+    "submissions/submission_highround_optuna_adaboost.csv": {
+      "sha256": "1b399e9bea806d1baa3b5ee24ceba893c4a07e02ae38e84638f7a49a699018f4",
+      "bytes": 89078
+    },
+    "submissions/submission_highround_optuna_cat_leafwise.csv": {
+      "sha256": "0530e2e04bffbb9c8086845540eaa12c73dc0e2a77190f0b7367a6dcf4b2f630",
+      "bytes": 89273
+    },
+    "submissions/submission_highround_optuna_cat_symmetric.csv": {
+      "sha256": "527be08827ec909b8ee0f81c9fb36192adca7420112938dc79422400e2b317ce",
+      "bytes": 89243
+    },
+    "submissions/submission_highround_optuna_classic_gradient.csv": {
+      "sha256": "8b09b831225004e1a750fe9f44013c462bd3986ead2c7f37bc06dc7de1ee54b4",
+      "bytes": 89188
+    },
+    "submissions/submission_highround_optuna_equal_dart3.csv": {
+      "sha256": "258b834c89d0607ec3943ef4581eaec9a9ea1163f37c9e91bf01722a5548c451",
+      "bytes": 89318
+    },
+    "submissions/submission_highround_optuna_equal_main3.csv": {
+      "sha256": "d760dc717ce581bc146ca8045c643c05a1b259a5d5828573a8fe2b49b4a30e6a",
+      "bytes": 89366
+    },
+    "submissions/submission_highround_optuna_hist_gradient.csv": {
+      "sha256": "ee992fe1c5779103d878f445087d9547c705fd8886bf277ba1bf6443dc734934",
+      "bytes": 89306
+    },
+    "submissions/submission_highround_optuna_lgb_dart.csv": {
+      "sha256": "cbab4076d081550e7128aa5b7291d6cfda0058795e26bc1890d6c08794e5184c",
+      "bytes": 89287
+    },
+    "submissions/submission_highround_optuna_lgb_gbdt.csv": {
+      "sha256": "be32e73fb06591914a3a79005b1db13646ca12873b02e9f9c1aca6aefa9475b2",
+      "bytes": 89386
+    },
+    "submissions/submission_highround_optuna_xgb.csv": {
+      "sha256": "12f4be31534aca460cc12b40e867865b9edf19f5c9aab3ca6f6bd089d6e0d95b",
+      "bytes": 89395
+    },
+    "training.log": {
+      "sha256": "6d6a6c168d1999964740bb074aa873246c5308ff252e714ab0a929c4beb859d4",
+      "bytes": 5942
+    },
+    "worker_adaboost.log": {
+      "sha256": "0fe5079cc0fa415c43b3737eae3cde991d7147da0c892dfb55844048e4753aba",
+      "bytes": 520
+    },
+    "worker_classic_gradient.log": {
+      "sha256": "803bc416fd0b8368d2a2838da7459a794056f49370359064a02f99b73c350ff6",
+      "bytes": 574
+    },
+    "worker_lgb_gbdt.log": {
+      "sha256": "0dcf1262eb0bdb181509e0bd5322dbacd82b83c84063dbbb05dc8ea4d658cce6",
+      "bytes": 1449
+    }
+  },
+  "note": "Excludes this manifest and interpreter caches."
+}

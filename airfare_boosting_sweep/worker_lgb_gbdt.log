@@ -1,0 +1,19 @@
+TRIAL lgb_gbdt outer0 3 R2 0.931563 requested 1100 actual 1100 seconds 16.57
+TRIAL lgb_gbdt outer0 4 R2 0.927753 requested 800 actual 800 seconds 5.13
+TRIAL lgb_gbdt outer0 5 R2 0.929313 requested 800 actual 757 seconds 4.32
+TRIAL lgb_gbdt outer0 6 R2 0.934684 requested 800 actual 800 seconds 8.74
+TRIAL lgb_gbdt outer0 7 R2 0.936562 requested 1400 actual 1400 seconds 8.98
+Traceback (most recent call last):
+  File "/workspace/Domestic_Flight_Prediction_Challenge/airfare_boosting_sweep/study.py", line 215, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/Domestic_Flight_Prediction_Challenge/airfare_boosting_sweep/study.py", line 212, in main
+    for family in m.FAMILIES if args.family=='all' else [args.family]:run_family(args.train,family)
+                                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/Domestic_Flight_Prediction_Challenge/airfare_boosting_sweep/study.py", line 140, in run_family
+    selected=tune(local,y[tr],family,folder/'tuning',INNER_SEED+i)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/Domestic_Flight_Prediction_Challenge/airfare_boosting_sweep/study.py", line 114, in tune
+    assert len(trials)==m.TRIALS[family] and all(t['state']=='COMPLETE' for t in trials)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

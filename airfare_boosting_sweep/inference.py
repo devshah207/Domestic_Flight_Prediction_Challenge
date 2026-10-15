@@ -33,11 +33,13 @@ def snapshot(train):
     reg=e.verify(train)
     completion=e.read(ROOT/'analysis/completion.json')
     audit=e.read(ROOT/'VALIDATION_AUDIT.json')
-    assert completion['source_hashes']==e.sources() and completion['research_fits']==384
+    tree_audit=e.read(ROOT/'TREE_COMPLEXITY_AUDIT.json')
+    assert tree_audit['all_checks_passed'] and len(tree_audit['models'])==8
+    assert completion['source_hashes']==e.sources() and completion['research_fits']==385
     assert completion['optuna_trials']==336 and completion['final_models']==8 and completion['outer_folds']==5
     assert completion['validation_audit_sha256']==e.sha(ROOT/'VALIDATION_AUDIT.json')
     assert audit['source_hashes']==e.sources() and audit['all_partition_and_group_identities_passed']
-    assert len(audit['scopes'])==48 and audit['optuna_trials']==336 and audit['research_fits']==384
+    assert len(audit['scopes'])==48 and audit['optuna_trials']==336 and audit['research_fits']==385
     assert reg['versions']=={name:metadata.version(name) for name in e.VERSIONS}
     configs={};bundles={}
     for family in m.FAMILIES:
@@ -53,12 +55,13 @@ def snapshot(train):
         assert int(m.actual_rounds(bundle['model'],family))==config['actual_rounds']
         configs[family]=config;bundles[family]=bundle
     source=e.sources()
-    for name in ['inference.py','analyze.py','check_inference.py']:
+    for name in ['inference.py','analyze.py','check_inference.py','inspect_models.py','recover_scheduling.py','parallel_remaining.py','scope_worker.py','parallel_scopes.py','parallel_native.py','parallel_hist.py']:
         source[str((ROOT/name).relative_to(ROOT.parent))]=e.sha(ROOT/name)
     value=dict(source_hashes=source,registration_sha256=e.sha(ROOT/'REGISTRATION.json'),
         training_sha256=reg['training_sha256'],versions=reg['versions'],models=configs,
         completion_sha256=e.sha(ROOT/'analysis/completion.json'),
         validation_audit_sha256=e.sha(ROOT/'VALIDATION_AUDIT.json'),
+        tree_complexity_audit_sha256=e.sha(ROOT/'TREE_COMPLEXITY_AUDIT.json'),
         model_configurations_sha256=e.sha(ROOT/'MODEL_CONFIGURATIONS.json'),
         policy=dict(filenames=FILES,blend_weights=m.BLENDS,rows=3898,schema=['id','price'],
             target_scale=10000.,postprocessing='clip individual price predictions below zero before fixed arithmetic blending',

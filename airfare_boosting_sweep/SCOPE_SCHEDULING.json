@@ -1,0 +1,82 @@
+{
+  "started_at_utc": "2026-10-15T11:38:02.868045+00:00",
+  "scheduling_only": true,
+  "changed_model_choices": false,
+  "extra_model_fits": 0,
+  "jobs": [
+    {
+      "family": "classic_gradient",
+      "scope": "outer2",
+      "returncode": 0
+    },
+    {
+      "family": "classic_gradient",
+      "scope": "outer1",
+      "returncode": 0
+    },
+    {
+      "family": "classic_gradient",
+      "scope": "outer3",
+      "returncode": 0
+    },
+    {
+      "family": "classic_gradient",
+      "scope": "full_training",
+      "returncode": 0
+    },
+    {
+      "family": "classic_gradient",
+      "scope": "outer4",
+      "returncode": 0
+    },
+    {
+      "family": "adaboost",
+      "scope": "outer1",
+      "returncode": 0
+    },
+    {
+      "family": "adaboost",
+      "scope": "outer2",
+      "returncode": 0
+    },
+    {
+      "family": "adaboost",
+      "scope": "outer3",
+      "returncode": 0
+    },
+    {
+      "family": "adaboost",
+      "scope": "outer4",
+      "returncode": 0
+    },
+    {
+      "family": "adaboost",
+      "scope": "full_training",
+      "returncode": 0
+    }
+  ],
+  "sequential_runners_resumed": true,
+  "classic_gradient": {
+    "pid": 18802,
+    "reserved_sequential_prefix_through": "outer0",
+    "parallel_future_scopes": [
+      "outer1",
+      "outer2",
+      "outer3",
+      "outer4",
+      "full_training"
+    ]
+  },
+  "adaboost": {
+    "pid": 18804,
+    "reserved_sequential_prefix_through": "outer0",
+    "parallel_future_scopes": [
+      "outer1",
+      "outer2",
+      "outer3",
+      "outer4",
+      "full_training"
+    ]
+  },
+  "completed_at_utc": "2026-10-15T12:37:10.393831+00:00"
+}

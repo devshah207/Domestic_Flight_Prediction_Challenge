@@ -1,0 +1,14 @@
+                     model       r2  mean_gap  final_actual_rounds
+  control_previous_equal64 0.928594       NaN                  NaN
+               equal_dart3 0.927333  0.041439                  NaN
+               equal_main3 0.927105  0.042712                  NaN
+control_business_augmented 0.926853  0.038239                  NaN
+        control_global_xgb 0.925416  0.042506                  NaN
+                       xgb 0.924665  0.047242               1400.0
+                  lgb_gbdt 0.923440  0.044385               1400.0
+             hist_gradient 0.923166  0.043152                800.0
+             cat_symmetric 0.922904  0.039935               1400.0
+          classic_gradient 0.922722  0.035480               1100.0
+              cat_leafwise 0.922688  0.032297               1400.0
+                  lgb_dart 0.922404  0.040262               1400.0
+                  adaboost 0.914292  0.029444               1100.0

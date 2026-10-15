@@ -1,0 +1,7 @@
+TRIAL adaboost outer2 0 R2 0.895187 requested 800 actual 800 seconds 147.77
+TRIAL adaboost outer2 1 R2 0.911215 requested 1400 actual 1400 seconds 371.78
+TRIAL adaboost outer2 2 R2 0.905921 requested 1400 actual 526 seconds 118.88
+TRIAL adaboost outer2 3 R2 0.918077 requested 1100 actual 1100 seconds 243.22
+TRIAL adaboost outer2 4 R2 0.866076 requested 1100 actual 1100 seconds 55.51
+TRIAL adaboost outer2 5 R2 0.901556 requested 1100 actual 1100 seconds 154.84
+REGISTERED_SCOPE_COMPLETE adaboost outer2

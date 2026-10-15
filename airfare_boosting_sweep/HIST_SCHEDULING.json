@@ -1,0 +1,38 @@
+{
+  "started_at_utc": "2026-10-15T11:59:05.563722+00:00",
+  "family": "hist_gradient",
+  "configuration_changes": false,
+  "extra_model_fits": 0,
+  "jobs": [
+    {
+      "scope": "outer3",
+      "returncode": 0
+    },
+    {
+      "scope": "outer2",
+      "returncode": 0
+    },
+    {
+      "scope": "outer1",
+      "returncode": 0
+    },
+    {
+      "scope": "full_training",
+      "returncode": 0
+    },
+    {
+      "scope": "outer4",
+      "returncode": 0
+    }
+  ],
+  "sequential_prefix_through": "outer0",
+  "parallel_future_scopes": [
+    "outer1",
+    "outer2",
+    "outer3",
+    "outer4",
+    "full_training"
+  ],
+  "original_runner_resumed": true,
+  "completed_at_utc": "2026-10-15T12:10:36.234948+00:00"
+}

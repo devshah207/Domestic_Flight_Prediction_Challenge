@@ -1,0 +1,54 @@
+TRIAL cat_leafwise outer0 0 R2 0.928775 requested 800 actual 800 seconds 20.85
+TRIAL cat_leafwise outer0 1 R2 0.929231 requested 1400 actual 1400 seconds 195.48
+TRIAL cat_leafwise outer0 2 R2 0.915239 requested 800 actual 800 seconds 30.08
+TRIAL cat_leafwise outer0 3 R2 0.930645 requested 1400 actual 1400 seconds 39.34
+TRIAL cat_leafwise outer0 4 R2 0.926798 requested 1100 actual 1100 seconds 17.18
+TRIAL cat_leafwise outer0 5 R2 0.904301 requested 1400 actual 1400 seconds 87.47
+TRIAL cat_leafwise outer0 6 R2 0.923542 requested 1400 actual 1400 seconds 99.11
+TRIAL cat_leafwise outer0 7 R2 0.927888 requested 1100 actual 1100 seconds 14.24
+OUTER cat_leafwise 0 R2 0.9243776 train 0.9763234 actual 1400
+TRIAL cat_leafwise outer1 0 R2 0.930052 requested 800 actual 800 seconds 23.2
+TRIAL cat_leafwise outer1 1 R2 0.931614 requested 1400 actual 1400 seconds 38.44
+TRIAL cat_leafwise outer1 2 R2 0.910713 requested 1400 actual 1400 seconds 45.05
+TRIAL cat_leafwise outer1 3 R2 0.925388 requested 800 actual 800 seconds 27.58
+TRIAL cat_leafwise outer1 4 R2 0.932176 requested 1100 actual 1100 seconds 38.87
+TRIAL cat_leafwise outer1 5 R2 0.911527 requested 1100 actual 1100 seconds 82.86
+TRIAL cat_leafwise outer1 6 R2 0.933533 requested 1100 actual 1100 seconds 56.28
+TRIAL cat_leafwise outer1 7 R2 0.925888 requested 1100 actual 1100 seconds 25.35
+OUTER cat_leafwise 1 R2 0.9211164 train 0.9549149 actual 1100
+TRIAL cat_leafwise outer2 0 R2 0.915802 requested 800 actual 800 seconds 23.9
+TRIAL cat_leafwise outer2 1 R2 0.913815 requested 1400 actual 1400 seconds 37.68
+TRIAL cat_leafwise outer2 2 R2 0.907282 requested 1400 actual 1400 seconds 97.53
+TRIAL cat_leafwise outer2 3 R2 0.905114 requested 1100 actual 1100 seconds 46.22
+TRIAL cat_leafwise outer2 4 R2 0.917817 requested 800 actual 800 seconds 12.63
+TRIAL cat_leafwise outer2 5 R2 0.916669 requested 800 actual 800 seconds 9.92
+TRIAL cat_leafwise outer2 6 R2 0.91552 requested 800 actual 800 seconds 11.08
+TRIAL cat_leafwise outer2 7 R2 0.920974 requested 1100 actual 1100 seconds 15.86
+OUTER cat_leafwise 2 R2 0.9248537 train 0.9445435 actual 1100
+TRIAL cat_leafwise outer3 0 R2 0.909606 requested 800 actual 800 seconds 18.34
+TRIAL cat_leafwise outer3 1 R2 0.909299 requested 1400 actual 1400 seconds 33.63
+TRIAL cat_leafwise outer3 2 R2 0.907999 requested 1100 actual 1100 seconds 25.0
+TRIAL cat_leafwise outer3 3 R2 0.90133 requested 800 actual 800 seconds 32.57
+TRIAL cat_leafwise outer3 4 R2 0.904988 requested 800 actual 800 seconds 13.32
+TRIAL cat_leafwise outer3 5 R2 0.899411 requested 800 actual 800 seconds 24.36
+TRIAL cat_leafwise outer3 6 R2 0.905428 requested 1100 actual 1100 seconds 18.56
+TRIAL cat_leafwise outer3 7 R2 0.906281 requested 1400 actual 1400 seconds 20.9
+OUTER cat_leafwise 3 R2 0.9314452 train 0.9576172 actual 800
+TRIAL cat_leafwise outer4 0 R2 0.911413 requested 800 actual 800 seconds 14.23
+TRIAL cat_leafwise outer4 1 R2 0.910571 requested 1400 actual 1400 seconds 31.5
+TRIAL cat_leafwise outer4 2 R2 0.905594 requested 1100 actual 1100 seconds 21.22
+TRIAL cat_leafwise outer4 3 R2 0.900217 requested 1400 actual 1400 seconds 28.63
+TRIAL cat_leafwise outer4 4 R2 0.907479 requested 800 actual 800 seconds 15.07
+TRIAL cat_leafwise outer4 5 R2 0.913694 requested 800 actual 800 seconds 22.18
+TRIAL cat_leafwise outer4 6 R2 0.91425 requested 800 actual 800 seconds 23.79
+TRIAL cat_leafwise outer4 7 R2 0.912895 requested 1100 actual 1100 seconds 28.62
+OUTER cat_leafwise 4 R2 0.9117995 train 0.9416802 actual 800
+TRIAL cat_leafwise full_training 0 R2 0.912819 requested 800 actual 800 seconds 16.02
+TRIAL cat_leafwise full_training 1 R2 0.913942 requested 1400 actual 1400 seconds 42.64
+TRIAL cat_leafwise full_training 2 R2 0.901915 requested 800 actual 800 seconds 16.81
+TRIAL cat_leafwise full_training 3 R2 0.912708 requested 800 actual 800 seconds 14.81
+TRIAL cat_leafwise full_training 4 R2 0.900355 requested 1400 actual 1400 seconds 56.49
+TRIAL cat_leafwise full_training 5 R2 0.900319 requested 1400 actual 1400 seconds 60.3
+TRIAL cat_leafwise full_training 6 R2 0.913627 requested 1100 actual 1100 seconds 18.85
+TRIAL cat_leafwise full_training 7 R2 0.912984 requested 1400 actual 1400 seconds 24.58
+FINAL cat_leafwise OOF_R2 0.9226881845955641 rounds 1400

@@ -1,0 +1,29 @@
+{
+  "original_runner_pid": 17639,
+  "original_runner_suspended": false,
+  "scheduling_only": true,
+  "configuration_changes": false,
+  "additional_research_fits": 0,
+  "started_at_utc": "2026-10-15T11:32:59.689207+00:00",
+  "workers": {
+    "classic": [
+      {
+        "family": "classic_gradient",
+        "returncode": 0
+      }
+    ],
+    "ada": [
+      {
+        "family": "adaboost",
+        "returncode": 0
+      }
+    ],
+    "native": [
+      {
+        "family": "lgb_gbdt",
+        "returncode": 1
+      }
+    ]
+  },
+  "completed_at_utc": "2026-10-15T12:45:21.654198+00:00"
+}

@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/workspace/Domestic_Flight_Prediction_Challenge/airfare_boosting_sweep/parallel_remaining.py", line 56, in <module>
+    args=parser.parse_args();main(args.pid)
+                             ^^^^^^^^^^^^^^
+  File "/workspace/Domestic_Flight_Prediction_Challenge/airfare_boosting_sweep/parallel_remaining.py", line 50, in main
+    assert all(r['returncode']==0 for records in state['workers'].values() for r in records),state
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: {'original_runner_pid': 17639, 'original_runner_suspended': False, 'scheduling_only': True, 'configuration_changes': False, 'additional_research_fits': 0, 'started_at_utc': '2026-10-15T11:32:59.689207+00:00', 'workers': {'classic': [{'family': 'classic_gradient', 'returncode': 0}], 'ada': [{'family': 'adaboost', 'returncode': 0}], 'native': [{'family': 'lgb_gbdt', 'returncode': 1}]}, 'completed_at_utc': '2026-10-15T12:45:21.654198+00:00'}

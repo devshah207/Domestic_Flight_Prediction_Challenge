@@ -1,0 +1,23 @@
+{
+  "started_at_utc": "2026-10-15T11:47:42.594219+00:00",
+  "parent_shell_pid": 19250,
+  "current_dart_child_continues": true,
+  "configuration_changes": false,
+  "extra_model_fits": 0,
+  "jobs": [
+    {
+      "family": "cat_symmetric",
+      "returncode": 0
+    },
+    {
+      "family": "hist_gradient",
+      "returncode": 0
+    },
+    {
+      "family": "cat_leafwise",
+      "returncode": 0
+    }
+  ],
+  "parent_shell_resumed": true,
+  "completed_at_utc": "2026-10-15T12:21:41.774921+00:00"
+}

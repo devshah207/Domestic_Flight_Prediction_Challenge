@@ -1,0 +1,42 @@
+TRIAL lgb_dart outer0 0 R2 0.928674 requested 800 actual 800 seconds 21.75
+TRIAL lgb_dart outer0 1 R2 0.929029 requested 1400 actual 1400 seconds 49.8
+TRIAL lgb_dart outer0 2 R2 0.927978 requested 1100 actual 1100 seconds 20.85
+TRIAL lgb_dart outer0 3 R2 0.897656 requested 1400 actual 1400 seconds 44.87
+TRIAL lgb_dart outer0 4 R2 0.920686 requested 1400 actual 1400 seconds 33.19
+TRIAL lgb_dart outer0 5 R2 0.934655 requested 1400 actual 1400 seconds 53.05
+OUTER lgb_dart 0 R2 0.9240666 train 0.9869153 actual 1400
+TRIAL lgb_dart outer1 0 R2 0.933076 requested 800 actual 800 seconds 182.99
+TRIAL lgb_dart outer1 1 R2 0.933076 requested 1400 actual 1400 seconds 181.74
+TRIAL lgb_dart outer1 2 R2 0.934555 requested 1400 actual 1400 seconds 111.9
+TRIAL lgb_dart outer1 3 R2 0.931941 requested 1100 actual 1100 seconds 71.41
+TRIAL lgb_dart outer1 4 R2 0.930689 requested 1400 actual 1400 seconds 85.14
+TRIAL lgb_dart outer1 5 R2 0.927815 requested 1400 actual 1400 seconds 138.64
+OUTER lgb_dart 1 R2 0.9215687 train 0.9667808 actual 1400
+TRIAL lgb_dart outer2 0 R2 0.921196 requested 800 actual 800 seconds 49.69
+TRIAL lgb_dart outer2 1 R2 0.920447 requested 1400 actual 1400 seconds 140.56
+TRIAL lgb_dart outer2 2 R2 0.918918 requested 800 actual 800 seconds 35.99
+TRIAL lgb_dart outer2 3 R2 0.920819 requested 1100 actual 1100 seconds 40.66
+TRIAL lgb_dart outer2 4 R2 0.895056 requested 800 actual 800 seconds 55.61
+TRIAL lgb_dart outer2 5 R2 0.920986 requested 800 actual 800 seconds 8.78
+OUTER lgb_dart 2 R2 0.9297358 train 0.9491299 actual 800
+TRIAL lgb_dart outer3 0 R2 0.909296 requested 800 actual 800 seconds 50.9
+TRIAL lgb_dart outer3 1 R2 0.908751 requested 1400 actual 1400 seconds 102.68
+TRIAL lgb_dart outer3 2 R2 0.908968 requested 1400 actual 1400 seconds 69.84
+TRIAL lgb_dart outer3 3 R2 0.900747 requested 800 actual 800 seconds 25.96
+TRIAL lgb_dart outer3 4 R2 0.905409 requested 1100 actual 1100 seconds 46.62
+TRIAL lgb_dart outer3 5 R2 0.907903 requested 800 actual 800 seconds 28.16
+OUTER lgb_dart 3 R2 0.9238428 train 0.9493208 actual 800
+TRIAL lgb_dart outer4 0 R2 0.910075 requested 800 actual 800 seconds 23.9
+TRIAL lgb_dart outer4 1 R2 0.909569 requested 1400 actual 1400 seconds 53.85
+TRIAL lgb_dart outer4 2 R2 0.912496 requested 800 actual 800 seconds 20.13
+TRIAL lgb_dart outer4 3 R2 0.905525 requested 1100 actual 1100 seconds 8.22
+TRIAL lgb_dart outer4 4 R2 0.907815 requested 800 actual 800 seconds 31.97
+TRIAL lgb_dart outer4 5 R2 0.908351 requested 800 actual 800 seconds 8.64
+OUTER lgb_dart 4 R2 0.9129456 train 0.9613249 actual 800
+TRIAL lgb_dart full_training 0 R2 0.902601 requested 800 actual 800 seconds 61.76
+TRIAL lgb_dart full_training 1 R2 0.90269 requested 1400 actual 1400 seconds 81.55
+TRIAL lgb_dart full_training 2 R2 0.889849 requested 1400 actual 1400 seconds 63.6
+TRIAL lgb_dart full_training 3 R2 0.896445 requested 1100 actual 1100 seconds 16.97
+TRIAL lgb_dart full_training 4 R2 0.905177 requested 1400 actual 1400 seconds 112.72
+TRIAL lgb_dart full_training 5 R2 0.90311 requested 1400 actual 1400 seconds 78.75
+FINAL lgb_dart OOF_R2 0.9224036737417243 rounds 1400

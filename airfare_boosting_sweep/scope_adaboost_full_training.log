@@ -1,0 +1,7 @@
+TRIAL adaboost full_training 0 R2 0.884274 requested 800 actual 800 seconds 118.99
+TRIAL adaboost full_training 1 R2 0.903952 requested 1400 actual 1400 seconds 332.86
+TRIAL adaboost full_training 2 R2 0.873948 requested 1400 actual 329 seconds 26.47
+TRIAL adaboost full_training 3 R2 0.907143 requested 1100 actual 1100 seconds 371.53
+TRIAL adaboost full_training 4 R2 0.905898 requested 1100 actual 1100 seconds 159.71
+TRIAL adaboost full_training 5 R2 0.829181 requested 1100 actual 1100 seconds 69.3
+REGISTERED_SCOPE_COMPLETE adaboost full_training

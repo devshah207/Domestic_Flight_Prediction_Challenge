@@ -1,0 +1,7 @@
+TRIAL classic_gradient outer3 0 R2 0.904272 requested 800 actual 800 seconds 28.91
+TRIAL classic_gradient outer3 1 R2 0.904783 requested 1400 actual 1400 seconds 65.59
+TRIAL classic_gradient outer3 2 R2 0.903932 requested 1100 actual 1100 seconds 67.81
+TRIAL classic_gradient outer3 3 R2 0.897298 requested 1400 actual 1400 seconds 23.78
+TRIAL classic_gradient outer3 4 R2 0.901327 requested 1400 actual 1400 seconds 34.04
+TRIAL classic_gradient outer3 5 R2 0.902211 requested 1400 actual 1400 seconds 50.53
+REGISTERED_SCOPE_COMPLETE classic_gradient outer3

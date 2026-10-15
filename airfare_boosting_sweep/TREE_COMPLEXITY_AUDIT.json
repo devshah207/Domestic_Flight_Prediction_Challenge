@@ -1,0 +1,103 @@
+{
+  "models": [
+    {
+      "family": "xgb",
+      "requested_round_cap": 1400,
+      "actual_trees": 1400,
+      "configured_max_depth": 8,
+      "observed_max_depth": 6,
+      "effective_leaf_cap": 16,
+      "observed_max_leaves": 16,
+      "total_fitted_leaves": 22400,
+      "actual_tree_structure_bounds_passed": true,
+      "note": ""
+    },
+    {
+      "family": "lgb_gbdt",
+      "requested_round_cap": 1400,
+      "actual_trees": 1400,
+      "configured_max_depth": 4,
+      "observed_max_depth": 4,
+      "effective_leaf_cap": 16,
+      "observed_max_leaves": 16,
+      "total_fitted_leaves": 19756,
+      "actual_tree_structure_bounds_passed": true,
+      "note": ""
+    },
+    {
+      "family": "lgb_dart",
+      "requested_round_cap": 1400,
+      "actual_trees": 1400,
+      "configured_max_depth": 8,
+      "observed_max_depth": 8,
+      "effective_leaf_cap": 64,
+      "observed_max_leaves": 64,
+      "total_fitted_leaves": 76757,
+      "actual_tree_structure_bounds_passed": true,
+      "note": ""
+    },
+    {
+      "family": "cat_symmetric",
+      "requested_round_cap": 1400,
+      "actual_trees": 1400,
+      "configured_max_depth": 7,
+      "observed_max_depth": 7,
+      "effective_leaf_cap": 128,
+      "observed_max_leaves": 128,
+      "total_fitted_leaves": 179200,
+      "actual_tree_structure_bounds_passed": true,
+      "note": ""
+    },
+    {
+      "family": "cat_leafwise",
+      "requested_round_cap": 1400,
+      "actual_trees": 1400,
+      "configured_max_depth": 7,
+      "observed_max_depth": null,
+      "effective_leaf_cap": 64,
+      "observed_max_leaves": 64,
+      "total_fitted_leaves": 49414,
+      "actual_tree_structure_bounds_passed": true,
+      "note": "Lossguide CatBoost depth is constructor-bounded; this audit extracts its leaf counts, not node depths."
+    },
+    {
+      "family": "hist_gradient",
+      "requested_round_cap": 800,
+      "actual_trees": 800,
+      "configured_max_depth": 7,
+      "observed_max_depth": 7,
+      "effective_leaf_cap": 48,
+      "observed_max_leaves": 48,
+      "total_fitted_leaves": 31935,
+      "actual_tree_structure_bounds_passed": true,
+      "note": ""
+    },
+    {
+      "family": "classic_gradient",
+      "requested_round_cap": 1100,
+      "actual_trees": 1100,
+      "configured_max_depth": 8,
+      "observed_max_depth": 8,
+      "effective_leaf_cap": 64,
+      "observed_max_leaves": 64,
+      "total_fitted_leaves": 31126,
+      "actual_tree_structure_bounds_passed": true,
+      "note": ""
+    },
+    {
+      "family": "adaboost",
+      "requested_round_cap": 1100,
+      "actual_trees": 1100,
+      "configured_max_depth": 8,
+      "observed_max_depth": 8,
+      "effective_leaf_cap": 96,
+      "observed_max_leaves": 96,
+      "total_fitted_leaves": 105600,
+      "actual_tree_structure_bounds_passed": true,
+      "note": ""
+    }
+  ],
+  "all_checks_passed": true,
+  "model_fits": 0,
+  "test_read": false
+}
